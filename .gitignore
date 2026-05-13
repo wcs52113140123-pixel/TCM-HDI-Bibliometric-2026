@@ -75,3 +75,9 @@ data/raw/**/*.json
 !data/raw/openalex/**/*.json
 !data/raw/openalex_partial2026/**/*.jsonl
 !data/raw/openalex_partial2026/**/*.json
+
+# === PubMed data is NLM public domain — explicitly allow commit ===
+!data/raw/pubmed/**/*.jsonl
+!data/raw/pubmed/**/*.json
+!data/raw/pubmed_partial2026/**/*.jsonl
+!data/raw/pubmed_partial2026/**/*.json

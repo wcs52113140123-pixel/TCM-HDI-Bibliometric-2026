@@ -1,0 +1,14 @@
+{
+  "label": "MAIN 2005-2025",
+  "search_date": "2026-05-13T22:20:52.573610",
+  "year_filter": "2005/01/01:2025/12/31[PDAT]",
+  "query": "( \"herb-drug interaction\"[TIAB] OR \"herb-drug interactions\"[TIAB] OR \"herb drug interaction\"[TIAB] OR \"herb drug interactions\"[TIAB] OR \"herbal drug interaction\"[TIAB] OR \"herbal drug interactions\"[TIAB] OR \"Herb-Drug Interactions\"[MH] OR ( ( \"traditional Chinese medicine\"[TIAB] OR \"Chinese herbal medicine\"[TIAB] OR \"Chinese herbal\"[TIAB] OR \"TCM\"[TIAB] OR \"Medicine, Chinese Traditional\"[MH] OR \"Drugs, Chinese Herbal\"[MH] ) AND ( \"drug interaction\"[TIAB] OR \"drug interactions\"[TIAB] OR \"pharmacokinetic interaction\"[TIAB] OR \"pharmacodynamic interaction\"[TIAB] OR \"Drug Interactions\"[MH] ) ) OR ( ( \"traditional Chinese medicine\"[TIAB] OR \"Chinese herbal medicine\"[TIAB] OR \"Medicine, Chinese Traditional\"[MH] OR \"Drugs, Chinese Herbal\"[MH] ) AND ( \"CYP3A4\"[TIAB] OR \"CYP2D6\"[TIAB] OR \"CYP1A2\"[TIAB] OR \"CYP2C9\"[TIAB] OR \"CYP2C19\"[TIAB] OR \"cytochrome P450\"[TIAB] OR \"P-glycoprotein\"[TIAB] OR \"P-gp\"[TIAB] OR \"Cytochrome P-450 Enzyme System\"[MH] OR \"drug metabolism\"[TIAB] OR \"drug transporter\"[TIAB] OR \"drug transporters\"[TIAB] ) ) ) AND 2005/01/01:2025/12/31[PDAT] AND english[LA] AND (\"journal article\"[PT] OR \"review\"[PT]) NOT (\"comment\"[PT] OR \"editorial\"[PT] OR \"letter\"[PT])",
+  "api_reported_total": 3870,
+  "pmids_retrieved": 3870,
+  "records_saved": 3867,
+  "errors": 0,
+  "elapsed_sec": 640.5,
+  "output_file": "data/raw/pubmed/pubmed_records.jsonl",
+  "file_size_mb": 8.4,
+  "rate_limit_used": "10/sec"
+}
