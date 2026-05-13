@@ -56,3 +56,12 @@ data/pharmacology/*.cache
 *~
 *.bak
 
+
+# === WoS raw data ===
+# Clarivate Analytics Terms of Use forbid bulk redistribution of WoS data
+# Raw .txt exports stay local; reproduce via documented search strategy
+data/raw/wos/*.txt
+data/raw/wos_partial2026/*.txt
+# Preserve directory structure with .gitkeep
+!data/raw/wos/.gitkeep
+!data/raw/wos_partial2026/.gitkeep
