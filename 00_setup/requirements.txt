@@ -1,0 +1,42 @@
+# === Data manipulation ===
+pandas==2.2.0
+numpy==1.26.4
+
+# === API access ===
+anthropic==0.34.0
+openai==1.12.0
+pyalex==0.13
+requests==2.31.0
+biopython==1.83
+
+# === Bibliometric data parsing ===
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
+# === Fuzzy matching for deduplication ===
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.25.0
+
+# === Topic modeling ===
+sentence-transformers==2.5.1
+umap-learn==0.5.5
+hdbscan==0.8.33
+scikit-learn==1.4.0
+
+# === Network analysis ===
+networkx==3.2.1
+
+# === Visualization ===
+matplotlib==3.8.2
+seaborn==0.13.2
+plotly==5.18.0
+matplotlib-venn==0.11.10
+
+# === Bioinformatics ===
+gseapy==1.1.2
+
+# === Utilities ===
+tqdm==4.66.1
+jupyter==1.0.0
+ipykernel==6.29.0
+python-dotenv==1.0.1
