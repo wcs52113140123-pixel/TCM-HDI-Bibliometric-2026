@@ -69,3 +69,9 @@ data/raw/**/*.json
 # Backup files
 *.bak
 *.bak.*
+
+# === OpenAlex data is CC0-licensed — explicitly allow commit ===
+!data/raw/openalex/**/*.jsonl
+!data/raw/openalex/**/*.json
+!data/raw/openalex_partial2026/**/*.jsonl
+!data/raw/openalex_partial2026/**/*.json

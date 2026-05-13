@@ -1,0 +1,38 @@
+{
+  "label": "PARTIAL 2026",
+  "search_date": "2026-05-13T21:47:45.806459",
+  "year_range": "2026-2026",
+  "queries": [
+    {
+      "name": "Q1_direct_HDI",
+      "description": "Direct herb-drug interaction phrases",
+      "search": "\"herb-drug interaction\" OR \"herbal drug interaction\" OR \"TCM-drug interaction\" OR \"phytochemical drug interaction\""
+    },
+    {
+      "name": "Q2_TCM_with_interaction",
+      "description": "TCM (broad) + interaction (broad)",
+      "search": "(\"traditional Chinese medicine\" OR \"Chinese herbal medicine\" OR \"Chinese herbal\") AND (\"drug interaction\" OR \"pharmacokinetic interaction\" OR \"pharmacodynamic interaction\")"
+    },
+    {
+      "name": "Q3_TCM_with_CYP",
+      "description": "TCM (broad) + CYP enzymes (broad)",
+      "search": "(\"traditional Chinese medicine\" OR \"Chinese herbal medicine\" OR \"Chinese herbal\" OR \"Chinese medicine\") AND (\"CYP3A4\" OR \"CYP2D6\" OR \"cytochrome P450\" OR \"P-glycoprotein\")"
+    },
+    {
+      "name": "Q4_TCM_with_metabolism",
+      "description": "TCM (broad) + drug metabolism / transporter",
+      "search": "(\"traditional Chinese medicine\" OR \"Chinese herbal medicine\" OR \"Chinese herbal\") AND (\"drug metabolism\" OR \"drug transporter\" OR \"drug efflux\")"
+    }
+  ],
+  "per_query_counts": {
+    "Q1_direct_HDI": 73,
+    "Q2_TCM_with_interaction": 15,
+    "Q3_TCM_with_CYP": 12,
+    "Q4_TCM_with_metabolism": 6
+  },
+  "unique_works_merged": 95,
+  "elapsed_sec": 20.2,
+  "output_file": "data/raw/openalex_partial2026/openalex_partial2026_candidates.jsonl",
+  "file_size_mb": 1.9,
+  "openalex_polite_pool": true
+}

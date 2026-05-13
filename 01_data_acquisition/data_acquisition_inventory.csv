@@ -9,3 +9,5 @@ WoS,main,7,data/raw/wos/wos_batch_007_3001-3091.txt,3001,3091,91,0.73,plain_text
 WoS,partial_2026,1,data/raw/wos_partial2026/wos_partial2026_001-083.txt,1,83,83,0.85,plain_text
 Scopus,main,1,data/raw/scopus/scopus_all_7181.csv,1,7181,7181,114.59,csv
 Scopus,partial_2026,1,data/raw/scopus_partial2026/scopus_partial2026_all.csv,1,230,230,4.84,csv
+OpenAlex,main,1,data/raw/openalex/openalex_candidates.jsonl,1,2513,2513,57.38,jsonl
+OpenAlex,partial_2026,1,data/raw/openalex_partial2026/openalex_partial2026_candidates.jsonl,1,95,95,1.9,jsonl
