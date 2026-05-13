@@ -1,9 +1,0 @@
-﻿batch,file_path,record_range_start,record_range_end,record_count,file_size_mb,purpose
-1,data/raw/wos/wos_batch_001_001-500.txt,1,500,500,4.15,main
-2,data/raw/wos/wos_batch_002_501-1000.txt,501,1000,500,3.9,main
-3,data/raw/wos/wos_batch_003_1001-1500.txt,1001,1500,500,3.95,main
-4,data/raw/wos/wos_batch_004_1501-2000.txt,1501,2000,500,4.01,main
-5,data/raw/wos/wos_batch_005_2001-2500.txt,2001,2500,500,4.05,main
-6,data/raw/wos/wos_batch_006_2501-3000.txt,2501,3000,500,4.11,main
-7,data/raw/wos/wos_batch_007_3001-3091.txt,3001,3091,91,0.73,main
-8,data/raw/wos_partial2026/wos_partial2026_001-083.txt,1,83,83,0.85,partial_2026

@@ -1,0 +1,11 @@
+database,purpose,batch,file_path,record_range_start,record_range_end,record_count,file_size_mb,format
+WoS,main,1,data/raw/wos/wos_batch_001_001-500.txt,1,500,500,4.15,plain_text
+WoS,main,2,data/raw/wos/wos_batch_002_501-1000.txt,501,1000,500,3.9,plain_text
+WoS,main,3,data/raw/wos/wos_batch_003_1001-1500.txt,1001,1500,500,3.95,plain_text
+WoS,main,4,data/raw/wos/wos_batch_004_1501-2000.txt,1501,2000,500,4.01,plain_text
+WoS,main,5,data/raw/wos/wos_batch_005_2001-2500.txt,2001,2500,500,4.05,plain_text
+WoS,main,6,data/raw/wos/wos_batch_006_2501-3000.txt,2501,3000,500,4.11,plain_text
+WoS,main,7,data/raw/wos/wos_batch_007_3001-3091.txt,3001,3091,91,0.73,plain_text
+WoS,partial_2026,1,data/raw/wos_partial2026/wos_partial2026_001-083.txt,1,83,83,0.85,plain_text
+Scopus,main,1,data/raw/scopus/scopus_all_7181.csv,1,7181,7181,114.59,csv
+Scopus,partial_2026,1,data/raw/scopus_partial2026/scopus_partial2026_all.csv,1,230,230,4.84,csv
