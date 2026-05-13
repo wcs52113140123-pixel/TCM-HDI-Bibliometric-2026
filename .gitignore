@@ -1,4 +1,4 @@
-# Python
+﻿# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -38,8 +38,6 @@ secrets/
 *_token_*.txt
 
 # Raw data (too large, not for GitHub)
-data/raw/*
-!data/raw/.gitkeep
 
 # Intermediate LLM outputs (will upload anonymized final version)
 data/llm_output/raw_*
@@ -57,11 +55,17 @@ data/pharmacology/*.cache
 *.bak
 
 
-# === WoS raw data ===
-# Clarivate Analytics Terms of Use forbid bulk redistribution of WoS data
-# Raw .txt exports stay local; reproduce via documented search strategy
-data/raw/wos/*.txt
-data/raw/wos_partial2026/*.txt
-# Preserve directory structure with .gitkeep
-!data/raw/wos/.gitkeep
-!data/raw/wos_partial2026/.gitkeep
+
+# === Raw data exclusion ===
+# WoS Core Collection: Clarivate ToU forbids bulk redistribution
+# General principle: exclude raw .txt/.csv exports, but keep directory
+# structure (.gitkeep) and documentation (README.md) for reproducibility
+data/raw/**/*.txt
+data/raw/**/*.csv
+data/raw/**/*.xml
+data/raw/**/*.json
+!data/raw/**/.gitkeep
+!data/raw/**/README.md
+# Backup files
+*.bak
+*.bak.*
