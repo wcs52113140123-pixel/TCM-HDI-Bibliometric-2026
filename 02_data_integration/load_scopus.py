@@ -111,6 +111,10 @@ def normalize_scopus_record(row):
         "references_count": references_count,
         "mesh_terms": None,
         "openalex_concepts": None,
+        # === New affiliation fields (Day 3 patch) ===
+        "affiliations_raw": clean_str(row.get("Affiliations", "")),
+        "reprint_address": clean_str(row.get("Correspondence Address", "")),
+        "institutions_list": [],
     }
 
 

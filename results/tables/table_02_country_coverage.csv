@@ -1,0 +1,5 @@
+source_db,n_records,n_with_country,coverage_pct
+WoS,3090,3074,99.5
+Scopus,4605,4527,98.3
+OpenAlex,675,375,55.6
+PubMed,1068,0,0.0

@@ -96,3 +96,14 @@ data/processed/stage1_raw_concatenated*.parquet
 data/processed/stage2_doi_deduplicated*.parquet
 data/processed/stage3_fuzzy_deduplicated*.parquet
 data/processed/stage4_quality_filtered*.parquet
+
+# === Day 3: Whitelist analysis outputs ===
+!results/vosviewer/
+!results/vosviewer/*.txt
+!results/figures/*.png
+!results/tables/*.csv
+!data/processed/country_lookup.parquet
+!data/processed/country_extraction_audit.csv
+!data/processed/country_collaboration_pairs.parquet
+!docs/day3_log.md
+!docs/day3_block1_2_discussion_drafts.md

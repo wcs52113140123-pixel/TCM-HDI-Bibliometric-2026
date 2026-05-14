@@ -1,6 +1,6 @@
 # Day 2 Data Integration — Final Summary
 
-Generated: 2026-05-14T10:08:58.292897
+Generated: 2026-05-14T11:20:21.762088
 
 ## PRISMA Flow
 

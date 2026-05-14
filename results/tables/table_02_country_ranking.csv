@@ -1,0 +1,117 @@
+rank,country_code,country_name,region,n_publications,pct_of_attributed,n_total_citations,avg_citations,n_mcp_publications,mcp_ratio_pct
+1,CN,Chinese Mainland,China (mainland & regions),4313,54.07,111684,25.9,754,17.5
+2,US,United States,North America,1094,13.72,47388,43.3,493,45.1
+3,IN,India,Asia (other),534,6.7,15472,29.0,102,19.1
+4,HK,Hong Kong (China),China (mainland & regions),256,3.21,11530,45.0,173,67.6
+5,KR,South Korea,Asia (other),253,3.17,6184,24.4,51,20.2
+6,GB,United Kingdom,Europe,237,2.97,12890,54.4,161,67.9
+7,JP,Japan,Asia (other),228,2.86,5267,23.1,87,38.2
+8,TW,Taiwan (China),China (mainland & regions),208,2.61,6431,30.9,106,51.0
+9,AU,Australia,Oceania,187,2.34,8379,44.8,113,60.4
+10,DE,Germany,Europe,182,2.28,10775,59.2,86,47.3
+11,CA,Canada,North America,141,1.77,6879,48.8,73,51.8
+12,SA,Saudi Arabia,Middle East,139,1.74,4180,30.1,77,55.4
+13,MO,Macao (China),China (mainland & regions),117,1.47,4898,41.9,104,88.9
+14,IT,Italy,Europe,106,1.33,9210,86.9,60,56.6
+15,ZA,South Africa,Africa,97,1.22,3680,37.9,43,44.3
+16,IR,Iran,Middle East,94,1.18,4410,46.9,21,22.3
+17,MY,Malaysia,Asia (other),94,1.18,2632,28.0,40,42.6
+18,NG,Nigeria,Africa,94,1.18,1611,17.1,27,28.7
+19,TH,Thailand,Asia (other),90,1.13,1868,20.8,28,31.1
+20,BR,Brazil,Latin America,71,0.89,2268,31.9,20,28.2
+21,PK,Pakistan,Asia (other),65,0.81,1411,21.7,43,66.2
+22,ES,Spain,Europe,63,0.79,5127,81.4,36,57.1
+23,TR,Turkey,Middle East,62,0.78,1629,26.3,14,22.6
+24,EG,Egypt,Middle East,61,0.76,2216,36.3,36,59.0
+25,SG,Singapore,Asia (other),53,0.66,3159,59.6,30,56.6
+26,FR,France,Europe,53,0.66,2202,41.5,19,35.8
+27,CH,Switzerland,Europe,50,0.63,3432,68.6,37,74.0
+28,PT,Portugal,Europe,49,0.61,1470,30.0,21,42.9
+29,PL,Poland,Europe,49,0.61,1302,26.6,15,30.6
+30,IL,Israel,Middle East,48,0.6,3301,68.8,19,39.6
+31,NL,Netherlands,Europe,40,0.5,1908,47.7,16,40.0
+32,ID,Indonesia,Asia (other),39,0.49,414,10.6,14,35.9
+33,JO,Jordan,Middle East,37,0.46,530,14.3,20,54.1
+34,MX,Mexico,North America,36,0.45,1002,27.8,15,41.7
+35,RS,Serbia,Other,34,0.43,1162,34.2,11,32.4
+36,FI,Finland,Europe,31,0.39,1211,39.1,26,83.9
+37,SE,Sweden,Europe,30,0.38,1157,38.6,23,76.7
+38,AT,Austria,Europe,29,0.36,1131,39.0,18,62.1
+39,MN,Mongolia,Asia (other),26,0.33,1098,42.2,25,96.2
+40,CZ,Czech Republic,Europe,25,0.31,1424,57.0,13,52.0
+41,NZ,New Zealand,Oceania,24,0.3,758,31.6,16,66.7
+42,AE,UAE,Middle East,23,0.29,720,31.3,23,100.0
+43,NO,Norway,Europe,22,0.28,803,36.5,9,40.9
+44,IQ,Iraq,Other,21,0.26,430,20.5,13,61.9
+45,GH,Ghana,Africa,21,0.26,574,27.3,14,66.7
+46,HU,Hungary,Europe,20,0.25,1250,62.5,11,55.0
+47,VN,Vietnam,Asia (other),17,0.21,767,45.1,11,64.7
+48,PS,Palestine,Other,17,0.21,415,24.4,5,29.4
+49,RU,Russia,Europe,17,0.21,701,41.2,16,94.1
+50,BE,Belgium,Europe,16,0.2,1210,75.6,10,62.5
+51,GR,Greece,Europe,16,0.2,287,17.9,9,56.2
+52,LB,Lebanon,Middle East,15,0.19,573,38.2,9,60.0
+53,ET,Ethiopia,Africa,14,0.18,275,19.6,7,50.0
+54,MA,Morocco,Africa,13,0.16,537,41.3,3,23.1
+55,ZW,Zimbabwe,Other,13,0.16,276,21.2,11,84.6
+56,DK,Denmark,Europe,13,0.16,411,31.6,7,53.8
+57,IE,Ireland,Europe,11,0.14,384,34.9,9,81.8
+58,CU,Cuba,Other,11,0.14,233,21.2,8,72.7
+59,CL,Chile,Latin America,11,0.14,608,55.3,8,72.7
+60,MU,Mauritius,Other,10,0.13,759,75.9,4,40.0
+61,AR,Argentina,Latin America,10,0.13,150,15.0,3,30.0
+62,UG,UG,Other,9,0.11,257,28.6,9,100.0
+63,CO,CO,Other,9,0.11,97,10.8,7,77.8
+64,QA,Qatar,Middle East,9,0.11,818,90.9,9,100.0
+65,BD,Bangladesh,Asia (other),8,0.1,553,69.1,5,62.5
+66,RO,Romania,Europe,8,0.1,195,24.4,4,50.0
+67,HR,HR,Other,8,0.1,501,62.6,5,62.5
+68,CM,CM,Other,8,0.1,128,16.0,7,87.5
+69,BG,Bulgaria,Europe,7,0.09,246,35.1,3,42.9
+70,UA,Ukraine,Europe,6,0.08,25,4.2,3,50.0
+71,SK,SK,Other,6,0.08,416,69.3,3,50.0
+72,DZ,Algeria,Africa,5,0.06,29,5.8,1,20.0
+73,NP,Nepal,Asia (other),5,0.06,169,33.8,3,60.0
+74,GE,GE,Other,5,0.06,84,16.8,5,100.0
+75,OM,OM,Other,5,0.06,1242,248.4,4,80.0
+76,EE,EE,Other,4,0.05,127,31.8,2,50.0
+77,YE,YE,Other,4,0.05,25,6.2,3,75.0
+78,CY,CY,Other,4,0.05,173,43.2,4,100.0
+79,KE,Kenya,Africa,4,0.05,113,28.2,3,75.0
+80,BH,BH,Other,4,0.05,37,9.2,4,100.0
+81,SD,SD,Other,4,0.05,85,21.2,4,100.0
+82,SI,SI,Other,4,0.05,472,118.0,3,75.0
+83,EC,EC,Other,4,0.05,214,53.5,3,75.0
+84,TZ,TZ,Other,4,0.05,74,18.5,2,50.0
+85,TN,Tunisia,Africa,3,0.04,14,4.7,3,100.0
+86,PH,Philippines,Asia (other),3,0.04,10,3.3,3,100.0
+87,AM,AM,Other,3,0.04,124,41.3,3,100.0
+88,KW,KW,Other,3,0.04,39,13.0,2,66.7
+89,LK,Sri Lanka,Asia (other),2,0.03,48,24.0,1,50.0
+90,PR,PR,Other,2,0.03,64,32.0,1,50.0
+91,KZ,Kazakhstan,Asia (other),2,0.03,108,54.0,2,100.0
+92,NE,NE,Other,2,0.03,30,15.0,2,100.0
+93,LV,LV,Other,2,0.03,56,28.0,1,50.0
+94,CR,CR,Other,2,0.03,83,41.5,1,50.0
+95,MZ,MZ,Other,1,0.01,38,38.0,1,100.0
+96,MG,MG,Other,1,0.01,456,456.0,1,100.0
+97,MM,Myanmar,Asia (other),1,0.01,0,0.0,1,100.0
+98,LT,LT,Other,1,0.01,13,13.0,1,100.0
+99,BN,BN,Other,1,0.01,4,4.0,1,100.0
+100,VE,VE,Other,1,0.01,77,77.0,1,100.0
+101,MT,MT,Other,1,0.01,0,0.0,1,100.0
+102,PE,PE,Other,1,0.01,1,1.0,0,0.0
+103,GT,GT,Other,1,0.01,21,21.0,1,100.0
+104,IS,IS,Other,1,0.01,6,6.0,1,100.0
+105,BO,BO,Other,1,0.01,21,21.0,1,100.0
+106,BY,BY,Other,1,0.01,76,76.0,1,100.0
+107,UZ,UZ,Other,1,0.01,49,49.0,1,100.0
+108,NI,NI,Other,1,0.01,21,21.0,1,100.0
+109,ZM,ZM,Other,1,0.01,3,3.0,0,0.0
+110,LA,LA,Other,1,0.01,8,8.0,1,100.0
+111,PA,PA,Other,1,0.01,0,0.0,1,100.0
+112,HN,HN,Other,1,0.01,19,19.0,1,100.0
+113,ML,ML,Other,1,0.01,22,22.0,1,100.0
+114,AZ,AZ,Other,1,0.01,4,4.0,1,100.0
+115,BW,Botswana,Other,1,0.01,5,5.0,1,100.0
+116,DO,DO,Other,1,0.01,5,5.0,1,100.0

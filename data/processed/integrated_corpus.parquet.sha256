@@ -1,3 +1,4 @@
-﻿C7841AC94DC3D5F6D02A447D014EA5DD623983634DD7763B2ABAB3161D2C0C6B  integrated_corpus.parquet
-Generated: 2026-05-14 10:13:03
+﻿C1F683DDF5CB92802331937D3FCDDFE4777CE59E191BBFF6ACDCD4FF801AE146  integrated_corpus.parquet
+Generated: 2026-05-14 15:35:24
 N records: 9,438
+Columns: 25 (added affiliations_raw, reprint_address, institutions_list in Day 3)

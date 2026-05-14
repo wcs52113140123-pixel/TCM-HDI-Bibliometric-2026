@@ -40,8 +40,8 @@ WOS_FIELDS = {
     "TC": "times_cited",
     "NR": "references_count",
     "CR": "cited_references",
-    "C1": "affiliations",
-    "RP": "corresponding_author",
+    "C1": "affiliations_raw",
+    "RP": "reprint_address",
     "FU": "funding",
     "JI": "journal_iso_abbr",
     "SN": "issn",
@@ -89,8 +89,10 @@ def parse_wos_file(filepath):
                 break
             
             # New field: 2-char tag + space at col 2
-            if (len(line) >= 3 and line[2] == " " 
-                and line[0:2].isalpha() and line[0:2].isupper()):
+            if (len(line) >= 3 and line[2] == " "
+                and line[0].isalpha() and line[0].isupper()
+                and (line[1].isalpha() or line[1].isdigit())
+                and (not line[1].isalpha() or line[1].isupper())):
                 # Flush previous field
                 if current_field and current_value_lines:
                     current_record[current_field] = "\n".join(current_value_lines)
@@ -184,6 +186,10 @@ def normalize_wos_record(rec):
         "references_count": references_count,
         "mesh_terms": None,
         "openalex_concepts": None,
+        # === New affiliation fields (Day 3 patch) ===
+        "affiliations_raw": rec.get("affiliations_raw", "").strip(),
+        "reprint_address": rec.get("reprint_address", "").strip(),
+        "institutions_list": [],  # WoS doesn't provide structured institutions
     }
 
 

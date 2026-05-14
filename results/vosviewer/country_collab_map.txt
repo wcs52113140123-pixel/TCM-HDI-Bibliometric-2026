@@ -1,0 +1,62 @@
+id	label	weight<Documents>	weight<Citations>	cluster
+1	Chinese Mainland	4313	111684	1
+2	United States	1094	47388	3
+3	India	534	15472	2
+4	Hong Kong (China)	256	11530	1
+5	South Korea	253	6184	2
+6	United Kingdom	237	12890	4
+7	Japan	228	5267	2
+8	Taiwan (China)	208	6431	1
+9	Australia	187	8379	5
+10	Germany	182	10775	4
+11	Canada	141	6879	3
+12	Saudi Arabia	139	4180	6
+13	Macao (China)	117	4898	1
+14	Italy	106	9210	4
+15	South Africa	97	3680	7
+16	Iran	94	4410	6
+17	Malaysia	94	2632	2
+18	Nigeria	94	1611	7
+19	Thailand	90	1868	2
+20	Brazil	71	2268	8
+21	Pakistan	65	1411	2
+22	Spain	63	5127	4
+23	Turkey	62	1629	6
+24	Egypt	61	2216	6
+25	Singapore	53	3159	2
+26	France	53	2202	4
+27	Switzerland	50	3432	4
+28	Portugal	49	1470	4
+29	Poland	49	1302	4
+30	Israel	48	3301	6
+31	Netherlands	40	1908	4
+32	Indonesia	39	414	2
+33	Jordan	37	530	6
+34	Mexico	36	1002	3
+35	Serbia	34	1162	9
+36	Finland	31	1211	4
+37	Sweden	30	1157	4
+38	Austria	29	1131	4
+39	Mongolia	26	1098	2
+40	Czech Republic	25	1424	4
+41	New Zealand	24	758	5
+42	UAE	23	720	6
+43	Norway	22	803	4
+44	Iraq	21	430	9
+45	Ghana	21	574	7
+46	Hungary	20	1250	4
+47	Vietnam	17	767	2
+48	Palestine	17	415	9
+49	Russia	17	701	4
+50	Belgium	16	1210	4
+51	Greece	16	287	4
+52	Lebanon	15	573	6
+53	Ethiopia	14	275	7
+54	Morocco	13	537	7
+55	Zimbabwe	13	276	9
+56	Denmark	13	411	4
+57	Ireland	11	384	4
+58	Cuba	11	233	9
+59	Chile	11	608	8
+60	Mauritius	10	759	9
+61	Argentina	10	150	8

@@ -55,6 +55,11 @@ def normalize_pubmed_record(rec):
         "references_count": None,
         "mesh_terms": rec.get("mesh_terms", []) or [],
         "openalex_concepts": None,
+        # === New affiliation fields (Day 3 patch) ===
+        # PubMed JSONL from Day 1 didn't extract affiliations; will be filled via cross-DB join
+        "affiliations_raw": "",
+        "reprint_address": "",
+        "institutions_list": [],
     }
 
 

@@ -78,6 +78,19 @@ def normalize_openalex_record(work):
     concepts_raw = work.get("concepts") or []
     openalex_concepts = [c.get("display_name", "") for c in concepts_raw if c.get("display_name")]
     
+    # === New affiliation fields (Day 3 patch) ===
+    institutions_list = []
+    for au in authorships:
+        for inst in (au.get("institutions") or []):
+            inst_obj = {
+                "name": inst.get("display_name", ""),
+                "country_code": inst.get("country_code", ""),
+                "ror_id": inst.get("ror", ""),
+                "type": inst.get("type", ""),
+            }
+            if inst_obj["name"]:
+                institutions_list.append(inst_obj)
+    
     return {
         "source_db": "OpenAlex",
         "source_id": source_id,
@@ -96,6 +109,10 @@ def normalize_openalex_record(work):
         "references_count": references_count,
         "mesh_terms": None,
         "openalex_concepts": openalex_concepts,
+        # === New affiliation fields (Day 3 patch) ===
+        "affiliations_raw": "",  # OpenAlex doesn't have a single string field
+        "reprint_address": "",
+        "institutions_list": institutions_list,
     }
 
 
