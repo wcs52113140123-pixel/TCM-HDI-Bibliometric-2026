@@ -1,0 +1,15 @@
+{
+  "label": "PARTIAL 2026",
+  "generated_at": "2026-05-14T10:06:06.934176",
+  "stage3_input": 333,
+  "openalex_exclusive_count": 53,
+  "openalex_exclusive_passed": 36,
+  "openalex_exclusive_dropped": 53,
+  "stage4_output": 316,
+  "block_breakdown": {
+    "B1_direct": 23,
+    "B0_none": 17,
+    "B2_tcm_interaction": 9,
+    "B3_tcm_cyp": 4
+  }
+}

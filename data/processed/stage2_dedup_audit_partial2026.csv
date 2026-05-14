@@ -1,0 +1,332 @@
+doi,n_records_merged,source_dbs,chosen_db,chosen_record_id,year,title_first50
+10.1002/bmc.70282,1,Scopus,Scopus,Scopus:2-s2.0-105023453665,2026,A Simultaneous Determination of 14 Chemical Compou
+10.1002/bmc.70292,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105023453636,2026,Effects of Compound Kushen Injection on the Pharma
+10.1002/bmc.70364,1,Scopus,Scopus,Scopus:2-s2.0-105028089259,2026,Effects of Long-Term Administration and Multicompo
+10.1002/bmc.70375,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105028846774,2026,Characterization of the Chemical Constituents in M
+10.1002/bmc.70395,1,Scopus,Scopus,Scopus:2-s2.0-105029752543,2026,Unraveling the Material Basis of Compound Nanxing 
+10.1002/cbdv.202503444,1,WoS,WoS,WoS:WOS:001727186200001,2026,Therapeutic Potential of Salvia miltiorrhiza Activ
+10.1002/cnr2.70509,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001708417600001,2026,Complementary and Alternative Medicine in Oncology
+10.1002/cpt.70218,1,PubMed,PubMed,PubMed:41622703,2026,Pharmacokinetic Evaluation of a Cinnamon Product o
+10.1002/fsn3.71776,2,OpenAlex;PubMed,PubMed,PubMed:42110208,2026,Innovations in Herbal Functional Beverages: From G
+10.1002/inm3.70045,1,OpenAlex,OpenAlex,OpenAlex:W7148407236,2026,Traditional Chinese Medicine and Natural Products 
+10.1002/mdb2.70024,1,OpenAlex,OpenAlex,OpenAlex:W7134888581,2026,Traditional Chinese Medicine as an Integrative Adj
+10.1002/pca.70067,1,Scopus,Scopus,Scopus:2-s2.0-105035814411,2026,Harnessing Phytochemicals for Brain Cancer Therapy
+10.1002/ptr.70158,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001656153400001,2026,Potential Adverse Effects of Ashwagandha: A Critic
+10.1002/ptr.70159,1,OpenAlex,OpenAlex,OpenAlex:W7123349355,2026,Issue Information
+10.1002/ptr.70160,1,OpenAlex,OpenAlex,OpenAlex:W7128166984,2026,Issue Information
+10.1002/ptr.70172,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001654795600001,2026,Calycosin Targets the CYP1B1-AKT/SP1-GPX4 Axis to 
+10.1002/ptr.70207,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001747887400001,2026,Green Tea Consumption Potentiates Paclitaxel Cytot
+10.1002/ptr.70235,1,Scopus,Scopus,Scopus:2-s2.0-105028940902,2026,Traditional Chinese Medicine: Dual Antibacterial A
+10.1002/tkm2.70052,1,WoS,WoS,WoS:WOS:001726640600001,2026,Conference Report: Sixth Annual Young Researcher F
+10.1007/s00210-025-04765-w,1,PubMed,PubMed,PubMed:41152613,2026,Integrative network pharmacology and experimental 
+10.1007/s00210-025-04970-7,1,PubMed,PubMed,PubMed:41563450,2026,GraphBAN-based identification of active ingredient
+10.1007/s00520-025-10227-z,1,Scopus,Scopus,Scopus:2-s2.0-105023758969,2026,Implementation of an integrative safety consultati
+10.1007/s10072-025-08621-w,1,Scopus,Scopus,Scopus:2-s2.0-105026369942,2026,Pitfalls of insomnia management in the elderly: A 
+10.1007/s10103-026-04822-7,1,Scopus,Scopus,Scopus:2-s2.0-105030625068,2026,Synergistic anti-inflammatory effects of the aqueo
+10.1007/s11030-026-11576-5,1,PubMed,PubMed,PubMed:42105142,2026,Polyprenylated acylphloroglucinols from Hypericum 
+10.1007/s11101-025-10144-3,1,Scopus,Scopus,Scopus:2-s2.0-105009333222,2026,Factors affecting the quality of Cistanche herbal:
+10.1007/s11101-025-10183-w,1,Scopus,Scopus,Scopus:2-s2.0-105018615104,2026,The anti-tumor mechanism and epigenetic effects of
+10.1007/s11101-026-10242-w,2,Scopus;WoS,WoS,WoS:WOS:001742817900001,2026,Mechanisms of action of natural plant-derived bioa
+10.1007/s11418-025-01999-z,1,Scopus,Scopus,Scopus:2-s2.0-105029387274,2026,Juzentaihoto modulates gut microbiota and potentia
+10.1007/s11655-026-4031-1,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001741941100001,2026,Beneficial Herb-Drug Interaction of Shenqi Oral Li
+10.1007/s12094-025-04017-6,1,PubMed,PubMed,PubMed:40903694,2026,Safety and pharmacokinetics evaluation of oroxylin
+10.1007/s12247-025-10209-y,1,WoS,WoS,WoS:WOS:001663075100002,2026,Identification of Active Compounds of Hippobroma L
+10.1007/s13721-026-00731-5,3,OpenAlex;Scopus;WoS,WoS,WoS:WOS:001678203400008,2026,Metapath-guided graph embeddings for predicting he
+10.1007/s40203-026-00565-z,1,PubMed,PubMed,PubMed:41717437,2026,Enhanced antidiabetic efficacy of glibenclamide wi
+10.1007/s42452-025-08116-5,1,Scopus,Scopus,Scopus:2-s2.0-105027936613,2026,Herbal medicine meets machine learning: a systemat
+10.1007/s43188-026-00356-w,2,Scopus;WoS,WoS,WoS:WOS:001753577800001,2026,In vitro study of inhibitory effects on cytochrome
+10.1007/s44187-025-00734-7,1,Scopus,Scopus,Scopus:2-s2.0-105026653844,2026,Exploring the therapeutic potential and health ben
+10.1016/j.abb.2026.110834,2,OpenAlex;PubMed,PubMed,PubMed:42061548,2026,Inhibition of cytochrome P450 enzymes by cirsimari
+10.1016/j.abb.2026.110858,2,OpenAlex;PubMed,PubMed,PubMed:42107731,2026,In vitro investigation of the effect of cycloastra
+10.1016/j.apsb.2025.11.003,1,Scopus,Scopus,Scopus:2-s2.0-105023889385,2026,Cuproptosis-based nanomedicine in cancer metastasi
+10.1016/j.bcp.2026.117700,1,PubMed,PubMed,PubMed:41520736,2026,Integrative analyses of network pharmacology and b
+10.1016/j.carres.2025.109781,1,Scopus,Scopus,Scopus:2-s2.0-105023497100,2026,A structurally defined galactoglucan from Arisaema
+10.1016/j.cbi.2026.111958,1,Scopus,Scopus,Scopus:2-s2.0-105029619267,2026,"Integration of network pharmacology, lipidomics, a"
+10.1016/j.chmed.2025.01.005,1,WoS,WoS,WoS:WOS:001665091600008,2026,Chelidonine overcomes P-gp-mediated adriamycin res
+10.1016/j.chmed.2025.02.002,1,Scopus,Scopus,Scopus:2-s2.0-85218153727,2026,Integrated network pharmacology and metabolomics t
+10.1016/j.chmed.2025.03.001,1,Scopus,Scopus,Scopus:2-s2.0-105000256371,2026,Precise subcellular organelle-targeted analyses of
+10.1016/j.chmed.2025.10.003,1,Scopus,Scopus,Scopus:2-s2.0-105025214382,2026,Advancement of Astragali Radix in anti-tumor: Acti
+10.1016/j.compbiolchem.2026.109028,1,PubMed,PubMed,PubMed:41932195,2026,Synergistic action of Yinyanghuo A and Magnograndi
+10.1016/j.cpb.2026.100602,3,OpenAlex;Scopus;WoS,WoS,WoS:WOS:001719460200001,2026,Integrative multi-omics reveals genome evolution a
+10.1016/j.ctim.2026.103319,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001681339600001,2026,Assessing the safety of herbal medicine use among 
+10.1016/j.dmd.2026.100238,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001692057400001,2026,Mechanism-based inactivation of CYP2C19 by bicucul
+10.1016/j.dmd.2026.100259,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105034694032,2026,Lysine- and cysteine-based protein adduction resul
+10.1016/j.dmd.2026.100262,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001732469500001,2026,A semimechanistic PK/PD model-informed Taxus table
+10.1016/j.dmd.2026.100321,1,OpenAlex,OpenAlex,OpenAlex:W7160663739,2026,Potential herb-drug interaction risk of Sedum sarm
+10.1016/j.ejphar.2026.178704,1,Scopus,Scopus,Scopus:2-s2.0-105031827015,2026,Icariin in male reproduction: Multi-target pharmac
+10.1016/j.eujim.2026.102647,1,Scopus,Scopus,Scopus:2-s2.0-105032154751,2026,Clinically significant drug–herb interactions in i
+10.1016/j.exger.2025.113007,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105027145072,2026,Qiliqiangxin capsule improves the cognitive disord
+10.1016/j.fitote.2025.106995,1,Scopus,Scopus,Scopus:2-s2.0-105022268864,2026,Pharmaceutical Research Progress of Dencichine: a 
+10.1016/j.fitote.2025.107029,1,Scopus,Scopus,Scopus:2-s2.0-105024921145,2026,Decoding the mechanistic landscape of harpagoside:
+10.1016/j.fitote.2025.107039,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105025234359,2026,Herb-immunosuppressive drug interactions: Implicat
+10.1016/j.fitote.2026.107085,1,PubMed,PubMed,PubMed:41485690,2026,Gu-Jin-Xiao-Ji Decoction potentiates anti-PD-1 imm
+10.1016/j.fitote.2026.107122,1,Scopus,Scopus,Scopus:2-s2.0-105029487702,2026,Advancements in cancer stem cell therapy: The effe
+10.1016/j.fitote.2026.107172,1,Scopus,Scopus,Scopus:2-s2.0-105032556404,2026,Integrated serum pharmacochemistry and network pha
+10.1016/j.foohum.2026.101064,2,Scopus;WoS,WoS,WoS:WOS:001694783300001,2026,Spectroscopic characterisation and standardisation
+10.1016/j.heliyon.2026.e44583,1,OpenAlex,OpenAlex,OpenAlex:W7128491125,2026,"Unveiling the safety, tolerability, and herb-drug "
+10.1016/j.ijans.2025.100960,1,Scopus,Scopus,Scopus:2-s2.0-105026127002,2026,A community-based behavioural change intervention 
+10.1016/j.ijbiomac.2025.149445,1,Scopus,Scopus,Scopus:2-s2.0-105023705407,2026,Effects of Chinese yam and its peel polysaccharide
+10.1016/j.jare.2026.03.050,1,Scopus,Scopus,Scopus:2-s2.0-105034804763,2026,AI-driven multi-scale target analysis of tradition
+10.1016/j.jchromb.2026.124913,1,Scopus,Scopus,Scopus:2-s2.0-105029672568,2026,Library-assisted UHPLC-Q-TOF-MS/MS bioanalytical p
+10.1016/j.jchromb.2026.124941,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105030298654,2026,Unravelling hepatic metabolism patterns of Gegen Q
+10.1016/j.jep.2025.120457,1,Scopus,Scopus,Scopus:2-s2.0-105014770221,2026,Huazhuo Sanjie Chubi Decoction attenuates gouty ar
+10.1016/j.jep.2025.120463,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105014967617,2026,Quanzhenyiqitang and its polysaccharides alleviate
+10.1016/j.jep.2025.120476,1,Scopus,Scopus,Scopus:2-s2.0-105015162181,2026,Danshen-Honghua herb pair: A review on chemical co
+10.1016/j.jep.2025.120540,1,Scopus,Scopus,Scopus:2-s2.0-105015460807,2026,Network pharmacology prediction and experimental v
+10.1016/j.jep.2025.120541,1,Scopus,Scopus,Scopus:2-s2.0-105015382397,2026,"Integrated serum pharmacochemistry, network pharma"
+10.1016/j.jep.2025.120579,1,PubMed,PubMed,PubMed:40946818,2026,Pi Ji Pills reshape the pancreatic cancer immune m
+10.1016/j.jep.2025.120614,1,Scopus,Scopus,Scopus:2-s2.0-105017638853,2026,Optimised formula of Fufang Biejia Ruangan tablets
+10.1016/j.jep.2025.120733,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105020083331,2026,Metabolic enzyme-mediated pharmacokinetic and phar
+10.1016/j.jep.2025.120776,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105021023450,2026,Pharmacokinetic and pharmacodynamic herb-drug inte
+10.1016/j.jep.2025.120827,1,PubMed,PubMed,PubMed:41177239,2026,A comprehensive review of Glycyrrhiza glabra in th
+10.1016/j.jep.2025.120834,1,Scopus,Scopus,Scopus:2-s2.0-105022754937,2026,Panax notoginseng saponins against ischemic stroke
+10.1016/j.jep.2025.120855,1,Scopus,Scopus,Scopus:2-s2.0-105022707969,2026,Lifei Qingchang Granules alleviate airway inflamma
+10.1016/j.jep.2025.120897,1,Scopus,Scopus,Scopus:2-s2.0-105024725570,2026,Tongmaijiangzhi formula and its hypolipidemic comp
+10.1016/j.jep.2025.120912,1,Scopus,Scopus,Scopus:2-s2.0-105024313233,2026,Multidisciplinary research systematically elucidat
+10.1016/j.jep.2025.120939,1,PubMed,PubMed,PubMed:41270910,2026,Tianma-Chuanxiong synergically inhibit glioma by r
+10.1016/j.jep.2025.120949,1,Scopus,Scopus,Scopus:2-s2.0-105026146113,2026,Review on traditional Chinese medicine-induced liv
+10.1016/j.jep.2025.120978,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105026160243,2026,Xihuang pill triggers dual gasdermin-mediated pyro
+10.1016/j.jep.2025.121026,1,PubMed,PubMed,PubMed:41386305,2026,Qingfei Paidu decoction acts against human coronav
+10.1016/j.jep.2025.121054,1,Scopus,Scopus,Scopus:2-s2.0-105026184221,2026,A novel strategy for activating glutathione S-tran
+10.1016/j.jep.2025.121063,1,Scopus,Scopus,Scopus:2-s2.0-105027186128,2026,Metabolic profiling of Danzhi Jiangtang capsule in
+10.1016/j.jep.2025.121084,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105027128975,2026,"Integrated pharmacokinetic properties, tissue dist"
+10.1016/j.jep.2025.121145,1,Scopus,Scopus,Scopus:2-s2.0-105027132885,2026,Comprehensive studies of plasma pharmacokinetic an
+10.1016/j.jep.2026.121214,1,Scopus,Scopus,Scopus:2-s2.0-105029182897,2026,Tianjing Zelan formula improves polycystic ovary s
+10.1016/j.jep.2026.121261,1,PubMed,PubMed,PubMed:41581795,2026,Potential of traditional Chinese medicine-antibiot
+10.1016/j.jep.2026.121290,1,Scopus,Scopus,Scopus:2-s2.0-105030088799,2026,Material basis and mechanism of Tangzhiqing in all
+10.1016/j.jep.2026.121374,1,PubMed,PubMed,PubMed:41690426,2026,The active components of the Danshen-Shanzha herb-
+10.1016/j.jep.2026.121450,1,PubMed,PubMed,PubMed:41785727,2026,Hedyotis diffusa Willd. extract alleviates CCl<sub
+10.1016/j.jep.2026.121478,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001727156500001,2026,Mechanistic insights into compatibility-based deto
+10.1016/j.jep.2026.121616,1,Scopus,Scopus,Scopus:2-s2.0-105035331104,2026,Multi-omics integration reveals the ameliorative e
+10.1016/j.jep.2026.121702,1,Scopus,Scopus,Scopus:2-s2.0-105036228621,2026,"Ethnopharmacology, pharmacokinetics, and antitumor"
+10.1016/j.jep.2026.121705,2,Scopus;WoS,WoS,WoS:WOS:001755235200001,2026,"Multi-component, multi-target actions of Wuzi Yanz"
+10.1016/j.jep.2026.121707,2,Scopus;WoS,WoS,WoS:WOS:001755234600001,2026,Traditional Chinese medicine as a therapeutic opti
+10.1016/j.jep.2026.121742,1,Scopus,Scopus,Scopus:2-s2.0-105037479919,2026,Dabupi decoction mitigates fluorouracil-induced in
+10.1016/j.jep.2026.121770,1,PubMed,PubMed,PubMed:42066823,2026,Bupleuri Radix ameliorates MASLD induced by high-f
+10.1016/j.jep.2026.121774,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105037629324,2026,Clinical and preclinical effectiveness of traditio
+10.1016/j.jep.2026.121793,2,OpenAlex;PubMed,PubMed,PubMed:42102928,2026,"Botany, ethnopharmacology, phytochemistry, pharmac"
+10.1016/j.jfma.2026.01.043,1,OpenAlex,OpenAlex,OpenAlex:W7125955507,2026,Author response to herb–drug interactions and safe
+10.1016/j.jmgm.2026.109290,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001673453600001,2026,Exploring traditional Chinese medicine for antivir
+10.1016/j.jnrt.2025.100254,1,Scopus,Scopus,Scopus:2-s2.0-105023710954,2026,Network pharmacology analysis of energy metabolism
+10.1016/j.jpba.2025.117168,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105017917426,2026,Determination of metabolic markers for lipid metab
+10.1016/j.jpba.2025.117189,1,Scopus,Scopus,Scopus:2-s2.0-105018643273,2026,Detection and in silico evaluation of undeclared v
+10.1016/j.jpba.2025.117231,1,Scopus,Scopus,Scopus:2-s2.0-105020970357,2026,Revealing the mechanism of suanzaoren tang against
+10.1016/j.jpba.2025.117251,1,Scopus,Scopus,Scopus:2-s2.0-105022183699,2026,Integrated analysis strategies reveal the pharmaco
+10.1016/j.jpba.2025.117315,1,Scopus,Scopus,Scopus:2-s2.0-105024313554,2026,Comprehensive characterization of the pharmacokine
+10.1016/j.jpba.2026.117335,1,Scopus,Scopus,Scopus:2-s2.0-105026677668,2026,Pharmacokinetic investigation on eight primary act
+10.1016/j.jpba.2026.117357,1,Scopus,Scopus,Scopus:2-s2.0-105027534869,2026,Identification of metabolites from the Himalayan h
+10.1016/j.jpba.2026.117358,1,Scopus,Scopus,Scopus:2-s2.0-105027475286,2026,Determination of fifteen compounds in rat plasma b
+10.1016/j.jpba.2026.117374,1,Scopus,Scopus,Scopus:2-s2.0-105027968170,2026,Elucidating the therapeutic mechanisms of Erzhi Pi
+10.1016/j.jpba.2026.117413,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001705942100001,2026,Pharmacokinetic profiling of the bioactive compone
+10.1016/j.jpba.2026.117548,2,OpenAlex;Scopus,Scopus,Scopus:2-s2.0-105037924722,2026,Differences in hepatic metabolism of Liandan Xiaoy
+10.1016/j.jpha.2025.101352,2,Scopus;WoS,WoS,WoS:WOS:001728346300001,2026,Phytomedicine-mediated time-dependent inactivation
+10.1016/j.jsbmb.2025.106886,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105022253585,2026,Hyperforin as a non-steroidal modulator of the PXR
+10.1016/j.knosys.2026.115262,1,Scopus,Scopus,Scopus:2-s2.0-105027736238,2026,MRHormer: A multi-scale heterogeneous graph transf
+10.1016/j.lddd.2025.100223,1,WoS,WoS,WoS:WOS:001728726200001,2025,Integration of single-cell sequencing and multi-om
+10.1016/j.matdes.2026.115559,1,Scopus,Scopus,Scopus:2-s2.0-105028440565,2026,Construction of a dual-layer microneedle drug deli
+10.1016/j.phrs.2026.108191,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001748933400001,2026,Chemotherapy-induced gastrointestinal dysfunction:
+10.1016/j.phymed.2025.157631,1,Scopus,Scopus,Scopus:2-s2.0-105024322134,2026,Elucidation of Cortex Dictamni hepatotoxicity mech
+10.1016/j.phymed.2025.157647,1,WoS,WoS,WoS:WOS:001639724200001,2026,A comprehensive review of herb-induced liver injur
+10.1016/j.phymed.2025.157674,1,Scopus,Scopus,Scopus:2-s2.0-105024469912,2026,Phillyrin: A review of its pharmacokinetics and mu
+10.1016/j.phymed.2025.157733,1,PubMed,PubMed,PubMed:41475060,2026,Unveiling TCM-antibiotic synergy through multi-omi
+10.1016/j.phymed.2026.157797,1,Scopus,Scopus,Scopus:2-s2.0-105027435185,2026,YiQiFuMai ameliorates hypoperfusion-induced cerebr
+10.1016/j.phymed.2026.158010,1,Scopus,Scopus,Scopus:2-s2.0-105031308129,2026,Xia Ku Cao Paste restores intestinal microbiota ho
+10.1016/j.phymed.2026.158012,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001707890800001,2026,Si-Jun-Zi-Tang potentiates temozolomide's anti-mel
+10.1016/j.phymed.2026.158024,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105032126491,2026,Concentrated Angelica sinensis pills ameliorate ov
+10.1016/j.phymed.2026.158034,1,PubMed,PubMed,PubMed:41797190,2026,High-throughput screened kaempferitrin potentiates
+10.1016/j.phymed.2026.158065,1,Scopus,Scopus,Scopus:2-s2.0-105033129327,2026,Plant-derived natural compounds targeting drug res
+10.1016/j.phymed.2026.158090,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001734310600001,2026,Multitarget mechanisms and clinical integration of
+10.1016/j.phymed.2026.158164,1,PubMed,PubMed,PubMed:41962266,2026,The Scutellaria baicalensis-Coptis chinensis herb 
+10.1016/j.phymed.2026.158236,1,Scopus,Scopus,Scopus:2-s2.0-105037087426,2026,Neferine-enhanced Shenling Baizhu Tang potentiates
+10.1016/j.phymed.2026.158263,1,Scopus,Scopus,Scopus:2-s2.0-105037761544,2026,Spatially resolved multi-omics reveals that paeoni
+10.1016/j.prenap.2026.100726,1,Scopus,Scopus,Scopus:2-s2.0-105035090573,2026,Dammarane triterpene saponins in Bacopa monnieri (
+10.1016/j.prmcm.2025.100732,1,Scopus,Scopus,Scopus:2-s2.0-105023982949,2026,The anti-tumor effect of chinese medicine extracts
+10.1016/j.prmcm.2025.100744,1,Scopus,Scopus,Scopus:2-s2.0-105025432324,2026,Integrative multi-omics analysis to decipher the m
+10.1016/j.prmcm.2025.100748,1,Scopus,Scopus,Scopus:2-s2.0-105026245156,2026,Buyang Huanwu decoction in the treatment of stroke
+10.1016/j.prmcm.2026.100760,1,Scopus,Scopus,Scopus:2-s2.0-105027525671,2026,Neuroprotective effects of Gynostemma pentaphyllum
+10.1016/j.prmcm.2026.100774,1,Scopus,Scopus,Scopus:2-s2.0-105031957027,2026,Exploring the mechanism of drug induced liver inju
+10.1016/j.prmcm.2026.100785,1,Scopus,Scopus,Scopus:2-s2.0-105030981154,2026,6-Shogaol enhances the chemotherapeutic efficacy o
+10.1016/j.prmcm.2026.100797,1,OpenAlex,OpenAlex,OpenAlex:W7136092729,2026,Traditional Chinese medicines as adjuvants in chem
+10.1016/j.prmcm.2026.100798,1,Scopus,Scopus,Scopus:2-s2.0-105035184936,2026,UHPLC-Q-Exactive Orbitrap MS analysis of Shentong 
+10.1016/j.saa.2025.127118,1,Scopus,Scopus,Scopus:2-s2.0-105021008706,2026,ATR-FTIR spectroscopy coupled with deep learning f
+10.1016/j.sajb.2026.03.039,2,OpenAlex;Scopus,Scopus,Scopus:2-s2.0-105034785560,2026,Evaluation of the antibiofilm activity on Mycobact
+10.1016/j.talanta.2025.128761,1,Scopus,Scopus,Scopus:2-s2.0-105014379121,2026,Tripterygium wilfordii Hook F derived active ingre
+10.1016/j.talanta.2026.129668,2,Scopus;WoS,WoS,WoS:WOS:001721106500001,2026,Nb.BbvCI-driven multipedal DNA walker bioassay for
+10.1016/j.tice.2025.103299,1,Scopus,Scopus,Scopus:2-s2.0-105026967840,2026,Modified Xuan-Bi-Qing-Ying decoction alleviates se
+10.1016/j.tice.2026.103419,1,Scopus,Scopus,Scopus:2-s2.0-105031309830,2026,Ammi visnaga (Visnaga daucoides) & Ammi majus as a
+10.1016/j.toxicon.2026.109069,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001727498700001,2026,Contribution to the quality and safety assessment 
+10.1016/j.toxrep.2026.102258,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105037059840,2026,In silico evaluation of soursop (Annona muricata) 
+10.1016/j.xphs.2025.104062,1,Scopus,Scopus,Scopus:2-s2.0-105024462264,2026,Investigation on the contribution of self-assemble
+10.1016/j.xplc.2026.101715,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001745606900001,2026,Multi-omics and functional analyses in Aesculus wi
+10.1016/s1875-5364(26)61177-6,3,OpenAlex;PubMed;Scopus,Scopus,Scopus:2-s2.0-105037773235,2026,Rhubarb in renal fibrosis: from traditional ethnop
+10.1021/acs.jmedchem.5c03657,1,Scopus,Scopus,Scopus:2-s2.0-105030262341,2026,Marine-Derived Bromotyrosine Alkaloids as Potent h
+10.1021/acsami.5c20200,1,Scopus,Scopus,Scopus:2-s2.0-105028966487,2026,Facile Label-Free Cytomembrane Reverse Coating Str
+10.1038/s41401-025-01669-6,1,PubMed,PubMed,PubMed:41083594,2026,Nobiletin and polydatin synergistically alleviate 
+10.1038/s41598-025-30616-y,1,Scopus,Scopus,Scopus:2-s2.0-105027138491,2026,"Prevalence, associated factors, and safety implica"
+10.1038/s41598-025-31708-5,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001658941800003,2026,Exploring the use of complementary and alternative
+10.1038/s41598-025-33330-x,1,Scopus,Scopus,Scopus:2-s2.0-105028422794,2026,Sophoricoside from sophora japonica L. is efficaci
+10.1038/s41598-026-47720-2,2,OpenAlex;PubMed,PubMed,PubMed:41963481,2026,The role of outpatients' medical history on curren
+10.1039/d5lc01051a,1,Scopus,Scopus,Scopus:2-s2.0-105029268182,2026,A high-throughput liver-kidney metabolic interacti
+10.1055/a-2748-8868,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105024679239,2026,Effect of Scutellarin on the Pharmacokinetics and 
+10.1055/a-2785-4855,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001665509500001,2026,Comprehensive Investigation of the Metabolism Prof
+10.1055/s-0045-1815434,1,OpenAlex,OpenAlex,OpenAlex:W7133951988,2026,Clinical practice and evidence needs of clinical p
+10.1080/00498254.2026.2621364,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001692039000001,2026,Effect of plantamajoside on the pharmacokinetics o
+10.1080/00498254.2026.2654087,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001744446600001,2026,"Linalool, linalyl acetate, and lavender essential "
+10.1080/00498254.2026.2668400,1,PubMed,PubMed,PubMed:42091236,2026,Exploring the components of hepatotoxicity induced
+10.1080/03602532.2025.2603936,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105026793182,2026,Role of herbal extracts in modulating drug metabol
+10.1080/07391102.2024.2440651,1,Scopus,Scopus,Scopus:2-s2.0-85212393960,2026,Revealing therapeutic targets and drugs from Chine
+10.1080/0886022x.2026.2630492,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001712181600001,2026,Pregnane X receptor mitigates aristolochic acid-in
+10.1080/09205063.2025.2535492,1,Scopus,Scopus,Scopus:2-s2.0-105011143523,2026,Dissolvable microneedles based on active component
+10.1080/10286020.2025.2491612,1,Scopus,Scopus,Scopus:2-s2.0-105003139768,2026,A network pharmacological target mendelian randomi
+10.1080/15569527.2026.2618007,2,Scopus;WoS,WoS,WoS:WOS:001675144900001,2026,Yangxuebushen Decoction prevents cyclophosphamide-
+10.1080/19390211.2025.2606752,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105026188452,2026,Ginger as a Modulator of Drug Metabolizing Enzymes
+10.1080/19390211.2026.2615924,2,Scopus;WoS,WoS,WoS:WOS:001681533900001,2026,Evaluation of in Vitro Cytotoxicity and Induction 
+10.1080/87559129.2026.2639506,1,Scopus,Scopus,Scopus:2-s2.0-105032249573,2026,Food as Medicine: Integrating Food-Medicine Homolo
+10.1097/gscm.0000000000000109,1,OpenAlex,OpenAlex,OpenAlex:W7160823371,2026,Interpretation and reflections on “technical speci
+10.1097/mbc.0000000000001396,1,WoS,WoS,WoS:WOS:001652002200002,2026,Exploring the antioxidant and antithrombotic poten
+10.1097/md.0000000000046966,1,Scopus,Scopus,Scopus:2-s2.0-105026840574,2026,Identification of diagnostic biomarkers for ischem
+10.1097/md.0000000000047630,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105030907692,2026,Investigation into the antidepressant mechanism of
+10.1097/md.0000000000048686,1,PubMed,PubMed,PubMed:42116385,2026,Occult cirrhosis presenting as progressive tremor:
+10.1111/bcpt.70214,1,Scopus,Scopus,Scopus:2-s2.0-105030241956,2026,Traditional Chinese Medicine in the Treatment of I
+10.1111/jcmm.71040,2,Scopus;WoS,WoS,WoS:WOS:001708122800001,2026,Jianpi Jiedu Xiaozheng Fang Regulates Hepatocellul
+10.1111/jog.70256,2,Scopus;WoS,WoS,WoS:WOS:001723696300035,2026,The Place of Fruits and Herbal Medicines in the Tr
+10.1111/nmo.70047,1,Scopus,Scopus,Scopus:2-s2.0-105003481947,2026,A Review of the Mechanisms of Action of the Herbal
+10.1111/pbi.70598,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001713949400001,2026,Chromosome-Level Genome Assembly of the Allotetrap
+10.1111/tpj.70707,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001703648300001,2026,Enzymatic innovations in Angelica pubescens reveal
+10.1142/s0192415x26500151,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001701942600001,2026,Research Progress in Traditional Chinese Medicine 
+10.1155/jnme/5563248,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001698034400001,2026,Chinese Herbal Medicines for Diabetic Cardio-Cereb
+10.1177/08853282251381435,1,Scopus,Scopus,Scopus:2-s2.0-105023423635,2026,Astragaloside II-loaded neutrophil nanocarrier dru
+10.1177/10781552261423198,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001698321200001,2026,Impact of the oncoral patient education follow-up 
+10.1177/1934578x261417131,3,OpenAlex;Scopus;WoS,WoS,WoS:WOS:001667397400001,2026,Potential Drug Herbal Interaction of the Commonly 
+10.1177/1934578x261425478,1,Scopus,Scopus,Scopus:2-s2.0-105030661236,2026,Exploring Novel Phytochemicals as Strategies in th
+10.1186/s12575-025-00321-1,1,Scopus,Scopus,Scopus:2-s2.0-105029498528,2026,Integrated Bioinformatics and Experimental Validat
+10.1186/s12864-025-12327-w,1,Scopus,Scopus,Scopus:2-s2.0-105028278094,2026,AmDB: functional genomics database of Astragalus m
+10.1186/s12864-025-12362-7,1,Scopus,Scopus,Scopus:2-s2.0-105027093650,2026,ASAPv2: an improved platform for exploring gene fu
+10.1186/s12967-025-07550-8,1,Scopus,Scopus,Scopus:2-s2.0-105027743056,2026,Ginsenoside RG3 and cantharidin synergistically su
+10.1186/s13020-025-01271-2,2,Scopus;WoS,WoS,WoS:WOS:001702246600002,2026,A novel Chinese medicine formula against hyperuric
+10.1186/s13020-025-01290-z,1,Scopus,Scopus,Scopus:2-s2.0-105026867883,2026,Zhimu-Huangbai codecoction for the treatment of ty
+10.1186/s13020-025-01291-y,2,Scopus;WoS,WoS,WoS:WOS:001656125500001,2026,The scientific basis of synergy in traditional Chi
+10.1186/s13020-026-01326-y,1,Scopus,Scopus,Scopus:2-s2.0-105027392901,2026,Supramolecular self-assembly in Traditional Chines
+10.1186/s13048-025-01872-3,1,Scopus,Scopus,Scopus:2-s2.0-105031681970,2026,MAPK signaling reprogramming via integrative TCM-W
+10.1186/s13148-026-02057-5,1,PubMed,PubMed,PubMed:41580768,2026,Single-cell transcriptomics uncover RNF130-mediate
+10.1186/s40104-025-01348-w,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001702240800001,2026,Ability of the Chinese herbal residue to alleviate
+10.1186/s41065-025-00620-3,1,Scopus,Scopus,Scopus:2-s2.0-105027335125,2026,Multimethodological and multiscale investigation o
+10.1200/jco.2026.44.7_suppl.tps413,2,OpenAlex;Scopus,Scopus,Scopus:2-s2.0-105036360897,2026,Evaluation of the safety and efficacy of daily ora
+10.1208/s12249-025-03321-2,1,Scopus,Scopus,Scopus:2-s2.0-105033211160,2026,Moisture-Proof Herbal Extract Pellets Prepared via
+10.1248/bpb.b25-00787,1,Scopus,Scopus,Scopus:2-s2.0-105037729847,2026,The Dual Role of Saikosaponins in Liver Disease Tr
+10.13048/jkm.26008,1,OpenAlex,OpenAlex,OpenAlex:W7133520867,2026,Safety Assessment Based on Sosiho-tang Genotoxicit
+10.1371/journal.pone.0342857,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105030102115,2026,Effects of matcha green tea on the pharmacokinetic
+10.14218/fim.2025.00059,1,OpenAlex,OpenAlex,OpenAlex:W7143427599,2026,Bridging Traditional Medicine with Modern Technolo
+10.14218/jtg.2025.00030,1,WoS,WoS,WoS:WOS:001756141500004,2026,Herbal Approaches to Gastrointestinal Disorders: I
+10.17161/kjm.vol19.25374,1,OpenAlex,OpenAlex,OpenAlex:W7155215209,2026,Complementary Medicine in Oncology: A Dual-Perspec
+10.18311/ti/2026/v33i1/53508,1,Scopus,Scopus,Scopus:2-s2.0-105035771043,2026,Pharmacovigilance and Adverse Drug Reactions in Tr
+10.19852/j.cnki.jtcm.2026.01.024,1,Scopus,Scopus,Scopus:2-s2.0-105029130818,2026,Molecular landscape of Berberine's therapeutic pot
+10.19852/j.cnki.jtcm.2026.02.009,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105035353196,2026,Exploring the potential mechanism of Huang’e capsu
+10.2147/dddt.s565281,1,Scopus,Scopus,Scopus:2-s2.0-105029686331,2026,Modified Jie-Yu-He-Huan Capsule in Post-Stroke Dep
+10.2147/dddt.s570847,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001680796000001,2026,Integrated Western and Traditional Chinese Medicin
+10.2147/dddt.s577265,1,Scopus,Scopus,Scopus:2-s2.0-105029543557,2026,Matrine in Liver Diseases: Mechanistic Insights an
+10.2147/ijn.s556912,1,PubMed,PubMed,PubMed:41924451,2026,Aptamer-Mediated Dual-Loaded Liposomal Nanosystem 
+10.2174/0109298673402330251125051751,2,Scopus;WoS,WoS,WoS:WOS:001701852100001,2026,Geniposide Attenuates Post-Myocardial Infarction C
+10.2174/0109298673428595251209114801,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001702741900001,2026,Herbal Medicines and Drugs Interactions: Cytochrom
+10.2174/0113862073335295241216152011,1,Scopus,Scopus,Scopus:2-s2.0-105032239399,2026,Systems Biology Approach to Unraveling Transcripto
+10.2174/0113862073345094241226112758,1,Scopus,Scopus,Scopus:2-s2.0-105030178113,2026,Study on the Mechanism of Anti-Atopic Dermatitis b
+10.2174/0113892002430015251201072618,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001717196900001,2026,Pharmacological Complexities of Herbal Medicinal E
+10.2174/0113892010445359251204044548,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001685030000001,2026,Application of Traditional Chinese Medicines in Di
+10.2174/0115734072401010251128163949,1,OpenAlex,OpenAlex,OpenAlex:W7135151547,2026,Therapeutic Insights into Pain Management: Role of
+10.2174/0118750362377947250903082648,1,OpenAlex,OpenAlex,OpenAlex:W7125801383,2026,HDI Corpus: A Dataset for Named Entity Recognition
+10.2174/0122103155353712241008060527,1,Scopus,Scopus,Scopus:2-s2.0-105005078612,2026,A Comprehensive Review on the Chinese Herbal Medic
+10.25258/ijddt.16.8s.52,1,Scopus,Scopus,Scopus:2-s2.0-105033792371,2026,Incidence and Clinical Impact of Adverse Reactions
+10.25258/ijddt.16.9s.92,1,Scopus,Scopus,Scopus:2-s2.0-105033104955,2026,Herbal Drugs Used For Neurodegenerative Diseases: 
+10.25259/jksus_1822_2025,1,OpenAlex,OpenAlex,OpenAlex:W7160609053,2026,"Synergistic antibacterial effects of berberine, ba"
+10.25259/jksus_9431_2025,1,WoS,WoS,WoS:WOS:001688253500001,2026,Potential pharmacodynamic interactions of losartan
+10.25259/jksus_943_2025,1,Scopus,Scopus,Scopus:2-s2.0-105028885951,2026,Potential pharmacodynamic interactions of losartan
+10.33483/jfpau.1659355,2,OpenAlex;Scopus,Scopus,Scopus:2-s2.0-105029005059,2026,MODULATION OF CYP1A1 ACTIVITY IN RAT MICROSOMES BY
+10.3389/fcimb.2026.1799319,2,PubMed;WoS,WoS,WoS:WOS:001757249200001,2026,The therapeutic potential of epimedium and its bio
+10.3389/fcvm.2026.1797330,3,OpenAlex;PubMed;WoS,WoS,WoS:WOS:001752014200001,2026,Myocardial ischemia-reperfusion injury after acute
+10.3389/fendo.2026.1709404,1,Scopus,Scopus,Scopus:2-s2.0-105033064253,2026,Traditional Chinese medicine in diabetes managemen
+10.3389/fmed.2026.1772991,1,Scopus,Scopus,Scopus:2-s2.0-105032104391,2026,"Integrating network pharmacology, molecular dockin"
+10.3389/fnut.2026.1759753,1,OpenAlex,OpenAlex,OpenAlex:W7124729424,2026,Editorial: The role of gut microbiome metabolites 
+10.3389/fpain.2026.1727963,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001722309800001,2026,Integrated multi-omics elucidates the dual anti-in
+10.3389/fphar.2025.1676685,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001664387800001,2026,Optimizing phenytoin therapy: a systematic review 
+10.3389/fphar.2025.1712917,1,OpenAlex,OpenAlex,OpenAlex:W7119533107,2026,Integrating traditional and herbal medicine into h
+10.3389/fphar.2025.1770248,1,OpenAlex,OpenAlex,OpenAlex:W7119127433,2026,Editorial: Combination therapies in cancer treatme
+10.3389/fphar.2026.1708101,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001696599100001,2026,Pharmacokinetics and nephrotoxicity of cisplatin m
+10.3389/fphar.2026.1718573,1,WoS,WoS,WoS:WOS:001730416900001,2026,Inflammation-neurotrophin synergy of Xiao-yao-san-
+10.3389/fphar.2026.1723499,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001718326800001,2026,Uncaria rhynchophylla: an ethnopharmacological rev
+10.3389/fphar.2026.1729887,1,Scopus,Scopus,Scopus:2-s2.0-105033659863,2026,Exploring Colombian medicinal flora used in indige
+10.3389/fphar.2026.1740454,1,OpenAlex,OpenAlex,OpenAlex:W7134901577,2026,Editorial: Novel anti-cancer agents targeting tumo
+10.3389/fphar.2026.1744312,1,Scopus,Scopus,Scopus:2-s2.0-105033970204,2026,Multi-omics analysis reveals the mechanism of Huag
+10.3389/fphar.2026.1755093,1,Scopus,Scopus,Scopus:2-s2.0-105029537527,2026,Ginseng and its active compounds in ovarian aging:
+10.3389/fphar.2026.1765295,1,Scopus,Scopus,Scopus:2-s2.0-105036983558,2026,HDACs targeting from traditional Chinese medicine:
+10.3389/fphar.2026.1779704,1,OpenAlex,OpenAlex,OpenAlex:W7127041978,2026,Editorial: Prevention and treatment of metabolic d
+10.3389/fpls.2025.1708851,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001667043900001,2026,Integrated transcriptome and metabolome analyses r
+10.3390/app16010481,2,Scopus;WoS,WoS,WoS:WOS:001657185400001,2026,Psychotropic Medicinal Plant Use in Oncology: A Du
+10.3390/biom16010007,1,Scopus,Scopus,Scopus:2-s2.0-105028929154,2026,Advances in Bioactive Compounds from Plants and Th
+10.3390/biom16010149,1,Scopus,Scopus,Scopus:2-s2.0-105028846073,2026,Antifungal Activity of Natural Thymol: Advances on
+10.3390/biomedicines14030516,1,Scopus,Scopus,Scopus:2-s2.0-105034081542,2026,Network Pharmacology and Transcriptome Analysis Re
+10.3390/brainsci16020223,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001700634400001,2026,Medicinal Plants for Major Depressive Disorder
+10.3390/cancers18030458,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001687663200001,2026,"Risks, Benefits, and Molecular Targets of Fenugree"
+10.3390/cimb48020170,1,Scopus,Scopus,Scopus:2-s2.0-105031359023,2026,Botanical Adjuvants in Oncology: A Review on Natur
+10.3390/cimb48020219,1,Scopus,Scopus,Scopus:2-s2.0-105031364629,2026,Research Progress on the Anticancer Effect of Gins
+10.3390/ddc5010011,1,OpenAlex,OpenAlex,OpenAlex:W7126427554,2026,Levamisole Potentiation via Thymol and Cinnamaldeh
+10.3390/ijms27073310,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001738674400001,2026,Flavonoid Interactions with Renal Organic Anion Tr
+10.3390/info17020138,2,Scopus;WoS,WoS,WoS:WOS:001700333700001,2026,FusionGraphRAG: An Adaptive Retrieval-Augmented Ge
+10.3390/jof12010035,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001670632600001,2026,Integrative Genomic and Transcriptomic Analysis of
+10.3390/life16010175,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001671737900001,2026,Medicinal Plants and Phytochemicals in Cardioprote
+10.3390/molecules31030410,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105030209174,2026,Hepatic Sinusoidal Obstruction Syndrome Induced by
+10.3390/molecules31040621,1,PubMed,PubMed,PubMed:41752398,2026,Self-Assembled Berberine-Sinapic Acid Nanomedicine
+10.3390/nu18040637,1,WoS,WoS,WoS:WOS:001701047600001,2026,Individually Recognized Functional Ingredients of 
+10.3390/ph19010027,1,Scopus,Scopus,Scopus:2-s2.0-105029020868,2026,Profiling the Complexity of Resistance Factors in 
+10.3390/ph19010111,1,Scopus,Scopus,Scopus:2-s2.0-105028636620,2026,Herba Patriniae Component Linarin Induces Cell Cyc
+10.3390/ph19010158,1,Scopus,Scopus,Scopus:2-s2.0-105028566045,2026,Cinobufagin as a Potential Intervention Against Li
+10.3390/ph19020246,1,Scopus,Scopus,Scopus:2-s2.0-105031228202,2026,Computational Discovery of Novel SGLT2 Inhibitors 
+10.3390/ph19020251,1,Scopus,Scopus,Scopus:2-s2.0-105031365769,2026,Yin-Dan-Ping-Gan Capsule Mitigates CCL4-Induced Li
+10.3390/ph19030399,4,OpenAlex;PubMed;Scopus;WoS,WoS,WoS:WOS:001725496300001,2026,Efficacy and Safety of Herbal Supplements with Anx
+10.3390/ph19030492,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001725480900001,2026,Berberine-Mediated BCRP Inhibition Enhances System
+10.3390/ph19050734,1,OpenAlex,OpenAlex,OpenAlex:W7160487893,2026,Preclinical Pharmacological Actions of Alpinetin a
+10.3390/pharmaceutics18020149,3,PubMed;Scopus;WoS,WoS,WoS:WOS:001700157300001,2026,Ginger and Its Purified Major Components Inhibit C
+10.34172/jhp.2026.53276,2,OpenAlex;Scopus,Scopus,Scopus:2-s2.0-105026279649,2026,Herbal-derived phytochemicals in hepatocellular ca
+10.36721/pjps.2026.39.4.reg.15065.1,1,PubMed,PubMed,PubMed:41761792,2026,Synergistic immunomodulatory effects of Cistanche 
+10.3748/wjg.v32.i10.115821,1,Scopus,Scopus,Scopus:2-s2.0-105031962132,2026,Mechanisms and therapeutic potential of traditiona
+10.3748/wjg.v32.i4.114420,1,PubMed,PubMed,PubMed:41640866,2026,Synergistic anti-hepatoma effect of triptolide and
+10.3791/70673,3,OpenAlex;PubMed;WoS,WoS,WoS:WOS:001743850000019,2026,Computer-Aided Active Ingredients Screening and Va
+10.3831/kpi.2026.29.1.84,2,PubMed;Scopus,Scopus,Scopus:2-s2.0-105037854735,2026,Reversing ABCB1-Mediated Multidrug Resistance in C
+10.4103/ajio.ajio_2_26,1,OpenAlex,OpenAlex,OpenAlex:W7154596809,2026,From herbs to molecules: Ayurvedic phytoconstituen
+10.4103/ajio.ajio_7_26,1,OpenAlex,OpenAlex,OpenAlex:W7154575257,2026,Ayurveda-based supportive management in parotid ma
+10.4103/ijp.ijp_234_23,1,Scopus,Scopus,Scopus:2-s2.0-105031715735,2026,Effects of Traditional Chinese Medicine on Restoro
+10.5281/zenodo.18150723,1,OpenAlex,OpenAlex,OpenAlex:W7118759693,2026,NATURAL HERBAL AGENTS IN THE REGULATION OF BLOOD G
+10.5281/zenodo.18150724,1,OpenAlex,OpenAlex,OpenAlex:W7118975473,2026,NATURAL HERBAL AGENTS IN THE REGULATION OF BLOOD G
+10.5281/zenodo.18152691,1,OpenAlex,OpenAlex,OpenAlex:W7118729062,2026,EXPLORING THE ROLE OF HERBAL DRUGS IN NON-COMMUNIC
+10.5281/zenodo.18152692,1,OpenAlex,OpenAlex,OpenAlex:W7119024729,2026,EXPLORING THE ROLE OF HERBAL DRUGS IN NON-COMMUNIC
+10.5281/zenodo.18255287,1,OpenAlex,OpenAlex,OpenAlex:W7124316873,2026,ZEBRAFISH AS A MODEL FOR HERBAL TOXICOLOGY: A SCIE
+10.5281/zenodo.18255288,1,OpenAlex,OpenAlex,OpenAlex:W7124305256,2026,ZEBRAFISH AS A MODEL FOR HERBAL TOXICOLOGY: A SCIE
+10.5281/zenodo.18302433,1,OpenAlex,OpenAlex,OpenAlex:W7124701772,2026,Traditional Medicine in Palliative Care: An Ayurve
+10.5281/zenodo.18302434,1,OpenAlex,OpenAlex,OpenAlex:W7124757956,2026,Traditional Medicine in Palliative Care: An Ayurve
+10.5281/zenodo.18428706,1,OpenAlex,OpenAlex,OpenAlex:W7126186422,2026,NATURAL PLANTS FOR IMMUNE SYSTEM ENHANCEMENT
+10.5281/zenodo.18428707,1,OpenAlex,OpenAlex,OpenAlex:W7126208008,2026,NATURAL PLANTS FOR IMMUNE SYSTEM ENHANCEMENT
+10.5281/zenodo.18875320,1,OpenAlex,OpenAlex,OpenAlex:W7133694969,2026,ROLE OF HERBAL MEDICINE IN MODERN HEALTH CARE: EMP
+10.5281/zenodo.18875321,1,OpenAlex,OpenAlex,OpenAlex:W7133914292,2026,ROLE OF HERBAL MEDICINE IN MODERN HEALTH CARE: EMP
+10.5281/zenodo.19218362,1,OpenAlex,OpenAlex,OpenAlex:W7140305048,2026,A COMPREHENSIVE GLOBAL REVIEW OF RENAL TOXICITY AS
+10.5281/zenodo.19218363,1,OpenAlex,OpenAlex,OpenAlex:W7140289780,2026,A COMPREHENSIVE GLOBAL REVIEW OF RENAL TOXICITY AS
+10.5281/zenodo.19325977,1,OpenAlex,OpenAlex,OpenAlex:W7143334511,2026,Utilization of Herbal Medicines for Disease Manage
+10.5281/zenodo.19325978,1,OpenAlex,OpenAlex,OpenAlex:W7143422202,2026,Utilization of Herbal Medicines for Disease Manage
+10.5281/zenodo.19413796,1,OpenAlex,OpenAlex,OpenAlex:W7149387842,2026,"NIGELLA SATIVA IN MODERN HEALTHCARE: PHARMACOLOGY,"
+10.5281/zenodo.19413797,1,OpenAlex,OpenAlex,OpenAlex:W7149649818,2026,"NIGELLA SATIVA IN MODERN HEALTHCARE: PHARMACOLOGY,"
+10.5281/zenodo.19414601,1,OpenAlex,OpenAlex,OpenAlex:W7149652624,2026,"""A COMPUTATIONAL FRAMEWORK FOR MODERN HERBAL DRUG "
+10.5281/zenodo.19414602,1,OpenAlex,OpenAlex,OpenAlex:W7149367610,2026,"""A COMPUTATIONAL FRAMEWORK FOR MODERN HERBAL DRUG "
+10.5281/zenodo.19533357,1,OpenAlex,OpenAlex,OpenAlex:W7153769754,2026,TRANSLATIONAL SUPPORT & PREVENTIVE PROTOCOLS: brid
+10.5281/zenodo.19533358,1,OpenAlex,OpenAlex,OpenAlex:W7153742824,2026,TRANSLATIONAL SUPPORT & PREVENTIVE PROTOCOLS: brid
+10.5281/zenodo.19740145,1,OpenAlex,OpenAlex,OpenAlex:W7155536501,2026,STRESS AND ANXIETY AND THE USE OF HERBAL REMEDIES:
+10.5281/zenodo.19740146,1,OpenAlex,OpenAlex,OpenAlex:W7155568490,2026,STRESS AND ANXIETY AND THE USE OF HERBAL REMEDIES:
+10.5306/wjco.v17.i3.116534,1,WoS,WoS,WoS:WOS:001732556400013,2026,Adjuvant role of traditional Chinese medicine in p
+10.53388/tmr20240920001,2,Scopus;WoS,WoS,WoS:WOS:001570863300001,2026,Therapeutic potential of traditional Chinese medic
+10.53388/tmr20250114002,2,Scopus;WoS,WoS,WoS:WOS:001656685400007,2026,Qi deficiency syndrome in heart failure: integrati
+10.53941/ijddp.2026.100001,1,Scopus,Scopus,Scopus:2-s2.0-105034981433,2026,Natural Products Targeting GLP-1: Insights into He
+10.5455/ajvs.308619,1,Scopus,Scopus,Scopus:2-s2.0-105037327991,2026,Effect of Nigella sativa Extract on Pharmacokineti
+10.5530/ijper.20267022,2,Scopus;WoS,WoS,WoS:WOS:001686042500002,2026,Herb-Drug Interaction Evaluation on Concomitant Ad
+10.5530/pres.20260034,1,WoS,WoS,WoS:WOS:001667358600001,2026,Natural Compounds in Hepatic Protection and Injury
+10.56499/jppres_14.2.2405,2,Scopus;WoS,WoS,WoS:WOS:001709701000001,2026,Adverse events and potential herb-drug interaction
+10.56975/jaafr.v4i4.507652,1,OpenAlex,OpenAlex,OpenAlex:W7155509395,2026,Herbal remedies for depression and anxiety
+10.7324/japs.2025.240961,1,Scopus,Scopus,Scopus:2-s2.0-105026719387,2026,Network pharmacology and molecular dynamics studie
+10.7759/cureus.106016,2,OpenAlex;PubMed,PubMed,PubMed:42051846,2026,Kratom Consumption Associated With Herb-Induced Li
+10.9734/jabb/2026/v29i33712,1,OpenAlex,OpenAlex,OpenAlex:W7132843114,2026,Recent Developments in Antioxidant and Anti-inflam

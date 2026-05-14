@@ -1,0 +1,28 @@
+{
+  "label": "MAIN 2005-2025",
+  "generated_at": "2026-05-14T09:54:05.094129",
+  "input_records": 16652,
+  "with_doi": 15162,
+  "without_doi": 1490,
+  "unique_dois": 8312,
+  "doi_duplicates_removed": 6850,
+  "output_records": 9802,
+  "reduction_pct": 41.14,
+  "cross_db_overlap": {
+    "OpenAlex+Scopus+WoS": 238,
+    "WoS": 383,
+    "OpenAlex": 519,
+    "Scopus": 3265,
+    "PubMed": 504,
+    "Scopus+WoS": 526,
+    "PubMed+Scopus+WoS": 586,
+    "OpenAlex+PubMed+Scopus+WoS": 1125,
+    "PubMed+Scopus": 829,
+    "OpenAlex+Scopus": 140,
+    "OpenAlex+PubMed+Scopus": 94,
+    "PubMed+WoS": 25,
+    "OpenAlex+WoS": 31,
+    "OpenAlex+PubMed+WoS": 31,
+    "OpenAlex+PubMed": 16
+  }
+}

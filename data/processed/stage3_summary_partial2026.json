@@ -1,0 +1,13 @@
+{
+  "label": "PARTIAL 2026",
+  "generated_at": "2026-05-14T10:06:05.335485",
+  "threshold": 95,
+  "stage2_input": 333,
+  "with_doi_preserved": 331,
+  "without_doi_fuzzy_input": 1,
+  "without_doi_kept_as_is": 1,
+  "fuzzy_pairs_found": 0,
+  "duplicate_clusters": 0,
+  "records_removed": 0,
+  "stage3_output": 333
+}

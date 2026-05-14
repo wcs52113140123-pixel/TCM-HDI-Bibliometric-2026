@@ -1,0 +1,43 @@
+{
+  "label": "PARTIAL 2026",
+  "generated_at": "2026-05-14T09:52:19.426471",
+  "WoS": {
+    "n_records": 83,
+    "n_with_doi": 83,
+    "doi_coverage_pct": 100.0,
+    "n_with_abstract": 83,
+    "abstract_coverage_pct": 100.0,
+    "n_with_year": 83,
+    "n_with_first_author": 83
+  },
+  "Scopus": {
+    "n_records": 230,
+    "n_with_doi": 230,
+    "doi_coverage_pct": 100.0,
+    "n_with_abstract": 230,
+    "abstract_coverage_pct": 100.0,
+    "n_with_year": 230,
+    "n_with_first_author": 230
+  },
+  "OpenAlex": {
+    "n_records": 95,
+    "n_with_doi": 93,
+    "doi_coverage_pct": 97.9,
+    "n_with_abstract": 81,
+    "abstract_coverage_pct": 85.3,
+    "n_with_year": 95,
+    "n_with_first_author": 92
+  },
+  "PubMed": {
+    "n_records": 106,
+    "n_with_doi": 106,
+    "doi_coverage_pct": 100.0,
+    "n_with_abstract": 106,
+    "abstract_coverage_pct": 100.0,
+    "n_with_year": 106,
+    "n_with_first_author": 106
+  },
+  "TOTAL": {
+    "n_records": 514
+  }
+}

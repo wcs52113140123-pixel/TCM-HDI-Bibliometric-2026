@@ -1,0 +1,41 @@
+{
+  "label": "MAIN 2005-2025",
+  "generated_at": "2026-05-14T10:08:58.260653",
+  "identification": {
+    "WoS_raw": 3091,
+    "Scopus_raw": 7181,
+    "OpenAlex_raw": 2513,
+    "PubMed_raw": 3867,
+    "total_raw": 16652
+  },
+  "doi_deduplication": {
+    "input": 16652,
+    "with_doi": 15162,
+    "without_doi": 1490,
+    "unique_dois": 8312,
+    "duplicates_removed": 6850,
+    "output": 9802
+  },
+  "fuzzy_deduplication": {
+    "input": 9802,
+    "threshold": 95,
+    "fuzzy_pairs_found": 358,
+    "duplicate_clusters": 200,
+    "records_removed": 266,
+    "output": 9536
+  },
+  "precision_filter": {
+    "input": 9536,
+    "openalex_exclusive": 773,
+    "openalex_passed_B1B2B3": 675,
+    "openalex_dropped_no_match": 773,
+    "block_breakdown": {
+      "B1_direct": 439,
+      "B3_tcm_cyp": 131,
+      "B2_tcm_interaction": 105,
+      "B0_none": 98
+    },
+    "output": 9438
+  },
+  "final_corpus_size": 9438
+}

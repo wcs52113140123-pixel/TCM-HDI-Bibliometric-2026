@@ -1,0 +1,27 @@
+{
+  "label": "PARTIAL 2026",
+  "generated_at": "2026-05-14T10:06:04.588975",
+  "input_records": 514,
+  "with_doi": 512,
+  "without_doi": 2,
+  "unique_dois": 331,
+  "doi_duplicates_removed": 181,
+  "output_records": 333,
+  "reduction_pct": 35.21,
+  "cross_db_overlap": {
+    "Scopus": 133,
+    "PubMed+Scopus": 24,
+    "WoS": 13,
+    "OpenAlex+PubMed+Scopus+WoS": 25,
+    "PubMed": 28,
+    "OpenAlex+PubMed": 6,
+    "OpenAlex": 51,
+    "PubMed+Scopus+WoS": 19,
+    "Scopus+WoS": 20,
+    "OpenAlex+Scopus+WoS": 3,
+    "OpenAlex+Scopus": 5,
+    "OpenAlex+PubMed+Scopus": 1,
+    "PubMed+WoS": 1,
+    "OpenAlex+PubMed+WoS": 2
+  }
+}

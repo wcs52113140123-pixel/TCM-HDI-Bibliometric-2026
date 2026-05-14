@@ -1,0 +1,201 @@
+winner_idx,winner_db,winner_title,year,first_author,n_merged,loser_dbs
+8347,WoS,Herb-drug interactions - St. John's wort and prescription medications,2005,Bressler,4,Scopus;OpenAlex;PubMed
+8352,WoS,Herb-drug interactions - Interactions between Kava and prescription medications,2005,Bressler,3,Scopus;PubMed
+8356,WoS,Herb-drug interactions - Interactions between Ginkgo biloba and prescription med,2005,Bressler,4,Scopus;OpenAlex;PubMed
+8358,WoS,Herb-drug interactions - Interactions between saw palmetto and prescription medi,2005,Bressler,4,Scopus;OpenAlex;PubMed
+9747,PubMed,Herb-drug interactions: interactions between ginseng and prescription medication,2005,Bressler,2,OpenAlex
+8825,Scopus,Effects of herbal supplements on the kidney.,2005,Combest,2,PubMed
+8826,Scopus,RM matters: treating patients on anticoagulants.,2005,Davenport,2,PubMed
+8811,Scopus,Understanding the grapefruit-drug interaction,2005,Flanagan,2,PubMed
+8833,Scopus,The rational use of dietary supplements and nutraceuticals in clinical medicine,2005,Mechanick,2,PubMed
+8831,Scopus,Herbal-product use in non-HIV and HIV-positive Hispanic patients,2005,Rivera,2,PubMed
+8387,WoS,Chasteberry,2005,Roemheld-Hamm,3,Scopus;PubMed
+8801,Scopus,Nature's wrath? A closer look at complications with five popular herbs.,2005,Simkins,2,PubMed
+8830,Scopus,Isobolographically additive anticonvulsant activity between Centella asiatica's ,2005,Vattanajun,2,PubMed
+8805,Scopus,Herbs and dietary supplement use in patients with stage 5 chronic kidney disease,2006,Burrowes,2,PubMed
+8444,WoS,Herbal remedies - Effects on clinical laboratory tests,2006,Dasgupta,2,PubMed
+8326,WoS,In vitro evaluation of the interaction between tea extracts and penicillin G aga,2006,Esimone,2,Scopus
+8759,Scopus,Herbal medicines and interactions with anesthetic agents,2006,Frost,3,OpenAlex;PubMed
+8784,Scopus,Preanesthetic evaluation. Importance of herbal drug usage in anesthesia practice,2006,Iyilikci,2,PubMed
+8749,Scopus,"By the way, doctor. A friend recently recommended that I take the herb ginkgo bi",2006,Komaroff,2,PubMed
+8770,Scopus,Potential for drug interactions in seniors with osteoarthritis,2006,Putnam,2,PubMed
+8753,Scopus,Herbal use amongst multiethnic medical patients in Penang Hospital: Pattern and ,2006,Saw,2,PubMed
+8832,Scopus,Differences between herbal and nonherbal users in dental practice.,2006,Tam,3,OpenAlex;PubMed
+8332,WoS,Hypotensive effects of hawthorn for patients with diabetes taking prescription d,2006,Walker,4,Scopus;OpenAlex;PubMed
+8780,Scopus,Effect of caffeine-coconut products interactions on induction of microsomal drug,2007,Abara,2,PubMed
+8791,Scopus,Unregulated herbal products: potential interactions and side effects in dental p,2007,Alexander,2,PubMed
+8769,Scopus,"Menace in the mix. Avoiding drug interactions with food, herbs and nutrients.",2007,Bancroft,2,PubMed
+8798,Scopus,Understanding the essentials of drug interactions: A potential need for safe and,2007,Bista,2,PubMed
+8314,WoS,Adverse interactions between herbal and dietary substances and prescription medi,2007,Bush,4,Scopus;OpenAlex;PubMed
+8758,Scopus,The effects of valerian on the time course of emergence from general anesthesia ,2007,Chaplin,2,PubMed
+8766,Scopus,Ginger: an ancient remedy and modern miracle drug.,2007,Hoffman,2,PubMed
+8786,Scopus,Complementary and alternative medicine (CAM) for the treatment of chronic hepati,2007,Modi,2,PubMed
+8785,Scopus,Interactions of food and dietary supplements with drug metabolising cytochrome P,2007,Nekvindová,2,PubMed
+8743,Scopus,Effect of alcohol and kolanut interaction on brain sodium pump activity in Wista,2007,Obochi,2,PubMed
+8760,Scopus,Effect of alcohol and kolanut interaction on biochemical indices of neuronal gen,2007,Obochi,2,PubMed
+8776,Scopus,Antioxidants and other nutrients do not interfere with chemotherapy or radiation,2007,Simone,2,PubMed
+8757,Scopus,"An examination of the bleeding complications associated with herbal supplements,",2007,Spolarich,2,PubMed
+8792,Scopus,Herbal remedies for psoriasis: what are our patients taking?,2007,Steele,2,PubMed
+8756,Scopus,Ethnomedicine use by older adults from a Slavic community.,2007,Van,2,PubMed
+8344,WoS,From pharmacovigilance to pharmacovigilance planning-the system building for saf,2007,Wang,2,Scopus
+8794,Scopus,Exacerbation of hemochromatosis by ingestion of milk thistle,2007,Whittington,2,PubMed
+8790,Scopus,Herbal medicine.,2007,Wold,2,PubMed
+8407,WoS,Metabolic activation of herbal and dietary constituents and its clinical and tox,2007,Zhou,2,PubMed
+8787,Scopus,Complementary therapies for HIV.,2008,Campbell,2,PubMed
+8398,WoS,"Complementary Therapies, Herbs, and Other OTC Agents",2008,Cassileth,2,Scopus
+8353,WoS,Kidney proximal human tubule HK-2 cell line as a tool for the investigation of P,2008,Chieli,2,OpenAlex
+8773,Scopus,Herb-drug interactions.,2008,Cranwell-Bruce,3,OpenAlex;PubMed
+8774,Scopus,Herbal and dietary supplement-drug interactions in patients with chronic illness,2008,Gardiner,2,PubMed
+8418,WoS,Interactions between antiepileptic drugs and herbal medicines,2008,Landmark,2,OpenAlex
+8354,WoS,Moringa oleifera leaf extracts inhibit 6β-hydroxylation of testosterone by CYP3A,2008,Monera,2,Scopus
+8325,WoS,Herb-drug interactions in nephrology: documented and theoretical,2008,Nowack,2,PubMed
+8393,WoS,Warfarin-herb interactions: a review and study based on assessment of clinical c,2008,Patel,2,OpenAlex
+8768,Scopus,Sedation corner 26. Homeopathy.,2008,Roelofse,2,PubMed
+8764,Scopus,"Reversal effect of isotetrandrine, an isoquinoline alkaloid extracted from Cauli",2008,Wang,2,PubMed
+8752,Scopus,When nature and pharmacy collide: drug interactions with commonly used herbs.,2008,Woo,2,PubMed
+8414,WoS,In Vitro Anti-Bacterial Activities of Ankaferd Medicinal Plant Extract,2009,Akkoç,2,Scopus
+8698,Scopus,Pharmacodynamic interaction of garlic with hydrochlorothiazide in rats,2009,Asdaq,2,PubMed
+8417,WoS,FACTORS ASSOCIATED WITH POTENTIAL MEDICATION-HERB/NATURAL PRODUCT INTERACTIONS I,2009,Blalock,3,Scopus;PubMed
+9441,PubMed,"Complementary therapies, herbs, and other OTC agents.",2009,Cassileth,2,PubMed
+8389,WoS,Interactions of Orthosiphon stamineus and Morinda citrifolia with hepatic aminop,2009,Chin,3,Scopus;OpenAlex
+8686,Scopus,An evidence-based dentistry challenge: treating patients on warfarin (Coumadin).,2009,Goodchild,2,PubMed
+8362,WoS,In vitro inhibitory effects of Hypoxis obtusa and Dicoma anomala on cyp450 enzym,2009,Gwaza,2,Scopus
+8728,Scopus,Herb-drug interactions and patient counseling,2009,Ismail,2,OpenAlex
+8696,Scopus,"Ask the doctor. Since having a heart attack, I have been taking lisinopril, Zoco",2009,Lee,2,PubMed
+8402,WoS,An analysis of determinants influencing use of ayurvedic medication in Pune regi,2009,Neeraj,3,Scopus;OpenAlex
+8415,WoS,Pharmacokinetic-interaction of Vitex negundo Linn. & paracetamol,2009,Tripathi,2,Scopus
+8691,Scopus,Drug and herb interactions: Searching the web,2009,Wong,2,PubMed
+8320,WoS,An Update on Drug Interactions with the Herbal Medicine Ginkgo biloba,2010,Abad,2,PubMed
+9376,PubMed,"Community pharmacists' knowledge, attitudes and practices towards herbal remedie",2010,Alkharfy,2,OpenAlex
+8702,Scopus,Modulation of multidrug resistance p-glycoprotein activity by flavonoids and hon,2010,Angelini,2,PubMed
+8722,Scopus,The effect of ellagic acid on platelet activation as measured by the quantificat,2010,Attilio,2,PubMed
+8712,Scopus,"Complementary therapies, herbs, and other OTC agents: turmeric (Curcuma longa, C",2010,Cassileth,2,PubMed
+8312,WoS,Interactions between traditional Chinese medicines and Western therapeutics,2010,Chan,4,Scopus;OpenAlex;PubMed
+8426,WoS,Effect of Schisandra sphenanthera extract on the concentration of tacrolimus in ,2010,Jiang,2,PubMed
+8694,Scopus,Inhibition of P-glycoprotein at the blood-brain barrier by phytochemicals derive,2010,Mahringer,3,OpenAlex;PubMed
+9386,PubMed,The influence of a standardized soybean extract (Glycine max) on the expression ,2010,Mrozikiewicz,2,OpenAlex
+8710,Scopus,Oxytocic effects of the aqueous leaf extract of Costus Lucanusianus - Family cos,2010,Owolabi,2,PubMed
+8732,Scopus,An evaluation of pharmacist and health food store retailer's knowledge regarding,2010,Sim,2,PubMed
+8646,Scopus,Herbal medicines used in kidney diseases in Europe,2011,Beer,2,PubMed
+8667,Scopus,"Complementary therapies, herbs, and other OTC agents: Green tea (Camellia sinens",2011,Cassileth,2,PubMed
+8679,Scopus,Ginkgo (Ginkgo biloba).,2011,Cassileth,2,PubMed
+8690,Scopus,"Complementary therapies, herbs, and other OTC agents. Bromelain.",2011,Cassileth,2,PubMed
+8652,Scopus,Effect of Allium sativum on the pharmacokinetic of Metformin in rat plasma: A he,2011,Chourey,2,OpenAlex
+8657,Scopus,What risk do consumers face when seeking medical advice from health food stores?,2011,Edwards,2,PubMed
+8714,Scopus,An evidence-based approach to managing the anticoagulated patient in the emergen,2011,Hanlon,2,PubMed
+8725,Scopus,"California dental hygienists' knowledge, attitudes and practices regarding herba",2011,Hurlbutt,2,PubMed
+8697,Scopus,In vitro metabolism of glycyrrhetic acid by human cytochrome P450,2011,Liu,3,OpenAlex;PubMed
+8644,Scopus,"Effects of aegeline, a main alkaloid of Aegle marmelos Correa leaves, on the his",2011,Nugroho,2,PubMed
+8340,WoS,In vitro antibacterial efficacy of Clinopodium vulgare L. extracts and their syn,2011,Stefanovic,2,Scopus
+8445,WoS,Hebal drugs in the treatment of nervous and cardiovascular disorders,2011,Tadic,2,Scopus
+8441,WoS,Use of complementary and alternative medicine in cardiovascular diseases: a comp,2012,Arslan,2,Scopus
+8372,WoS,Investigation of the Inhibition of Liquiritigenin and Isoliquiritigenin towards ,2012,Fu,2,Scopus
+8448,WoS,Chemical Metabolism of Medicinal Compounds from Natural Botanicals,2012,Lu,2,PubMed
+8324,WoS,Comparison of the Inhibitory Potential of Glycyrrhetinic Acid and Glycyrrhizic A,2012,Shi,2,Scopus
+8374,WoS,Tripterygium wilfordii Hook F. Bioactive Component Shows Significant Inhibition ,2012,Wang,2,Scopus
+8654,Scopus,The effects of Andrographis paniculata (Burm.f.) Nees on the pharmacokinetics an,2012,Wongnawa,2,OpenAlex
+8403,WoS,20(S)-Protopanaxatriol (Ppt) Exhibits Inhibition Towards UDP-Glucuronosyltransfe,2012,Xing,2,Scopus
+9262,PubMed,Simulation of metabolism-based herb-drug interaction: towards safe and efficacio,2013,Adzu,2,OpenAlex
+8410,WoS,Deglycosylation of Glucoaurantio-Obtusin Affects its Inhibition Capability Towar,2013,Cao,2,Scopus
+8379,WoS,Glucoaurantio-Obtusin Deglycosylation Biotransformation Process Strongly Influen,2013,Gu,2,Scopus
+8363,WoS,"Effect of Dihydromyricetin on Cytochrome P450 Isoforms CYP1A2, CYP2C9 and CYP3A4",2013,Huang,2,Scopus
+8613,Scopus,Are dietary supplements safe?,2013,Kam,2,PubMed
+8439,WoS,Traditional medicine and HIV/AIDS in Ethiopia: Herbal medicine and faith healing,2013,Kloos,2,Scopus
+8381,WoS,"Impact of Fixed Dose Combination of Germacrone, Curdione, and Furanodiene on Bre",2013,Kong,3,Scopus;PubMed
+8409,WoS,Complementary and Alternative Medicine in Predoctoral Dental Curricula: An Explo,2013,Spector,3,Scopus;PubMed
+8608,Scopus,The prevalence of usage of herbal medicines among cancer patients,2013,Tuna,2,PubMed
+8413,WoS,Disposition of Pharmacologically Active Dietary Isoflavones in Biological System,2013,Wahajuddin,2,PubMed
+8330,WoS,Inhibition of the Metabolism of Zidovudine (AZT) by Herbal Component Scutellarei,2013,Wang,3,Scopus;OpenAlex
+8607,Scopus,Chemical-pharmacokinetic-pharmacodynamic fingerprints of Schisandra chinensis al,2013,Wang,3,OpenAlex;PubMed
+8365,WoS,In Vitro Evidence of Danshen's Influence Towards the Therapeutic Index of Zidovu,2013,Xiao,2,Scopus
+8331,WoS,Prediction of Potential Herb-Drug Interaction Based on the Inhibition of Specifi,2013,Yang,2,Scopus
+8343,WoS,Co-administration of Methylophiopogonanone A Might Affect the Safe Utilization o,2013,Yuan,3,Scopus;OpenAlex
+8639,Scopus,Development of an Alert System to Detect Drug Interactions with Herbal Supplemen,2014,Archer,2,PubMed
+8568,Scopus,"Physicians' knowledge and communication about traditional, complementary and alt",2014,Bauer,2,OpenAlex
+8620,Scopus,Ask the doctor. Is it okay to eat leafy greens while taking warfarin? I was surp,2014,Bhatt,2,PubMed
+8606,Scopus,"Cranberry juice, atorvastatin and back pain.",2014,Doad,2,PubMed
+8392,WoS,Pharmacovigilance of Herb-Drug Interactions Among Preoperative Patients,2014,Gallo,4,Scopus;OpenAlex;PubMed
+8384,WoS,Evaluation of the Interaction Between UDP-Glucuronosyltransferases (UGTs) and Au,2014,Gao,2,Scopus
+8328,WoS,The Risk of Clinical Application of Isobavachalcone-Containing Herbs Through Aff,2014,Guo,2,Scopus
+8401,WoS,Effect of Aconitine on Three Cytochrome P450 Isoforms in Rats,2014,Hu,2,Scopus
+8333,WoS,Deglycosylation Process of Ginsenosides does not Affect the Toxicity of Irinotec,2014,Li,2,Scopus
+8351,WoS,The Influence of the Therapeutic Window of Hypnotic Agent by Methylophiopogonano,2014,Liu,2,Scopus
+8406,WoS,Disruption of Propofol's Therapeutic Window by the Ingredients from Malaytea scu,2014,Luo,2,OpenAlex
+8635,Scopus,Permeability of rhynchophylline across human intestinal cell in vitro,2014,Ma,2,PubMed
+8322,WoS,Pharmacokinetic Interactions Between Herbal Medicines and Prescribed Drugs: Focu,2014,Meng,2,PubMed
+8577,Scopus,In vitro evaluation of herb-drug interactions: A review,2014,Patil,2,OpenAlex
+8377,WoS,Effect of raw Radix Rehmanniae on the pharmacokinetics of pioglitazone in rats,2014,Shi,3,Scopus;PubMed
+8368,WoS,Effect of red clover on cyp expression: An investigation of herb-drug interactio,2014,Tripathi,4,Scopus;OpenAlex;PubMed
+8313,WoS,CYTOCHROME P450 ENZYME MEDIATED HERBAL DRUG INTERACTIONS (PART 2),2014,Wanwimolruk,7,WoS;Scopus;Scopus;OpenAlex;PubMed;PubMed
+8437,WoS,The Use of Traditional Chinese Medicine Among Breast Cancer Patients: Implicatio,2014,Wong,3,Scopus;PubMed
+8618,Scopus,Effect of Phyllanthus amarus extract on the pharmacokinetics of midazolam in rab,2014,Wongnawa,2,OpenAlex
+8334,WoS,Corylin Exhibits Strong Inhibition Towards In Vitro Glucuronidation Metabolism o,2014,Yu,2,Scopus
+8404,WoS,"Improved Oral Bioavailability of Theophylline, a Narrow Therapeutic Index Drug b",2015,AL-Mohizea,2,Scopus
+8350,WoS,Evaluation of the impact of Flos Daturae on rat hepatic cytochrome P450 enzymes ,2015,Geng,4,Scopus;OpenAlex;PubMed
+8586,Scopus,Potentially unsafe herb-drug interactions between a commercial product of noni j,2015,Kang,3,OpenAlex;PubMed
+8345,WoS,Possible herb-drug interaction of Morus alba L. - a potential anti-diabetic plan,2015,Kar,3,Scopus;OpenAlex
+8533,Scopus,Sophora flavescens (Ku-Shen) as a booster for antiretroviral therapy through cyt,2015,Lin,2,PubMed
+8371,WoS,Cerebrovascular Disease Treatment Drug Schisandrin B Affects the Complete Metabo,2015,Liu,2,Scopus
+8570,Scopus,A systematic review on safety and drug interaction of herbal therapy in hyperlip,2015,Rouhi-Boroujeni,3,OpenAlex;PubMed
+8578,Scopus,Herbs with anti-lipid effects and their interactions with statins as a chemical ,2015,Rouhi-Boroujeni,3,OpenAlex;PubMed
+8580,Scopus,Ginkgo and Warfarin Interaction in a Large Veterans Administration Population,2015,Stoddard,3,OpenAlex;PubMed
+8357,WoS,Mastic Acid Exhibits Strong Inhibition Potential towards Drug-Metabolizing Enzym,2015,Yang,2,Scopus
+8419,WoS,Inhibitory effect of Aristolochia fruit on Cytochrome P450 isozymes in vitro and,2015,Zhu,2,Scopus
+8394,WoS,Effect of Urena procumbens on CYP450 isoforms activity of rats by cocktail metho,2016,Chen,2,Scopus
+8317,WoS,Pharmacokinetic Interaction Study of Ranitidine and Daijokito in Healthy Volunte,2016,Endo,4,Scopus;OpenAlex;PubMed
+8348,WoS,In Silico Application in the Prediction of Herb-Drug Interaction for Cerebrovasc,2016,He,2,Scopus
+8422,WoS,Albumin's Influence towards Hepatic Metabolism and Metabolism-Related Drug-Drug ,2016,Jin,2,Scopus
+8327,WoS,Effects of diammonium glycyrrhizinate on hepatic and intestinal UDP-Glucuronosyl,2016,Li,2,OpenAlex
+8446,WoS,Effect of Alangium chinense on CYP450 isoforms activity of rats,2016,Lin,2,Scopus
+9211,PubMed,An automated system for retrieving herb-drug interaction related articles from M,2016,Lin,2,OpenAlex
+8337,WoS,Liver Cancer Affects the Metabolism and Metabolism-Related Drug-Drug Interaction,2016,Liu,2,Scopus
+8359,WoS,Potential herb-drug interaction of shexiang baoxin pill in vitro based on drug m,2016,Shen,4,Scopus;OpenAlex;PubMed
+8438,WoS,Ginseng and cancer,2016,Unlu,3,Scopus;PubMed
+8375,WoS,Mechanism Analysis for Atractylenolide II-Zidovudine Interaction,2016,Yu,2,Scopus
+8355,WoS,Species Difference for Herb-Drug Interaction between Fructus psoralea and Cardio,2016,Zhu,2,Scopus
+8427,WoS,Common Herbal Dietary Supplement-Drug Interactions,2017,Asher,4,Scopus;OpenAlex;PubMed
+8323,WoS,"Effect of chongmyungtang, a traditional Korean polyherbal formula, on the Pharma",2017,Baek,3,Scopus;PubMed
+8451,WoS,Effects of Shengjiangxiexin decoction on irinotecan-induced toxicity in patients,2017,Deng,2,Scopus
+8391,WoS,The Influence of Ticagrelor Towards the Metabolic Elimination of Orthopedics Med,2017,Li,2,Scopus
+8507,Scopus,Herb-drug interactions: Caution patients when changing supplements,2017,McQueen,2,OpenAlex
+8366,WoS,Altered Metabolic Behavior of Derivatives of Herbal Compounds Used for Treatment,2017,Ruan,2,Scopus
+8319,WoS,Lipidomics Method to Elucidate the Therapeutic Function and Carboxylesterase (CE,2017,Wang,2,Scopus
+8367,WoS,Effects of crude and vinegar-processed Curcumae Rhizoma on the activities of CYP,2017,Wang,2,Scopus
+8388,WoS,Metabolic Inhibition Evaluation of Anti-Ovarian Cancer Drug Candidate Praeruptor,2017,Wang,2,Scopus
+8397,WoS,Clinical Herb-Drug Interaction between Psoralen and Trifluoperazine,2017,Xue,2,Scopus
+8457,WoS,The modulatory effect of Schisandra chinensis seed extract on cisplatin induced ,2017,Yin,3,Scopus;OpenAlex
+8338,WoS,Docking Study of Cardiovascular Diseases Treatment Drugs Salvianolic Acid A and ,2017,Zhu,2,Scopus
+8514,Scopus,Developing User Personas to Aid in the Design of a User-Centered Natural Product,2018,Boyce,2,PubMed
+8339,WoS,Evaluation of Pharmacodynamic Interactions between Medicinal Plants and Drugs in,2018,Campos,2,Scopus
+8431,WoS,Glycyrrhizin Affects the Pharmacokinetics of Omeprazole in Rats through Inducing,2018,Chen,2,Scopus
+8518,Scopus,Herbal medications and anesthesia case management,2018,Donoghue,2,PubMed
+8329,WoS,Effect of Centella asiatica Formulation on the Pharmacokinetics of Amitriptyline,2018,Khurshid,2,Scopus
+8341,WoS,In Vitro Interaction Study of Diclofenac Sodium and Acetaminophen with Herbal Ag,2018,Safdar,2,Scopus
+8385,WoS,Potential herb-drug interaction of a flavone glycoside from Cuminum cyminum: Pos,2018,Sharma,3,Scopus;OpenAlex
+8425,WoS,Assessment of Feng-Liao-Chang-Wei-Kang as a potential inducer of cytochrome P450,2018,Xie,3,Scopus;PubMed
+8335,WoS,Herb-Drug Interactions in Cancer Care,2018,Yeung,4,Scopus;OpenAlex;PubMed
+8411,WoS,Concomitant use of medicinal plants and conventional medicines among hypertensiv,2019,Gebregeorgise,3,Scopus;OpenAlex
+8318,WoS,"Pharmacist's Insights, Knowledge, and Attitudes towards Herbal Medicines and Her",2019,Imam,2,Scopus
+8491,Scopus,"Effects of Yukmijihwang-tang, a Polyherb, on the Pharmacokinetics of Metformin",2019,Kang,2,PubMed
+8452,WoS,The Effects of Verapamil on the Pharmacokinetics of Paeoniflorin in Rats,2019,Liu,2,Scopus
+8416,WoS,Influences of Brucea javanica Oil Emulsion on CYP Enzymes in Rats,2019,Shi,2,Scopus
+8421,WoS,In vitro Inhibitory Effects of Aurantio-Obtusin on Human Liver Cytochrome P450 E,2019,Su,2,Scopus
+8498,Scopus,A case report on the probable herb-drug interaction between stevia products and ,2019,Tangkiatkumjai,2,OpenAlex
+8408,WoS,Involvement of Organic Anion-Transporting Polypeptides in the Hepatic Uptake of ,2019,Wang,2,Scopus
+8395,WoS,Effects of Hispidulin on the Activity of Human Liver Cytochrome P450 Enzymes,2019,Xiang,2,Scopus
+8346,WoS,Influence of Epigallocatechin-3-Gallate on Pharmacokinetics of Pristimerin in Ra,2019,Zhang,2,Scopus
+8400,WoS,Poisoning by Medical Plants,2020,Farzaei,4,Scopus;OpenAlex;PubMed
+8483,Scopus,Scientometric Analysis: Identification Of Research Trends In The Field Of Herb D,2020,Kaur,2,OpenAlex
+8382,WoS,Effect of herbs for treating coronary heart disease on the CYP450 enzyme system ,2020,Qiang,4,Scopus;OpenAlex;PubMed
+8434,WoS,Effects of mongolian medicine Terminalia chebula Retz. on 6 CYP450 enzymes in ra,2020,Wu,2,PubMed
+9153,PubMed,Transport properties of paeoniflorin and amygdalin across caco-2 cell monolayer ,2020,Zhou,2,OpenAlex
+8442,WoS,What is on the Traditional Herbal Medicine Label? Technical Communication and Pa,2021,Agboka,2,Scopus
+8456,WoS,In Silico Prediction of the Mechanism of Radix Paeoniae Rubra against Menstruati,2021,Gao,2,Scopus
+8449,WoS,Effect of Glycyrrhiza uralensis against ulcerative colitis through regulating th,2021,Lu,3,Scopus;PubMed
+8453,WoS,Network Pharmacology for Searching Potential Active Ingredients in Fructus Forsy,2021,Tang,2,Scopus
+8424,WoS,Effects of Hispidulin on the Activity of Human Liver Cytochrome P450 Enzymes,2021,Xiang,2,Scopus
+8321,WoS,Possible Herbal-Drug Interactions An Evidenced Base Review,2022,Arora,4,Scopus;OpenAlex;PubMed
+8342,WoS,Panax ginseng as reproductive medicine in male infertility: with a brief focus o,2022,Sengupta,2,Scopus
+8405,WoS,In Vitro Human Cytochrome P450 Isozymes (CYPs) Inhibition of Epifriedelanol on C,2022,Yu,2,Scopus
+8316,WoS,Simultaneous Determination of Gastrodin and Rhynchophylline in Rat Plasma by UPL,2022,Zhou,2,Scopus
+9145,PubMed,"Herbal Medicines in Autism Spectrum Disorder: Therapeutic Potential, Plant Compo",2025,Aldekhail,2,OpenAlex

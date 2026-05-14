@@ -1,0 +1,15 @@
+{
+  "label": "MAIN 2005-2025",
+  "generated_at": "2026-05-14T10:05:30.603004",
+  "stage3_input": 9536,
+  "openalex_exclusive_count": 773,
+  "openalex_exclusive_passed": 675,
+  "openalex_exclusive_dropped": 773,
+  "stage4_output": 9438,
+  "block_breakdown": {
+    "B1_direct": 439,
+    "B3_tcm_cyp": 131,
+    "B2_tcm_interaction": 105,
+    "B0_none": 98
+  }
+}

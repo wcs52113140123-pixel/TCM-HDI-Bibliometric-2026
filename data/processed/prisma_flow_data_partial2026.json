@@ -1,0 +1,41 @@
+{
+  "label": "PARTIAL 2026",
+  "generated_at": "2026-05-14T10:08:59.629250",
+  "identification": {
+    "WoS_raw": 83,
+    "Scopus_raw": 230,
+    "OpenAlex_raw": 95,
+    "PubMed_raw": 106,
+    "total_raw": 514
+  },
+  "doi_deduplication": {
+    "input": 514,
+    "with_doi": 512,
+    "without_doi": 2,
+    "unique_dois": 331,
+    "duplicates_removed": 181,
+    "output": 333
+  },
+  "fuzzy_deduplication": {
+    "input": 333,
+    "threshold": 95,
+    "fuzzy_pairs_found": 0,
+    "duplicate_clusters": 0,
+    "records_removed": 0,
+    "output": 333
+  },
+  "precision_filter": {
+    "input": 333,
+    "openalex_exclusive": 53,
+    "openalex_passed_B1B2B3": 36,
+    "openalex_dropped_no_match": 53,
+    "block_breakdown": {
+      "B1_direct": 23,
+      "B0_none": 17,
+      "B2_tcm_interaction": 9,
+      "B3_tcm_cyp": 4
+    },
+    "output": 316
+  },
+  "final_corpus_size": 316
+}

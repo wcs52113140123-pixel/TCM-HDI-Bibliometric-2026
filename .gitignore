@@ -81,3 +81,18 @@ data/raw/**/*.json
 !data/raw/pubmed/**/*.json
 !data/raw/pubmed_partial2026/**/*.jsonl
 !data/raw/pubmed_partial2026/**/*.json
+
+# === Day 2: Final integrated corpus IS committed (it's the analysis input) ===
+# But the intermediate stage parquets are NOT (regenerable)
+!data/processed/integrated_corpus.parquet
+!data/processed/integrated_corpus_partial2026.parquet
+!data/processed/prisma_flow_data.json
+!data/processed/prisma_flow_data_partial2026.json
+!data/processed/integration_summary.md
+!data/processed/integrated_corpus.parquet.sha256
+
+# === Day 2: Intermediate stage parquets are regenerable; do NOT commit ===
+data/processed/stage1_raw_concatenated*.parquet
+data/processed/stage2_doi_deduplicated*.parquet
+data/processed/stage3_fuzzy_deduplicated*.parquet
+data/processed/stage4_quality_filtered*.parquet
