@@ -107,3 +107,15 @@ data/processed/stage4_quality_filtered*.parquet
 !data/processed/country_collaboration_pairs.parquet
 !docs/day3_log.md
 !docs/day3_block1_2_discussion_drafts.md
+
+# Day 3 dead code (failed fuzzy clustering attempt)
+03_descriptive_analysis/05b_fuzzy_cluster_affiliations.py
+data/processed/affil_clusters.parquet
+data/processed/affil_cluster_samples_for_review.csv
+data/processed/affil_representatives_for_ror.parquet
+
+# Day 3 dead code (failed fuzzy clustering attempt — replaced by fuzzy-blocking + ROR catch-all detector)
+03_descriptive_analysis/05b_fuzzy_cluster_affiliations.py
+data/processed/affil_clusters.parquet
+data/processed/affil_cluster_samples_for_review.csv
+data/processed/affil_representatives_for_ror.parquet

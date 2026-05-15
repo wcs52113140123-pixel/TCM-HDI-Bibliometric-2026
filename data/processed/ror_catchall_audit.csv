@@ -1,0 +1,92 @@
+ror_name,n_records,n_reasons_triggered,is_catchall,reasons
+People’s Hospital of Rizhao,166,3,True,city_diversity=42; core_overlap=3.6%; score_median=0.57
+HEC Pharm (China),87,2,True,city_diversity=28; score_median=0.74
+State Key Laboratory of Digital Medical Engineering,70,2,True,city_diversity=26; score_median=0.65
+Chinese University of Hong Kong,174,1,False,"country_mismatch (ROR=HK, raw_dominant=CN)"
+Jiangsu University,87,1,False,score_median=0.70
+China Academy of Chinese Medical Sciences,80,1,False,city_diversity=6
+Chinese Academy of Medical Sciences & Peking Union Medical College,78,1,False,city_diversity=6
+University of Hong Kong,73,1,False,"country_mismatch (ROR=HK, raw_dominant=CN)"
+Guangzhou University,70,1,False,score_median=0.77
+Changchun University of Chinese Medicine,70,1,False,city_diversity=13
+Jinan University,60,1,False,city_diversity=7
+Hebei University of Chinese Medicine,54,1,False,city_diversity=13
+Hunan University of Traditional Chinese Medicine,53,1,False,score_median=0.71
+National Yang Ming University Hospital,53,1,False,score_median=0.79
+Taichung Hospital,48,1,False,score_median=0.64
+Hong Kong Baptist University,48,1,False,"country_mismatch (ROR=HK, raw_dominant=CN)"
+Hubei University of Chinese Medicine,41,1,False,city_diversity=6
+Beijing VDJBio (China),37,1,False,score_median=0.61
+ZheJiang Institute For Food and Drug Control,35,1,False,city_diversity=19
+University of Arkansas at Fayetteville,33,1,False,score_median=0.82
+Anhui University of Traditional Chinese Medicine,33,1,False,score_median=0.74
+Nanjing University of Science and Technology,33,1,False,score_median=0.67
+University of Chinese Academy of Sciences,32,1,False,city_diversity=7
+Anhui University,30,1,False,score_median=0.62
+Shanghai University of Traditional Chinese Medicine,325,0,False,
+Nanjing University of Chinese Medicine,272,0,False,
+Beijing University of Chinese Medicine,196,0,False,
+Shenyang Pharmaceutical University,182,0,False,
+Guangzhou University of Chinese Medicine,171,0,False,
+Chengdu University of Traditional Chinese Medicine,167,0,False,
+Tianjin University of Traditional Chinese Medicine,145,0,False,
+China Pharmaceutical University,125,0,False,
+Zhejiang University,114,0,False,
+Sun Yat-sen University,112,0,False,
+Shandong University of Traditional Chinese Medicine,106,0,False,
+Heilongjiang University of Chinese Medicine,105,0,False,
+Sichuan University,100,0,False,
+Kyung Hee University,88,0,False,
+Fudan University,86,0,False,
+Peking University,86,0,False,
+Shandong University,85,0,False,
+Naval Medical University,82,0,False,
+Zhejiang Chinese Medical University,82,0,False,
+Central South University,81,0,False,
+Wenzhou Medical University,81,0,False,
+Shanghai Jiao Tong University,79,0,False,
+China Medical University,76,0,False,
+Shanghai Institute of Materia Medica,71,0,False,
+Guizhou University,70,0,False,
+King Saud University,66,0,False,
+Shaanxi University of Chinese Medicine,63,0,False,
+Hunan University of Chinese Medicine,61,0,False,
+Guangdong Pharmaceutical University,60,0,False,
+Huazhong University of Science and Technology,58,0,False,
+Guangxi University of Chinese Medicine,57,0,False,
+Nanjing University,55,0,False,
+Jilin University,55,0,False,
+Dalian University,54,0,False,
+University of Florida,53,0,False,
+Kyungpook National University,53,0,False,
+The University of Sydney,52,0,False,
+Fujian University of Traditional Chinese Medicine,52,0,False,
+Zunyi Medical University,51,0,False,
+University of Mississippi,50,0,False,
+Universiti Sains Malaysia,50,0,False,
+Taipei Medical University,49,0,False,
+Capital Medical University,48,0,False,
+Nanchang University,48,0,False,
+Jiangxi University of Traditional Chinese Medicine,45,0,False,
+Xiamen University,44,0,False,
+Guiyang Medical University,44,0,False,
+University of Macau,42,0,False,
+Southern Medical University,41,0,False,
+Harbin Medical University,40,0,False,
+Lanzhou University,38,0,False,
+Shanxi University,37,0,False,
+Xi'an Jiaotong University,37,0,False,
+Korea Institute of Oriental Medicine,37,0,False,
+University of Alberta,36,0,False,
+Stellenbosch University,36,0,False,
+Mahidol University,35,0,False,
+Khon Kaen University,35,0,False,
+Tianjin Medical University,34,0,False,
+Taipei City Hospital,33,0,False,
+Zhengzhou University,32,0,False,
+Guangdong Medical College,32,0,False,
+RMIT University,32,0,False,
+University of Washington,31,0,False,
+National Yang Ming Chiao Tung University,31,0,False,
+University of Novi Sad,30,0,False,
+Tongji University,30,0,False,

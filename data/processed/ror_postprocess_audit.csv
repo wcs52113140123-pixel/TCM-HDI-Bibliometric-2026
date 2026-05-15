@@ -1,0 +1,707 @@
+raw_string,old_ror_name,new_ror_name,reason,chosen_score
+"School of Pharmacy, Second Military Medical University, Shanghai, 200433, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Second Mil Med Univ, Changzheng Hosp, Dept Pharm, Shanghai 200003, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Chinese Acad Sci, Shanghai Inst Mat Med, State key Lab Drug Res, Shanghai 201203, Peoples R China",State Key Laboratory of Drug Research,Shanghai Institute of Materia Medica,rule_match_disagree,0.88
+"Univ Chinese Acad Sci, Beijing 100049, Peoples R China",Changchun University of Chinese Medicine,University of Chinese Academy of Sciences,rule_match_disagree,0.72
+"School of Pharmacy, Second Military Medical University, Shanghai, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Inst Interdisciplinary Integrat Med Res, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Guangzhou Univ Chinese Med, Int Inst Translat Chinese Med, Guangzhou 510006, Guangdong, Peoples R China",Guangzhou University,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Inst Interdisciplinary Med, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Inst Interdisciplinary Integrat Med Res, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Sch Pharm, Dept Pharmacol, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"LongHua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Univ Chinese Acad Sci, Beijing, Peoples R China",Changchun University of Chinese Medicine,University of Chinese Academy of Sciences,rule_match_disagree,0.72
+"Chinese Acad Sci, Shanghai Inst Mat Med, State Key Lab Drug Res, Shanghai, Peoples R China",State Key Laboratory of Drug Research,Shanghai Institute of Materia Medica,rule_match_disagree,0.88
+"School of Pharmacy, Shanghai University of Traditional Chinese Medicine, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Institute of Liver Diseases, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Jilin Ginseng Academy, Changchun University of Chinese Medicine, Changchun, China",Changchun University,Changchun University of Chinese Medicine,rule_match_disagree,1.0
+"Second Mil Med Univ, Sch Pharm, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Guangzhou Univ Chinese Med, Inst Clin Pharmacol, Guangzhou 510405, Guangdong, Peoples R China",Guangzhou University,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin, 300193, China",First Teaching Hospital of Tianjin University of Traditional Chinese Medicine,Tianjin University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Inst Liver Dis, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"School of Pharmacy, Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Univ Chinese Acad Sci, Shanghai 201203, Peoples R China",Shanghai University,University of Chinese Academy of Sciences,rule_match_disagree,0.75
+"Chinese Acad Sci, Shanghai Inst Mat Med, Shanghai 201203, Peoples R China",Shanghai University,Shanghai Institute of Materia Medica,rule_match_disagree,0.75
+"First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin, China",First Teaching Hospital of Tianjin University of Traditional Chinese Medicine,Tianjin University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.67
+"Shanghai Univ Tradit Chinese Med, Pharmacokinet Lab, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Department of Pharmacy, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Department of Phytochemistry, School of Pharmacy, Second Military Medical University, Shanghai, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Interdisciplinary Science Research Institute, Shanghai University of Traditional Chinese Medicine, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"The first Affiliated Hospital of Zhejiang Chinese Medical University, Hangzhou, China",First Affiliated Hospital Zhejiang University,Zhejiang Chinese Medical University,rule_match_disagree,0.84
+"Millennium Pharmaceut Inc, Cambridge, MA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"MOE Key Lab Standardizat Chinese Med, Shanghai 201210, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Western Univ Hlth Sci, Coll Pharm, Ctr Adv Drug Res & Evaluat, Pomona, CA 91766 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Univ Tradit Chinese Med, Putuo Hosp, Shanghai 200062, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"The First Affiliated Hospital of Heilongjiang University of Chinese Medicine, Harbin, China",First Affiliated Hospital of Heilongjiang University of Chinese Medicine,Heilongjiang University of Chinese Medicine,rule_match_disagree,1.0
+"Guangzhou Univ Chinese Med, Inst Clin Pharmacol, Guangzhou 510405, Peoples R China",Guangzhou University,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"Affiliated Hospital of Nanjing University of Chinese Medicine, Jiangsu, Nanjing, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Longhua Hosp, Shanghai, Peoples R China",Longhua Hospital Shanghai University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.74
+"Department of Neurology, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Shandong Province, Jinan, 250011, China",Shandong University,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Inst Interdisciplinary Integrat Med Res, Shanghai Frontiers Sci Ctr TCM Chem Biol, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"School of Pharmacy, Hunan University of Chinese Medicine, Hunan, Changsha, 410208, China",Hunan University,Hunan University of Chinese Medicine,rule_match_disagree,1.0
+"1200 Cailun Rd, Shanghai 201203, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Univ Calif San Francisco, Sch Pharm, Dept Clin Pharm, San Francisco, CA 94143 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Second Mil Med Univ, Eastern Hepatobiliary Surg Hosp, Dept Pharm, Shanghai 200438, Peoples R China",Eastern Hepatobiliary Surgery Hospital,Naval Medical University,rule_match_disagree,0.9
+"Shanghai Univ Tradit Chinese Med, Res Ctr Tradit Chinese Med & Syst Biol, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Res Ctr Tradit Chinese Med Complex Syst, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Guangzhou Univ Chinese Med, Interat Inst Translat Chinese Med, Guangzhou 510006, Guangdong, Peoples R China",Guangzhou University,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Inst Chinese Mat Med, MOE Key Lab Standardizat Chinese Med, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Inst Chinese Mat Med, SATCM Key Lab New Resources & Qual Evaluat Chines, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Second Mil Med Univ, Changzheng Hosp, Dept Pharm, Shanghai, Peoples R China",HEC Pharm (China),Naval Medical University,rule_match_disagree,0.74
+"Shanghai Univ Tradit Chinese Med, Shanghai Key Lab Compound Chinese Med, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"School of Pharmacy, Shanghai University of Traditional Chinese Medicine, Shanghai, 201210, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China",First Affiliated Hospital of Guangzhou University of Chinese Medicine,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, LongHua Hosp, Dept Emergency, Shanghai 200032, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"School of Basic Medical Science, Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Western Univ Hlth Sci, Coll Pharm, Ctr Adv Drug Res & Evaluat, Pomona, CA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Department of Pharmacognosy, School of Pharmacy, Second Military Medical University, Shanghai, 200433, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China",Changchun University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.9
+"Univ Calif San Diego, San Diego, CA 92103 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Laboratory of Clinical Pharmacokinetics, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Clark & Associates Stat Consulting, Nolensville, TN USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"Amer Bot Council, Austin, TX USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"Hlth & Environm Sci Inst, Washington, DC 20005 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Department of Pharmacy, Changzheng Hospital, Second Military Medical University, Shanghai, 200003, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Second Mil Med Univ, Sch Pharm, Dept Nat Med Chem, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Inst Liver Dis, Shuguang Hosp, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Jilin Ginseng Academy, Changchun University of Chinese Medicine, Changchun, 130117, China",Changchun University,Changchun University of Chinese Medicine,rule_match_disagree,1.0
+"Natl Inst Environm Hlth Sci, Res Triangle Pk, NC USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Morehouse Sch Med, Dept Pharmacol & Toxicol, Atlanta, GA 30310 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Shanghai Univ Tradit Chinese Med, Dept Pharmacol, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Western Univ Hlth Sci, Ctr Adv Drug Res & Evaluat, Coll Pharm, Pomona, CA 91766 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Univ Tradit Chinese Med, Longhua Hosp, Shanghai 200032, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Dept Med Oncol, Shanghai 201203, Peoples R China",Shuguang Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.87
+"Department of Traditional Chinese Medicine, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine,Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine,Beijing University of Chinese Medicine,rule_match_disagree,1.0
+"The First Clinical College, Zhejiang Chinese Medical University, Hangzhou, China",Affiliated Hospital of Liaoning University of Traditional Chinese Medicine,Zhejiang Chinese Medical University,rule_match_disagree,1.0
+"Department of Pharmacognosy, School of Pharmacy, Second Military Medical University, Shanghai, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"School of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+Longhua Hospital Shanghai University of Traditional Chinese Medicine,Longhua Hospital Shanghai University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China",First Affiliated Hospital of Guangzhou University of Chinese Medicine,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"Shanghai TCM-Integrated Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Guangzhou Univ Chinese Med, Guangdong Prov Hosp, TCM, Guangzhou 510120, Guangdong, Peoples R China",Tianjin Conservatory of Music,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"Medical Guarantee Center, Second Affiliated Hospital of Naval Medical University, Shanghai, China",Second Affiliated Hospital of Anhui Medical University,Naval Medical University,rule_match_disagree,0.93
+"Department of Emergency and Critical Care, Second Affiliated Hospital of Naval Medical University, Shanghai, China",Second Affiliated Hospital of Anhui Medical University,Naval Medical University,rule_match_disagree,0.93
+"Institute of Organ Transplantation, Second Affiliated Hospital of Naval Medical University, Shanghai, China",Second Affiliated Hospital of Anhui Medical University,Naval Medical University,rule_match_disagree,0.93
+"Shanghai Univ Tradit Chinese Med, Inst Tradit Chinese Med, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Hutchison Pharmaceuticals Company, Shanghai 200331, China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"School of Pharmacy, Second Military Medical University, Shanghai, 200433, No. 325 Guohe Road, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Second Mil Med Univ, Dept Pharm, Eastern Hepatobiliary Surg Hosp, Shanghai 200438, Peoples R China",Eastern Hepatobiliary Surgery Hospital,Naval Medical University,rule_match_disagree,0.9
+"Second Mil Med Univ, Dept Pharmaceut Anal, Sch Pharm, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Department of Pharmacy, Changhai Hospital, Second Military Medical University, Shanghai, China",Changhai Hospital,Naval Medical University,rule_match_disagree,1.0
+"Department of Gynaecology, Shanghai Shuguang Hospital Affiliated with Shanghai University of Traditional Chinese Medicine, 528 Zhang Heng Road, Zhangjiang Hi-Tech Park, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"UIC Coll Pharm, Dept Med Chem & Pharmacognosy, MC 781, Chicago, IL USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Department of Cardiology, Affiliated Hospital of Liaoning University of Traditional Chinese Medicine, Shenyang, China",Affiliated Hospital of Liaoning University of Traditional Chinese Medicine,Liaoning University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Key Laboratory of Clinical Pharmacokinetic of TCM, Affiliated Hospital of Liaoning University of Traditional Chinese Medicine, Shenyang, China",Affiliated Hospital of Liaoning University of Traditional Chinese Medicine,Liaoning University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Department of Pharmacology, Shanghai University of Traditional Chinese Medicine, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Department of Clinical Pharmacology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"TCM Research Institution, the Third Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Department of Pharmaceutical Analysis, School of Pharmacy, Second Military Medical University, Shanghai, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Department of Osteopathy and Traumatology, The First Affiliated Hospital of Zhejiang Chinese Medical University, Hangzhou, China",First Affiliated Hospital Zhejiang University,Zhejiang Chinese Medical University,rule_match_disagree,0.84
+"Department of Cardiology, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Shanghai Institute of Materia Medica, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences, Shanghai 201203, 555 Zuchongzhi Road, China",Shanghai Institutes for Biological Sciences,Shanghai Institute of Materia Medica,rule_match_disagree,1.0
+"Graduate School, Hunan University of Chinese Medicine, Hunan, Changsha, China",Hunan University,Hunan University of Chinese Medicine,rule_match_disagree,1.0
+"Department of Pharmacy, Changhai Hospital, Second Military Medical University, Shanghai 200433, Changhai Road 174, China",Changhai Hospital,Naval Medical University,rule_match_disagree,1.0
+"E-Institute of Shanghai Municipal Education Committee, Shanghai University of Traditional Chinese Medicine, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Innovation Center of TCM Health Service, Shanghai University of Traditional Chinese Medicine, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"School of Pharmacy, Second Military Medical University, Shanghai 200433, No. 325 Guohe Road, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Sch Pharm, 1200 Cai lun Rd, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Expt Ctr Sci & Technol, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.67
+"Kanion Research Institute, Shanghai University of Traditional Chinese Medicine, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"2nd Affiliated Hospital of Liaoning University of Traditional Chinese Medicine, Shenyang, China",Affiliated Hospital of Liaoning University of Traditional Chinese Medicine,Liaoning University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"School of Pharmacy, The Second Military Medical University, Shanghai, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Department of Traditional Chinese Medicine, Nanjing Drum Tower Hospital Clinical College of Nanjing University of Chinese Medicine, Nanjing, China",Nanjing Drum Tower Hospital,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Department of Pharmacy, Changzheng Hospital, Naval Medical University (Second Military Medical University), Shanghai, China",Shanghai Changzheng Hospital,Naval Medical University,rule_match_disagree,0.82
+"Shanghai Key Laboratory for Pharmaceutical Metabolite Research, Naval Medical University (Second Military Medica University), Shanghai, China",Xinqiao Hospital,Naval Medical University,rule_match_disagree,0.71
+"Scientific Technology Experiment Center, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Key Lab Standardizat Chinese Med, Minist Educ, Inst Chinese Mat Med, Shanghai 201210, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai R&D Ctr Standardizat Chinese Med, Shanghai 201210, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"SATCM Key Lab New Resources & Qual Evaluat Chines, Shanghai 201210, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, NO. 88 Changling Road, Xiqing District, Tianjin, 300381, China",First Teaching Hospital of Tianjin University of Traditional Chinese Medicine,Tianjin University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Clin Pharmacokinet Lab, 528 Zhangheng Rd, Shanghai 201203, Peoples R China",Shuguang Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.87
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Dept Med Oncol, Shanghai 200062, Peoples R China",Shuguang Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.87
+"Shanghai Univ Tradit Chinese Med, Shanghai Shuguang Hosp, Cardiovasc Dept, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"The Second Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, 210017, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Department of Neurology, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, China",Affiliated Hospital of Shandong University of Traditional Chinese Medicine,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shuguang Hospital, Affiliated to Shanghai University, Traditional Chinese Medicine, Shanghai 200021, China",Shanghai University,(unmatched),catch_all_no_rule,1.0
+"Engineering Research Center of Modern Preparation Technology of TCM, Ministry of Education, Shanghai University, Shanghai 201203, No.1200 Cailun Road, China",Shanghai University,(unmatched),catch_all_no_rule,1.0
+"College of Chinese Material Medica, Shanghai University, Traditional Chinese Medicine, Shanghai 201203, China",Shanghai University,(unmatched),catch_all_no_rule,1.0
+"Department of Pharmacology, Shanghai University of Traditional Chinese Medicine, 1200 Cai Lun Road, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Second Mil Med Univ, Sch Pharm, Dept Pharm, Eastern Hepatobiliary Surg Hosp, Shanghai 200438, Peoples R China",Eastern Hepatobiliary Surgery Hospital,Naval Medical University,rule_match_disagree,0.9
+"Second Mil Med Univ, Sch Pharm, Dept Pharmaceut Anal, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"The Department of Pharmacy, The Affiliated Hospital of Nanjing University of Chinese Medicine, No. 155, Hanzhong Road, Nanjing, 210029, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"JS InnoPharm Shanghai Ltd, Dept New Drug R&D, Shanghai 201319, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Pfizer Inc, Pharmacokinet Dynam & Metab, Groton, CT 06340 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"NeuroBo Pharmaceut Inc, Boston, MA 02116 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Dept Liver Dis, Shanghai 200000, Peoples R China",Shuguang Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.87
+"Shanghai Key Laboratory for Pharmaceutical Metabolite Research, Shanghai 200433, No. 325 Guohe Road, China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Department of Pharmaceutical Analysis, School of Pharmacy, Second Military Medical University, Shanghai 200433, No. 325 Guohe Road, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Collaborat Chem, Fuquay Varina, NC 27526 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"N Carolina State Hlth Dept, Raleigh, NC USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Sanofi, Dept DMPK, Waltham, MA 02451 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"School of Pharmacy, Naval Medical University, Shanghai, 200433, China",Second Military Medical University,Naval Medical University,rule_match_disagree,0.69
+"Department of Pharmacy, Shanghai Eastern Hepatobiliary Surgery Hospital, Naval Medical University, Shanghai, 200438, China",Eastern Hepatobiliary Surgery Hospital,Naval Medical University,rule_match_disagree,1.0
+"Joint Research Laboratory of Promoting Globalization of Traditional Chinese Medicines between the Chinese University of Hong Kong and Shanghai Institute of Materia Medica, Chinese Academy of Sciences,",Chinese University of Hong Kong,Shanghai Institute of Materia Medica,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Shanghai Frontiers Sci Ctr TCM Chem Biol, Inst Interdisciplinary Integrat Med Res, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Univ Chinese Acad Sci, Ningbo Hosp 2, HwaMei Hosp, Dept Pharm, Ningbo 315010, Zhejiang, Peoples R China",Ningbo No. 2 Hospital,University of Chinese Academy of Sciences,rule_match_disagree,0.85
+"Univ Chinese Acad Sci, Ningbo Inst Life & Hlth Ind, Ningbo 315010, Zhejiang, Peoples R China",Changchun University of Chinese Medicine,University of Chinese Academy of Sciences,rule_match_disagree,0.72
+"Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine and Pharmacology, No. 185 Pu'an Road, Huangpu District, Shanghai, 200021, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.79
+"Epigenetics Laboratory, Institute of Interdisciplinary Medical Science, Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Cardiac Rehabil Ctr, Longhua Hosp, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.67
+"School of Public Health, Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Department of Pharmacy, Changzheng Hospital, Naval Medical University (Second Military Medical University), Shanghai, 200003, China",Shanghai Changzheng Hospital,Naval Medical University,rule_match_disagree,0.82
+"Department of Health Care, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, China",Affiliated Hospital of Shandong University of Traditional Chinese Medicine,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Department of Pneumology, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, China",Affiliated Hospital of Shandong University of Traditional Chinese Medicine,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Traditional Chinese Medicine College of Shandong University of Traditional Chinese Medicine, Jinan, China",Traditional Chinese Medicine Hospital of Kunshan,Shandong University of Traditional Chinese Medicine,rule_match_disagree,0.81
+"Department of Neurosurgery, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Shandong, Jinan, 250014, China",Shandong University,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Hunan Univ Chinese Med, Affiliated Hosp 1, Dept Galactophore, Shaoshan Rd, Changsha 410007, Hunan, Peoples R China",Hunan University of Traditional Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.74
+"Hunan Univ Chinese Med, Grad Sch, Xueshi Rd, Changsha 410208, Hunan, Peoples R China",Hunan University of Traditional Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.74
+"Hunan Univ Chinese Med, Affiliated Hosp 1, Dept Aesthet Plast Surg, Shaoshan Rd, Changsha 410007, Hunan, Peoples R China",Hunan University of Traditional Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.74
+"Second Mil Med Univ, Modern Res Ctr Tradit Chinese Med, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Second Mil Med Univ, Sch Pharm, Res Ctr Marine Drugs, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Second Mil Med Univ, Affiliated Hosp 3, Dept Laparoscopy, Shanghai 200438, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Second Mil Med Univ, Affiliated Hosp 3, Dept Pharm, Shanghai 200438, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Inst Interdisciplinary Integrat Med Res, Shanghai 200473, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Translat Med Ctr, Yueyang Hosp Integrated Tradit Chinese & Western, Shanghai 200473, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Department of Pharmacy, Nanjing Drum Tower Hospital, Nanjing Drum Tower Hospital Clinical College, Nanjing University of Chinese Medicine, Nanjing, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Dept Nephrol, Peoples Hosp 7, Shanghai 200137, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Canc Ctr Carolinas, Greenville, SC USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"VACT Healthcare Syst, VACT Canc Ctr, West Haven, CT USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Thyroid Breast Surgery, Kunshan Affiliated Hospital of Nanjing University of Chinese Medicine, China",Affiliated Hospital of Shaanxi University of Chinese Medicine,Nanjing University of Chinese Medicine,rule_match_disagree,0.93
+"Outpatient Department, Kunshan Affiliated Hospital of Nanjing University of Chinese Medicine, China",Affiliated Hospital of Shaanxi University of Chinese Medicine,Nanjing University of Chinese Medicine,rule_match_disagree,0.93
+"US FDA, New Drug Prod Branch 2, Ctr Drug Evaluat & Res, Silver Spring, MD USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"US FDA, Div Clin Pharmacol, Ctr Drug Evaluat & Res, Silver Spring, MD USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"US FDA, Off Hematol & Oncol Prod, Ctr Drug Evaluat & Res, Silver Spring, MD USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"US FDA, Off Oncol Dis, Ctr Drug Evaluat & Res, Silver Spring, MD USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"US FDA, Off Prescript Drug Promot, Ctr Drug Evaluat & Res, Silver Spring, MD USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"Food & Drug Adm US FDA, Off Hematol & Oncol Prod, Ctr Drug Evaluat & Res, Silver Spring, MD USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"Integrat Pet Care, Chicago, IL 60647 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha, 410208, Hunan, China",Hunan University,Hunan University of Chinese Medicine,rule_match_disagree,1.0
+"College of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China",Changchun University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.9
+"Department of Pharmacy, Changhai Hospital, Second Military Medical University, Shanghai, 200433, China",Changhai Hospital,Naval Medical University,rule_match_disagree,1.0
+"Department of Pharmaceutics, School of Pharmacy, Second Military Medical University, Shanghai, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Ctr Integrat Med & Innovat Technol, Boston, MA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Massachusetts Gen Hosp, Boston, MA 02114 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Changchun University of Chinese Medicine, Changchun, China",Changchun University,Changchun University of Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Informat Ctr Sci & Technol, Lib, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"DMPK/Tox, Hutchison MediPharma Ltd., Zhang Jiang High-Tech Park, Shanghai 201203, 720 Cailun Road, China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Natl Inst Environm Hlth Sci, Res Triangle Pk, NC 27709 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Western Univ Hlth Sci, Coll Pharm, Pomona, CA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Inst Liver Dis, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Inst Planned Parenthood Res, Natl Populat & Family Planning Key Lab Contracept, Shanghai 200032, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Shanghai Engineer & Technol Res Ctr Reprod Hlth D, Key Lab Contracept & Devices Res NPFPC, Shanghai 200000, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Department of Pharmacy, Eastern Hepatobiliary Surgery Hospital, Second Military Medical University, Shanghai, China",Eastern Hepatobiliary Surgery Hospital,Naval Medical University,rule_match_disagree,1.0
+"Chinese Acad Sci, Shanghai Res Ctr Modernizat Tradit Chinese Med, Natl Engn Lab TCM Standardizat Technol, Shanghai Inst Mat Medial, Haike Rd 501, Shanghai 201203, Peoples R China",Shanghai University,Shanghai Institute of Materia Medica,rule_match_disagree,0.75
+"Hangzhou TCM Hospital Affiliated to Zhejiang Chinese Medical University, Zhejiang, Hangzhou, 311121, China",Hangzhou Xixi hospital,Zhejiang Chinese Medical University,rule_match_disagree,0.82
+"Shanghai Univ Tradit Chinese Med, Shanghai 200062, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Shanghai Municipal Hosp Tradit Chinese Med, Dept Pharm, Shanghai 200071, Peoples R China",Shanghai Traditional Chinese Medicine Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.8
+"Shanghai Univ Tradit Chinese Med, Putuo Hosp, Emergency Dept, Shanghai 200062, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Putuo Hosp, Dept Pharm, Shanghai 200062, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Guangzhou Univ Chinese Med Futian, Shenzhen Hosp, Shenzhen 518000, Peoples R China",Shenzhen Maternity and Child Healthcare Hospital,Guangzhou University of Chinese Medicine,rule_match_disagree,0.82
+"Hunan Univ Chinese Med, Coll Integrated Tradit Chinese & Western Med, Changsha 410208, Hunan, Peoples R China",First People's Hospital of Chongqing,Hunan University of Chinese Medicine,rule_match_disagree,0.75
+"Key Laboratory of Modern Preparation of Traditional Chinese Medicine of Jiangxi University of Traditional Chinese Medicine, No. 818 Yunwan Road, Nanchang, 330002, China",Changchun University of Chinese Medicine,Jiangxi University of Traditional Chinese Medicine,rule_match_disagree,0.59
+"Jingan Dist Zhabei Cent Hosp, Dept Pharm, Shanghai 200070, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Univ Calif San Francisco, Sch Pharm, San Francisco, CA 94143 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Western Univ Hlth Sci, Ctr Advancement Drug Res & Evalut, Coll Pharm, Pomona, CA 91766 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Univ Tradit Chinese Med, Sch Pharm, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.67
+"Chinese Acad Sci, Shanghai Inst Mat Med, Joint Res Lab Promoting Globalizat Tradit Chinese, Hong Kong, Hong Kong, Peoples R China",People’s Hospital of Rizhao,Shanghai Institute of Materia Medica,rule_match_disagree,0.57
+"Chinese Acad Sci, Shanghai Inst Mat Med, Beijing 100864, Peoples R China",People’s Hospital of Rizhao,Shanghai Institute of Materia Medica,rule_match_disagree,0.57
+"Second Mil Med Univ, Sch Pharm, 325 Guohe Rd, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Shanghai Hutchison Pharmaceut Co, Shanghai 200331, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Shanghai Yangsi Hosp, Dept Pharm, Shanghai 200126, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Waters Corp China, Shanghai 201206, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Laboratory of Hospital Chinese Medicine Preparation, Department of Pharmacy, Affiliated Hospital of Nanjing University of Chinese Medicine/Jiangsu Province Hospital of Chinese Medicine, Nanjing, 21002",First Affiliated Hospital of Guangzhou University of Chinese Medicine,Nanjing University of Chinese Medicine,rule_match_disagree,0.86
+"Department of Pharmaceutics, Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, MOE Key Lab Standardizat Chinese Med, Shanghai 201210, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Pfizer Inc, Dept Pharmacokinet Dynam & Metab, Groton, CT 06340 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin 300193, China",First Teaching Hospital of Tianjin University of Traditional Chinese Medicine,Tianjin University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Department of Pharmacy, Changzheng Hospital, Second Military Medical University, Shanghai 200003, 415 Fengyang Road, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Department of Pharmacognasy, School of Pharmacy, Second Military Medical University, Shanghai 200433, 325 Guohe Road, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"School of Pharmacy, Second Military Medical University, Shanghai 200433, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Hunan University of Chinese Medicine, Changsha 410208, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"E China Univ Sci & Technol, Sch Pharm, Shanghai 200237, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Shanghai Key Lab Tradit Chinese Clin Med, Shanghai 201203, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Basic Medical School of Shanghai, University of Traditional Chinese Medicine, Shanghai, 201203, China",Shanghai University,(unmatched),catch_all_no_rule,1.0
+"Shanghai Univ Tradit Chinese Med, Inst Chinese Mat Med, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Ctr Chinese Med Therapy & Syst Biol, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Hunan University of Chinese Medicine, Changsha, 410208, Hunan Province, China",Hunan University,Hunan University of Chinese Medicine,rule_match_disagree,1.0
+"Shanghai R&D Ctr Standardizat Chinese Med, 199 Guoshoujing Rd, Shanghai 201210, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"SATCM Key Lab New Resources & Qual Evaluat Chines, 1200 Cailun Rood, Shanghai 201210, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Shanghai Univ Tradit Chinese Med, Inst Chinese Mat Med, Shanghai 201210, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Inst Chinese Mat Mad, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Chinese Acad Sci, Shanghai Inst Mat Med, 501 Haike Rd, Shanghai 201203, Peoples R China",Shanghai University,Shanghai Institute of Materia Medica,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Int Union Lab Acupuncture Based Target Discovery, Shanghai Res Inst Acupuncture & Meridian, Int Joint Lab Acupuncture Neuroimmunol,Yue Yang H, Shanghai 201203, People",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Expt Ctr Sci & Technol, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Shanghai R&D Ctr Standardizat Chinese Med, Inst Chinese Mat Medial, MOE Key Lab Standardizat Chinese Med, 1200 Cailun Rd, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Sch Pharm, Dept Pharmacol, 1200 Cailun Rd, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Department of Clinical Pharmacology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, 210029, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Department of Digestive Tumor Surgery, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, 210029, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Key Laboratory of TCM Heart and Lung Syndrome Differentiation, Medicated Diet and Dietotherapy, Hunan University of Chinese Medicine, Changsha, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Hunan Engineering Technology Research Center for Medicinal and Functional Food, Hunan University of Chinese Medicine, Changsha, China",Hunan University,Hunan University of Chinese Medicine,rule_match_disagree,1.0
+"College of Pharmacy, Hunan University of Chinese Medicine, Changsha, China",Changchun University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.9
+"Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Changsha, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Pharmacology Laboratory, Zhongshan Hospital, Guangzhou University of Chinese Medicine, Zhongshan, China",Zhongshan Hospital,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Branch Natl Clin Res Ctr Chinese Med Cardiol, Shanghai 201203, Peoples R China",Shuguang Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.87
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Cardiovasc Res Inst Tradit Chinese Med, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Shanghai Key Lab Compound Chinese Med, Key Lab Standardizat Chinese Med,MOE, Inst Chinese Mat Med,Shanghai R&D Ctr Standardiza, 1200 Cailun Rd, Shanghai 201203, Peopl",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Inst Chinese Mat Med, MOE Key Lab Standardizat Chinese Med, Shanghai 201210, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"School of Rehabilitation Science, Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Experiment Center for Teaching and Learning, Shanghai University of Traditional Chinese Medicine, Shanghai, 201210, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Affiliated Hosp Nanjing Univ Chinese Med, Jiangsu Prov Hosp Chinese Med, Nanjing 210029, Jiangsu, Peoples R China",Nanjing Brain Hospital,Nanjing University of Chinese Medicine,rule_match_disagree,0.84
+"Shanghai Key Laboratory for Pharmaceutical Metabolite Research, Second Military Medical University, Shanghai, 200433, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Inst Chinese Mat Med, MOE Key Lab Standardizat Chinese Med, Shanghai R&D Ctr Standardizat Chinese Med, 1200 Cailun Rd, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Institute of Liver Diseases, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Department of Rheumatology of the First Hospital, Hunan University of Chinese Medicine, Changsha, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Science & Technology Innovation Center, Hunan University of Chinese Medicine, Changsha, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Hunan Engineering Technology Research Center for Bioactive Substance Discovery of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Department of Rheumatology and Immunology, First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin, 300193, China",First Teaching Hospital of Tianjin University of Traditional Chinese Medicine,Tianjin University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Yueyang Hosp Integrated Tradit Chinese & Western M, Ctr Traumatol & Orthoped, Shanghai 200437, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Engn Sci, Coll Chem & Chem Engn, Shanghai 201620, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.81
+"Beijing Univ Chinese Med Longgang, Shenzhen Hosp, Shenzhen 518172, Peoples R China",Shenzhen Maternity and Child Healthcare Hospital,Beijing University of Chinese Medicine,rule_match_disagree,0.8
+"TCM and Ethnomedicine Innovation & Development International Laboratory, Innovative Materia Medica Research Institute, School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Department of Nephrology, The Seventh People's Hospital of Shanghai University of Traditional Chinese Medicine, Shanghai, 200137, China",Seventh People's Hospital of Shanghai,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Frontiers Science Center of TCM Chemical Biology, Institute of Interdisciplinary Integrative Medicine Research, Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, National Clinical Research Center for Chinese Medicine Acupuncture and Moxibustion, Tianjin, 300381, China",First Teaching Hospital of Tianjin University of Traditional Chinese Medicine,Tianjin University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Peoples Hosp 7, 358 Datong Rd, Shanghai 200137, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Longhua Hosp, Dept Gen Surg, Shanghai 200032, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Longhua Hosp, Inst Digest Dis, China Canada Ctr Res Digest Dis ccCRDD, Shanghai 200032, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, State Key Lab Integrat & Innovat Class Formula &, Shanghai 200032, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"School of Life Sciences, Shanghai University, No.99 Shangda Road, Shanghai, 200444, China",Shanghai University,(unmatched),catch_all_no_rule,1.0
+"Shuguang Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Changchun Univ Chinese Med, Northeast Asia Res Inst Tradit Chinese Med, Changchun 130117, Peoples R China",Changchun University,Changchun University of Chinese Medicine,rule_match_disagree,1.0
+"Univ Chinese Acad Sci, Sch Pharm, Beijing 100049, Peoples R China",Changchun University of Chinese Medicine,University of Chinese Academy of Sciences,rule_match_disagree,0.72
+"Chinese Acad Sci, Shanghai Inst Mat Med, State Key Lab Drug Res, 501 Haike Rd,Zhangjiang Hi Tech Pk, Shanghai 201203, Peoples R China",State Key Laboratory of Drug Research,Shanghai Institute of Materia Medica,rule_match_disagree,0.88
+"Department of Gastrointestinal Surgery of the First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China",First Affiliated Hospital of Guangzhou University of Chinese Medicine,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangdong Clinical Research Academy of Chinese Medicine, Guangzhou, China",First Affiliated Hospital of Guangzhou University of Chinese Medicine,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Natl Key Lab Discovery & Utilizat Funct Components, Inst Chinese Mat Med,Shanghai Key Lab Cpd Chinese, Key Lab Standardizat Chinese Med,Minist Educ, Shanghai 201203, ",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"US FDA, Off Clin Pharmacol, Ctr Drug Evaluat & Res, Silver Spring, MD USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"Chinese Acad Sci, Shanghai Inst Mat Med, State Key Lab Drug Res & Nat Prod, Dept Chem, Beijing 100864, Peoples R China",State Key Laboratory of Drug Research,Shanghai Institute of Materia Medica,rule_match_disagree,0.78
+"Minist Educ, Key Lab Liver & Kidney Dis, Shanghai 201203, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Shanghai Key Lab Tradit Chinese Med, Shanghai 201203, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Shanghai Univ Tradit Chinese Med, Yueyang Hosp Integrated Tradit Chinese & Western M, Prevent Treatment Ctr, Shanghai 200437, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Department of Internal Medicine, the First Affiliated Hospital of Zhejiang Chinese Medical University, Zhejiang Province, Hangzhou, 310006, China",The Third Affiliated Hospital of Zhejiang Chinese Medical University,Zhejiang Chinese Medical University,rule_match_disagree,0.95
+"12631 E 17TH AVE STE B198 6, Aurora, CO 80045 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Shanghai Research Center for TCM Modernization, Shanghai Institute of Materia Medica, Shanghai Institutes for Biological Sciences, Shanghai, 201203, China",Shanghai Institutes for Biological Sciences,Shanghai Institute of Materia Medica,rule_match_disagree,1.0
+"Shanghai RandD Centre for Standardization of Chinese Medicines, Shanghai 201210, China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Shanghai R and D Centre for Standardization of Chinese Medicines, Shanghai 201210, 199 Guoshoujing Road, China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"School of Pharmacy, Second Military Medical University, Shanghai Key Laboratory for Pharmaceutical Metabolites Research, Shanghai, No. 325 Guohe Road, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Joint Research Laboratory of Promoting Globalization of Traditional Chinese Medicines between The Chinese University of Hong Kong and Shanghai Institute of Materia Medica, Chinese Academy of Sciences,",Chinese University of Hong Kong,Shanghai Institute of Materia Medica,rule_match_disagree,1.0
+"Shanghai Key Laboratory for Pharmaceutical Metabolite Research, School of Pharmacy, Second Military Medical University, Shanghai, 200433, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Chinese Acad Sci, Shanghai Inst Mat Med, Natl Engn Lab TCM Standardizat Technol, Shanghai Res Ctr Modernizat Tradit Chinese Med, 501 Haike Rd, Shanghai 201203, Peoples R China",Shanghai University,Shanghai Institute of Materia Medica,rule_match_disagree,0.75
+"Guangming Chinese Med Hosp, Pudong New Area Shanghai, Dept Pharm, 43 Dongmen St, Shanghai 201399, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Shanghai Univ Med & Hlth Sci, Affiliated Peoples Hosp East Campus 6, Dept Pharm, 222 HuanhuXisan Rd, Shanghai 201306, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"School of Pharmacy, TCM and Ethnomedicine Innovation & Development International Laboratory, Innovative Materia Medica Research Institute, Hunan University of Chinese Medicine, Changsha, 410208, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Shanghai TCM-Integrated Hospital, Shanghai University of Traditional Chinese Medicine, 230 Baoding Road, Shanghai, 200082, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Longhua Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Shanghai Univ Tradit Chinese Med, Sch Chinese Mat Med, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Shanghai Yueyang Integrated Tradit Chinese Med & W, Shanghai 200437, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Longhua Hosp, Inst Chinese Tradit Surg, Shanghai 200032, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Department of Gynecology, Beijing University of Chinese Medicine Third Affiliated Hospital, Beijing, 100029, China",Beijing University of Technology,Beijing University of Chinese Medicine,rule_match_disagree,0.78
+"Austar Hansen Lifesci Shanghai Ltd, Shanghai 200050, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Herbal Synergy, Oakland, CA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Department of Pediatrics, Affiliated Hospital of Liaoning University of Traditional Chinese Medicine, Shenyang, 110032, China",Affiliated Hospital of Liaoning University of Traditional Chinese Medicine,Liaoning University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"TCM and Ethnomedicine Innovation & Development International Laboratory, Innovative Materia Medica Research Institute, School of Pharmacy, Hunan University of Chinese Medicine, Changsha, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Nanjing Univ Chinese Med, Comprehens Canc Ctr, Nanjing Drum Tower Hosp, Clin Coll, Nanjing, Peoples R China",Nanjing Drum Tower Hospital,Nanjing University of Chinese Medicine,rule_match_disagree,0.92
+"Department of Pharmacology, Institute of Drug Research, Shanghai Second Medical University, Shanghai 200025, 280 South Chongqing Road, China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"UIC Coll Pharm, Dept Med Chem & Pharmacognosy MC 781, Chicago, IL 60612 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Shandong University of Traditional Chinese Medicine, 4655 Daxue Road, Jinan, 250355, Shandong, China",Shandong University,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Sch Rehabil Sci, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.67
+"Shanghai Univ Tradit Chinese Med, Yueyang Hosp Integrated Tradit Chinese & Western, Shanghai 200473, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Ctr Tradit Chinese Med & Immunol Res, Sch Basic Med Sci, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.67
+"Hunan Univ Chinese Med, Mol Pathol Lab, Hunan Prov Key Lab Prevent & Treatment Integrated, Sch Med, 300 Xueshi Rd,Hanpu Sci & Technol Pk, Changsha 410208, Hunan, Peoples R China",Hunan University of Traditional Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.74
+"Cardiovascular Department, Shuguang Hospital of Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.85
+"Cardiovascular Research Institute of Traditional Chinese Medicine, Shuguang Hospital of Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Jiangxi Provincial Institute of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.88
+"Department of Liver Diseases, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Laboratory of Cellular Immunity, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Central Laboratory, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Institute of Infectious Disease, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Tianjin Nankai Hospital, No. 6 Changjiang Road, Nankai District. Huimin Liu, Rui Han, Department of School of Chinese Medicine, Tianjin University of Traditional Chinese Medicine, No.10, Poyang Lake R",Tianjin Nankai Hospital,Tianjin University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"School of Acupuncture-Moxibustion and Tuina, Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Naval Med Univ, Sch Pharm, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Nephropathy Department, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, 250014, China",Affiliated Hospital of Shandong University of Traditional Chinese Medicine,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"School of Pharmacy, University of Chinese Academy of Sciences, Chinese Academy of Sciences, Shanghai, 201203, China",Chinese Academy of Sciences,University of Chinese Academy of Sciences,rule_match_disagree,1.0
+"Affiliated Hospital of Nanjing University of Chinese Medicine (Jiangsu Province Hospital of Chinese Medicine), No.155, Hanzhong Road, Jiangsu Province, Nanjing, 210029, China",Jiangsu Province Hospital,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Academy of Chinese Medical Sciences, Hunan University of Chinese Medicine, Hunan, Changsha, 410208, China",China Academy of Chinese Medical Sciences,Hunan University of Chinese Medicine,rule_match_disagree,0.92
+"School of Chinese Medicine, Hunan University of Chinese Medicine, Hunan, Changsha, 410208, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"School of Integrated Traditional Chinese and Western Medicine, Hunan University of Chinese Medicine, Hunan, Changsha, 410208, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Hunan Provincial Key Laboratory of TCM Diagnostics, Hunan University of Chinese Medicine, Hunan, Changsha, 410208, China",Hunan University,Hunan University of Chinese Medicine,rule_match_disagree,1.0
+"VA Med Ctr, San Diego, CA 92161 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Engineer & Technol Res Ctr Reprod Hlth D, Shanghai Inst Planned Parenthood Res, Key Lab Contracept & Devices Res NPFPC, Shanghai 200032, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Council Responsible Nutr Int, Washington, DC USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"NTP NIEHS, Res Triangle Pk, NC USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Shandong Univ Tradit Chinese Med, Res Inst Marine Tradit Chinese Med, Qingdao 266112, Peoples R China",MED Institute,Shandong University of Traditional Chinese Medicine,rule_match_disagree,0.85
+"Univ Chinese Acad Sci, Beijing 100039, Peoples R China",Changchun University of Chinese Medicine,University of Chinese Academy of Sciences,rule_match_disagree,0.72
+"Shanghai Univ Tradit Chinese Med, Shanghai 20071, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.73
+"Council Responsible Nutr, Washington, DC USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"US FDA, Silver Spring, MD USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"NSF Int, Ann Arbor, MI USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Natl Inst Environm Hlth Sci, Div Translat Toxicol, Res Triangle Pk, NC USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Jefferson Einstein Med Ctr, Dept Med, Philadelphia, PA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Shanghai Univ Tradit Chinese Med, E Inst Shanghai Municipal Educ Commiss, Shanghai 200032, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Longhua Hosp, Inst Digest Dis, Shanghai 200032, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Longhua Hosp, Dept Gastroenterol, Shanghai 200032, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Modern Research Center for Traditional Chinese Medicine, Second Military Medical University, Shanghai 200433, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Department of Pharmacy, Changzheng Hospital, Second Military Medical University, Shanghai 200003, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Department of Pharmacognosy, School of Pharmacy, Second Military Medical University, Shanghai 200433, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"School of Pharmacy, Heilongjiang University of Chinese Medicine, Key Laboratory of Medicinal Materials, Chinese Academy of Sciences, Harbin, 150040, China",Chinese Academy of Sciences,Heilongjiang University of Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Longhua Hosp, Dept Pharm, Shanghai 200032, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Dept Chem, Coll Pharm, Shanghai 200444, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Sch Pharm, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Natl Ctr Adv Translat Sci, NIH, Rockville, MD 20850 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"Shanghai Univ Tradit Chinese Med, Ctr Chinese Med Therapy & Syst Biol, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.67
+"Department of Clinical Pharmacology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing 210093, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Inst E, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Chinese Acad Sci, Shanghai Inst Mat Med, NMR Lab, Shanghai 201203, Peoples R China",Shanghai University,Shanghai Institute of Materia Medica,rule_match_disagree,0.75
+"Chinese Acad Sci, Shanghai Inst Mat Med, State Key Lab Drug Res, Div Antitumor Pharmacol, Shanghai 201203, Peoples R China",State Key Laboratory of Drug Research,Shanghai Institute of Materia Medica,rule_match_disagree,0.88
+"First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, 510405, China",First Affiliated Hospital of Guangzhou University of Chinese Medicine,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"SPH Xing Ling Sci & Tech Pharmaceut Co Ltd, Shanghai 201703, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Univ Chinese Acad Sci, Sch Pharm, Shanghai 201203, Peoples R China",Shanghai University,University of Chinese Academy of Sciences,rule_match_disagree,0.75
+"Univ Calif Berkeley, Dept Chem & Biomol Engn, Berkeley, CA 94720 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Calif Berkeley, Calif Inst Quantitat Biosci QB3, Berkeley, CA 94720 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Calif Berkeley, Dept Plant & Microbial Biol, Berkeley, CA 94720 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Calif Berkeley, Dept Bioengn, Berkeley, CA 94720 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"E-institute of Shanghai Municipal Education Commission, Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Department of Pediatrics, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"The Affiliated Hospital to Changchun University of Chinese Medicine, Changchun, 130117, China",Changchun University,Changchun University of Chinese Medicine,rule_match_disagree,1.0
+"School of Clinical Medicine, Xiyuan Hospital, Beijing University of Chinese Medicine, Beijing, China",Xiyuan Hospital,Beijing University of Chinese Medicine,rule_match_disagree,1.0
+"US Pharmacopeia Bot Dietary Supplement & Herbal M, Rockville, MD USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+Second Military Medical University,Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"US FDA, Off Clin Pharmacol, Ctr Drug Evaluat & Res, Silver Spring, MD 20993 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"Hunan Univ Chinese Med, Sch Pharm, Changsha, Peoples R China",Hunan University of Traditional Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.74
+"Naval Med Univ, Chang Zheng Hosp, Dept Neurosurg, Shanghai, Peoples R China",Chang Gung Memorial Hospital,Naval Medical University,rule_match_disagree,0.62
+"Naval Med Univ, Eastern Hepatobiliary Surg Hosp, Clin Res Inst, Shanghai, Peoples R China",Eastern Hepatobiliary Surgery Hospital,Naval Medical University,rule_match_disagree,0.9
+"Central laboratory, Putuo Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"GlaxoSmithKline, Dept Drug Metab & Pharmacokinet, Collegeville, PA 19426 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Hunan Univ Chinese Med, Sch Acupuncture Moxibust & Tuina, Changsha, Peoples R China",Hunan University of Traditional Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.74
+"Second Mil Med Univ, Eastern Hepatobiliary Surg Hosp, Biliary Tract Surg Dept 1, 225 Changhai Rd, Shanghai 200430, Peoples R China",Eastern Hepatobiliary Surgery Hospital,Naval Medical University,rule_match_disagree,0.9
+"Second Mil Med Univ, Eastern Hepatobiliary Surg Hosp, Dept Pharm, Shanghai, Peoples R China",Eastern Hepatobiliary Surgery Hospital,Naval Medical University,rule_match_disagree,0.9
+"Department of Cardiology, Institute of Cardiovascular Disease of Integrated Traditional Chinese Medicine and Western Medicine, Shuguang Hospital affiliated to Shanghai University of Traditional Chines",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Hunan Univ Chinese Med, Affiliated Hosp 1, Changsha, Hunan, Peoples R China",Hunan University of Traditional Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.74
+"Hunan Univ Chinese Med, Sci & Technol Innovat Ctr, 300 Xueshi Road,Hanpu Sci & Educ Pk, Changsha, Hunan, Peoples R China",Hunan University of Traditional Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.74
+"Department of Endocrine, Seventh People’s Hospital of Shanghai University of Traditional Chinese Medicine, Shanghai, China",Seventh People's Hospital of Shanghai,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Hlth & Environm Sci Inst, 740 15th St NW, Washington, DC 20005 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Shanghai Univ Tradit Chinese Med, Minist Educ, Engn Res Ctr Modern Preparat Technol TCM, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.67
+"Shanghai Univ Tradit Chinese Med, Dept Pharmacol, Sch Pharm, Cai Lun Rd 1200, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Dept Chinese Mat Med, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.67
+"Ctr Drug Evaluat & Res Food & Drug Adm, Bot Review Team, Off New Drug Prod, Off Pharmaceut Qual, Silver Spring, MD USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"Univ MS, Natl Ctr Nat Prod Res, Sch Pharm, University, MS 38677 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"Univ MS, Natl Ctr Nat Prod Res, Sch Pharm, University, MS USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"Wiley Blackwell, Malden, MA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Natl Inst Environm Hlth Sci, Div Translat Toxicol, Durham, NC USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Bayer Consumer Healthcare, Whippany, NJ USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"Joint Laboratory for Translational Cancer Research of Chinese Medicine, The Ministry of Education of the People’s Republic of China, International Institute for Translational Chinese Medicine, Guangzh",Ministry of Education of the People's Republic of China,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"PhalanxBio Inc, Palo Alto, CA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Chengdu Univ Tradit Chinese Med, Inst Herbgenom, Chengdu 611137, Peoples R China",Chengdu University,Chengdu University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Chengdu Univ Tradit Chinese Med, Innovat Inst Chengdu Univ Tradit Chinese Med, State Key Lab Southwestern Chinese Med Resources, Chengdu 611137, Peoples R China",Chengdu University,Chengdu University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Univ Calif San Francisco, Inst Hlth & Aging, San Francisco, CA 94143 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Calif San Francisco, Dept Obstet & Gynecol, San Francisco, CA 94143 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Hlth Concerns, Oakland, CA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Analyt Res Labs, Oklahoma City, OK 73104 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"Naval Med Univ, Sch Pharm, Dept Phytochem, 325 Guohe Rd, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"John A Burns Sch Med, Asia Pacific Inst Trop Med & Infect Dis, Biostat & Data Management Facil, Honolulu, HI 96813 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"School of Artificial Intelligence, Shanghai University of Traditional Chinese Medicine, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Univ Calif San Francisco, Arthrit Res Grp, Dept Med, San Francisco, CA 94143 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Dept Pathol, 528 Zhangheng Rd, Shanghai 201203, Peoples R China",Shuguang Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.87
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Dept Med Oncol, 528 Zhangheng Rd, Shanghai 201203, Peoples R China",Shuguang Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.87
+"Univ Chinese Acad Sci, Chinese Acad Sci, Beijing, Peoples R China",Changchun University of Chinese Medicine,University of Chinese Academy of Sciences,rule_match_disagree,0.72
+"Chinese Acad Sci, Shanghai Inst Mat Med, China Serbia Belt & Rd Joint Lab Nat Prod & Drug D, Shanghai, Peoples R China",People’s Hospital of Rizhao,Shanghai Institute of Materia Medica,rule_match_disagree,0.57
+"The Second Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Shandong, Jinan, China",Shandong University,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Yale Sch Med, Dept Psychiat, New Haven, CT USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Herbalife Nutr, Los Angeles, CA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Calif Irvine, Sch Med, Dept Psychiat, Irvine, CA 92717 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Univ Tradit Chinese Med, Shanghai Frontiers Sci Ctr Chinese Med Chem Biol, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Peripheral Vasc Dis Dept, Shanghai, Peoples R China",Shuguang Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.87
+"Shanghai Univ Tradit Chinese Med, Shanghai Key Lab Tradit Chinese Clin Med, Minist Educ, Key Lab Liver & Kidney Dis, Shanghai, Peoples R China",State Key Laboratory of Kidney Diseases,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.73
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Inst Clin Pharmacol, Lab Clin Pharmacokinet, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Dept Nephrol, Shanghai, Peoples R China",Shuguang Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.87
+"Chinese Acad Sci, Shanghai Inst Mat Med, Shanghai, Peoples R China",People’s Hospital of Rizhao,Shanghai Institute of Materia Medica,rule_match_disagree,0.57
+"Univ Chinese Acad Sci, Shanghai, Peoples R China",Changchun University of Chinese Medicine,University of Chinese Academy of Sciences,rule_match_disagree,0.72
+"Shanghai Univ Tradit Chinese Med, Pharmacokinet Lab, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.67
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Clin Pharmacokinet Lab, Shanghai, Peoples R China",Shuguang Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.87
+"Johnson Johnson Pharmaceut R&D, Spring House, PA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Institutes of Biomedical Engineering, Shanghai University, Shanghai, China",Shanghai University,(unmatched),catch_all_no_rule,1.0
+"Chinese Acad Sci, Shanghai Inst Mat Med, Shanghai Ctr DMPK Res, Shanghai 201203, Peoples R China",Shanghai University,Shanghai Institute of Materia Medica,rule_match_disagree,0.75
+"Allergen Safe Homes, Sacramento, CA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Calif Davis, Dept Nutr, Davis, CA 95616 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Calif Davis, Div Rheumatol Allergy & Clin Immunol, Sch Med, Davis, CA 95616 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Hunan University of Chinese Medicine, Changsha, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"The First Affiliated Hospital of Hunan University of Chinese Medicine, Changsha, China",First Affiliated Hospital of Henan University,Hunan University of Chinese Medicine,rule_match_disagree,0.98
+"Kern Med, Bakersfield, CA 93306 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Univ Tradit Chinese Med, Yueyang Hosp Integrated Tradit Chinese & Western, Dept Gastroenterol, 110 Ganhe Rd, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Coll Basic Med Sci, Dept Basic Theory Tradit Chinese Med, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.67
+"Shanghai Univ Tradit Chinese Med, Inst Interdisciplinary Integrat Med Res, 1200 Cailun Rd, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Human Biomol Res Inst, San Diego, CA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Bionovo Inc, Emeryville, CA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Univ Tradit Chinese Med, Dept Chem, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Inst Chinese Mat Medica, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Chinese Acad Sci, Shanghai Inst Mat Med, Ctr Drug Metab & Pharmacokinet, Shanghai 201203, Peoples R China",Shanghai University,Shanghai Institute of Materia Medica,rule_match_disagree,0.75
+"Hoffmann La Roche, Drug Metab, Nonclin Safety, Nutley, NJ USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"Hoffmann La Roche, Discovery Chem, Nutley, NJ USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"Qualyst Transporter Solut, 2810 Meridian Pkwy,Suite 100, Durham, NC 27713 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Lab Clin Pharmacokinet, Shanghai, Peoples R China",Shuguang Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.87
+"Second Mil Med Univ, Shanghai Key Lab Pharmaceut Chinese Mat Med Metab, Sch Pharm, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Amgen Inc, Cambridge, MA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Shanghai Univ Tradit Chinese Med, Inst Interdisciplinary Integrat Med Res, Shanghai Frontiers Sci Ctr Chinese Med Chem Biol, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"MedPharm Ltd, Durham, NC USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Chinese Acad Sci, JIC Ctr Excellence Plant & Microbial Sci, 300 Feng Lin Rd, Shanghai 200032, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Department of Organ Transplantation, Changzheng Hospital, The Second Military Medical University, Shanghai 200003, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Guangzhou Univ Chinese Med, Inst Clin Pharmacol, Guangzhou 510406, Guangdong, Peoples R China",Guangzhou University,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"School of Pharmacy, Shanghai University of Traditional Chinese Medicine, No. 1200, Cai-lun Road, Pudong District, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Xuhui Caohejing Community Healthcare Ser, Dept Rehabil, Shanghai 200235, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Shanghai Univ Tradit Chinese Med, Longhua Hosp, CVD Collaborat Program, Shanghai 200032, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Xuhui Fengling Community Healthcare Serv, Dept Rehabil, Shanghai 200032, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Shanghai Inst Planned Parenthood Res, Shanghai Engineer & Technol Res Ctr Reprod Hlth D, Key Lab Contracept & Devices Res NPFPC, Shanghai 200032, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Univ Calif San Francisco, Osher Ctr Integrat Med, San Francisco, CA 94143 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Univ Tradit Chinese Med, Longhua Hosp, Dept Oncol, Shanghai 200032, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Intervent Canc Inst Integrat Med, Shanghai 200062, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Center for Drug Clinical Research, Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Inst Liver Dis, Key Lab Liver & Kidney Dis, Shuguang Hosp, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Department of Hepatology, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, 210029, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Hunan University of Chinese Medicine, Changsha, Hunan, 410208, China",Hunan University,Hunan University of Chinese Medicine,rule_match_disagree,1.0
+"First Teaching Hospital of Tianjin University of Traditional Chinese Medicine, Tianjin, 301617, China",First Teaching Hospital of Tianjin University of Traditional Chinese Medicine,Tianjin University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"No. 3 Department of Encephalopathy, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Shandong, Ji'nan, 250011, China",Shandong University,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Department of Cardiology, Cardiovascular Research Institute, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Department of Endocrinology, Affiliated Hospital to Changchun University of Chinese Medicine, Changchun, 130021, China",Changchun University,Changchun University of Chinese Medicine,rule_match_disagree,1.0
+"Longhua Affiliated Hospital of Shanghai University of Traditional Chinese Medicine, Shanghai, 200032, China",Shandong Shierming Eye Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.93
+"College of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China",Hubei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.93
+"Teaching Experiment Center, Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Department of Endocrinology, Nantong Hospital Affiliated to Nanjing University of Chinese Medicine, Nantong, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, 210004, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Canc Inst Integrat Med, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Department of Pediatrics, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Shandong, Jinan, 250011, China",Shandong University,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Basic Med Coll, 1200 Cailun Rd, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Shanghai Innovat Ctr TCM, Hlth Serv, 1200 Cailun Rd, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Mathematics and Physics Teaching and Research Section, School of Pharmacy, Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Key Laboratory of Bio-Energy Crops, School of Life Sciences, Shanghai University, Shanghai, China",Shanghai University,(unmatched),catch_all_no_rule,1.0
+"Experimental Center of Life Sciences, School of Life Science, Shanghai University, 333 Nan Chen Road, Shanghai, 200444, China",Shanghai University,(unmatched),catch_all_no_rule,1.0
+"Massachusetts Gen Hosp, Bipolar Clin, Boston, MA 02114 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Massachusetts Gen Hosp, Res Program, Boston, MA 02114 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Flora Inc, Res & Dev, Bethesda, MD 20817 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"Changhai Hospital, Second Military Medical University, Shangha, China",Changhai Hospital,Naval Medical University,rule_match_disagree,1.0
+"Second Mil Med Univ, Sch Pharm, Dept Pharmacognosy, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Second Mil Med Univ, Sch Pharm, Anal & Testing Ctr, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Second Mil Med Univ, Sch Pharm, Dept Pharmaceut Bot, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Ctr Tradit Chinese Med & Syst Biol, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai R and D Center for Standardization of Traditional Chinese Medicines, Shanghai 201203, China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Shanghai Hutchison Pharmaceuticals, Shanghai 201203, China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Dept Gen Surg, Shanghai 201203, Peoples R China",Shuguang Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.87
+"Shanghai Univ Tradit Chinese Med, Intervent Canc Inst Integrat Med, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Univ Calif Irvine, Dept Microbiol & Mol Genet, Irvine, CA 92717 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Univ Tradit Chinese Med, Longhua Hosp, Dept Breast Surg Integrated Tradit & Western Med, 725 South Wanping Rd, Shanghai 200032, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Oncology Department, Affiliated Hospital of Nanjing University of Chinese Medicine, 155 Hanzhong Road, Nanjing, 210029, Jiangsu province, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Sch Pharm, Dept Pharmacol, Cai Lun Rd 1200, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Engn Res Ctr Modern Preparat Technol TCM, Minist Educ, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Department of Urology, XuZhou Central Hospital Affiliated to Nanjing University of Chinese Medicine, Jiefang South Road, No. 199, Xuzhou, Jiangsu, China",Xuzhou Central Hospital,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Naval Med Univ, Changhai Hosp, Fac Anesthesiol, Shanghai 200433, Peoples R China",Changhai Hospital,Naval Medical University,rule_match_disagree,0.87
+"Department of Anorectal, Shuguang Hospital affiliated to Shanghai University of traditional Chinese Medicine, Shanghai, 201203, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Department of Radiology, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Department of Gastroenterology, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Department of Clinical Lab, Shuguang Hospital affiliated to Shanghai University of traditional Chinese Medicine, Shanghai, 201203, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Department of Pathology, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Department of Digestive Endoscopy Center, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Department of Thyroid Surgery, Baoshan Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, 201999, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Univ Calif San Francisco, Dept Bioengn & Therapeut Sci, San Francisco, CA 94143 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Univ Tradit Chinese Med, Yueyang Hosp Integrated Tradit Chinese & Western M, Shanghai 200437, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Institute of Liver Diseases, Shuguang Hospital affiliated with Shanghai University of Traditional Chinese Medicine, 528 Zhangheng Road, Shanghai, 201203, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.82
+"Changchun University of Chinese Medicine, No. 1035 Boshuo Rd, Nanguan District, Changchun, 130117, China",Changchun University,Changchun University of Chinese Medicine,rule_match_disagree,1.0
+"The College of Integrated Traditional Chinese and Western Medicine, Hunan University of Chinese Medicine, Hunan, Changsha, 410208, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Shanghai Univ Tradit Chinese Med, Spine Inst, Shanghai 200032, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Coll Tradit Chinese Herbal Med, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Second Mil Med Univ, Tumor Immunol & Gene Therapy Ctr, Shanghai Eastern Hepatobiliary Surg Hosp, Shanghai 200438, Peoples R China",Eastern Hepatobiliary Surgery Hospital,Naval Medical University,rule_match_disagree,0.82
+"Massachusetts Gen Hosp, EMNet Coordinating Ctr, Dept Emergency Med, Boston, MA 02114 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Guangzhou Univ Chinese Med, Inst Clin Pharmacol, Guangzhou, Guangdong, Peoples R China",Guangzhou University,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"Second Mil Med Univ, Chang Zheng Hosp, Dept Pharm, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Second Mil Med Univ, Dept Nat Med Chem, Sch Pharm, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Department of Pharmacology, School of Pharmacy, Second Military Medical University, Shanghai 200433, 325 Guo-He Road, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Department of Pharmacy, Changhai Hospital, Second Military Medical University, Shanghai 200433, 174 Chang-Hai Road, China",Changhai Hospital,Naval Medical University,rule_match_disagree,1.0
+"Department of Vascular Biology Lab, Hunan University of Chinese Medicine, Changsha, 410007, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Shuguang Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai 200021, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Hunan University of Chinese Medicine, Changsha, Hunan, China",Hunan University,Hunan University of Chinese Medicine,rule_match_disagree,1.0
+"Department of Otorhinolaryngology, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, Shandong, China",Shandong University,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Opelika Nephrol Referral Ctr, Opelika, AL USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Univ Calif San Francisco, Helen Diller Family Comprehens Canc Ctr, San Francisco, CA 94143 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Chinese Acad Sci, Shanghai Inst Mat Med, Drug Discovery & Design Ctr, Shanghai, Peoples R China",Shanghai Xiandai Architectural Design,Shanghai Institute of Materia Medica,rule_match_disagree,0.59
+"Second Mil Med Univ, Sch Pharm, Shanghai, Peoples R China",Lanzhou University Second Hospital,Naval Medical University,rule_match_disagree,0.68
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Dept Oncol, Shanghai, Peoples R China",Shuguang Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.87
+"Northside Hosp Canc Inst, Atlanta, GA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Department of Clinical Pharmacology, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Department of Oncology, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Shandong, Jinan, 250014, China",Shandong University,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Fenton Nelson LLP, Los Angeles, CA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Department of Pharmacognosy, School of Pharmacy, Second Military Medical University, Shanghai, 200433, 325 Guohe Road, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"First Teaching Hospital, Tianjin University of Traditional Chinese Medicine, Nankai University, Tianjin, China",Nankai University,Tianjin University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Department of Pediatrics, The First Affiliated Hospital of Guangzhou University of Chinese Medicine, Guangzhou, China",First Affiliated Hospital of Guangzhou University of Chinese Medicine,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"Western Univ Hlth Sci, Coll Vet, Pomona, CA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Western Univ Hlth Sci, Coll Pharm, Dept Pharmaceut Sci, Pomona, CA 91766 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Univ Tradit Chinese Med, Intervent Canc Inst Chinese Integrat Med, Putuo Hosp, Shanghai 200062, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Putuo Hosp, Dept Gen Surg, Shanghai 200062, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+Shanghai University,Shanghai University,(unmatched),catch_all_no_rule,1.0
+"Key Laboratory of Acupuncture and Immunological Effects, Yueyang Hospital of Integrated Traditional Chinese and Western Medicine Affiliated to Shanghai University of Traditional Chinese Medicine, Shan",Hunan Provincial Hospital of Integrated Traditional Chinese and Western Medicine (The Affiliated Hospital of Hunan Academy of Traditional Chinese Medicine),Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.84
+"Department of Acupuncture and Moxibustion, Shanghai TCM-Integrated Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, 200082, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Department of Pharmacy, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, 210029, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Chinese Acad Sci, Grad Sch, Shanghai 200031, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Department of Dermatology, Wuhan No.1 Hospital, Hospital of Traditional Chinese and Western Medicine Affiliated to Hubei University of Chinese Medicine, Wuhan Hospital of Traditional Chinese and Weste",Wuhan No.1 Hospital,Hubei University of Chinese Medicine,rule_match_disagree,1.0
+"Department of Dermatology, Hubei Provincial Hospital of Traditional Chinese Medicine, Hospital Affiliated to Hubei University of Chinese Medicine, Wuhan, China",Hubei Provincial Hospital of Traditional Chinese Medicine,Hubei University of Chinese Medicine,rule_match_disagree,1.0
+"Experiment Center for Teaching and Learning, Shanghai University of Traditional Chinese Medicine, Pudong New District, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Foreign Languages Teaching Center, Shanghai University of Traditional Chinese Medicine, Pudong New District, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Hunan Academy of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410013, Hunan, China",Hunan University,Hunan University of Chinese Medicine,rule_match_disagree,1.0
+"Hunan Academy of Chinese Medicine, Hunan University of Chinese Medicine, Hunan, Changsha, 410013, China",Hunan University,Hunan University of Chinese Medicine,rule_match_disagree,1.0
+"Department of TCM Processing, Shanghai University of Traditional Chinese Medicine, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Department of Pharmacy, Changzheng Hospital, Second Military Medical University, Shanghai, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Department of Medical Oncology, The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Zhejiang, Hangzhou, China",The Third Affiliated Hospital of Zhejiang Chinese Medical University,Zhejiang Chinese Medical University,rule_match_disagree,0.95
+"The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Zhejiang, Hangzhou, 310006, China",The Third Affiliated Hospital of Zhejiang Chinese Medical University,Zhejiang Chinese Medical University,rule_match_disagree,0.95
+"Department of Nephrology, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, No. 528 Zhangheng Road, Pudong District, Shanghai, 201203, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Department of Pharmacology, Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Dept Pulm Dis, Shanghai 200072, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Jingan Dist Hosp Tradit Chinese Med, Shanghai Med Coll, Dept Pulm Dis, Shanghai 200072, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"TCM and Ethnomedicine Innovation & Development International Laboratory, Innovative Materia Medica Research Institute, Medica Research Institute, Hunan University of Chinese Medicine, Hunan, Changsha,",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"College of Pharmacy, Affiliated Hospital to Changchun University of Chinese Medicine, Changchun, 130021, China",Changchun University,Changchun University of Chinese Medicine,rule_match_disagree,1.0
+"Naval Med Univ, Sch Pharm, Shanghai, Peoples R China",People’s Hospital of Rizhao,Naval Medical University,rule_match_disagree,0.57
+"Integrated Traditional Chinese and Western Medicine Hospital, Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, 201203, China",Beijing Chang'an Integrated Traditional Chinese and Western Medicine Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.88
+"Bristol Myers Squibb Co, Dept Drug Metab & Pharmacokinet, Princeton, NJ USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"Chinese Acad Sci, Shanghai Inst Mat Med, Lab DMPK Res Herbal Med, Shanghai 201203, Peoples R China",Shanghai University,Shanghai Institute of Materia Medica,rule_match_disagree,0.75
+"Worldwide R&D Pfizer Inc, Pharmacokinet Dynam & Metab, Groton, CT USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"MassDefect Technol, Princeton, NJ 08540 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.62
+"State Key Laboratory of Dampness Syndrome of Chinese Medicine, Guangdong Provincial, Hospital of Chinese Medicine, Guangdong, Provincial Academy of Chinese Medical Sciences, the Second Affiliated Hosp",Second Affiliated Hospital of Zhengzhou University,Guangzhou University of Chinese Medicine,rule_match_disagree,0.94
+"Department of Medicinal Chemistry, School of Pharmacy, Hunan University of Chinese Medicine, Changsha, 410208, China",Changchun University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.9
+"Sanford Burnham Med Res Inst, Ctr Canc, La Jolla, CA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Univ Tradit Chinese Med, Res Ctr Tradit Chinese Med Complex Syst, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.67
+"Guangzhou Univ Chinese Med, Int Inst Translat Chinese Med, Guangzhou 51006, Guangdong, Peoples R China",Guangzhou University,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"Affiliated Changzheng Hospital, Second Military Medical University, Shanghai, 200003, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Faculty of Naval Medicine, Second Military Medical University, Shanghai, 200433, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Western Univ Hlth Sci, Coll Pharm, Dept Pharmaceut Sci, Pomona, CA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Western Univ Hlth Sci, Coll Pharm, Dept Pharm Practice & Adm, Pomona, CA 91766 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Western Univ Hlth Sci, Coll Pharm, Dept Pharm Practice & Adm, Pomona, CA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Orthopaedic Microsurgery, Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Shandong, China",Shandong University,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Chinese Acad Sci, Shanghai Inst Mat Med, Shanghai Res Ctr Modernizat Tradit Chinese Med, Shanghai 200031, Peoples R China",Shanghai University,Shanghai Institute of Materia Medica,rule_match_disagree,0.75
+"Department of Clinical Pharmacology, Shuguang Hospital Affiliated to Shanghai University of TCM, Shanghai, 201203, No. 528 Zhangheng Road, Pudong New Area, China",Shanghai University,(unmatched),catch_all_no_rule,1.0
+"Shanghai Univ Tradit Chinese Med, Sch Pharm, Dept Pharmacol, 1200 Cai Lun Rd, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Science and Technology Center, Shanghai University of Traditional Chinese Medicine, Shanghai 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Shanghai Shuguang Hosp, Dept Gynaecol, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Inst Tradit Chinese Med, SATCM Key Lab New Resources & Qual Evaluat Chines, Key Lab Standardizat Chinese Med,Minist Educ MOE, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Department of Paediatrics, Changhai Hospital, Second Military Medical University, Shanghai, China",Changhai Hospital,Naval Medical University,rule_match_disagree,1.0
+"Department of Anesthesiology, Second Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Shandong, 250014, China",Shandong University,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"The First Affiliated Hospital of Zhejiang Chinese Medical University (Zhejiang Provincial Hospital of Chinese Medicine), Zhejiang, Hangzhou, China",The Third Affiliated Hospital of Zhejiang Chinese Medical University,Zhejiang Chinese Medical University,rule_match_disagree,0.95
+"Fangzheng Research Laboratory, Jilin Ginseng Academy, Changchun University of Chinese Medicine, Changchun, China",Changchun University,Changchun University of Chinese Medicine,rule_match_disagree,1.0
+"Department of Gastroenterology, The First Affiliated Hospital of Zhejiang Chinese Medical University, Hangzhou, China",First Affiliated Hospital Zhejiang University,Zhejiang Chinese Medical University,rule_match_disagree,0.84
+"Department of Gastroenterology, The First Affiliated Hospital of Zhejiang Chinese Medical University, Zhejiang, Hangzhou, China",The Third Affiliated Hospital of Zhejiang Chinese Medical University,Zhejiang Chinese Medical University,rule_match_disagree,0.95
+"Shanghai Univ Tradit Chinese Med, Sch Pharm, Dept Pharmacol, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.67
+"Shanghai Univ Tradit Chinese Med, Inst Liver Dis, Shuguana Hosp, Key Lab Liver & Kidney Dis,Minist Educ, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Shanghai Key Lab Compound Chinese Med, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.67
+"Hunan Univ Chinese Med, Prov Key Lab Tradit Chinese Med Diagnost, Changsha, Hunan, Peoples R China",Hunan University of Traditional Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.74
+"School of Medicine, Hunan University of Chinese Medicine, Changsha, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Galactophore Department, The First Hospital of Hunan University of Chinese Medicine, Changsha, China",First Affiliated Hospital of Guangzhou University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.87
+"Central Laboratory, Affiliated Hospital of Nanjing University of Chinese Medicine, Nanjing, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ, Affiliated Hosp 3, Wenzhou Peoples Hosp, Wenzhou, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,1.0
+"School of Pharmacy, Shanghai University of Tranditional Chinese Medicine, Shanghai, China",Shanghai University,(unmatched),catch_all_no_rule,1.0
+"Shanghai Univ Tradit Chinese Med, Shanghai Res Inst Acupuncture & Meridian, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Inst Interdisciplinary Integrat Med Res, Shanghai Frontiers Sci Ctr Chinese Med Chem Biol, Shangha, Peoples R China",Shanghai Traditional Chinese Medicine Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.7
+"Department of Pharmacy, Changzheng Hospital, Navl Medical University (Second Military Medical University), Shanghai, China",Shanghai Changzheng Hospital,Naval Medical University,rule_match_disagree,0.82
+"Chinese Acad Sci, Shanghai Inst Mat Med, Nat Prod Chem Dept, Shanghai, Peoples R China",People’s Hospital of Rizhao,Shanghai Institute of Materia Medica,rule_match_disagree,0.57
+"Chinese Acad Sci, Shanghai Inst Mat Med, Natl Engn Lab TCM Standardizat Technol, Shanghai, Peoples R China",People’s Hospital of Rizhao,Shanghai Institute of Materia Medica,rule_match_disagree,0.57
+"Shanghai Univ Tradit Chinese Med, Cent Hosp Shanghai Putuo Dist, Dept Cardiol, Shanghai, Peoples R China",Shanghai Chest Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.73
+"Shanghai Univ Tradit Chinese Med, Yueyang Hosp Integrated Tradit Chinese & Western M, Dept Neurol, Shanghai, Peoples R China",First People's Hospital of Chongqing,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.71
+"Shanghai Univ Tradit Chinese Med, Inst Interdisciplinary Integrat Med Res, Shanghai Frontiers Sci Ctr TCM Chem Biol, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Shuguang Hosp, Inst Liver Dis, Minist Educ,Key Lab Liver & Kidney Dis,Shanghai Ke, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Hlth & Environm Sci Inst, Washington, DC USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"CDCP, COVID 19 Response Int Task Force, Atlanta, GA 30333 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Hunan Univ Chinese Med, Sch Pharm, Changsha, Hunan, Peoples R China",Hunan University of Traditional Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.74
+"Hunan Univ Chinese Med, Coll Integrated Tradit Chinese Med & Western Med, Key Lab Hunan Prov Integrated Tradit Chinese & Wes, Changsha, Hunan, Peoples R China",Hunan University of Traditional Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.74
+"Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Jinan, China",Affiliated Hospital of Shandong University of Traditional Chinese Medicine,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Cancer Institute, Longhua Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Breast Surgery Department, Baoshan Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Department of Intensive Care Medicine, Shuguang Hospital Affiliated to Shanghai University of Traditional Chinese Medicine, Shanghai, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.83
+"Science and Technology Experimental Center, Shanghai University of Traditional Chinese Medicine, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Hunan Univ Chinese Med, Key Lab Hunan Prov Integrated Tradit Chinese & Wes, Changsha, Peoples R China",Hunan University of Traditional Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.74
+"Amyris Inc, Emeryville, CA 94608 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Key Laboratory of Oncology of Traditional Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410012, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Hunan Key Laboratory of Traditional Chinese Medicine Prescription and Syndromes Translational Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Key Laboratory of Traditional Chinese Medicine for Mechanism of Tumor Prevention and Treatment, Hunan University of Chinese Medicine, Changsha, 410208, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Department of Galactophore, The First Hospital of Hunan University of Chinese Medicine, Changsha, 410007, China",First Affiliated Hospital of Guangzhou University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.87
+"Coll Med Ctr, Psychiat, Long Beach, CA 90806 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Calif Univ Sci & Med, Sch Med, Colton, CA 92324 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Ctr Bioinformat Technol, Shanghai 200235, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Viecare Butler, Program All Inclus Care Elderly Pace, Butler, PA 16001 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.77
+"Second Mil Med Univ, Changzheng Hosp, Dept Pharm, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"Guangzhou Univ Chinese Med, Inst Clin Pharmacol, 12 Jichang Rd, Guangzhou 510405, Guangdong, Peoples R China",Guangzhou University,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"Univ Chinese Acad Sci, Coll Life Sci, Beijing 100049, Peoples R China",Changchun University of Chinese Medicine,University of Chinese Academy of Sciences,rule_match_disagree,0.72
+"Shanghai Univ Tradit Chinese Med, Dept Chinese Mat Med, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Univ Tradit Chinese Med, Engn Res Ctr Modern Preparat Technol TCM Minist E, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shandong Univ Tradit Chinese Med, Pharmaceut Res Inst, Jinan 250355, Peoples R China",Shandong University,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Univ Calif San Diego, Dept Bioengn, La Jolla, CA 92093 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Calif San Diego, Skaggs Sch Pharm & Pharmaceut Sci, La Jolla, CA 92093 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Calif San Diego, Dept Biol, La Jolla, CA 92093 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Calif San Diego, Sch Med, Dept Pharmacol, La Jolla, CA 92093 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Calif San Diego, Dept Pediat, La Jolla, CA 92093 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Calif San Diego, Dept Med Nephrol, La Jolla, CA 92093 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Analysis and Testing Center, School of Pharmacy, Second Military Medical University, Shanghai 200433, China",Second Military Medical University,Naval Medical University,rule_match_disagree,1.0
+"Key Laboratory of Basic and Application Research of Beiyao, Heilongjiang University of Chinese Medicine, Heilongjiang Province, Harbin, 150040, China",Heilongjiang University,Heilongjiang University of Chinese Medicine,rule_match_disagree,1.0
+"Hunan Univ Chinese Med, Coll Pharmaceut Sci, Changsha 410208, Hunan, Peoples R China",Hunan University of Traditional Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.74
+"Zhenxin Community Hlth Serv Ctr, Dept Tradit Chinese Med, Shanghai 201824, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Shanghai Univ Tradit Chinese Med, Dept Urol Surg, Shuguang Hosp, 528 Zhangheng Rd, Shanghai 201203, Peoples R China",Shuguang Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.87
+"Department of Gynecology, Shuguang Hospital Affiliated with Shanghai University of T.C.M, Shanghai, 200240, China",Shanghai University,(unmatched),catch_all_no_rule,1.0
+"Center for Drug Clinical Research, Shanghai University of Traditional Chinese Medicine, 1200 Cailun Road, Shanghai, 201203, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Chinese Acad Sci, Shanghai Inst Mat Med, Shanghai Res Ctr Modernizat Tradit Chinese Med, Shanghai 201203, Peoples R China",Shanghai University,Shanghai Institute of Materia Medica,rule_match_disagree,0.75
+"Second Mil Med Univ, Dept Tradit Chinese Med, Changhai Hosp, Shanghai 200433, Peoples R China",Changhai Hospital,Naval Medical University,rule_match_disagree,0.87
+"Wenzhou Med Univ, Shanghai Univ, Wenzhou Peoples Hosp, Dept Pharm,Clin Inst 3,Affiliated Hosp 3, Wenzhou 325800, Zhejiang, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,1.0
+"Hunan Univ Chinese Med, Diagnost Inst Tradit Chinese Med, Dept Diag, Changsha 410208, Hunan, Peoples R China",Hunan University,Hunan University of Chinese Medicine,rule_match_disagree,1.0
+"Hunan Univ Chinese Med, Dept Chem, Key Lab Modernizat Chinese Med, Changsha 410208, Hunan, Peoples R China",Hunan University of Traditional Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.74
+"Hunan Univ Chinese Med, Sch Pharm, TCM & Ethnomed Innovat & Dev Lab, Changsha 410208, Hunan, Peoples R China",Hunan University of Traditional Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.74
+"National TCM Key Laboratory of Serum Pharmaco-Chemistry, Heilongjiang University of Chinese Medicine, Harbin, Heilongjiang Provine, 150040, 24 Heping Road, China",Heilongjiang University,Heilongjiang University of Chinese Medicine,rule_match_disagree,1.0
+"Univ Calif Irvine, Dept Clin Pharm Practice, Irvine, CA 92697 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Department of Pharmacy, Changzheng Hospital, Naval Medical University, Shanghai, China",Shanghai Changzheng Hospital,Naval Medical University,rule_match_disagree,0.82
+"Department of Gastroenterology, Changzheng Hospital, Naval Medical University, Shanghai, China",Shanghai Changzheng Hospital,Naval Medical University,rule_match_disagree,0.81
+"Department of Nephrology, Changzheng Hospital, Naval Medical University, Shanghai, China",Shanghai Changzheng Hospital,Naval Medical University,rule_match_disagree,0.81
+"Shanghai Key Laboratory for Pharmaceutical Metabolite Research, Changzheng Hospital, Naval Medical University, Shanghai, China",Shanghai Artificial Intelligence Laboratory,Naval Medical University,rule_match_disagree,0.86
+"Naval Med Univ, Sch Pharm, Dept Pharmaceut Bot, Shanghai 200433, Peoples R China",Shanghai University,Naval Medical University,rule_match_disagree,0.75
+"The First Affiliated Hospital of Zhejiang Chinese Medical University, Zhejiang, Hangzhou, 310006, China",The Third Affiliated Hospital of Zhejiang Chinese Medical University,Zhejiang Chinese Medical University,rule_match_disagree,0.95
+"Shanghai Ginposome Pharmatech Co Ltd, Shanghai 201600, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Guangzhou Univ Chinese Med, Inst Trop Med, Guangzhou 510006, Guangdong, Peoples R China",Guangzhou University,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+"Minist Educ, Key Lab Smart Drug Delivery, Shanghai 201203, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"E China Univ Sci & Technol, Sch Pharm, Shanghai Key Lab New Drug Design, Shanghai 200237, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Emiliem Inc, Emeryville, CA 94608 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Calif Berkeley, Dept Nutr Sci & Toxicol, Berkeley, CA 94720 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Kaiser Permanente Med Ctr, Dept Pharm, Oakland, CA USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Santa Clara Valley Med Ctr, Dept Pharm, San Jose, CA 95128 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Santa Clara Valley Med Ctr, Dept Med, San Jose, CA 95128 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Calif San Francisco, Med Ctr, Dept Clin Pharm, San Francisco, CA 94143 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Santa Clara Valley Med Ctr, Div Rheumatol, San Jose, CA 95128 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Santa Clara Valley Med Ctr, Dept Nursing, San Jose, CA 95128 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Calif San Francisco, Dept Clin Pharm, San Francisco, CA 94143 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Univ Tradit Chinese Med, Inst Interdisciplinary Integrat Med Res, Shanghai 200000, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Yueyang Hosp Integrated Tradit Chinese & Western, Translat Med Ctr, Shanghai 200000, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Univ Calif San Francisco, Sch Pharm, Dept Biopharmaceut Sci, San Francisco, CA 94143 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Shanghai Univ Tradit Chinese Med, Cardiovasc Res Inst Tradit Chinese Med, Shuguang Hosp, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Cardiovasc Dept Tradit Chinese Med, Shuguang Hosp, Shanghai, Peoples R China",Shuguang Hospital,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.87
+"Univ Iowa, Coll Dent, Dept Family Dent, Iowa City, IA 52242 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Iowa, Coll Dent, Dows Inst Dent Res, Iowa City, IA 52242 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Univ Chinese Acad Sci, HwaMei Hosp, Pharm Dept, Ningbo, Zhejiang, Peoples R China",Ningbo No. 2 Hospital,University of Chinese Academy of Sciences,rule_match_disagree,0.85
+"Univ Chinese Acad Sci, HwaMei Hosp, Live Oncol, Ningbo, Zhejiang, Peoples R China",Ningbo No. 2 Hospital,University of Chinese Academy of Sciences,rule_match_disagree,0.85
+"Univ Calif San Francisco, Dept Epidemiol & Biostat, San Francisco, CA 94143 USA",Israel Cancer Association USA,(unmatched),catch_all_no_rule,0.92
+"Pharmacy Department, HwaMei Hospital, University of Chinese Academy of Sciences, Ningbo, China",Ningbo No. 2 Hospital,University of Chinese Academy of Sciences,rule_match_disagree,1.0
+"HwaMei Hospital, University of Chinese Academy of Sciences, Ningbo, China",Ningbo No. 2 Hospital,University of Chinese Academy of Sciences,rule_match_disagree,1.0
+"Experiment Center For Teaching and Learning, Shanghai University of Traditional Chinese Medicine, Cailun Road, Pudong New Area, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Experiment Center For Science and Technology, Shanghai University of Traditional Chinese Medicine, Cailun Road, Pudong New Area, Shanghai, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Hemopathy Department, Yueyang Hospital, Shanghai University of Traditional Chinese Medicine, Shanghai 200437, China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,1.0
+First Affiliated Hospital of Guangzhou University of Chinese Medicine,First Affiliated Hospital of Guangzhou University of Chinese Medicine,Guangzhou University of Chinese Medicine,rule_match_disagree,1.0
+Affiliated Hospital of Liaoning University of Traditional Chinese Medicine,Affiliated Hospital of Liaoning University of Traditional Chinese Medicine,Liaoning University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Shanghai Univ Tradit Chinese Med, Peoples Hosp 7, Dept Clin Lab, Shanghai, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.67
+"Shanghai Univ Tradit Chinese Med, Inst Chinese Mat Med, Key Lab Standardizat Chinese Med, Shanghai Key Lab Cpd Chinese Med, Minist Educ, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Chinese Acad Sci, Zhongshan Inst Drug Discovery, Shanghai Inst Mat Med, Zhongshan, Peoples R China",People’s Hospital of Rizhao,Shanghai Institute of Materia Medica,rule_match_disagree,0.57
+"Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine, Beijing, 100700, China",Dongzhimen Hospital Affiliated to Beijing University of Chinese Medicine,Beijing University of Chinese Medicine,rule_match_disagree,1.0
+"Affiliated Hospital of Nanjing University of Chinese Medicine, NO. 155 HanZhong Rd., Jiangsu Province, Nanjing, 210029, China",Nanjing University,Nanjing University of Chinese Medicine,rule_match_disagree,1.0
+"Key Laboratory of Theory and Therapy of Muscles and Bones, Ministry of Education (Shanghai University of Traditional Chinese Medicine), 1200 Cailun Road, Shanghai, 201203, China",Second Affiliated Hospital of Hunan University of Traditional Chinese Medicine,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.69
+"Hunan Univ Chinese Med, Sch Med, Dept Microbiol, Changsha 410208, Hunan, Peoples R China",Hunan University of Traditional Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.74
+"School of Acupuncture, Moxibustion & Tuina, Hunan University of Chinese Medicine, Changsha, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"School of Integrated Chinese and Western Medicine, Hunan University of Chinese Medicine & Hunan Academy of Chinese Medicine, Changsha, 410208 & 410006, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Department of Encephalopathy, The second Affiliated Hospital of Shandong University of Traditional Chinese Medicine, Shandong, Ji’nan, China",Shandong University,Shandong University of Traditional Chinese Medicine,rule_match_disagree,1.0
+"Hunan Province Sino-US International Joint Research Center for Therapeutic Drugs of Senile Degenerative Diseases, Hunan University of Chinese Medicine, Changsha, 410208, China",Hunan University,Hunan University of Chinese Medicine,rule_match_disagree,1.0
+"Hunan Engineering Technology Research Center for Bioactive Substance Discovery of Chinese Medicine, Hunan University of Chinese Medicine, Changsha, 410208, China",Hebei University of Chinese Medicine,Hunan University of Chinese Medicine,rule_match_disagree,0.89
+"Department of Oncology, The Second Affiliated Hospital of Zhejiang Chinese Medical University, Hangzhou, 310005, China",Second Affiliated Hospital of Zhejiang University,Zhejiang Chinese Medical University,rule_match_disagree,0.86
+"Shanghai Univ Tradit Chinese Med, Sci & Technol Expt Ctr, Shanghai 201203, Peoples R China",Shanghai University,Shanghai University of Traditional Chinese Medicine,rule_match_disagree,0.75
+"Shanghai Key Lab Gene Editing & Cell Therapy Rare, Shanghai 200031, Peoples R China",Shanghai University,(unmatched),catch_all_no_rule,0.75
+"Beijing University of Chinese Medicine Third Affiliated Hospital, Beijing, China",Beijing University of Technology,Beijing University of Chinese Medicine,rule_match_disagree,0.78
+"Beijing Univ Chinese Med, Key Lab Chinese Internal Med, MOE, 5 Haiyuncang Hutong, Beijing 100105, Peoples R China",Ministry of Education,Beijing University of Chinese Medicine,rule_match_disagree,1.0

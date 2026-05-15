@@ -1,0 +1,2 @@
+method,total_authors,alpha,C,r_squared,ks_statistic,ks_critical_05,ks_pass,interpretation
+D2 FINI + Institution,43472,2.6321,16414.14,0.957,0.0835,0.0065,False,Super-Lotka (steeper distribution)

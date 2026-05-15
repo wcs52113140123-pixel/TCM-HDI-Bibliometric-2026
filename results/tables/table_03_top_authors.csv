@@ -1,0 +1,31 @@
+rank,fini_id,institution,n_publications,n_first_author,d2_id
+1,duan_j,Nanjing University of Chinese Medicine,40,1,duan_j@nanjing_university_chinese_medicine
+2,zuo_z,Chinese University of Hong Kong,31,0,zuo_z@chinese_university_hong_kong
+3,qian_d,Nanjing University of Chinese Medicine,29,0,qian_d@nanjing_university_chinese_medicine
+4,al_jenoobi_f,King Saud University,28,7,al_jenoobi_f@king_saud_university
+5,shang_e,Nanjing University of Chinese Medicine,26,0,shang_e@nanjing_university_chinese_medicine
+6,khan_i,University of Mississippi,24,0,khan_i@university_mississippi
+7,ahad_a,King Saud University,23,2,ahad_a@king_saud_university
+8,khan_s,University of Mississippi,23,1,khan_s@university_mississippi
+9,zhang_y,Beijing University of Chinese Medicine,23,0,zhang_y@beijing_university_chinese_medicine
+10,yeung_j,Chinese University of Hong Kong,22,2,yeung_j@chinese_university_hong_kong
+11,guo_j,Nanjing University of Chinese Medicine,22,1,guo_j@nanjing_university_chinese_medicine
+12,raish_m,King Saud University,22,3,raish_m@king_saud_university
+13,huang_m,Sun Yat-sen University,22,0,huang_m@sun_yat_sen_university
+14,li_y,Chengdu University of Traditional Chinese Medicine,21,4,li_y@chengdu_university_traditional_chinese_medicine
+15,wang_x,Heilongjiang University of Chinese Medicine,21,2,wang_x@heilongjiang_university_chinese_medicine
+16,wang_c,Shanghai University of Traditional Chinese Medicine,21,0,wang_c@shanghai_university_traditional_chinese_medicine
+17,al_mohizea_a,King Saud University,20,2,al_mohizea_a@king_saud_university
+18,bi_h,Sun Yat-sen University,19,0,bi_h@sun_yat_sen_university
+19,alam_m,King Saud University,19,3,alam_m@king_saud_university
+20,li_y,Beijing University of Chinese Medicine,19,2,li_y@beijing_university_chinese_medicine
+21,wang_g,China Pharmaceutical University,19,2,wang_g@china_pharmaceutical_university
+22,lee_s,Kyungpook National University,19,0,lee_s@kyungpook_national_university
+23,su_s,Nanjing University of Chinese Medicine,18,1,su_s@nanjing_university_chinese_medicine
+24,tang_y,Nanjing University of Chinese Medicine,18,0,tang_y@nanjing_university_chinese_medicine
+25,efferth_t,Johannes Gutenberg University Mainz,17,7,efferth_t@johannes_gutenberg_university_mainz
+26,sun_h,Heilongjiang University of Chinese Medicine,17,2,sun_h@heilongjiang_university_chinese_medicine
+27,bi_k,Shenyang Pharmaceutical University,17,0,bi_k@shenyang_pharmaceutical_university
+28,li_y,Shanghai University of Traditional Chinese Medicine,16,3,li_y@shanghai_university_traditional_chinese_medicine
+29,zhang_y,Tianjin University of Traditional Chinese Medicine,16,1,zhang_y@tianjin_university_traditional_chinese_medicine
+30,peng_c,Chengdu University of Traditional Chinese Medicine,16,0,peng_c@chengdu_university_traditional_chinese_medicine
