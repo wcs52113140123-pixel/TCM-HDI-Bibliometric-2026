@@ -1,0 +1,51 @@
+keyword1,keyword2,n_cooccur
+drug synergism,traditional chinese medicine,325
+herb-drug interaction,pharmacokinetics,310
+cytochrome p450,herb-drug interaction,205
+drug interaction,traditional chinese medicine,171
+herb-drug interaction,traditional chinese medicine,167
+pharmacokinetics,traditional chinese medicine,165
+"cell line, tumor",drug synergism,150
+herb-drug interaction,inhibition,149
+p-glycoprotein,pharmacokinetics,143
+herb-drug interaction,p-glycoprotein,143
+cytochrome p450,inhibition,138
+cytochrome p450,pharmacokinetics,133
+herb-drug,interaction,129
+interaction,pharmacokinetics,129
+drug interaction,pharmacokinetics,125
+pharmacodynamics,pharmacokinetics,125
+inhibition,pharmacokinetics,124
+drug interaction,herb-drug interaction,122
+herb-drug interaction,st johns wort,121
+herb-drug interaction,phytotherapy,118
+herb-drug interaction,plant extract,116
+dietary supplements,herb-drug interaction,113
+apoptosis,drug synergism,108
+cell proliferation,drug synergism,103
+cytochrome p450,drug interaction,101
+"cell line, tumor",traditional chinese medicine,101
+apoptosis,traditional chinese medicine,100
+molecular docking,network pharmacology,99
+cytochrome p450,p-glycoprotein,98
+bioavailability,pharmacokinetics,98
+p-glycoprotein,traditional chinese medicine,95
+pharmacokinetics,uplc-ms/ms,92
+herb-drug interaction,medicine,91
+"rats, sprague-dawley",traditional chinese medicine,91
+herb-drug interaction,medicinal plants,90
+extract,herb-drug interaction,86
+alternative medicine,complementary,85
+antineoplastic agents,drug synergism,83
+drug synergism,signal transduction,83
+herb-drug interaction,plant preparations,82
+cytochrome p450,traditional chinese medicine,81
+pharmacokinetics,st johns wort,81
+inhibition,p-glycoprotein,80
+apoptosis,"cell line, tumor",80
+cytochrome p450,enzymes,76
+cytochrome p450,st johns wort,76
+plant extract,traditional chinese medicine,76
+multidrug resistance,p-glycoprotein,76
+interaction,traditional chinese medicine,75
+cell proliferation,traditional chinese medicine,74

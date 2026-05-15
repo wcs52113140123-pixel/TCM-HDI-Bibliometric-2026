@@ -263,3 +263,127 @@ Working language: 中文 with English code/output.
    noted in Methods.
 4. **D2 still imperfect** — position-aware institution assignment uses first 
    institution if author position > inst count (heuristic).
+
+---
+
+## Day 4 (May 14-15, 2026): PRISMA + Keyword Analysis ✅
+
+**Status**: Complete  
+**Duration**: ~5 hours hands-on work  
+**Deliverables**: 6 scripts + 8 data files + 3 tables + 6 figures + 3 VOSviewer files
+
+### Block 1: PRISMA 2020 Flow Diagram ✅
+
+**Script**: `04_keyword_topic/01_prisma_flow_diagram.py`  
+**Output**: `results/figures/figure_01_prisma_flow.png`
+
+PRISMA-compliant flow diagram constructed programmatically (matplotlib) for full reproducibility:
+- Identification: 4 DBs (WoS 3,091 / Scopus 7,181 / OpenAlex 2,513 / PubMed 3,867 → 16,652)
+- Screening: DOI dedup -6,850 → 9,802 → fuzzy -266 → 9,536
+- Eligibility: OpenAlex precision filter -98 → 9,438
+- Included: 9,438 (main 2005-2025) + 316 (partial 2026) = 9,754 total
+
+### Block 2: Keyword Extraction + Standardization ✅
+
+**Scripts**: `02a_extract_keywords.py`, `02b_thesaurus_suggest.py`, `02c_apply_thesaurus.py`
+
+**Critical methodological discovery**: Initial inspection revealed that the `keywords_plus` field in Scopus-origin records contained mixed indexing content (mean 58 keywords/record, range 1-334, including MeSH descriptors, chemical entities, and Scopus indexing terms). WoS Keywords Plus was confirmed clean (median 10, range 1-13). **Decision D'**: drop Scopus `keywords_plus` from main analysis; retain author keywords + WoS Keywords Plus + MeSH terms (supplementary).
+
+**Standardization pipeline**:
+1. Basic normalization: lowercase, dash unification, MeSH-modifier removal
+2. Thesaurus construction (v3 clean rewrite): 38 KNOWN + 113 fuzzy = 151 variant→canonical mappings
+3. Stopword filter: 16 generic MeSH/study-type descriptors (humans, animals, male, female, rats, mice, etc.)
+4. Semantic blacklist: prevent false-positive merges (expression≠depression, lc-ms/ms≠uplc-ms/ms, cyp3a4≠cytochrome p450)
+5. Transitive closure: variants chain to final canonical in single step
+
+**Final keyword corpus**: 21,083 unique standardized keywords across 72,457 (record, keyword) pairs; 8,244 records with ≥1 keyword (84.5% coverage); mean 8.8 keywords/record.
+
+### Block 3: Top 50 Keywords + Figure 9 ✅
+
+**Script**: `04_keyword_topic/03_top_keywords_figure9.py`  
+**Outputs**: `table_06_top_keywords.csv`, `figure_09a_top_keywords.png`, `figure_09b_keywords_by_source.png`
+
+**Top 5 keywords** form a coherent terminology pyramid:
+- traditional chinese medicine (n=1,671, 17.1%)
+- herb-drug interaction (1,370, 14.1%)
+- pharmacokinetics (1,284, 13.2%)
+- drug interaction (635, 6.5%)
+- cytochrome p450 (629, 6.5%)
+
+**Five-layer ontology** emerges from Top 50:
+1. Foundational terminology: TCM, HDI, pharmacokinetics
+2. Interaction mechanisms: CYP450, P-gp, drug synergism
+3. Computational methodologies: network pharmacology (n=385), molecular docking (199), metabolomics (160)
+4. Biological endpoints: apoptosis, cancer, oxidative stress, hepatotoxicity
+5. Model herb-drug case studies: St. John's wort, warfarin, ginkgo
+
+**Source composition**: consistent between full corpus and Top 30 (no source bias):
+- Author Keywords: 50.9% / 50.0%
+- WoS Keywords Plus: 31.8% / 32.3%
+- MeSH Terms: 17.4% / 17.7%
+
+### Block 4: Keyword Co-occurrence Network (VOSviewer) ✅
+
+**Script**: `04_keyword_topic/04_keyword_cooccurrence.py`  
+**Outputs**: `keyword_cooccur_map.txt`, `keyword_cooccur_network.txt`, `figure_10_keyword_cooccur.png`
+
+**Network statistics**: 100 nodes, 1,485 edges, density 0.300, max weight 325, min weight 5.
+
+**VOSviewer parameters**: Association strength normalization; attraction=2, repulsion=0; resolution=0.80; min cluster size=5.
+
+**Top co-occurrence pairs**:
+1. drug synergism + TCM (325)
+2. herb-drug interaction + pharmacokinetics (310)
+3. cytochrome p450 + herb-drug interaction (205)
+4. drug interaction + TCM (171)
+5. herb-drug interaction + TCM (167)
+
+**Five thematic clusters** identified:
+- 🔴 Red (ADME core): CYP450, P-gp, pharmacokinetics, inhibition, UPLC-MS/MS, drug-drug interaction
+- 🔵 Blue (TCM oncology): traditional chinese medicine, drug synergism, apoptosis, cell line tumor
+- 🟢 Green (CAM clinical safety): alternative medicine, dietary supplements, cancer, safety, double-blind
+- 🟡 Yellow (in silico mechanisms): network pharmacology, molecular docking, oxidative stress, hepatotoxicity, metabolomics
+- 🟣 Purple (classic herb-drug pairs): warfarin, st johns wort, grapefruit juice, ginkgo biloba
+
+### Block 5: Keyword Temporal Evolution ✅
+
+**Script**: `04_keyword_topic/05_keyword_evolution.py`  
+**Outputs**: `table_07_keyword_evolution.csv`, `figure_11a_keyword_evolution_heatmap.png`, `figure_11b_rising_declining_keywords.png`
+
+**Three research paradigms identified**:
+
+| Period | n records | Dominant paradigm |
+|---|---|---|
+| Early (2005-2011) | 1,642 | Case-report + supplementary medicine |
+| Middle (2012-2018) | 2,644 | ADME mechanism (Phase I + ABC transporters) |
+| Recent (2019-2025) | 3,677 | Computational pharmacology (network + docking) |
+
+**Top 5 RISING keywords (Δ% Recent - Early)**:
+- network pharmacology: +9.27% (0.1% → 9.3%, **91-fold increase**)
+- molecular docking: +4.52% (0.2% → 4.7%, 25-fold)
+- pharmacokinetics: +3.77% (11.8% → 15.6%)
+- mechanism: +3.43% (1.0% → 4.4%)
+- drug-drug interaction: +2.55% (0.9% → 3.4%)
+
+**Top 5 DECLINING keywords**:
+- herb-drug interaction (as keyword): -16.78% (terminology specialization, not topic decline)
+- drug interaction: -7.90%
+- phytotherapy: -6.93%
+- plant extract: -6.18%
+- dietary supplements: -4.55%
+
+**Discussion-ready narrative**: Field underwent a **paradigm shift around 2018** from case-pair clinical observation toward systems-level in silico mechanism prediction. ADME terminology (CYP450, P-gp) persists but is now embedded within network pharmacology frameworks rather than studied as standalone targets.
+
+### Day 4 Engineering Lessons
+
+1. **Scopus `keywords_plus` is not WoS Keywords Plus**: Scopus exports indexing terms (median 58/record) including MeSH/chemical/clinical descriptors mixed with author terms. WoS Keywords Plus is algorithmically curated (median 10/record). **Always audit DB field semantics before assuming equivalence across exports.**
+
+2. **Fuzzy matching needs semantic blacklist**: RapidFuzz `token_sort_ratio >= 88` catches `depression`↔`expression` (different concepts, similar characters). Manual SEMANTIC_BLACKLIST is mandatory.
+
+3. **Thesaurus needs transitive closure**: `herbal medicines` → `herbal medicine` → `traditional chinese medicine` must resolve in 1 step to avoid multi-hop variants. Implementation: `while s in known_map and s not in visited: s = known_map[s]`.
+
+4. **Bidirectional fuzzy pairs need explicit dedup**: For variants A↔B, naive collection produces 2 entries (A→B with canonical_n=X; B→A with canonical_n=Y). Solution: sort tuple `(min, max)` as unique key, then assign canonical = max(record count).
+
+5. **PRISMA 2020 figure construction**: matplotlib `FancyBboxPatch` + manual coordinate placement gives publication-ready output in 30min vs 1h for R package PRISMA2020Flowdiag, with no R dependency.
+
+---

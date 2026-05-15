@@ -1,0 +1,51 @@
+rank,keyword,n_records,pct_records,n_author_kw,n_keywords_plus,n_mesh
+1,traditional chinese medicine,1671,17.13,916,266,538
+2,herb-drug interaction,1370,14.05,839,219,347
+3,pharmacokinetics,1284,13.16,1011,325,3
+4,drug interaction,635,6.51,287,261,98
+5,cytochrome p450,629,6.45,455,223,0
+6,p-glycoprotein,516,5.29,251,315,0
+7,drug synergism,474,4.86,2,0,472
+8,inhibition,436,4.47,78,365,0
+9,interaction,391,4.01,344,53,0
+10,network pharmacology,385,3.95,354,13,20
+11,apoptosis,317,3.25,100,107,118
+12,extract,292,2.99,14,280,0
+13,st johns wort,286,2.93,22,265,0
+14,mechanism,265,2.72,97,171,0
+15,medicine,260,2.67,83,183,0
+16,drug-drug interaction,243,2.49,168,80,0
+17,dietary supplements,236,2.42,109,63,68
+18,plant extract,233,2.39,27,0,206
+19,phytotherapy,226,2.32,57,4,165
+20,cancer,218,2.23,136,84,0
+21,bioavailability,215,2.2,110,111,0
+22,drug,211,2.16,83,129,0
+23,medicinal plants,208,2.13,98,20,91
+24,oxidative stress,206,2.11,80,115,22
+25,flavonoids,202,2.07,98,82,26
+26,molecular docking,199,2.04,191,8,0
+27,alternative medicine,199,2.04,46,156,0
+28,metabolite,189,1.94,141,48,0
+29,toxicity,187,1.92,120,71,0
+30,liver,184,1.89,32,83,71
+31,cyp3a4,183,1.88,100,86,0
+32,antioxidant,182,1.87,86,68,33
+33,induction,180,1.85,38,148,0
+34,"cell line, tumor",173,1.77,0,0,173
+35,inflammation,168,1.72,93,67,10
+36,enzymes,168,1.72,20,146,5
+37,identification,162,1.66,13,149,0
+38,metabolomics,160,1.64,138,18,12
+39,warfarin,159,1.63,94,49,19
+40,pharmacodynamics,156,1.6,120,37,0
+41,pharmacology,153,1.57,116,37,1
+42,multidrug resistance,151,1.55,66,95,0
+43,cells,148,1.52,4,144,0
+44,uplc-ms/ms,147,1.51,138,10,0
+45,complementary,141,1.45,14,128,0
+46,herb-drug,136,1.39,118,18,0
+47,transporter,135,1.38,64,76,0
+48,safety,126,1.29,77,45,7
+49,hepatotoxicity,125,1.28,92,40,0
+50,absorption,121,1.24,57,64,1

@@ -1,0 +1,152 @@
+variant,canonical,variant_n,canonical_n,decision,note
+herb-drug interactions,herb-drug interaction,851,513,MERGE,KNOWN
+in-vitro,in vitro,483,28,MERGE,KNOWN
+"drugs, chinese herbal",traditional chinese medicine,470,537,MERGE,KNOWN
+herbal medicine,traditional chinese medicine,308,537,MERGE,KNOWN
+drug interactions,drug interaction,301,144,MERGE,KNOWN
+st-johns-wort,st johns wort,250,15,MERGE,KNOWN
+plant extracts,plant extract,227,6,MERGE,KNOWN
+drug-interactions,drug interaction,184,144,MERGE,KNOWN
+interactions,interaction,183,215,MERGE,KNOWN
+cytochrome-p450,cytochrome p450,161,303,MERGE,KNOWN
+metabolites,metabolite,138,51,MERGE,KNOWN
+herbal medicines,traditional chinese medicine,136,537,MERGE,KNOWN
+pharmacokinetic,pharmacokinetics,134,1205,MERGE,KNOWN
+mechanisms,mechanism,123,145,MERGE,KNOWN
+drug-drug interactions,drug-drug interaction,117,131,MERGE,KNOWN
+"medicine, chinese traditional",traditional chinese medicine,113,537,MERGE,KNOWN
+chinese medicine,traditional chinese medicine,98,537,MERGE,KNOWN
+multidrug-resistance,multidrug resistance,97,57,MERGE,KNOWN
+in-vivo,in vivo,94,14,MERGE,KNOWN
+"plants, medicinal",medicinal plants,94,81,MERGE,KNOWN
+transporters,transporter,88,52,MERGE,KNOWN
+medicines,medicine,83,183,MERGE,KNOWN
+p-gp,p-glycoprotein,76,470,MERGE,KNOWN
+drugs,drug,74,138,MERGE,KNOWN
+dietary-supplements,dietary supplements,63,163,MERGE,KNOWN
+antioxidants,antioxidant,60,119,MERGE,KNOWN
+cyp450,cytochrome p450,60,303,MERGE,KNOWN
+extracts,extract,58,236,MERGE,KNOWN
+chinese herbal medicine,traditional chinese medicine,57,537,MERGE,KNOWN
+human liver microsomes,human liver-microsomes,47,57,MERGE,fuzzy
+herb,herbs,45,70,MERGE,fuzzy
+drug metabolism,drug-metabolism,45,51,MERGE,fuzzy
+cyp,cytochrome p450,40,303,MERGE,KNOWN
+breast-cancer,breast cancer,39,46,MERGE,fuzzy
+mass spectrometry,mass-spectrometry,38,60,MERGE,fuzzy
+p450,cytochrome p450,37,303,MERGE,KNOWN
+"microsomes, liver",liver-microsomes,36,52,MERGE,fuzzy
+pharmacokinetic interactions,pharmacokinetic interaction,34,49,MERGE,fuzzy
+tcm,traditional chinese medicine,33,537,MERGE,KNOWN
+inhibitor,inhibitors,33,54,MERGE,fuzzy
+ginsenoside,ginsenosides,31,64,MERGE,fuzzy
+traditional chinese medicine (tcm),traditional chinese medicine,31,537,MERGE,fuzzy
+natural-products,natural products,31,74,MERGE,fuzzy
+cardiovascular disease,cardiovascular diseases,30,39,MERGE,fuzzy
+udp-glucuronosyltransferase,udp-glucuronosyltransferases,29,34,MERGE,fuzzy
+cytochrome-p450 3a4,cytochrome p450,29,303,MERGE,fuzzy
+pharmacodynamic,pharmacodynamics,28,129,MERGE,fuzzy
+human cytochrome-p450 enzymes,cytochrome-p450 enzymes,28,64,MERGE,fuzzy
+flavonoid,flavonoids,27,179,MERGE,fuzzy
+uhplc-ms/ms,uplc-ms/ms,27,99,MERGE,fuzzy
+tandem mass spectrometry,tandem mass-spectrometry,27,37,MERGE,fuzzy
+drug-herb interactions,drug-herb interaction,26,54,MERGE,fuzzy
+drug-resistance,drug resistance,26,40,MERGE,fuzzy
+traditional chinese medicines,traditional chinese medicine,26,537,MERGE,fuzzy
+genes,gene,26,33,MERGE,fuzzy
+drug-metabolizing-enzymes,metabolizing-enzymes,25,27,MERGE,fuzzy
+hepatocellular carcinoma,"carcinoma, hepatocellular",25,27,MERGE,fuzzy
+baicalein,baicalin,25,45,MERGE,fuzzy
+herbal-drug interaction,herb-drug interaction,24,513,MERGE,fuzzy
+alternative medicine use,alternative medicine,24,178,MERGE,fuzzy
+st john's wort,st. john's wort,22,38,MERGE,fuzzy
+glucosides,glycosides,22,23,MERGE,fuzzy
+hypericum perforatum,st johns wort,22,15,MERGE,KNOWN
+cyp2c19,cyp2c9,22,41,MERGE,fuzzy
+metabonomics,metabolomics,21,147,MERGE,fuzzy
+enzyme inhibition,enzyme inhibitors,20,32,MERGE,fuzzy
+medicinal-plants,medicinal plants,20,81,MERGE,fuzzy
+udp-glucuronosyltransferases (ugts),udp-glucuronosyltransferases,20,34,MERGE,fuzzy
+pathways,pathway,20,57,MERGE,fuzzy
+glycyrrhizic acid,glycyrrhetinic acid,19,32,MERGE,fuzzy
+polymorphism,polymorphisms,19,27,MERGE,fuzzy
+enzyme,enzymes,18,153,MERGE,fuzzy
+plant,plants,18,38,MERGE,fuzzy
+nitric oxide,nitric-oxide,18,23,MERGE,fuzzy
+botanical,botanicals,17,33,MERGE,fuzzy
+alzheimers-disease,alzheimer's disease,17,41,MERGE,fuzzy
+signaling pathway,signaling pathways,17,21,MERGE,fuzzy
+drug-interaction,drug interaction,17,144,MERGE,KNOWN
+polysaccharide,polysaccharides,16,25,MERGE,fuzzy
+food-drug interaction,food-drug interactions,16,28,MERGE,fuzzy
+pregnane-x receptor,pregnane x receptor,16,58,MERGE,fuzzy
+cytochrome p450 3a4,cytochrome p450,16,303,MERGE,fuzzy
+proteins,protein,16,42,MERGE,fuzzy
+anti-inflammation,anti-inflammatory,16,65,MERGE,fuzzy
+glycoprotein,p-glycoprotein,16,470,MERGE,fuzzy
+molecular mechanisms,molecular mechanism,16,28,MERGE,fuzzy
+supplement use,supplements,16,49,MERGE,fuzzy
+clinical trial,clinical trials,15,23,MERGE,fuzzy
+natural product,natural products,15,74,MERGE,fuzzy
+cancer cells,cancer-cells,14,25,MERGE,fuzzy
+admet,adme,14,26,MERGE,fuzzy
+essential oils,essential oil,14,27,MERGE,fuzzy
+targets,target,14,23,MERGE,fuzzy
+medicinal plant,medicinal plants,14,81,MERGE,fuzzy
+liver microsomes,liver-microsomes,14,52,MERGE,fuzzy
+dietary supplement,dietary supplements,14,163,MERGE,fuzzy
+anti-cancer,anticancer,13,27,MERGE,fuzzy
+cyclosporine-a,cyclosporine,13,39,MERGE,fuzzy
+glucuronosyltransferase,udp-glucuronosyltransferases,13,34,MERGE,fuzzy
+5-fluorouracil,fluorouracil,13,26,MERGE,fuzzy
+cytochromes p450,cytochrome p450,13,303,MERGE,fuzzy
+cytochrome p450s,cytochrome p450,12,303,MERGE,fuzzy
+cytochrome p-450 cyp1a1,cytochrome p-450 cyp3a,12,60,MERGE,fuzzy
+coumarin,coumarins,12,29,MERGE,fuzzy
+alzheimer’s disease,alzheimer's disease,12,41,MERGE,fuzzy
+anticoagulant,anticoagulants,12,41,MERGE,fuzzy
+insulin-resistance,insulin resistance,12,23,MERGE,fuzzy
+herb-induced liver injury,drug-induced liver injury,12,24,MERGE,fuzzy
+cytochrome p450 (cyp),cytochrome p-450 cyp3a,11,60,MERGE,fuzzy
+uflc-ms/ms,uplc-ms/ms,11,99,MERGE,fuzzy
+diseases,disease,11,65,MERGE,fuzzy
+alzheimer disease,alzheimer's disease,11,41,MERGE,fuzzy
+hplc-ms/ms,uplc-ms/ms,11,99,MERGE,fuzzy
+caco-2 cell,caco-2 cells,11,43,MERGE,fuzzy
+"atp binding cassette transporter, subfamily b","atp binding cassette transporter, subfamily b, member 1",10,38,MERGE,fuzzy
+lipopolysaccharides,polysaccharides,10,25,MERGE,fuzzy
+receptors,receptor,10,49,MERGE,fuzzy
+complementary medicines,complementary medicine,10,69,MERGE,fuzzy
+herbals,herbal,10,62,MERGE,fuzzy
+hyperlipidemias,hyperlipidemia,10,21,MERGE,fuzzy
+cytochrome p450 3a,cytochrome p450,10,303,MERGE,fuzzy
+cytochrome p-450 cyp1a2,cytochrome p-450 cyp3a,10,60,MERGE,fuzzy
+drug transporter,drug transporters,9,24,MERGE,fuzzy
+chemical-constituents,chemical constituents,9,29,MERGE,fuzzy
+healthy volunteers,healthy-volunteers,9,25,MERGE,fuzzy
+cytochrome p-450 cyp2e1,cytochrome p-450 cyp3a,9,60,MERGE,fuzzy
+drug combination,drug combinations,9,32,MERGE,fuzzy
+phytochemical,phytochemicals,9,61,MERGE,fuzzy
+"medicine, traditional",traditional medicine,9,67,MERGE,fuzzy
+models,model,9,48,MERGE,fuzzy
+nanoparticle,nanoparticles,9,40,MERGE,fuzzy
+cell,cells,9,140,MERGE,fuzzy
+messenger-rna,"rna, messenger",9,39,MERGE,fuzzy
+alkaloid,alkaloids,8,99,MERGE,fuzzy
+drug transport,drug transporters,8,24,MERGE,fuzzy
+cell-line,cell line,8,39,MERGE,fuzzy
+inactivation,activation,8,95,MERGE,fuzzy
+cyclosporine a,cyclosporine,8,39,MERGE,fuzzy
+anti-oxidant,antioxidant,8,119,MERGE,fuzzy
+herbal product,herbal products,8,36,MERGE,fuzzy
+adverse effect,adverse effects,8,36,MERGE,fuzzy
+complementary and alternative medicines,complementary and alternative medicine,7,80,MERGE,fuzzy
+complementary and alternative medicine (cam),complementary and alternative medicine,7,80,MERGE,fuzzy
+herb-drug-interactions,herb-drug interaction,7,513,MERGE,fuzzy
+herbal drug interaction,drug-herb interaction,7,54,MERGE,fuzzy
+healthy,health,7,36,MERGE,fuzzy
+herb drug interaction,herb-drug interaction,7,513,MERGE,KNOWN
+multi-drug resistance,multidrug resistance,7,57,MERGE,fuzzy
+cytochrome p-450,cytochrome p450,6,303,MERGE,KNOWN
+pgp,p-glycoprotein,6,470,MERGE,KNOWN
+herb drug interactions,herb-drug interaction,3,513,MERGE,KNOWN

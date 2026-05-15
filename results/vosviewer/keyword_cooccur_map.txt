@@ -1,0 +1,101 @@
+id	label	weight<Documents>
+1	absorption	121
+2	acid	100
+3	activation	103
+4	alkaloids	105
+5	alternative medicine	199
+6	alzheimer's disease	79
+7	anti-inflammatory	81
+8	antineoplastic agents	109
+9	antioxidant	182
+10	apoptosis	317
+11	berberine	115
+12	bioavailability	215
+13	breast cancer	85
+14	cancer	218
+15	cell line, tumor	173
+16	cell proliferation	118
+17	cells	148
+18	chemotherapy	108
+19	complementary	141
+20	complementary and alternative medicine	94
+21	complementary medicine	79
+22	constituents	76
+23	curcumin	88
+24	cyp3a4	183
+25	cytochrome p-450 cyp3a	88
+26	cytochrome p-450 enzyme system	85
+27	cytochrome p450	629
+28	cytochrome-p450 enzymes	92
+29	depression	84
+30	diabetes	77
+31	dietary supplements	236
+32	disease models, animal	77
+33	dose-response relationship, drug	101
+34	double-blind	81
+35	drug	211
+36	drug interaction	635
+37	drug synergism	474
+38	drug-drug interaction	243
+39	drug-herb interaction	87
+40	drug-metabolism	95
+41	efficacy	77
+42	enzymes	168
+43	extract	292
+44	flavonoids	202
+45	ginkgo-biloba extract	74
+46	ginsenosides	94
+47	glucuronidation	76
+48	grapefruit juice	77
+49	gut microbiota	75
+50	hepatotoxicity	125
+51	herb-drug	136
+52	herb-drug interaction	1370
+53	herbs	115
+54	human liver-microsomes	103
+55	identification	162
+56	in vivo	108
+57	induction	180
+58	inflammation	168
+59	inhibition	436
+60	inhibitors	86
+61	interaction	391
+62	lc-ms/ms	94
+63	liver	184
+64	liver-microsomes	100
+65	mass-spectrometry	96
+66	mechanism	265
+67	medicinal plants	208
+68	medicine	260
+69	metabolite	189
+70	metabolomics	160
+71	molecular docking	199
+72	multidrug resistance	151
+73	natural products	120
+74	network pharmacology	385
+75	oxidative stress	206
+76	p-glycoprotein	516
+77	pathway	76
+78	pharmacodynamics	156
+79	pharmacokinetic interaction	83
+80	pharmacokinetics	1284
+81	pharmacology	153
+82	phytotherapy	226
+83	plant extract	233
+84	plant preparations	94
+85	plasma	116
+86	prevalence	74
+87	quercetin	82
+88	rat plasma	89
+89	rats, sprague-dawley	115
+90	safety	126
+91	signal transduction	98
+92	st johns wort	286
+93	therapy	86
+94	toxicity	187
+95	traditional chinese medicine	1671
+96	traditional medicine	75
+97	transporter	135
+98	udp-glucuronosyltransferases	92
+99	uplc-ms/ms	147
+100	warfarin	159
