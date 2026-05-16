@@ -945,3 +945,229 @@ Critical synonym coverage: **active compounds** mapped to parent plant: curcumin
    - **Targets**: 83% mapped (HGNC has finite explicit names) — acceptable
    - **Drugs**: 100% pass-through, 72% classified — class taxonomy is the bottleneck
    - **Herbs**: 100% pass-through, 54% canonical-mapped — long tail dominated by Latin binomials LLM-extracted rather than vernacular names
+
+------
+
+## Day 10 (May 18, 2026): Network Analysis Trilogy ✅
+
+**Status**: Complete **Latest commit**: <fill after commit> **Deliverables**: 3 network analysis scripts + 11 network parquets + 3 GraphML files for Cytoscape + complete trilogy spanning Herb-Drug, Herb-Target, and 3-axis Knowledge Graph perspectives
+
+### Day 10 Headline Findings
+
+- **Trilogy complete**: T1 (Herb × Drug), T2 (Herb × Target), T3 (3-axis KG) all built from Day 9 normalized data and exported as GraphML for Cytoscape + parquet for paper figures.
+
+- **Network coverage**: 2,157 records in T1, 1,725 in T2, 900 in T3 (gold-standard 3-axis triples). Each successive filter increases specificity.
+
+- **HDI literature canon validated**: Top edges in all three networks match canonical HDI references (Smolinske 1999, Markowitz 2003, Izzo 2009, Brantley 2013).
+
+- Novel narrative twists
+
+  :
+
+  - In T1: doxorubicin (69) > warfarin (60) as drug hub — TCM-HDI focus is chemotherapy modulation, not just anticoagulation.
+  - In T2: Hypericum drops from #1 (T1, drug-hub) to #15 (target-hub) — SJW research is NARROW-DEEP (CYP3A4-focused) while Coptis/Salvia/Panax are BROAD (multi-target).
+  - In T3: 38% of gold triples are PD-effect (not just PK-exposure) — reveals TCM-HDI literature's dual focus: PK interactions AND PD synergism/antagonism.
+
+### T1 — Herb × Drug Bipartite Network (`19_build_herb_drug_network.py`)
+
+**Filter**: drug_known interactions (require herb_canonical_latin AND drug_canonical) **Aggregation**: by (herb, drug), counts records, computes top mechanism / direction / mean confidence / mechanism set / record IDs per edge
+
+**Network metrics**:
+
+- Nodes: 1,292 (727 herbs + 570 drugs)
+- Edges: 1,751 (unique herb-drug pairs)
+- Bipartite density: 0.42%
+- Connected components: 126 (giant 79.1% = 1,022 nodes; 108 isolated pairs)
+- Herb degree: mean 2.41, max 54 (*Hypericum perforatum*)
+- Drug degree: mean 3.09, max 69 (doxorubicin)
+
+**Top hub herbs** (with HGNC-mapped family):
+
+- *Hypericum perforatum* (54, Hypericaceae)
+- *Salvia miltiorrhiza* (39, Lamiaceae)
+- *Panax ginseng* (36, Araliaceae)
+- *Glycyrrhiza uralensis* (35, Fabaceae)
+- *Coptis chinensis* (31, Ranunculaceae)
+- *Curcuma longa* (29, Zingiberaceae)
+- *Astragalus*, *Camellia sinensis*, *Ginkgo*, *Schisandra*, *Scutellaria*
+
+**Top hub drugs** (with ATC class):
+
+- doxorubicin (69, antineoplastic_anthracycline) ⭐ biggest drug hub
+- warfarin (60, anticoagulant_VKA)
+- cisplatin (54, antineoplastic_platinum)
+- midazolam (36, benzodiazepine)
+- fluorouracil (35), metformin (34, biguanide), phenacetin (28, CYP probe)
+
+**Top edges (matching HDI literature canon)**:
+
+- *Schisandra chinensis* × tacrolimus: 17 records (CYP_inhibition, Wuzhi clinical)
+- *Hypericum perforatum* × warfarin: 12 (CYP_induction, classic case)
+- *Hypericum* × cyclosporine: 9 (organ transplant case)
+- *Panax ginseng* × warfarin: 9
+- *Salvia* × aspirin: 9 (P-gp + receptor synergism, bleeding risk)
+- *Schisandra chinensis* × acetaminophen: 8 (**organ_toxicity_modulation** — Schema v3 capture, schisandrin B hepatoprotection)
+
+**Mechanism breakdown on 1,751 edges**:
+
+- CYP_inhibition 307 (17.5%), unspecified 299, synergistic_efficacy 208, receptor_synergism 198, other 150 (8.6% — vs 19.9% pre-audit), CYP_induction 130, P-gp_inhibition 75, **organ_toxicity_modulation 70**, transporter_modulation 70, **signaling_pathway_modulation 60** (Schema v3 mechanisms validated)
+
+**Most multi-mechanism edges (≥3 distinct mechs)**:
+
+- SJW × warfarin: 4 mechs (CYP_induction|CYP_inhibition|other|unspecified, 12 records)
+- SJW × cyclosporine: 4 mechs (CYP_induction|CYP_inhibition|absorption_alteration|unspecified, 9 records)
+- Schisandra × acetaminophen: 4 mechs (CYP_inhibition|absorption_alteration| organ_toxicity_modulation|signaling_pathway_modulation, 8 records) — paper Discussion gold
+
+### T2 — Herb × Target Bipartite Network (`20_build_herb_target_network.py`)
+
+**Filter**: target_known interactions (require herb_canonical_latin AND target_canonical) **Edge attributes**: count, top mechanism, top direction, top drug (context), top drug class, n distinct drugs (which drugs are involved when herb hits target) **Bonus outputs**: herb_family × target_family + target_family × mechanism cross-tabs
+
+**Network metrics**:
+
+- Nodes: 684 (609 herbs + 75 targets)
+- Edges: 1,144 unique herb-target pairs
+- Bipartite density: 2.5% (~6× higher than T1; targets are more shared)
+- Giant component: 97.4% (666 nodes; high connectivity via CYP3A4 hub)
+- Target degree: mean 15.25, max 238 (CYP3A4)
+- Herb degree: mean 1.88, max 16 (Coptis / Salvia tied)
+
+**Top hub targets**:
+
+- **CYP3A4: 238 herbs** (~21% of all edges; the dominant single target)
+- CYP1A2: 148, ABCB1: 114, CYP2C9: 92, CYP2D6: 65, CYP2C19: 52, CYP2E1: 42, CYP2B6: 30
+- **ORGAN_liver: 26** (organ-toxicity model results)
+- UGT1A1 (22), CYP1A1 (21), CYP2C8 (20), SLC22A6 (19)
+- **NR1I2 / PXR: 18** ⭐ master TF regulating CYP3A4 induction
+- PI3K_family (14), UGT2B7 (12), ABCG2 (11), SLCO1B1 (10)
+
+**Top hub herbs** (different rank order from T1):
+
+- *Coptis chinensis*, *Salvia miltiorrhiza* (both 16) — most target-diverse
+- *Glycyrrhiza uralensis*, *Panax ginseng* (15)
+- *Schisandra chinensis* (14), *quercetin* (12), *Catha edulis* (11)
+- *Hypericum perforatum* falls to rank #15 with degree 8 ⭐ NARROW-DEEP pattern
+
+**Top edges**:
+
+- *Hypericum perforatum* × CYP3A4: 56 (CYP_induction via midazolam probe) — overwhelming
+- *Schisandra chinensis* × CYP3A4: 19 (CYP_inhibition via tacrolimus)
+- *Salvia* × ABCB1: 17 (P-gp_inhibition via verapamil)
+- *Astragalus* × ABCB1: 15 (receptor_synergism via fluorouracil — chemo adjuvant)
+- *Schisandra* × CYP2E1: 7 (CYP_inhibition via acetaminophen — schisandrin B hepatoprotection mechanism quantified)
+
+**Mechanism cleanness improved**:
+
+- CYP_inhibition 560 edges (49%), CYP_induction 152 (13%), transporter_modulation 71, P-gp_inhibition 70, UGT_inhibition 61, receptor_synergism 59, **signaling_pathway_modulation 53 + organ_toxicity_modulation 47** (Schema v3)
+- 'other' + 'unspecified' = 3.5% (vs ~22% in raw)
+
+**Family-level cross-tab (`herb_family_x_target_family.parquet`, 164 pairs)**:
+
+- Hypericaceae → cytochrome_P450: 69 (SJW dominant lane)
+- Fabaceae → cytochrome_P450: 61 (Glycyrrhiza + Astragalus + Sophora multi-source)
+- Ranunculaceae → cytochrome_P450: 43, Schisandraceae → CYP: 39
+- Lamiaceae → ABC_transporter: 25 ⭐ Lamiaceae has P-gp preference
+- Fabaceae → ABC_transporter: 23 ⭐ Fabaceae also multi-pathway
+
+**Herb family diversity ranking** (paper Figure 2 narrative):
+
+- *Fabaceae*: 100 records, 22 targets, 8 families — **BROAD pattern** (Glycyrrhiza, Astragalus, Sophora, Pueraria)
+- *Hypericaceae*: 75 records, 8 targets, 4 families — **NARROW-DEEP pattern** (SJW CYP3A4-focused)
+- *Lamiaceae*: 72 records, 19 targets, 7 families — BROAD (Salvia, Scutellaria diversity)
+- *Ranunculaceae*: 59 records, 20 targets, 7 families — BROAD (Coptis, Aconitum)
+
+**Cross-tab `target_family_x_mechanism.parquet` (45 pairs)**:
+
+- cytochrome_P450 ↔ CYP_inhibition 389 + CYP_induction 178 (567 records, dominant axis)
+- ABC_transporter ↔ P-gp_inhibition 75 + transporter_modulation 19
+- UGT_phase_II ↔ UGT_inhibition 41
+- SLC_transporter ↔ transporter_modulation 34
+- organ_tissue ↔ organ_toxicity_modulation 14
+- nuclear_receptor_TF ↔ signaling_pathway_modulation 11
+
+### T3 — 3-axis Knowledge Graph (`21_build_knowledge_graph.py`)
+
+**Filter**: `interaction_class == 'complete' AND mech_specific == True AND herb_canonical_latin / drug_canonical / target_canonical / mechanism all not null` **Result**: **900 gold-standard triples** (out of 3,100 total interactions)
+
+**Output structure**:
+
+- `kg_triples.parquet`: 900 rows, long-format 4-tuples (herb, drug, target, mechanism) with direction / confidence / evidence_type / clinical_significance / quote
+- `kg_multigraph.graphml`: heterogeneous multigraph (683 nodes = 353 herbs + 268 drugs + 62 targets; 1,930 mechanism-labeled edges)
+- `drug_target_edges.parquet`: 421 drug-target pairs (the third bipartite, completing T1+T2+T3 trio)
+- `drug_class_x_mechanism.parquet`: 189 (drug_class, mechanism) pairs
+- `target_family_x_drug_class.parquet`: 141 pairs
+- `kg_chain_summary.parquet`: 344 herb_family → mechanism → drug_class chains (for Sankey diagram or paper Figure 3c)
+
+**Top 6 gold-standard 4-tuples** (most-replicated):
+
+- *Hypericum perforatum* × midazolam → CYP3A4 via CYP_induction (6) — THE canonical SJW probe
+- *Schisandra chinensis* × tacrolimus → CYP3A4 via CYP_inhibition (6) — Wuzhi clinical
+- *Salvia miltiorrhiza* × verapamil → ABCB1 via P-gp_inhibition (4)
+- *Hypericum* × indinavir → CYP3A4 via CYP_induction (3) — SJW-protease inhibitor classic
+- *Hypericum* × cyclosporine → CYP3A4 via CYP_induction (3)
+- *Schisandra* × acetaminophen → CYP2E1 via CYP_inhibition (3) — **schisandrin B hepatoprotection mechanism quantified at gold-standard rigor**
+
+**Top mechanistic chains** (herb_family → mechanism → drug_class):
+
+- Hypericaceae → CYP_induction → "other" 19, benzodiazepine 8, immunosuppressant 4 — multi-drug-class SJW story
+- Schisandraceae → CYP_inhibition → immunosuppressant 11 — Wuzhi niche
+- Fabaceae → CYP_inhibition → "other" 8, benzodiazepine 5 — Glycyrrhiza multi-target
+- Lamiaceae → transporter_modulation → lipid_lowering_statin 5 — Salvia statin interaction
+
+**Direction distribution in gold-standard triples** (reveals dual PK+PD nature):
+
+- exposure_increase: 312 (34.7%) ┐ PK-level
+- exposure_decrease: 223 (24.8%) ┘ → 59.5%
+- effect_increase: 218 (24.2%) ┐ PD-level
+- effect_decrease: 128 (14.2%) ┘ → 38.4%
+- no_change: 17 (1.9%), context_dependent: 2 (0.2%)
+
+**Confidence distribution**: mean 0.87, median 0.85, range 0.70-0.95; 99.7% of triples have confidence ≥ 0.8.
+
+**Temporal coverage**: 2005-2025, peak years 2014 (98 triples), 2016 (72), 2020 (62), 2012 (59), 2019 (55).
+
+**Top 15 drug × target hubs** (the 'mechanistic' anchors):
+
+- doxorubicin × ABCB1: 46 (top herb: Magnolia officinalis, P-gp_inhibition)
+- midazolam × CYP3A4: 46 (top herb: Hypericum, CYP3A4 probe canonical)
+- phenacetin × CYP1A2: 30 (CYP1A2 probe drug)
+- tolbutamide × CYP2C9: 20 (CYP2C9 probe)
+- diclofenac × CYP2C9: 15
+- verapamil × ABCB1: 14
+- acetaminophen × CYP2E1: 12 (toxicity model)
+- zidovudine × UGT2B7: 11 (UGT2B7 substrate)
+- tacrolimus × CYP3A4: 11 (immunosuppressant probe)
+- metoprolol × CYP2D6: 10
+
+### Day 10 Output Schema
+
+`data/processed/network/`:
+
+- **Edge tables**: `herb_drug_edges.parquet`, `herb_target_edges.parquet`, `drug_target_edges.parquet` (aggregated edge lists with metadata)
+- **Node tables**: `herb_drug_nodes.parquet`, `herb_target_nodes.parquet`
+- **Cross-tab matrices**: `herb_family_x_target_family.parquet`, `target_family_x_mechanism.parquet`, `drug_class_x_mechanism.parquet`, `target_family_x_drug_class.parquet`, `kg_chain_summary.parquet`
+- **Knowledge graph**: `kg_triples.parquet` (900 long-format 4-tuples)
+- **GraphML**: `herb_drug.graphml`, `herb_target.graphml`, `kg_multigraph.graphml` (Cytoscape / Gephi compatible)
+
+### Day 10 Engineering Lessons
+
+1. **Filter ordering**: filter NaN values explicitly before groupby aggregation, otherwise networkx will create nodes with no attributes when the edge loop references them. The 3-axis KG specifically needs `notna()` on all four canonical fields (herb, drug, target, mechanism), not just relying on `interaction_class == 'complete'`.
+2. **Pandas deprecation handling**: `groupby.apply()` operating on grouping columns is deprecated. Use `groupby(..., group_keys=False).apply(func, include_groups=False)` for forward compatibility.
+3. **Bipartite network density patterns**: T2's density (2.5%) is ~6× higher than T1's (0.42%) because targets are highly shared across herbs (CYP3A4 alone has 238 herb partners), while drugs are more idiosyncratic. The T2 giant component is 97% vs T1's 79% for the same reason.
+4. **Heterogeneous multigraph for KG**: Using nx.MultiGraph with prefixed node IDs (`herb::`, `drug::`, `target::`) keeps node types distinguishable in GraphML export. Multi-edges allow representing different mechanisms between the same pair, important for cases like SJW-warfarin (4 mechanisms).
+5. **Network analytics for paper narrative**: comparing hub ranks across T1 (drug-level) vs T2 (target-level) revealed the NARROW-DEEP (Hypericum) vs BROAD (Coptis, Salvia, Panax) herb research patterns — a finding that would be invisible from either network alone.
+6. **Direction analysis as paper finding**: the 60-40 split of PK (exposure) vs PD (effect) direction labels in gold-standard triples is novel evidence that TCM-HDI research is genuinely dual-track, not just PK-focused. Cited reviews (Izzo 2009, Brantley 2013) emphasize PK; this finding adds PD nuance.
+7. **Family-level cross-tabs as Figure 2 sources**: aggregating at family level (herb_family × target_family) reduces 1,144 individual herb-target edges to 164 family-family flows, ideal for heatmap visualization in manuscript. The most informative cells (Hypericaceae→P450, Lamiaceae→ABC, Fabaceae→multi) drive Figure 2 narrative.
+8. **Cytoscape integration**: GraphML export uses str() casting on all attributes (NaN → ""; ints kept as int) to avoid `xml.etree.ElementTree` serialization errors. All node/edge attributes preserved for Cytoscape Style mapping (node_type, family_or_class, in_map, n_records, top_mechanism, etc.).
+
+### Files Produced (Day 10)
+
+- 3 scripts (06_network_analysis/19, 20, 21)
+- 11 parquet files (data/processed/network/)
+- 3 GraphML files (data/processed/network/)
+
+### What Day 10 Enables (Days 11-21)
+
+- **Day 11**: CiteSpace + R bibliometrix parallel workstreams from raw WoS data (different data source than LLM-derived networks; complementary not duplicate)
+- **Day 12-13**: Mechanism × Topic cross-analysis (intersect with Day 5 HDBSCAN clusters for thematic mechanism distribution)
+- **Day 14-15**: Time trend analysis (using kg_triples year_min/year_max spans + cross-tab matrices for stacked area charts)
+- **Day 17**: Paper figure stage — open the 3 GraphML files in Cytoscape, apply Force-Directed Spring Embedded layout with edge_weight, node_type color mapping, degree-based size mapping; export to SVG; polish in Inkscape for Figures 1, 2, 3
