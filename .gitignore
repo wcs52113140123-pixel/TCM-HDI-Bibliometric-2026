@@ -119,3 +119,7 @@ data/processed/affil_representatives_for_ror.parquet
 data/processed/affil_clusters.parquet
 data/processed/affil_cluster_samples_for_review.csv
 data/processed/affil_representatives_for_ror.parquet
+
+# Day 5 cross-dedup local backups (recovery only, not for git)
+data/processed/*.bak_pre_cross_dedup
+
