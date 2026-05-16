@@ -1,0 +1,3 @@
+variant,n_records,ARI,NMI,n_day4_clusters,n_day5_clusters
+excl_noise,4237,0.0407,0.1459,4,39
+incl_noise,6647,0.0294,0.1076,4,40

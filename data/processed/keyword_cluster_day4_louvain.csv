@@ -1,0 +1,101 @@
+keyword,day4_cluster
+absorption,0
+acid,0
+activation,0
+bioavailability,0
+cells,0
+constituents,0
+cyp3a4,0
+cytochrome p450,0
+cytochrome-p450 enzymes,0
+drug,0
+drug-drug interaction,0
+drug-herb interaction,0
+drug-metabolism,0
+enzymes,0
+extract,0
+flavonoids,0
+ginsenosides,0
+glucuronidation,0
+herb-drug,0
+human liver-microsomes,0
+identification,0
+in vivo,0
+induction,0
+inhibition,0
+inhibitors,0
+interaction,0
+lc-ms/ms,0
+mass-spectrometry,0
+mechanism,0
+metabolite,0
+multidrug resistance,0
+p-glycoprotein,0
+pathway,0
+pharmacodynamics,0
+pharmacokinetics,0
+pharmacology,0
+plasma,0
+quercetin,0
+rat plasma,0
+toxicity,0
+transporter,0
+udp-glucuronosyltransferases,0
+uplc-ms/ms,0
+alternative medicine,1
+breast cancer,1
+cancer,1
+chemotherapy,1
+complementary,1
+complementary and alternative medicine,1
+complementary medicine,1
+depression,1
+diabetes,1
+dietary supplements,1
+double-blind,1
+drug interaction,1
+efficacy,1
+ginkgo-biloba extract,1
+grapefruit juice,1
+herb-drug interaction,1
+herbs,1
+medicinal plants,1
+medicine,1
+natural products,1
+pharmacokinetic interaction,1
+phytotherapy,1
+plant preparations,1
+prevalence,1
+safety,1
+st johns wort,1
+therapy,1
+traditional medicine,1
+warfarin,1
+alkaloids,2
+anti-inflammatory,2
+antineoplastic agents,2
+antioxidant,2
+apoptosis,2
+berberine,2
+"cell line, tumor",2
+cell proliferation,2
+curcumin,2
+cytochrome p-450 cyp3a,2
+cytochrome p-450 enzyme system,2
+"disease models, animal",2
+"dose-response relationship, drug",2
+drug synergism,2
+hepatotoxicity,2
+inflammation,2
+liver,2
+liver-microsomes,2
+oxidative stress,2
+plant extract,2
+"rats, sprague-dawley",2
+signal transduction,2
+traditional chinese medicine,2
+alzheimer's disease,3
+gut microbiota,3
+metabolomics,3
+molecular docking,3
+network pharmacology,3
