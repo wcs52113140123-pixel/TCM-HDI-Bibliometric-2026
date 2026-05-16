@@ -123,3 +123,7 @@ data/processed/affil_representatives_for_ror.parquet
 # Day 5 cross-dedup local backups (recovery only, not for git)
 data/processed/*.bak_pre_cross_dedup
 
+
+# LLM extraction atomic-write temp files (artifacts, not data)
+**/*.json.tmp
+
