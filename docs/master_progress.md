@@ -657,3 +657,147 @@ disagreement.
 - **Paradigm shift around 2018**: ADME mechanism research peak (Middle
   period) → computational pharmacology dominance (Recent period); network
   pharmacology penetrates every disease domain in 2020+
+
+------
+
+## Day 6-8 (May 16-17, 2026): LLM Mechanism Extraction ✅
+
+**Status**: Complete **Latest commit**: <fill after commit> **Deliverables**: 14 scripts + Schema D v3 (16 mechanism categories) + 4,648 records extracted (100% success) + iterative refinement audit
+
+### Day 6 (May 16): Pipeline & LLM Selection
+
+**Infrastructure** (`01_schema.py` ~ `03_llm_client.py`):
+
+OpenRouter (openrouter.ai) chosen as primary LLM gateway:
+
+- Single API key routes to Anthropic / OpenAI / Google upstream providers
+- Forward proxy preserves model version (reproducibility for paper)
+- Anthropic Sonnet 4.5+ and OpenAI GPT-4o+ support strict json_schema mode
+
+Built **3-tier fallback `LLMClient`**:
+
+1. `response_format={"type":"json_schema","json_schema":{"strict":True}}` + `extra_body={"provider":{"require_parameters":True}}` (prevents silent fallback to providers without strict mode support)
+2. `response_format={"type":"json_object"}` (loose JSON mode)
+3. Pure prompt-driven JSON + retry-on-validation-failure with error message
+
+Auto-routing by model id prefix: `glm-*` → Zhipu, `deepseek-*` → DeepSeek, `<vendor>/*` → OpenRouter. Backup providers (Zhipu/DeepSeek) tested and ready after OpenRouter geo-restriction debugging journey (see lessons below).
+
+**Schema D design** (3 field groups, all Optional fields required-but-nullable for OpenAI strict mode compatibility):
+
+- **A — Core interaction**: herb (Latin/common/active compound), drug (name/class), interaction type, mechanism, specific target, direction
+- **B — TCM formula extension**: formula name, co-herbs list, TCM pattern
+- **C — Clinical PK quantitative**: AUC/Cmax/t½/CL change %, sample size
+- **Metadata**: evidence type, clinical significance, confidence, evidence_quote (mandatory ≥10 chars — anti-hallucination)
+
+**5-part prompt template** (Zero-Shot Document-Level RE 2025 + Feng et al. 2025 CYP extraction): system role + task + entity definitions + mechanism definitions + few-shot examples. 3 examples covering positive PK induction (SJW+cyclosporine), positive PK inhibition with TCM formula (Wuzhi+tacrolimus), and negative methodology review.
+
+**Cross-model benchmark** (50 stratified abstracts, `05_benchmark.py`):
+
+| Model             | val_rate | HDI rate | avg_int | conf | 9,413 cost est.            |
+| ----------------- | -------- | -------- | ------- | ---- | -------------------------- |
+| Claude Sonnet 4.6 | 1.00     | 0.48     | 1.16    | 0.79 | $204                       |
+| **GPT-4o-mini ⭐** | 1.00     | 0.44     | 0.70    | 0.86 | **$5.65**                  |
+| O3-mini           | 0.98     | 0.30     | 0.62    | 0.81 | $156 (reasoning output 爆) |
+| GPT-5-mini        | 0.98     | 0.40     | 1.02    | 0.77 | $53 (reasoning overhead)   |
+| Haiku 4.5         | 1.00     | 0.34     | 0.98    | 0.84 | $68                        |
+| GPT-5.5           | 1.00     | 0.36     | 1.14    | 0.82 | $109                       |
+
+**Decision: GPT-4o-mini** — Pareto-frontier endpoint with Sonnet 4.6:
+
+- HDI rate 0.44 vs Sonnet 0.48 (only 4 pp gap)
+- Cost $5.65 vs Sonnet $204 (36× cheaper)
+- Validation rate 1.00 + zero retries
+- Avg confidence 0.861 (highest)
+- Already validated for biomedical extraction by Aali et al. 2025 (JAMIA Cochrane RCT screening)
+
+Mid-tier models (Haiku 4.5, GPT-5-mini, GPT-5.5) all dominated — pricier than GPT-4o-mini but no quality advantage over Sonnet 4.6. Reasoning models (O3-mini, GPT-5-mini, GPT-5.5) underperform on strict structured output — their thinking tokens balloon and validation_attempts rise.
+
+### Day 7 (May 17): Full Corpus Extraction
+
+**Pipeline** (`09_extract_full_corpus.py`): concurrent (5 workers), checkpoint resume (JSONL incremental append + recovery on restart), failed-record separate log, graceful Ctrl+C handling.
+
+**Filtering** (`04_stratified_sample.py`): 9,413 → **4,648 eligible**
+
+- Excluded HDBSCAN noise: −3,437
+- Excluded short abstracts (<100 chars): −135
+- Excluded review papers: −1,193
+
+**Result**:
+
+- 4,648 / 4,648 success (100%) / 0 failed
+- **100% Tier 1 (strict json_schema) success** — OpenRouter structured outputs fully working with GPT-4o-mini, no fallback to Tier 2/3 needed
+- 3,132 interactions extracted (1.39 per HDI-containing record)
+- Mean confidence 0.856 (no interaction <0.6 confidence)
+- Elapsed 83.5 min / Cost **$2.93** (well under estimate)
+
+Headline mechanism distribution (pre-audit):
+
+- CYP_inhibition: 814 (26.0%) — dominant, consistent with HDI literature canon
+- **other: 623 (19.9%)** — motivated Day 8 iterative audit
+- unspecified: 408 (13.0%)
+- CYP_induction: 323 (10.3%)
+- receptor_synergism + synergistic_efficacy: 459 (14.6%) — PD interactions
+- P-gp + transporter_modulation: 242 (7.8%)
+
+### Day 8 (May 17): Iterative Schema Refinement
+
+**Block 1: Audit `other` bucket** (`12_inspect_other_mechanisms.py`):
+
+19.9% `other` rate audited. Pattern detection on top specific_targets and evidence_quote keywords revealed **3 missed mechanism categories**:
+
+1. **Signaling pathway**: MAPK (3), PXR (4), AhR (3), NRF2 (2), JAK2 (2), FXR (2), androgen receptor (3) — transcription factor / kinase pathway
+2. **Organ toxicity**: 67% in_vivo_animal + drugs cyclophosphamide (17), doxorubicin (18), cisplatin (18), acetaminophen (15), CCl4 (5); keywords liver/injury/protective → hepato/cardio/nephro protection or potentiation
+3. **Non-P-gp transporters**: MRP1/MRP2/BSEP/BCRP/ABCB1 misclassified due to ambiguous transporter_modulation prompt definition
+
+**Block 2: Schema v3 + Prompt v2 + targeted re-extraction** (`13_reextract_other.py`):
+
+Schema v3: added `signaling_pathway_modulation` + `organ_toxicity_modulation` (14 → 16 mechanism categories). Prompt v2: explicit transporter list (MRP1/2, MATE, OATP, OCT, OAT, BSEP, BCRP, NTCP), 2 new mechanism definitions, +1 few-shot example (Salvia miltiorrhiza × doxorubicin cardioprotection via Nrf2/HO-1 + NF-κB suppression).
+
+Re-extraction: 491 unique records (records with ≥1 `other` interaction) → 491/491 success, 14 min, $0.42. Auto-merged into main JSONL with v1 backup preserved (`*.results.v1_backup.jsonl`).
+
+**Post Schema v3 distribution**:
+
+- **`other` reduced 19.9% → 7.3%** ✓ (target met)
+- `signaling_pathway_modulation`: 92 (3.0%) NEW
+- `organ_toxicity_modulation`: 90 (2.9%) NEW
+- `unspecified` increased 13.0% → 15.6% (LLM precision-over-recall: with more categories available, LLM more conservative on edge cases)
+- Mean confidence improved: ≥0.9 fraction 22.8% → 25.7%
+- HDI rate stable: 48.6% → 48.2% (no regression)
+
+**Block 3: Residual bucket audit** (`14_inspect_residual.py`):
+
+Inspected both remaining residual buckets:
+
+- **`other` (7.3%)**: dominated by warfarin–anticoagulant interactions (28) and chemo combinations (cyclophosphamide/cisplatin/doxorubicin); these are genuinely multi-mechanism cases (CYP2C9 + receptor + protein binding all play role in warfarin–herb interactions) that don't fit single enum → **accept as residual**
+- **`unspecified` (15.6%)**: Top 25 keywords dominated by PK terminology (auc 102, pharmacokinetic 55, concentration 61, Cmax 34, plasma 35, area+curve 74) → these are PK studies reporting AUC/Cmax changes WITHOUT characterizing the mechanism in the abstract. LLM correctly identifies → **accept as residual**
+
+No third missed category detected. **Iterative refinement reached saturation at 16 categories. Total residual 22.9% is publishable as "multi-mechanism complex (7.3%) + PK-effect-of-unspecified-mechanism (15.6%)" categories.**
+
+### Day 6-8 Headline Findings
+
+- **3,100 herb-drug-mechanism triples** extracted from 4,648 abstracts (100% Tier 1 strict json_schema success)
+
+- **16 mechanism categories** capturing CYP / P-gp / UGT / transporter / receptor / signaling pathway / organ toxicity / additive / synergistic
+
+- 86% preclinical evidence
+
+   (in_vivo_animal 52.4% + in_vitro 33.7%) — confirms TCM-HDI literature's translational gap (only 6.5% clinical_trial
+
+  - human_PK_study)
+
+- **Quantitative coverage limited at abstract level** (AUC 7.6%, Cmax 4.5%, sample_size 11.0%) — motivates future full-text extension
+
+- **Top targets validated**: CYP3A4 (416), CYP1A2 (159), CYP2C9 (112), P-gp/P-glycoprotein (186 pre-normalization), CYP2D6 (89) — matches HDI literature canon
+
+- **Cost**: $3.35 total ($2.93 primary + $0.42 Schema v3 re-extraction) for 4,648 + 491 records via GPT-4o-mini on OpenRouter
+
+### Day 6-8 Engineering Lessons
+
+1. **OpenRouter is the only reproducibility-friendly LLM gateway** forwarding to Anthropic/OpenAI/Google with preserved upstream model version. But account-level risk control on payment card BIN and IP region may trigger 403 even with VPN. Backup Plan B (智谱 GLM-4.6 + DeepSeek V3.1 native API) tested and ready as China-resident contingency.
+2. **OpenAI strict mode JSON schema has hard constraints**: all fields in `required` array (Optional → required-but-nullable using `["string", "null"]` union); no `default`, `minimum/maximum`, `minLength`, `pattern`, `format` keywords; all object nodes need `additionalProperties: false`. Solution: Pydantic `field_validator` decorators for runtime-only constraints + `_strip_unsupported_inplace()` post-processor on generated schema.
+3. **`response_format={"type":"json_schema","strict":true}` works perfectly with GPT-4o-mini via OpenRouter**: 100% Tier 1 success on 4,648 records (zero fallback to Tier 2/3). The `extra_body={"provider":{"require_parameters":true}}` field prevents OpenRouter silent fallback to providers without strict mode support.
+4. **Iterative schema refinement is essential for high-quality LLM extraction**: zero-shot prompt alone gave 19.9% `other`; one audit round + targeted Schema v3 extension cut this to 7.3%. Cost per audit round ($0.42) negligible compared to quality gain.
+5. **Reasoning models underperform on strict structured output**: O3-mini, GPT-5-mini, GPT-5.5 — thinking tokens balloon (O3-mini 153k vs GPT-4o-mini 11k output for same 50 abstracts), validation_attempts ↑ to 2.46 (vs 1.00 for GPT-4o-mini). Reasoning helps complex reasoning but hurts strict format compliance — consistent with Feng et al. 2025 CYP paper finding (O3-mini good for zero-shot constrained extraction, less so for few-shot + strict schema).
+6. **Cost-quality Pareto frontier**: GPT-4o-mini and Claude Sonnet 4.6 are the two efficient endpoints. Mid-tier (Haiku 4.5, GPT-5-mini, GPT-5.5) are dominated — more expensive than GPT-4o-mini but no quality advantage over Sonnet 4.6.
+7. **PowerShell f-string with backslash escape**: `[\"KEY\"]` inside an `os.environ[...]` lookup in a Python f-string within a PowerShell here-string is `SyntaxError`. Fix: use `os.environ.get('KEY')` outside f-string interpolation.
+8. **OpenAI SDK ≥1.55 required** for compatibility with httpx ≥0.28 (httpx removed `proxies` parameter in 0.28; openai <1.55 still passed it). `pip install --upgrade openai` fixes.
