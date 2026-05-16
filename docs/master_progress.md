@@ -1,4 +1,4 @@
-﻿# TCM-HDI Bibliometric Project — Master Progress Document
+# TCM-HDI Bibliometric Project — Master Progress Document
 
 > **Purpose**: Comprehensive snapshot of project status. Use this document to 
 > seamlessly resume work in a new Claude conversation.  
@@ -1171,3 +1171,97 @@ Critical synonym coverage: **active compounds** mapped to parent plant: curcumin
 - **Day 12-13**: Mechanism × Topic cross-analysis (intersect with Day 5 HDBSCAN clusters for thematic mechanism distribution)
 - **Day 14-15**: Time trend analysis (using kg_triples year_min/year_max spans + cross-tab matrices for stacked area charts)
 - **Day 17**: Paper figure stage — open the 3 GraphML files in Cytoscape, apply Force-Directed Spring Embedded layout with edge_weight, node_type color mapping, degree-based size mapping; export to SVG; polish in Inkscape for Figures 1, 2, 3
+---
+
+## Day 11 (May 16, 2026): Publication-quality figure generation ✅
+
+**Status**: Complete
+**Latest commit**: <fill after commit>
+**Deliverables**: 4 main + 4 supplementary publication-quality figures,
+plus figure captions draft and Methods §2.5 (canonical normalization)
+draft. Style stack: SciencePlots + Okabe-Ito colorblind-safe palette +
+PDF fonttype 42 (Illustrator-editable) + 300 DPI raster output. The
+fig6 Sankey uses a browser print-to-PDF fallback for vector export
+(kaleido status detailed in Engineering Notes).
+
+### Day 11 Headline Outputs
+
+- **Main figures (paper §3)**:
+  - Fig 5a — Herb family × target family heatmap (T2, 1,725 records → 164 family pairs)
+  - Fig 5b — Target family × mechanism heatmap (T2)
+  - Fig 6  — Mechanism Sankey: herb_family → mechanism → drug_class (T3, 344 chains from 900 gold triples)
+  - Fig 8  — Temporal mechanism evolution 2005–2025 (T3 by year)
+- **Supplementary figures**:
+  - Fig S3 — Drug class × mechanism heatmap
+  - Fig S4 — Direction distribution by herb family
+  - Fig S5 — Confidence distribution histogram
+  - Fig S6 — Top hubs 3-panel bar chart (herbs / drugs / targets)
+- **Style stack**: SciencePlots `science + no-latex` cascade,
+  Okabe-Ito colorblind-safe categorical palette, YlOrRd / viridis /
+  RdBu_r sequential maps, 300 DPI PNG + PDF fonttype 42
+  (Illustrator/Inkscape editable) + SVG (for the seven matplotlib
+  figures); fig6 outputs HTML (plotly) + PDF (browser-exported,
+  vector-preserved)
+- **Captions**: drafted in `results/figures/captions.md`,
+  schema-aware (fallback canonical buckets + drug_class/target_family
+  orthogonality explicitly noted for reviewer-proofing)
+- **Methods §2.5 draft**: `docs/manuscript_drafts/methods_section_drafts.md`
+  covers canonical normalization for herb / target / mechanism axes
+  (Schema v3 ontology, three-tier mapping strategy, rat-CYP ortholog
+  harmonization, confidence threshold ≥ 0.7)
+
+### Day 11 Engineering Notes
+
+1. **kaleido / plotly Sankey export — browser print-to-PDF fallback**:
+   plotly 5.18.0 paired with kaleido 1.3.0 raised ImportError on
+   `fig.write_image()`. Downgrade to `kaleido==0.2.1` cleared the
+   ImportError (replaced by a DeprecationWarning) but kaleido 0.2.1
+   still failed silently on this Windows host — likely a bundled-
+   Chromium subprocess issue, swallowed by the figure script's
+   try/except so only the HTML file was actually produced.
+   **Workaround**: open `fig6_mechanism_sankey.html` in Chromium-based
+   browser → Ctrl+P → Save as PDF → produces a vector PDF (plotly SVG
+   primitives preserved end-to-end). This is the documented plotly-
+   community fallback for Sankey export on Windows systems where
+   kaleido is problematic. Root-cause kaleido fix deferred to
+   post-paper phase; PDF is publication-acceptable for Frontiers in
+   Pharmacology and equivalent journals.
+2. **Schema-aware captions**: two figure ambiguities flagged during
+   review were resolved at caption level rather than data level:
+   (a) `flavonoid_compound` and `TCM_formula` appearing on the herb
+   family axis are legitimate Schema v3 fallback canonical buckets,
+   not data leakage; (b) the empty `oncology_target` column reflects
+   the orthogonal placement of therapeutic-area information on the
+   `drug_class` axis (Figure 6), not literature absence.
+3. **All figures regenerated from Day 10 parquet/GraphML sources**;
+   no manual data editing — full re-runnability preserved. The
+   figure script (`06_network_analysis/22_generate_figures.py`)
+   supports `--only N` flag for selective regeneration of a single
+   figure (used to refresh fig6 without re-running the full set).
+
+### Outstanding (Day 12+)
+
+1. **CiteSpace keyword burst / timezone** (Fig 7) — separate tool,
+   requires WoS `.txt` export from Day 1; planned for Day 12
+   parallel workstream
+2. **R bibliometrix** publication trends + Lotka/Bradford
+   supplementary visuals (Fig 2 + Supp S6 alternative) — Day 12
+   parallel workstream
+3. **Cytoscape network rendering** (Main F4 + Supp S1, S2) — Day 17
+4. **PRISMA flow** (Fig 1) — Inkscape, Day 16-17
+5. **kaleido root-cause fix** — defer to post-paper; skip if fig6 is
+   the only plotly-Sankey artifact in the project
+6. **Header timestamp** of this document still reads
+   "Last updated: 2026-05-15, end of Day 3" (now stale through
+   Day 11) — to be refreshed at Day 14 mid-point checkpoint
+
+### Files Produced (Day 11)
+
+- 1 script: `06_network_analysis/22_generate_figures.py`
+- 7 matplotlib figures (`fig5a`, `fig5b`, `fig8`, `figS3`, `figS4`,
+  `figS5`, `figS6`): PNG (300 DPI) + PDF (fonttype 42) + SVG, all via
+  the SciencePlots stack
+- 1 plotly Sankey (`fig6_mechanism_sankey`): HTML (interactive,
+  ~4.9 MB) + PDF (vector, browser-exported via Chrome print-to-PDF)
+- 1 captions document: `results/figures/captions.md`
+- 1 methods draft: `docs/manuscript_drafts/methods_section_drafts.md`
