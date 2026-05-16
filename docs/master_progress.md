@@ -801,3 +801,147 @@ No third missed category detected. **Iterative refinement reached saturation at 
 6. **Cost-quality Pareto frontier**: GPT-4o-mini and Claude Sonnet 4.6 are the two efficient endpoints. Mid-tier (Haiku 4.5, GPT-5-mini, GPT-5.5) are dominated — more expensive than GPT-4o-mini but no quality advantage over Sonnet 4.6.
 7. **PowerShell f-string with backslash escape**: `[\"KEY\"]` inside an `os.environ[...]` lookup in a Python f-string within a PowerShell here-string is `SyntaxError`. Fix: use `os.environ.get('KEY')` outside f-string interpolation.
 8. **OpenAI SDK ≥1.55 required** for compatibility with httpx ≥0.28 (httpx removed `proxies` parameter in 0.28; openai <1.55 still passed it). `pip install --upgrade openai` fixes.
+
+------
+
+## Day 9 (May 17, 2026): Entity Normalization ✅
+
+**Status**: Complete **Latest commit**: <fill after commit> **Deliverables**: 4 normalization scripts + `interactions_normalized.parquet` with 13 new normalized columns + 3-tier resolution strategy reaching **99.6% canonical_id coverage**
+
+### T1 — Target Normalization (`15_normalize_targets.py`)
+
+500+ HGNC alias mappings consolidating free-text targets to canonical gene symbols + 11 functional families:
+
+- **Cytochrome P450**: 23 isoforms (CYP1A1/2/B1, CYP2A6/B6/C8/9/19/D6/E1, CYP3A4/5/7, CYP19A1) + family-level placeholders + rodent ortholog mapping
+- **ABC transporters**: ABCB1 (= P-gp = MDR1 = multidrug resistance protein 1), ABCG2 (BCRP), ABCB11 (BSEP), ABCC1-5 (MRP1-5)
+- **SLC transporters**: SLCO1B1/3/2B1 (OATPs), SLC22A1/2/6/8 (OCT1/2/OAT1/3), SLC47A1/2 (MATE1/2K), SLC10A1 (NTCP)
+- **UGT phase II**: 9 isoforms + family placeholder
+- **Nuclear receptors / TFs**: NFE2L2 (Nrf2), NR1I2 (PXR), AHR, NR1H4 (FXR), TP53, AR, ESR1, HIF1A
+- **Kinase / signaling pathway**: MAPK family, JAK1/2/3, STAT1/3/5, AKT1, mTOR, AMPK (PRKAA1), Wnt/β-catenin
+- **Inflammation cytokines**: TNF, IL1B/6/10, IFNG, NFKB pathway, COX-2 (PTGS2), NOS2/3
+- **Apoptosis**: BCL2, BAX, CASP3/8/9, PARP1
+- **Antioxidant / redox**: HMOX1, SOD, GPX, CAT, NQO1
+
+Multi-target string splitting (comma/semicolon/slash/"and"/"or") applied before per-token normalization; 6.6% of interactions have ≥2 targets.
+
+**Result**:
+
+- 2,087 records with named target (67.3%)
+- 1,734 (83.1% of named) mapped to canonical
+- target_family distribution: cytochrome_P450 37.5%, ABC_transporter 8.1%, UGT_phase_II 2.5%, SLC_transporter 2.4%, nuclear_receptor_TF 1.2%, organ_tissue 1.3%, kinase_pathway 1.1%
+- Key consolidations: **CYP3A4 = 509** (absorbed CYP3A 44 + variants), **ABCB1 = 221** (absorbed P-gp 100 + P-glycoprotein 86 + MDR1)
+- 353 (11.4%) unmapped: rat CYP orthologs (CYP2C11/D1/D2), niche signaling proteins, generic placeholders — accepted as residual
+
+### T4 — Interaction Class Classification (`16_classify_interaction_type.py`)
+
+Classifies each interaction by completeness of three axes:
+
+- `drug_known`: drug_name not in {null, unknown, (unknown), ""}
+- `target_known`: target_canonical (from T1) not null
+- `mech_specific`: mechanism not in {other, unspecified}
+- `interaction_class`: one of {complete, herb_drug_no_target, herb_target_no_drug, fragmentary}
+
+**Distribution**:
+
+- `herb_drug_no_target`: 1,208 (39.0%) — PK studies without mechanism characterization
+- `complete`: 959 (30.9%) — gold-standard (95% with specific mech, 907 are 3-axis triples ready for KG)
+- `herb_target_no_drug`: 775 (25.0%) — herb-target mechanistic claims (97.7% have specific mech, e.g. "Herb X induces CYP3A4")
+- `fragmentary`: 158 (5.1%) — low-information cases
+
+**94.9% of interactions usable for network analysis** (fragmentary excluded).
+
+### T3 — Drug Normalization (`17_normalize_drugs.py`)
+
+150+ synonym alias entries + ATC-style functional class taxonomy (~50 classes):
+
+- **Antineoplastics**: anthracycline, platinum, alkylating, taxane, antimetabolite, vinca alkaloid, topoisomerase, kinase inhibitor (TKI), hormone modulator, biologic
+- **Anticoagulants / Antiplatelets**: VKA (warfarin), DOAC, heparin, LMWH, P2Y12 inhibitors
+- **Immunosuppressants** (cyclosporine, tacrolimus, sirolimus, etc.)
+- **Antidiabetics**: biguanide, sulfonylurea, TZD, DPP4i, GLP1RA, SGLT2i, insulin
+- **Antihypertensives**: CCB (dihydropyridine / non-dihydropyridine), ACEi, ARB, beta-blocker, diuretic (loop / thiazide / K-sparing)
+- **Statins**, NSAIDs, opioids, **antidepressants** (SSRI/SNRI/TCA), antipsychotics (typical/atypical), anticonvulsants, benzodiazepines
+- **Antibiotics**: fluoroquinolone, penicillin, macrolide, tetracycline, aminoglycoside; antifungals; antivirals; PPIs; H2 blockers
+- **CYP probe compounds**: phenacetin (CYP1A2), tolbutamide (CYP2C9), midazolam (CYP3A4), dextromethorphan (CYP2D6), chlorzoxazone (CYP2E1)
+- **Hepatotoxicants**: CCl4, ethanol, dimethylbenzanthracene (organ-toxicity models)
+
+**Result**:
+
+- 2,167 records with named drug (69.9% of all)
+- 100% pass-through canonical (long-tail drugs use cleaned original name)
+- 1,562 (72.1% of canonical) classified non-'other'
+- **Notable synonym merges**: doxorubicin = 95 (= 68 doxorubicin + 27 adriamycin), warfarin = 128 (incl. coumadin/coumarin variants), cyclosporine = 33 (4 spelling variants merged), fluorouracil = 50 (5-FU + variants), midazolam = 54 (incl. Versed), tacrolimus = 38 (FK506 + Prograf)
+- 605 (19.5%) in 'other' class: long-tail drugs without standard ATC mapping (accepted; can be expanded if Day 10 network analysis identifies critical gaps)
+
+### T2 — Herb Normalization (`18_normalize_herbs.py`, Day 9 capstone)
+
+**107 canonical herb entries with 722 aliases**. Single source of truth in `HERB_ENTRIES` (list of dicts), each entry atomically specifying:
+
+- Latin binomial (canonical)
+- English common name
+- Chinese pinyin (TCM herbs)
+- Plant family (Linnaean taxonomy)
+- Type: `plant` / `fungus` / `compound` / `formula` / `animal_derived` / `multi_source`
+
+Coverage spans: TOP 20 highest-frequency in our corpus (SJW, Danshen, Schisandra, Ginseng [P. ginseng / P. quinquefolius / P. notoginseng], Licorice, Green Tea, Garlic, Coptis/Berberine, Astragalus, Ginkgo, Turmeric/Curcumin, Ginger, Khat, Quercetin, Andrographis, Echinacea, Centella) + TCM core (~40 herbs: Rehmannia, Cinnamon, Magnolia, Pueraria, Bupleurum, Angelica, Lycium, Scutellaria, Paeonia, Rheum, Reynoutria, Atractylodes, Poria, Lonicera, Forsythia, Ephedra, Artemisia, Silybum, Ophiopogon, Codonopsis, Eucommia, Cnidium, Crataegus, Ziziphus, Morus, Tripterygium, Ganoderma, Cordyceps, etc.)
+
+- Western herbs (Milk Thistle, Black Cohosh, Valerian, Saw Palmetto, Hibiscus, Fenugreek) + TCM compound formulas (Suxiao Jiuxin, Baoyuan, Re Du Ning, Wuzhi Capsule) + multi-source flavonoids (quercetin, resveratrol, kaempferol, luteolin, apigenin, genistein) + animal-derived (Chan Su / bufalin).
+
+Critical synonym coverage: **active compounds** mapped to parent plant: curcumin → Curcuma longa, berberine → Coptis chinensis, hyperforin → Hypericum perforatum, tanshinones → Salvia miltiorrhiza, EGCG → Camellia sinensis, ginsenosides → Panax ginseng, glycyrrhizin → Glycyrrhiza, icariin/icaritin → Epimedium, andrographolide → Andrographis, silymarin/silybin → Silybum, artemisinin/artesunate → Artemisia annua.
+
+**3-tier resolution strategy**:
+
+1. **Mapped** (in `HERB_ALIAS_MAP`): full metadata (Latin + English + pinyin + family + type)
+2. **Pass-through** (named but unmapped): cleaned text as canonical, `herb_in_map=False`, `herb_type='unmapped'`
+3. **None** (no herb info): all null
+
+**Coverage achieved**:
+
+- Records with named herb: 3,086 (99.5%)
+- **Tier 1 mapped: 1,676 (54.1%)** — full HGNC metadata
+- **Tier 2 pass-through: 1,411 (45.5%)** — usable as network nodes
+- **Total with herb_canonical_id: 3,087 (99.6%) — 100% of named** ⭐
+- Tier 3 null: 13 (0.4%)
+
+**Notable merges** (consolidation success):
+
+- *Hypericum perforatum*: 130 (SJW + hypericin + hyperforin)
+- *Salvia miltiorrhiza*: 110 (Danshen + tanshinones + salvianolic acid)
+- *Panax ginseng*: 72 (ginseng + ginsenosides)
+- *Coptis chinensis*: 71 (coptis + rhizoma + berberine + huanglian)
+- *Schisandra chinensis*: 68 (schisandra + schisandrin)
+- *Glycyrrhiza uralensis*: 62 (licorice + glycyrrhizin)
+- *Curcuma longa*: 53 (turmeric + curcumin + curcuminoids)
+- *Camellia sinensis*: 47 (green tea + EGCG + catechins)
+
+**Pass-through top entries** are mostly **valid Latin binomials** that the LLM extracted but weren't in our explicit map (*Mitragyna speciosa* 9, *Gastrodia elata* 9, *Psoralea corylifolia* 9, *Withania somnifera* 8, *Carthamus tinctorius* 8, *Viscum album* 8, *Corydalis yanhusuo* 7, etc.) plus Korean/TCM compound formulas (Ojeok-san, Bangpungtongseong-san, Shenmai injection) — these become **singleton network nodes** in Day 10 analysis.
+
+### Day 9 Output Schema
+
+`primary_<model>.interactions_normalized.parquet` — 24 original columns + **13 new normalized columns**:
+
+- Target: `target_canonical`, `target_family`, `target_list`, `target_n`
+- Drug: `drug_canonical`, `drug_class`
+- Class: `drug_known`, `target_known`, `mech_specific`, `interaction_class`
+- Herb: `herb_canonical_latin`, `herb_canonical_english`, `herb_canonical_pinyin`, `herb_family`, `herb_type`, `herb_in_map`
+
+### Day 9 Headline Findings
+
+- **99.6% of interactions** have a `herb_canonical_id` (network node ready)
+- **56.0% of interactions** have `target_canonical` (target node identifier)
+- **69.9% of interactions** have named drug → 100% pass-through canonical
+- **94.9% of interactions** are non-fragmentary (usable as network edges)
+- **~907 interactions (29.3%)** are 3-axis triples (complete + specific mech) → core knowledge graph
+- 18 plant families dominate (~80% of mapped records): Fabaceae 182, Lamiaceae 167, Hypericaceae 133, Ranunculaceae 108, Araliaceae 102
+
+### Day 9 Engineering Lessons
+
+1. **Single-source-of-truth dict pattern** (`HERB_ENTRIES` list of dicts) is cleaner than three separate parallel maps; each entry atomically specifies Latin + English + pinyin + family + type + aliases. Adding a new herb requires editing one list element instead of synchronizing three maps.
+2. **Three-tier normalization** (canonical → pass-through → null) is critical for downstream network analysis. Strictly requiring canonical match would lose 45%+ of legitimate research-grade Latin binomials simply because they were not in the explicit mapping table.
+3. **Active compound names appear in three or four places**: `herb_common_name` (e.g. "turmeric"), `herb_active_compound` (e.g. "curcumin"), AND occasionally `drug_name` (LLM noise: "berberine" sometimes extracted as drug). Normalization must check all four fields with sensible priority (Latin > common > compound > drug-fallback) to capture these.
+4. **Multi-target strings** (comma/semicolon-delimited "P-gp, MRP1, ABCG2") are common in HDI literature; must be split before normalization. 6.6% of targets are multi-target.
+5. **Rat CYP orthologs** (CYP2C11, CYP2D1/2) are common in `in_vivo_animal` abstracts. Mapped to closest human orthologs (CYP2C9, CYP2D6) — this is an interpretive choice that should be reported transparently in Methods.
+6. **Drug class names extracted as drug names** ("sulfonylureas", "anticoagulants", "NSAIDs", "protease inhibitors") account for ~30 records. LLM extraction noise; could be remapped to class-level placeholders in a future iteration (low priority — affects <1% of corpus).
+7. **Coverage trade-offs at three levels**:
+   - **Targets**: 83% mapped (HGNC has finite explicit names) — acceptable
+   - **Drugs**: 100% pass-through, 72% classified — class taxonomy is the bottleneck
+   - **Herbs**: 100% pass-through, 54% canonical-mapped — long tail dominated by Latin binomials LLM-extracted rather than vernacular names
