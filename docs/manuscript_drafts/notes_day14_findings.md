@@ -125,7 +125,7 @@ Day 12 A 最强 Era 4 burst topics：
 
 Neither reached Day 13 enrichment significance (no mechanism × topic pair survived q<0.05 + OR>2 + obs≥5). Therefore absent from Day 14 trajectory analysis.
 
-→ paper §4 方法学观察 (paper §4.x.8): keyword-level emergence (CiteSpace burst) precedes mechanism-level stabilization. 文献最热的 burst keyword 还没生成足够的 mechanism-resolved literature 达到统计显著。**两个 bibliometric 方法学操作在互补 timescale 上**。
+→ paper §4 方法学观察 (paper §4.x.12): keyword-level emergence (CiteSpace burst) precedes mechanism-level stabilization. 文献最热的 burst keyword 还没生成足够的 mechanism-resolved literature 达到统计显著。**两个 bibliometric 方法学操作在互补 timescale 上**。
 
 ### F23 — Refined 4-method triangulation
 
@@ -148,19 +148,19 @@ paper §4 方法学三角验证全面闭环。
 
 ## Discussion §4 段草稿（4 个新段，paper 直接可用）
 
-### §4.x.5 — Historical persistence of PK/PD bifurcation
+### §4.x.9 — Historical persistence of PK/PD bifurcation
 
 "Temporal stratification of the Day 13 enrichment patterns across three TCM-HDI eras reveals that the structural bifurcation between PK-pure and PD-pure topic-mechanism associations is not a recent phenomenon. Of the 40 strongest Day 13 enrichment and depletion pairs, 18 (45%) show STABLE significance across all three periods (2005-2013, 2014-2019, 2020-2026), and an additional 11 (27.5%) are historically anchored as FADING or DECLINING. Only 5 pairs (12.5%) show patterns consistent with recent emergence or rising trajectories. The bifurcation we documented in Day 13 has been structurally present since the earliest period of TCM-HDI mechanism research, suggesting that the methodological-vs-clinical divide is a foundational property of the field rather than an emergent stratification."
 
-### §4.x.6 — Era 4 emerging enrichments expand depth rather than bridge
+### §4.x.10 — Era 4 emerging enrichments expand depth rather than bridge
 
 "Three (topic, mechanism) pairs show EMERGING trajectory — statistically null in Periods 1 and 2, then reaching significance in Period 3 (2020-2026). All three concentrate in mechanisms consistent with the CiteSpace burst Era 4 systems-level paradigm: #27 (metabolites topic) × absorption_alteration captures recent emphasis on TCM bioavailability characterization; #10 (hormone) × signaling_pathway_modulation and #20 (cancer / network pharmacology) × signaling_pathway_modulation both reflect the methodological shift toward intracellular signaling pathway analysis. Critically, these three new enrichments do not bridge the PK/PD bifurcation. Two are pharmacodynamic enrichments embedded within already-PD-leaning topics (#10, #20), and one is a pharmacokinetic enrichment within an already-PK-leaning metabolite topic (#27). The Era 4 paradigm shift therefore expands depth within rather than collapses the bifurcated structure."
 
-### §4.x.7 — One DECLINING enrichment as case-based safety era ghost
+### §4.x.11 — One DECLINING enrichment as case-based safety era ghost
 
 "A single enrichment shows DECLINING trajectory: #6 (warfarin) × additive_toxicity, statistically significant in Period 1 (observed=4, expected=0.77, OR=8.4, q=9e-3) but not in Periods 2 or 3 (observed=1 and 0 respectively). This pattern is consistent with the CiteSpace burst Era 1 (2005-2012) identification of the warfarin-herb safety case canon (St. John's wort, grapefruit juice, ginkgo biloba) as the field's strongest historical phenomenon. Despite the warfarin topic remaining among the largest in the corpus (n=220 papers), the specific additive-toxicity mechanism that characterized its initial burst era has decayed below mechanism-extraction detection thresholds in recent literature. This is consistent with case-based safety research evolving from event documentation in Period 1 toward mechanism investigation in Periods 2 and 3."
 
-### §4.x.8 — The keyword-mechanism lag (methodological observation)
+### §4.x.12 — The keyword-mechanism lag (methodological observation)
 
 "Notably, the two topics most strongly emerging in keyword space (CiteSpace Era 4 burst: #15 gut microbiome, median publication year 2024; #22 network pharmacology, median 2023, burst strength 27.59 — the field's all-time strongest burst) did not register significant mechanism enrichment in our static Day 13 analysis and therefore do not appear in the Day 14 trajectory analysis. This indicates a structural lag between keyword emergence and mechanism stabilization: the field's most recently bursting concepts (network pharmacology, gut microbiota) have not yet generated sufficient mechanism-level extraction signal to reach statistical significance, despite their prominence in keyword co-occurrence networks. This lag is methodologically informative: burst-keyword analysis surfaces concept emergence earlier than mechanism-frequency analysis, suggesting these two bibliometric approaches operate on complementary timescales of research evolution."
 

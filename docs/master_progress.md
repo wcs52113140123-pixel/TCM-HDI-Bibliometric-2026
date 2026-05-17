@@ -1577,10 +1577,10 @@ Day 12 B commit.
 7. **F23** -- 4-method triangulation: bibliometrix Q2 + CiteSpace Era 1 + Day 13 #5 enrichment + Day 14 #6 DECLINING all converge on SJW-warfarin classical era
 
 ### Discussion drafts (4 new paragraphs in findings doc)
-- §4.x.5 Historical persistence of PK/PD bifurcation
-- §4.x.6 Era 4 emerging enrichments expand depth not bridge
-- §4.x.7 Warfarin DECLINING as case-era ghost
-- §4.x.8 Keyword-mechanism lag (methodological observation)
+- §4.x.9 Historical persistence of PK/PD bifurcation
+- §4.x.10 Era 4 emerging enrichments expand depth not bridge
+- §4.x.11 Warfarin DECLINING as case-era ghost
+- §4.x.12 Keyword-mechanism lag (methodological observation)
 
 ### Deliverables (results/)
 | File | Type | Notes |
@@ -1647,10 +1647,10 @@ Day 12 B commit.
 
 ### Discussion drafts (5 new paragraphs)
 - §4.x.9  Three-tier herb stratification as methodological novelty
-- §4.x.10 SJW as FULL_CHAIN exemplar (paper Fig 12 anchor)
-- §4.x.11 Mechanism-specific natural resolution layers (paper §4 novelty)
-- §4.x.12 Single-compound study design as compound-tier inference limit
-- §4.x.13 Schema v3 herb_in_map curation enables cross-tier consistency
+- §4.x.14 SJW as FULL_CHAIN exemplar (paper Fig 12 anchor)
+- §4.x.15 Mechanism-specific natural resolution layers (paper §4 novelty)
+- §4.x.16 Single-compound study design as compound-tier inference limit
+- §4.x.17 Schema v3 herb_in_map curation enables cross-tier consistency
 
 ### Deliverables (results/)
 | File | Type | Notes |
