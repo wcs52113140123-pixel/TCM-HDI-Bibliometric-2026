@@ -130,3 +130,5 @@ data/processed/*.bak_pre_cross_dedup
 
 # Day 12 B — bibliometrix intermediate caches (large, reproducible from scripts)
 results/figures_bibliometrix/*.rds
+# CiteSpace workspace (Day 12 A intermediate)
+data/citespace_workspace/

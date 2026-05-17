@@ -1,0 +1,12 @@
+cluster_id,size,silhouette,mean_year,llr_label,llr_strength,llr_p,top_lsi_terms,interpretation_cn
+0,96,0.700,2011,dietary supplement,4593.85,1.0E-4,"alternative medicine; dietary supplement; cancer patient",CAM/膳食补充剂监管语境（最大cluster）
+1,83,0.648,2016,biological activities / kaempferia parviflora,1081.84,1.0E-4,"herb-drug interaction; traditional chinese medicine; inhibition",植物化学/生物活性筛选
+2,76,0.725,2011,metabolizing enzyme,1827.54,1.0E-4,"herb-drug interaction; herbal medicine; drug interaction",DME机制研究（CYP/UGT通用）
+3,75,0.598,2014,astragalus polysaccharide,1323.57,1.0E-4,"inhibitory effect; herb-drug interaction; traditional chinese medicine",黄芪多糖（TCM单体化合物）
+4,75,0.674,2010,human liver microsome,2298.66,1.0E-4,"herb-drug interaction; inhibitory effect; human liver microsome",HLM体外PK（最早期cluster）
+5,74,0.625,2014,network pharmacology,2234.52,1.0E-4,"network pharmacology; herb-drug interaction; molecular",网络药理学（新兴）
+6,50,0.766,2012,evodia rutaecarpa,1516.79,1.0E-4,"traditional chinese medicine; systematic review; herb-drug",吴茱萸（生物碱HDI案例）
+7,43,0.706,2012,sodium-induced inflammatory bowel disease,957.5,1.0E-4,"herbal medicine; sodium-induced inflammatory bowel disease",TNBS/DSS结肠炎模型
+8,41,0.774,2014,chinese herb / aspirin hydrolysis,1003.27,1.0E-4,"inhibitory effect; p450 enzyme; network pharmacology",阿司匹林水解+TCM（UGT/酯酶）
+9,27,0.832,2016,lps-induced downregulation,467.3,1.0E-4,"oxidative stress; liver injury; lps-induced downregulation",LPS炎症+转运体下调
+10,23,0.842,2017,aidi injection,326.93,1.0E-4,"aidi injection; clinopodium vulgare l; synergistic interaction",艾迪注射液（中药复方注射剂）

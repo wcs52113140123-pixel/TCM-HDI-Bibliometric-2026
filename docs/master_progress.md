@@ -1342,3 +1342,78 @@ uses same WoS `.txt` export as bibliometrix Block 1. Produces Fig 7
 (keyword burst detection 2005-2026 + thematic timezone view).
 Estimated 4-5h including ~30min learning curve. To start after
 Day 12 B commit.
+
+---
+
+## Day 12 A — CiteSpace keyword co-occurrence + burst analysis (2026-05-17)
+
+### Status: ✅ COMPLETED
+
+### Workspace
+- Project home: `data/citespace_workspace/project/` (**gitignored**, 中间文件)
+- Output: `results/figures_citespace/` (git-tracked, 8 files)
+- 输入：`data/raw/wos/wos_batch_*.txt` (7 batches, 3091 records)，复制重命名为 `download_001-007.txt` 进 CiteSpace data 目录
+
+### Parameters
+- CiteSpace 6.4.R1, Time slicing 2005-2026 (1 yr/slice, 22 slices)
+- Node Type: Keyword (Title + Abstract + DE + ID 四源)
+- Selection: g-index k=25
+- Links: Cosine within slices
+- Pruning: Pathfinder + Pruning sliced networks
+- Burst: γ=0.5, min duration=2 → **220 keywords detected**
+
+### Network statistics
+- N=667, E=3336, Density=0.015
+- Largest CC=663 (99%)
+- **Modularity Q = 0.3802** (> 0.3 标准)
+- **Weighted Silhouette S = 0.6935** (> 0.5, 近 0.7)
+- Clusters reported: 11 (size ≥ 10)
+
+### Deliverables (8 files in results/figures_citespace/)
+| File | Type | Size | Purpose |
+|---|---|---|---|
+| fig7_top25_keyword_bursts.pdf | Vector PDF | 101 KB | Paper Fig 7 (待美化) |
+| fig7_top25_keyword_bursts.html | HTML | 9 KB | Render source |
+| table_citespace_top25_bursts.tsv | TSV | 2 KB | Paper Table |
+| table_citespace_all220_bursts.tsv | TSV | 17 KB | Supp Table |
+| table_citespace_cluster_summary.csv | CSV | 2 KB | Cluster metadata |
+| network_keyword_667.graphml | GraphML | 698 KB | Cytoscape Day 17 |
+| citespace_burstness_raw.out | Binary | 12 KB | Reproducibility |
+| README.md | Markdown | 6 KB | Figure beautifier handoff |
+
+### 5 paper-worthy findings (详见 docs/manuscript_drafts/notes_citespace_findings.md)
+1. **Strongest burst symmetry**: SJW (27.01, 2005-2012) ↔ network pharmacology (27.59, 2023-2026 ongoing) — paper 核心 narrative
+2. **4 burst eras**: case-based (Era 1) → mechanistic (Era 2) → transition (Era 3) → systems (Era 4 ongoing)
+3. **6 ongoing bursts (End=2026)**: oxidative stress, inflammation, natural products, molecular docking, network pharmacology, gut microbiota
+4. **Cross-tool 1:1 validation**: CiteSpace Era 1 ↔ bibliometrix Q2 Niche; CiteSpace Era 4 ↔ bibliometrix Q4 Basic — 方法学三角验证
+5. **Non-burst foundations**: CYP3A4 / P-gp / PXR 高频但从未 burst = 永恒基石词
+
+### Findings document
+- `docs/manuscript_drafts/notes_citespace_findings.md` (~12 KB)
+- 5 findings + Methods §2.x + Discussion §4 4 段草稿
+
+### Engineering notes
+- Save Cluster Information 静默写入 project 文件夹（folders 0-10 per cluster），不弹保存对话框
+- `CitationBurst.out` 在 GO 阶段已自动算过一次 (γ=1.0)，重跑 γ=0.5 覆盖
+- Cluster Explorer 只显示 size ≥ 10 的 cluster (11/14)
+- Timeline View 信息密度高，工具内 label threshold 对 timeline 不生效（CiteSpace UX 缺陷）→ 放弃 inline 精修
+- **不出 cluster network / timeline 图片**（per Day 12 A 决策），交美化协作者基于数据重绘
+
+### 跨工具一致性 (Day 12 B vs Day 12 A)
+| 维度 | bibliometrix (Day 12 B) | CiteSpace (Day 12 A) | 一致 |
+|---|---|---|---|
+| 时间-主题分层 | 4 thematic clusters in 2 quadrants | 4 burst eras | ✓ |
+| 早期 niche 主题 | Q2 Niche: SJW + grapefruit + P-gp + ginkgo | Era 1: SJW + grapefruit + ginkgo + milk thistle | ✓ 1:1 |
+| 新兴主题 | Q4 Basic: network pharm + oxidative stress | Era 4: network pharm + oxidative stress + gut microbiota | ✓ 1:1 |
+| 网络药理学定位 | 嫩芽阶段 (低密度高中心度) | strength 27.59 持续 burst | ✓ 同一现象 |
+
+→ 两个独立算法栈对 TCM-HDI 时间-主题骨架判断**完全一致**，paper Methods 段强力方法学三角验证 argument。
+
+### 时间消耗
+- ~3h (CiteSpace 学习曲线 + 11 cluster + Burst 220 + 数据 wrap-up)
+- 1 conversation
+- 决策放弃 inline 图片精修 → 节省 ~1h，交美化协作者用源数据重绘
+
+### Project progress
+- **12/21 天 (~57%)**
+- 下一节点：Day 13-15 Topic × Mechanism cross-analysis
