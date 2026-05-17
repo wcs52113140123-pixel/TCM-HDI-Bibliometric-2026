@@ -1677,3 +1677,45 @@ Day 12 B commit.
 ### Project progress
 - **15/21 days (~71%)**
 - Next: Day 16 -- fig12 paper-grade PDF + Inkscape figure polish + PRISMA + Cytoscape integration + initial Methods/Results drafting
+
+---
+
+## Day 16: Pre-manuscript hygiene + PRISMA refresh + section 2/4 skeleton drafts
+
+### Part 1 (commit 25ddef0)
+
+Fixed two numbering inconsistencies discovered during pre-manuscript audit:
+
+- **Day 13 finding doc**: F1-F8 (LOCAL) -> F9-F16 (GLOBAL), matching all downstream references in Day 14, Day 15, master_progress.md, and commit history.
+- **Discussion section 4.x.N de-collision**: Day 12 A keeps 4.x.1-4 (chronologically first); Day 13 -> 4.x.5-8, Day 14 -> 4.x.9-12, Day 15 -> 4.x.13-17.
+- Cross-doc sequence validated: 17 section-4.x.N labels, no gaps or duplicates.
+
+### Part 2 (this commit)
+
+#### Figure 1 PRISMA refresh (5 stages, paper-grade vector formats)
+
+- Day 4 PRISMA showed N = 9,438 main + 316 partial -- a pre-Day-5-cross-dedup snapshot.
+- Refreshed to N = 9,413 main + 304 partial = 9,717 total (post-Day-5-cross-dedup actual).
+- Added Stage 5 (cross_file_deduplication) to `data/processed/prisma_flow_data.json`.
+- Fixed bug: `openalex_dropped_no_match` was incorrectly stored as 773 (the openalex_exclusive total); corrected to 98 (= B0_none = actual dropped count).
+- Rewrote `04_keyword_topic/01_prisma_flow_diagram.py`: 5-stage + 4-sidearm layout, outputs PDF + SVG + PNG (previously PNG only).
+
+#### Manuscript skeleton drafts (3 new files in `docs/manuscript_drafts/`)
+
+- **methods_section2_draft.md** (5.8 KB): section 2 lead-in (~140 words, procedural only) + 6 subsection TODO scaffolds. Restructured per top-journal convention -- section 2.5 separates standard tools (bibliometrix + CiteSpace, WoS subset) from section 2.6 novel methods (Fisher + BH-FDR + era + three-tier herbal taxonomy).
+- **data_availability_statement_draft.md** (1.7 KB): ~120-word repository availability text. Submission-routing notes for Frontiers (auto-generated from questionnaire, NOT in source file) vs Pharmacological Research (separate Declarations section before References).
+- **discussion_section4_lead_draft.md** (2.4 KB): section 4 framing paragraph (~130 words, multi-method triangulation principle, *Hypericum perforatum* / SJW as anchor case). Cross-references existing 4.x.7, 4.x.8, 4.x.14 drafts.
+
+The Methods section 2 lead-in was decomposed per top-journal convention:
+- Triangulation framing -> Discussion section 4.0 (epistemological claims belong in Discussion, not Methods).
+- Data availability -> standalone statement file (Frontiers help center: "you do not need to include a data statement in your source file").
+
+#### Verifications
+
+- Cross-doc section-4.x.1-17 sequence: PASS (17/17, no gaps, no duplicates).
+- PRISMA stage counts trace 16,652 -> 9,802 -> 9,536 -> 9,438 -> 9,413 (final main).
+- Visual review of figure_01_prisma_flow.pdf: paper-grade, 5 stages well-separated, sidearm arrows readable, PRISMA 2020 color convention preserved.
+
+### Progress
+
+15/21 -> 16/21 days complete (76%). Day 17+ scoped to subsection drafting + Results + Discussion final-paragraph compression (17 section-4.x drafts -> ~8 final paragraphs per Day 15 audit).

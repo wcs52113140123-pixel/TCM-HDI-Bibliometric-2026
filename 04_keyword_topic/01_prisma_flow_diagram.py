@@ -1,11 +1,15 @@
-﻿"""
-Day 4 Block 1: PRISMA 2020 flow diagram.
+"""
+Day 16 Block 2c: PRISMA 2020 flow diagram (refresh with Stage 5 cross-file dedup).
 
-Constructs a PRISMA 2020-compliant flow diagram from prisma_flow_data.json
-showing identification, screening, eligibility, and inclusion phases.
+Replaces the Day 4 version (generated 2026-05-15 13:34) which reflected the
+pre-cross-dedup-fix corpus (9,438 main / 316 partial). Day 5 cross-file dedup
+(2026-05-15 16:48) reduced this to 9,413 main / 304 partial; fig01 must reflect
+the actual final analysis corpus.
 
-Output:
-- results/figures/figure_01_prisma_flow.png
+Outputs (paper-grade, 3 formats):
+- results/figures/figure_01_prisma_flow.pdf  (vector, paper submission)
+- results/figures/figure_01_prisma_flow.svg  (vector, online supplementary)
+- results/figures/figure_01_prisma_flow.png  (300 DPI raster preview)
 
 Run:
     python 04_keyword_topic/01_prisma_flow_diagram.py
@@ -15,218 +19,221 @@ import json
 from pathlib import Path
 
 import matplotlib.pyplot as plt
-from matplotlib.patches import FancyBboxPatch
-from matplotlib.patches import FancyArrowPatch
+from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 
 
-def draw_box(ax, x, y, width, height, text, color="#E8E8E8", edge_color="#333", fontsize=10, fontweight="normal"):
-    """Draw a rounded rectangle box with centered text."""
+# ============ Helpers ============
+
+def draw_box(ax, x, y, width, height, text,
+             facecolor="#E8E8E8", edgecolor="#333",
+             fontsize=10, fontweight="normal"):
+    """Rounded rectangle box with centered text."""
     box = FancyBboxPatch(
         (x - width/2, y - height/2), width, height,
         boxstyle="round,pad=0.02,rounding_size=0.05",
-        facecolor=color, edgecolor=edge_color, linewidth=1.2
+        facecolor=facecolor, edgecolor=edgecolor, linewidth=1.2,
     )
     ax.add_patch(box)
-    ax.text(x, y, text, ha="center", va="center", fontsize=fontsize, 
-             fontweight=fontweight, wrap=True, color="#1a1a1a")
+    ax.text(x, y, text, ha="center", va="center",
+            fontsize=fontsize, fontweight=fontweight,
+            wrap=True, color="#1a1a1a")
 
 
-def draw_arrow(ax, x1, y1, x2, y2, label=None):
-    """Draw arrow with optional label."""
+def draw_arrow(ax, x1, y1, x2, y2):
+    """Arrow with filled triangular head."""
     arrow = FancyArrowPatch(
         (x1, y1), (x2, y2),
-        arrowstyle="-|>", mutation_scale=15, color="#555", linewidth=1.2
+        arrowstyle="-|>", mutation_scale=15,
+        color="#555", linewidth=1.2,
     )
     ax.add_patch(arrow)
-    if label:
-        mid_x = (x1 + x2) / 2
-        mid_y = (y1 + y2) / 2
-        ax.text(mid_x + 0.05, mid_y, label, fontsize=9, color="#666", style="italic")
 
+
+# ============ Main ============
 
 def main():
     repo_root = Path(__file__).resolve().parent.parent
-    
+
     print("=" * 70)
-    print("Day 4 Block 1: PRISMA 2020 flow diagram")
+    print("Day 16 Block 2c: PRISMA 2020 flow diagram (refresh, 5 stages)")
     print("=" * 70)
-    
+
     # Load PRISMA data
     print("\n[1] Loading prisma_flow_data.json...")
     with open(repo_root / "data/processed/prisma_flow_data.json", encoding="utf-8") as f:
         data = json.load(f)
-    
-    ident = data["identification"]
-    doi_step = data["doi_deduplication"]
+
+    ident      = data["identification"]
+    doi_step   = data["doi_deduplication"]
     fuzzy_step = data["fuzzy_deduplication"]
-    prec_step = data["precision_filter"]
-    
-    print(f"    Raw total: {ident['total_raw']:,}")
-    print(f"    Final corpus: {data['final_corpus_size']:,}")
-    
-    # ============ Build the diagram ============
-    print("\n[2] Building PRISMA flow diagram...")
-    
-    fig, ax = plt.subplots(figsize=(12, 14))
-    ax.set_xlim(0, 10)
-    ax.set_ylim(0, 14)
+    prec_step  = data["precision_filter"]
+    cross_step = data["cross_file_deduplication"]
+    final_n    = data["final_corpus_size"]
+    partial_n  = data["partial_2026_corpus_size"]
+    total_n    = data["total_corpus_size"]
+
+    prec_dropped = prec_step["block_breakdown"]["B0_none"]
+
+    print(f"    Raw total (4 DBs):      {ident['total_raw']:,}")
+    print(f"    After DOI dedup:        {doi_step['output']:,}  (-{doi_step['duplicates_removed']:,})")
+    print(f"    After fuzzy dedup:      {fuzzy_step['output']:,}  (-{fuzzy_step['records_removed']:,})")
+    print(f"    After precision filter: {prec_step['output']:,}  (-{prec_dropped:,})")
+    print(f"    After cross-file:       {cross_step['output_main']:,}  (-{cross_step['records_removed_from_main']:,})  [Stage 5, NEW]")
+    print(f"    Final main:             {final_n:,}")
+    print(f"    Partial 2026:           {partial_n:,}")
+    print(f"    Total analysis corpus:  {total_n:,}")
+
+    # ============ Build diagram ============
+    print("\n[2] Building diagram (5 stages + 4 sidearms + final box)...")
+
+    fig, ax = plt.subplots(figsize=(13, 17))
+    ax.set_xlim(0, 12)
+    ax.set_ylim(0, 17)
     ax.set_aspect("equal")
     ax.axis("off")
-    
-    # Color scheme
-    color_id = "#D4E8F0"      # Identification - light blue
-    color_screen = "#FFE9B3"  # Screening - light orange
-    color_elig = "#F8D5A0"    # Eligibility - medium orange
-    color_incl = "#A8D8A8"    # Included - light green
-    color_excl = "#F5C5C5"    # Excluded - light red
-    
-    # === Phase labels (left side bars) ===
-    phase_labels = [
-        (0.6, 12.5, "IDENTIFICATION", color_id),
-        (0.6, 9.5, "SCREENING", color_screen),
-        (0.6, 6.5, "ELIGIBILITY", color_elig),
-        (0.6, 2.5, "INCLUDED", color_incl),
-    ]
-    for x, y, lbl, col in phase_labels:
-        box = FancyBboxPatch(
-            (x - 0.5, y - 0.4), 1.0, 0.8,
-            boxstyle="round,pad=0.02,rounding_size=0.05",
-            facecolor=col, edgecolor="#333", linewidth=1.2
-        )
-        ax.add_patch(box)
-        ax.text(x, y, lbl, ha="center", va="center", fontsize=10,
-                 fontweight="bold", rotation=90, color="#1a1a1a")
-    
-    # === IDENTIFICATION boxes (top, 4 databases) ===
-    db_y = 12.8
-    box_w_db = 1.7
-    box_h_db = 1.4
+
+    # PRISMA 2020 color scheme
+    C_ID     = "#D4E8F0"
+    C_SCREEN = "#FFE9B3"
+    C_ELIG   = "#F8D5A0"
+    C_INCL   = "#A8D8A8"
+    C_SIDE   = "#F0F0F0"
+
+    # Geometry
+    PHASE_X = 0.5
+    CX      = 4.5
+    MAIN_W  = 5.0
+    MAIN_H  = 1.1
+    SIDE_X  = 9.5
+    SIDE_W  = 3.5
+    SIDE_H  = 1.0
+
+    # Title
+    ax.text(6.0, 16.7,
+            "Figure 1. PRISMA 2020 flow diagram for TCM-herbal-drug interaction "
+            "bibliometric review",
+            ha="center", va="center", fontsize=13, fontweight="bold")
+    ax.text(6.0, 16.2,
+            "(Web of Science + Scopus + OpenAlex + PubMed; 2005-2026, search executed 2026-05-14)",
+            ha="center", va="center", fontsize=10, color="#555", style="italic")
+
+    # Phase labels (rotated 90 deg, left margin)
+    phase_kw = dict(rotation=90, ha="center", va="center",
+                    fontsize=12, fontweight="bold", color="#444")
+    ax.text(PHASE_X, 15.0, "IDENTIFICATION", **phase_kw)
+    ax.text(PHASE_X, 11.0, "SCREENING",      **phase_kw)
+    ax.text(PHASE_X, 6.7,  "ELIGIBILITY",    **phase_kw)
+    ax.text(PHASE_X, 3.0,  "INCLUDED",       **phase_kw)
+
+    # ============ Identification: 4 DB boxes ============
+    db_y = 15.4
+    db_w, db_h = 1.8, 0.85
     db_data = [
-        (2.5, db_y, "Web of Science\nCore Collection", ident["WoS_raw"]),
-        (4.4, db_y, "Scopus", ident["Scopus_raw"]),
-        (6.3, db_y, "OpenAlex", ident["OpenAlex_raw"]),
-        (8.2, db_y, "PubMed/MEDLINE", ident["PubMed_raw"]),
+        (2.0, "Web of Science",  ident["WoS_raw"]),
+        (4.2, "Scopus",           ident["Scopus_raw"]),
+        (6.4, "OpenAlex",         ident["OpenAlex_raw"]),
+        (8.6, "PubMed",           ident["PubMed_raw"]),
     ]
-    for x, y, name, n in db_data:
-        draw_box(ax, x, y, box_w_db, box_h_db,
+    for x, name, n in db_data:
+        draw_box(ax, x, db_y, db_w, db_h,
                  f"{name}\nn = {n:,}",
-                 color=color_id, fontsize=9.5)
-    
-    # Arrows from databases to merged total
-    for x, y, _, _ in db_data:
-        ax.plot([x, 5.35], [y - 0.7, 11.3], color="#777", linewidth=1, alpha=0.6)
-    
-    # === Merged total box ===
-    draw_box(ax, 5.35, 10.7, 4.5, 1.0,
-             f"Records identified from databases\nn = {ident['total_raw']:,}",
-             color=color_id, fontsize=10.5, fontweight="bold")
-    
-    draw_arrow(ax, 5.35, 10.2, 5.35, 9.8)
-    
-    # === SCREENING: DOI dedup ===
-    draw_box(ax, 5.35, 9.3, 4.5, 1.0,
-             f"Records after DOI-based deduplication\nn = {doi_step['output']:,}",
-             color=color_screen, fontsize=10.5, fontweight="bold")
-    
-    # Excluded box (DOI dedup)
-    draw_box(ax, 8.7, 9.85, 2.2, 1.0,
-             f"DOI duplicates removed\nn = {doi_step['duplicates_removed']:,}",
-             color=color_excl, fontsize=9)
-    draw_arrow(ax, 7.6, 9.85, 7.6, 9.85)  # placeholder
-    
-    # Connection: merged -> dedup -> excluded
-    ax.plot([7.6, 7.6], [10.7, 9.85], color="#777", linewidth=1)
-    ax.annotate("", xy=(7.6, 9.85), xytext=(7.6, 10.4),
-                 arrowprops=dict(arrowstyle="->", color="#777"))
-    
-    draw_arrow(ax, 5.35, 8.8, 5.35, 8.4)
-    
-    # === Fuzzy dedup ===
-    draw_box(ax, 5.35, 7.9, 4.5, 1.0,
-             f"Records after fuzzy title-year-author deduplication\n"
-             f"(RapidFuzz threshold ≥{fuzzy_step['threshold']}%)\nn = {fuzzy_step['output']:,}",
-             color=color_screen, fontsize=10, fontweight="bold")
-    
-    # Excluded fuzzy dedup
-    draw_box(ax, 8.7, 8.45, 2.2, 1.0,
-             f"Fuzzy duplicates\nremoved\nn = {fuzzy_step['records_removed']:,}",
-             color=color_excl, fontsize=9)
-    ax.plot([7.6, 7.6], [8.9, 8.45], color="#777", linewidth=1)
-    ax.annotate("", xy=(7.6, 8.45), xytext=(7.6, 8.7),
-                 arrowprops=dict(arrowstyle="->", color="#777"))
-    
-    draw_arrow(ax, 5.35, 7.4, 5.35, 7.0)
-    
-    # === ELIGIBILITY: Precision filter ===
-    draw_box(ax, 5.35, 6.4, 4.5, 1.2,
-             f"OpenAlex-exclusive records re-screened\n"
-             f"via B1+B2+B3 boolean filter\n"
-             f"({prec_step['openalex_passed_B1B2B3']:,} retained from "
-             f"{prec_step['openalex_exclusive']:,} candidates)",
-             color=color_elig, fontsize=10, fontweight="bold")
-    
-    # Excluded precision
-    excluded_oa = prec_step['openalex_exclusive'] - prec_step['openalex_passed_B1B2B3']
-    draw_box(ax, 8.7, 6.95, 2.2, 1.2,
-             f"OpenAlex records\nfailing precision filter\nn = {excluded_oa:,}",
-             color=color_excl, fontsize=9)
-    ax.plot([7.6, 7.6], [7.4, 6.95], color="#777", linewidth=1)
-    ax.annotate("", xy=(7.6, 6.95), xytext=(7.6, 7.2),
-                 arrowprops=dict(arrowstyle="->", color="#777"))
-    
-    draw_arrow(ax, 5.35, 5.8, 5.35, 5.4)
-    
-    # === Sub-corpus assignment ===
-    draw_box(ax, 5.35, 4.8, 4.5, 1.0,
-             f"Records partitioned: Main (2005-2025) + Partial (2026)\n"
-             f"Main: 9,438  |  Partial: 316",
-             color=color_elig, fontsize=10, fontweight="bold")
-    
-    draw_arrow(ax, 5.35, 4.3, 5.35, 3.9)
-    
-    # === INCLUDED ===
-    draw_box(ax, 5.35, 3.3, 5.5, 1.2,
-             f"Studies included in bibliometric analysis\n"
-             f"Total: 9,438 (main 2005-2025)\n"
-             f"Plus 316 partial 2026 records",
-             color=color_incl, fontsize=11, fontweight="bold")
-    
-    # Bottom: data sources for analysis
-    draw_box(ax, 2.5, 1.4, 2.5, 1.2,
-             f"4-database integrated\ncorpus\n9,754 unique records",
-             color=color_incl, fontsize=10)
-    draw_box(ax, 5.35, 1.4, 2.5, 1.2,
-             f"Source attribution:\nWoS / Scopus /\nOpenAlex / PubMed",
-             color=color_incl, fontsize=10)
-    draw_box(ax, 8.2, 1.4, 2.5, 1.2,
-             f"Citation, journal,\nauthor, affiliation,\nkeyword fields",
-             color=color_incl, fontsize=10)
-    
-    ax.plot([5.35, 2.5], [2.7, 2.0], color="#777", linewidth=1)
-    ax.plot([5.35, 5.35], [2.7, 2.0], color="#777", linewidth=1)
-    ax.plot([5.35, 8.2], [2.7, 2.0], color="#777", linewidth=1)
-    
-    # === Title ===
-    fig.suptitle("PRISMA 2020 Flow Diagram\n"
-                 "TCM Herb-Drug Interaction Bibliometric Analysis (2005-2025)",
-                 fontsize=13, fontweight="bold", y=0.97)
-    
-    plt.tight_layout(rect=[0, 0, 1, 0.96])
-    
-    out_path = repo_root / "results" / "figures" / "figure_01_prisma_flow.png"
-    plt.savefig(out_path, dpi=300, bbox_inches="tight", facecolor="white")
-    plt.close()
-    print(f"\n[3] Saved: {out_path}")
-    
-    # Summary
-    print("\n" + "=" * 70)
-    print("PRISMA Summary:")
-    print(f"  Identified across 4 DBs:     {ident['total_raw']:,}")
-    print(f"  After DOI dedup:             {doi_step['output']:,}  (-{doi_step['duplicates_removed']:,})")
-    print(f"  After fuzzy dedup:           {fuzzy_step['output']:,}  (-{fuzzy_step['records_removed']:,})")
-    print(f"  After precision filter:      {prec_step['output']:,}  (-{excluded_oa:,})")
-    print(f"  FINAL CORPUS:                {data['final_corpus_size']:,}")
-    print("=" * 70)
+                 facecolor=C_ID, fontsize=9)
+
+    # ID merge box
+    id_merge_y = 13.7
+    draw_box(ax, CX, id_merge_y, MAIN_W, MAIN_H,
+             f"Records identified from 4 databases\nN = {ident['total_raw']:,}",
+             facecolor=C_ID, fontsize=11, fontweight="bold")
+
+    # Arrows: 4 DBs -> ID merge
+    for x, _, _ in db_data:
+        draw_arrow(ax, x, db_y - db_h/2, CX, id_merge_y + MAIN_H/2)
+
+    # ============ Screening: Stages 2 + 3 ============
+    s2_y = 11.7
+    draw_box(ax, CX, s2_y, MAIN_W, MAIN_H,
+             f"Records after DOI deduplication\nN = {doi_step['output']:,}",
+             facecolor=C_SCREEN, fontsize=11)
+    draw_box(ax, SIDE_X, s2_y, SIDE_W, SIDE_H,
+             f"DOI duplicates removed:\nn = {doi_step['duplicates_removed']:,}",
+             facecolor=C_SIDE, fontsize=9)
+    draw_arrow(ax, CX + MAIN_W/2, s2_y, SIDE_X - SIDE_W/2, s2_y)
+    draw_arrow(ax, CX, id_merge_y - MAIN_H/2, CX, s2_y + MAIN_H/2)
+
+    s3_y = 9.7
+    draw_box(ax, CX, s3_y, MAIN_W, MAIN_H,
+             f"Records after fuzzy title deduplication\nN = {fuzzy_step['output']:,}",
+             facecolor=C_SCREEN, fontsize=11)
+    draw_box(ax, SIDE_X, s3_y, SIDE_W, SIDE_H,
+             f"Fuzzy duplicates removed\n(ratio >= {fuzzy_step['threshold']}):\nn = {fuzzy_step['records_removed']:,}",
+             facecolor=C_SIDE, fontsize=9)
+    draw_arrow(ax, CX + MAIN_W/2, s3_y, SIDE_X - SIDE_W/2, s3_y)
+    draw_arrow(ax, CX, s2_y - MAIN_H/2, CX, s3_y + MAIN_H/2)
+
+    # ============ Eligibility: Stages 4 + 5 ============
+    s4_y = 7.5
+    draw_box(ax, CX, s4_y, MAIN_W, MAIN_H + 0.15,
+             f"Records after OpenAlex precision filter\n"
+             f"(WoS-equivalent 3-block boolean)\nN = {prec_step['output']:,}",
+             facecolor=C_ELIG, fontsize=10)
+    draw_box(ax, SIDE_X, s4_y, SIDE_W, SIDE_H,
+             f"OpenAlex exclusives, no-match:\nn = {prec_dropped:,}",
+             facecolor=C_SIDE, fontsize=9)
+    draw_arrow(ax, CX + MAIN_W/2, s4_y, SIDE_X - SIDE_W/2, s4_y)
+    draw_arrow(ax, CX, s3_y - MAIN_H/2, CX, s4_y + (MAIN_H+0.15)/2)
+
+    # Stage 5 (NEW) -- cross-file dedup
+    s5_y = 5.3
+    draw_box(ax, CX, s5_y, MAIN_W, MAIN_H + 0.25,
+             f"Records after cross-file deduplication\n"
+             f"(main 2005-2025 vs partial 2026)\nN = {cross_step['output_main']:,}",
+             facecolor=C_ELIG, fontsize=10, fontweight="bold")
+    draw_box(ax, SIDE_X, s5_y, SIDE_W, SIDE_H + 0.35,
+             f"Year-misassigned main records\n(year=2026): n = {cross_step['year_2026_misassigned_main']:,}\n"
+             f"  dropped (in partial): {cross_step['of_which_dropped_dup_with_partial']:,}\n"
+             f"  reassigned to partial: {cross_step['of_which_reassigned_to_partial']:,}",
+             facecolor=C_SIDE, fontsize=8)
+    draw_arrow(ax, CX + MAIN_W/2, s5_y, SIDE_X - SIDE_W/2, s5_y)
+    draw_arrow(ax, CX, s4_y - (MAIN_H+0.15)/2, CX, s5_y + (MAIN_H+0.25)/2)
+
+    # ============ Included ============
+    f_y = 2.5
+    draw_box(ax, CX, f_y, MAIN_W + 0.4, MAIN_H + 0.6,
+             f"Final analysis corpus\n"
+             f"Main (2005-2025): N = {final_n:,}\n"
+             f"Partial 2026 extension: N = {partial_n:,}\n"
+             f"Total: N = {total_n:,}",
+             facecolor=C_INCL, fontsize=11, fontweight="bold")
+    draw_arrow(ax, CX, s5_y - (MAIN_H+0.25)/2, CX, f_y + (MAIN_H+0.6)/2)
+
+    # Footer
+    ax.text(6.0, 0.6,
+            "DOI primary-key deduplication (exact) -> fuzzy title matching (ratio >= 95, "
+            "blocking on year + first-author surname) ->\n"
+            "OpenAlex precision filter (3-block boolean: B1 TCM + drug + interaction; "
+            "B2 TCM + interaction; B3 TCM + CYP) ->\n"
+            "cross-file year-DOI reconciliation between main and partial 2026 corpora.",
+            ha="center", va="center", fontsize=8, color="#555", style="italic")
+
+    # ============ Save ============
+    print("\n[3] Saving outputs (PDF + SVG + PNG)...")
+    fig_dir = repo_root / "results" / "figures"
+    fig_dir.mkdir(parents=True, exist_ok=True)
+
+    out_pdf = fig_dir / "figure_01_prisma_flow.pdf"
+    out_svg = fig_dir / "figure_01_prisma_flow.svg"
+    out_png = fig_dir / "figure_01_prisma_flow.png"
+
+    plt.savefig(out_pdf, dpi=300, bbox_inches="tight")
+    plt.savefig(out_svg, format="svg", bbox_inches="tight")
+    plt.savefig(out_png, dpi=300, bbox_inches="tight")
+    plt.close(fig)
+
+    print(f"    [+] {out_pdf.relative_to(repo_root)}  ({out_pdf.stat().st_size/1024:.1f} KB)")
+    print(f"    [+] {out_svg.relative_to(repo_root)}  ({out_svg.stat().st_size/1024:.1f} KB)")
+    print(f"    [+] {out_png.relative_to(repo_root)}  ({out_png.stat().st_size/1024:.1f} KB)")
+
+    print("\n[DONE] PRISMA flow diagram refreshed.")
 
 
 if __name__ == "__main__":

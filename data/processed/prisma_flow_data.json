@@ -1,6 +1,6 @@
 {
-  "label": "MAIN 2005-2025",
-  "generated_at": "2026-05-14T11:20:21.730351",
+  "label": "MAIN 2005-2025 (final, post Day 5 cross-file dedup)",
+  "generated_at": "2026-05-17T17:30:00",
   "identification": {
     "WoS_raw": 3091,
     "Scopus_raw": 7181,
@@ -28,14 +28,28 @@
     "input": 9536,
     "openalex_exclusive": 773,
     "openalex_passed_B1B2B3": 675,
-    "openalex_dropped_no_match": 773,
+    "openalex_dropped_no_match": 98,
     "block_breakdown": {
       "B1_direct": 439,
       "B3_tcm_cyp": 131,
       "B2_tcm_interaction": 105,
       "B0_none": 98
     },
-    "output": 9438
+    "output": 9438,
+    "note": "openalex_dropped_no_match corrected 773 -> 98 in Day 16 refresh; 773 was the openalex_exclusive total, not the dropped count. Dropped = B0_none = 98."
   },
-  "final_corpus_size": 9438
+  "cross_file_deduplication": {
+    "input_main": 9438,
+    "year_2026_misassigned_main": 25,
+    "of_which_dropped_dup_with_partial": 24,
+    "of_which_reassigned_to_partial": 1,
+    "records_removed_from_main": 25,
+    "output_main": 9413,
+    "partial_overlap_with_main_dropped": 13,
+    "partial_after_cross_dedup": 304,
+    "rationale": "25 main 2005-2025 records were erroneously dated 2026 due to upstream metadata. 24 already existed in partial 2026 (dropped); 1 reassigned to partial 2026. Partial 2026 also dropped 13 records overlapping with main DOIs, preserving main's earlier-year assignment."
+  },
+  "final_corpus_size": 9413,
+  "partial_2026_corpus_size": 304,
+  "total_corpus_size": 9717
 }
