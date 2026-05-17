@@ -1480,3 +1480,123 @@ Day 12 B commit.
 ### Project progress
 - **13/21 days (~62%)**
 - Next: Day 14 — Topic × Mechanism × Burst Era (temporal stratification)
+
+
+---
+
+## Day 13 — Topic × Mechanism cross-analysis (static, 2026-05-18)
+
+### Status: ✅ COMPLETED
+
+### Data dimensions
+- Topic source: HDBSCAN over UMAP(SPECTER2), 39 real topics (+ -1 noise)
+- Mechanism source: LLM Schema v3, 16 mechanism categories (after dropping unspecified/other)
+- Matrix: 37 topics × 16 mechanisms = 592 cells
+- N = 1,738 (record_id × mechanism) pairs from 1,662 unique records
+- Sparsity: 63.3% non-zero cells
+
+### Method
+- Filter: confidence ≥ 0.7; drop HDBSCAN noise cluster (-1); drop mechanism in {unspecified, other}
+- Test: Fisher exact two-sided per cell (592 tests)
+- Correction: BH-FDR
+- Significance: q < 0.05
+- Strong enrichment: q < 0.05 AND OR > 2 AND observed ≥ 5
+- Strong depletion: q < 0.05 AND OR < 0.5 AND expected ≥ 5
+
+### Statistics
+- 63 significant cells (10.6%) — balanced 34 enriched + 29 depleted
+- 30 strong enrichments + 29 strong depletions
+
+### Deliverables (results/)
+| File | Type | Notes |
+|---|---|---|
+| figures/fig9_topic_x_mechanism_heatmap.{png,pdf,svg} | Fig | log-scale, PK/PD column groups, Okabe-Ito |
+| tables/table_topic_x_mechanism_matrix*.csv (4 files) | Tables | Block 1 outputs |
+| tables/table_topic_x_mechanism_enrichment_full.csv | Table | 592 rows |
+| tables/table_topic_x_mechanism_enrichment_significant.csv | Table | 63 rows |
+| tables/table_topic_x_mechanism_top_enriched.csv | Table | 20 rows (paper Table 4 source) |
+| tables/table_topic_x_mechanism_top_depleted.csv | Table | 20 rows (Supp S9) |
+
+### 8 paper-grade findings (详见 docs/manuscript_drafts/notes_day13_findings.md)
+1. F9 — Strongest enrichment: #24 UGT × UGT_inhibition (OR=505, q=2.8e-82)
+2. F10 — PK-pure topics: #30/#24/#32/#9 — mechanism-named, statistically reject all PD mechanisms
+3. F11 — PD-pure topics: #11/#23/#28 — clinical-named, statistically reject all PK mechanisms (#11 × CYP_inh: q=1.9e-47!)
+4. F12 — **Structural bifurcation** (paper §4 core narrative): PK space vs PD space, near-zero cross-talk
+5. F13 — Bridge clusters: #17 hepatotoxicity is the strongest translational interface
+6. F14 — Internal validation: tautological mechanism-name × mechanism enrichments (#30, #24, #32, #9) confirm topic model + LLM extraction agree
+7. F15 — Three null-enrichment topics (#25 phytochem, #38 pharmacies, #37 herbal supp): TCM context literature, not mechanism research
+8. F16 — Three-tool triangulation: SJW–warfarin paradigm consistent across bibliometrix Q2, CiteSpace Era 1, Day 13 #5 × CYP_induction (q=9.5e-15)
+
+### Discussion drafts in notes doc
+- §4.x.1 PK/PD structural bifurcation
+- §4.x.2 Bridge clusters & translational interfaces
+- §4.x.3 Mechanism-name alignment as internal validation
+- §4.x.4 Three-method triangulation
+
+### Engineering notes
+- N = 1,738 (cell sum, pair-units) used for Fisher test — consistent with matrix construction
+- Haldane-Anscombe (+0.5) for log2_OR display only; raw Fisher p uses exact hypergeometric
+- Depletion threshold uses expected ≥ 5 (not observed ≥ 5)
+- 2 topics (#0, #29) absent from matrix — small clusters with no confidence ≥ 0.7 mechanism extraction
+- New script dir 08_topic_mechanism/ (3 scripts: Block 1 / 2 / 3)
+
+### Project progress
+- **13/21 days (~62%)**
+- Next: Day 14 — Topic × Mechanism × Burst Era (temporal stratification)
+
+
+---
+
+## Day 14 — Topic × Mechanism × Era temporal stratification (2026-05-18)
+
+### Status: ✅ COMPLETED
+
+### Era binning (Scheme B, disjoint)
+- Period 1 (2005-2013): Classical case-based era, 517 pairs (30%)
+- Period 2 (2014-2019): Mechanistic deepening era, 687 pairs (40%)
+- Period 3 (2020-2026): Systems-level era, 534 pairs (30%)
+
+### Method
+- Per-era Fisher exact two-sided per pair (Day 13 top 20 enr + top 20 dep = 40 pairs)
+- BH-FDR within each era (30 tests per era)
+- Direction-aware significance (enrichment: obs > exp; depletion: obs < exp)
+- 8-class trajectory typology via (sig_P1, sig_P2, sig_P3) Cartesian product
+
+### Trajectory distribution
+- STABLE 18 (45%) | FADING 7 | EMERGING 3 | DECLINING 4 | TRANSIENT 3 | WEAK_NONE 3 | RISING 2 | BIMODAL 0
+- **Historically anchored (STABLE+FADING+DECLINING): 29/40 = 72.5%**
+- **Emerging-type (EMERGING+RISING): 5/40 = 12.5%**
+
+### Seven paper-grade findings (F17-F23, see notes_day14_findings.md)
+1. **F17** -- H1 confirmed: PK/PD bifurcation is HISTORICAL, not recent (72.5% historically anchored)
+2. **F18** -- 3 EMERGING all map to Era 4 paradigm; signaling_pathway_mod is the new axis; add DEPTH not BRIDGE
+3. **F19** -- 1 DECLINING (#6 warfarin × additive_toxicity, 4/1/0): classical case-era ghost
+4. **F20** -- STABLE backbone reveals 22-year invariants (#30, #24, #11, #32, #9, #17 etc.)
+5. **F21** -- STABLE depletion backbone: COMPLETE 22-year exclusion patterns (#30 × all PD = 0/0/0; #11 × CYP ≈ 0/0/0) -- paper §4 strongest empirical claim
+6. **F22** -- Emerging topics (#15 gut microbiome, #22 network pharm) absent from trajectory; keyword-mechanism lag
+7. **F23** -- 4-method triangulation: bibliometrix Q2 + CiteSpace Era 1 + Day 13 #5 enrichment + Day 14 #6 DECLINING all converge on SJW-warfarin classical era
+
+### Discussion drafts (4 new paragraphs in findings doc)
+- §4.x.5 Historical persistence of PK/PD bifurcation
+- §4.x.6 Era 4 emerging enrichments expand depth not bridge
+- §4.x.7 Warfarin DECLINING as case-era ghost
+- §4.x.8 Keyword-mechanism lag (methodological observation)
+
+### Deliverables (results/)
+| File | Type | Notes |
+|---|---|---|
+| figures/fig10_topic_x_mechanism_x_era_trajectory.{png,pdf,svg} | Fig | Slopegraph, anti-collision labels (1D repel), leader lines |
+| tables/table_topic_x_mechanism_era_matrix_period{1,2,3}.csv | Tables | 3 era matrices (37x16 each) |
+| tables/table_topic_x_mechanism_trajectory_{enrichment,depletion}.csv | Tables | 20 + 20 trajectories |
+
+### Engineering notes
+- Disjoint era scheme over overlapping (Day 12 A's era 1-4 overlap): ensures Fisher sample independence
+- Within-era BH-FDR (30 tests/era) over cross-era pooled FDR: preserves era-level power
+- Direction-aware sig: avoids classifying as STABLE-enriched when one era is sig-depleted
+- Haldane-Anscombe (+0.5) for log2(OR): handles era zeros without inf
+- Anti-collision label placement: 1D iterative repel, MIN_GAP=0.85 log2 units, leader lines
+- 3 new scripts in 08_topic_mechanism/: 31_block0_era_recon, 32_block1_era_trajectory, 33_block2_trajectory_viz
+
+### Project progress
+- **14/21 days (~67%)**
+- Next: Day 15 -- Herb tier × Mechanism orthogonal + fig11 synthesis
