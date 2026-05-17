@@ -1821,3 +1821,81 @@ Day 18 converted the Block A skeleton from Day 16 P2 into paper-grade Methods pr
 
 - **18/21 days (86%)**
 - Next: Day 19 -- Discussion section 4 compression (17 section-4.x drafts -> ~8 final paragraphs per Day 15 cross-doc audit) + Introduction section 1 first draft.
+---
+
+## Day 19: Discussion section 4 (17 §4.x -> 8 synthesis) + Introduction section 1 first draft
+
+### Strategy
+
+Day 19 was the highest thinking-density day of the manuscript phase. Two writing tasks were executed in sequence: (1) synthesis of 17 method-level §4.x.N drafts (4 from Day 12 A CiteSpace + 4 from Day 13 + 4 from Day 14 + 5 from Day 15) into 8 paper-level thematic paragraphs in section 4 (~2,500 words target); (2) composition of a new section 1 Introduction from scratch (~600 words target).
+
+8-block workflow: Block A (recon: cat §4.0 lead-in + map all 17 §4.x.N marker positions across notes files); Block B (8-theme proposal table with source mapping, user-approved on 3 decision points); Block C (create discussion_section4_draft.md with skeleton + §4.0 lead + §4.1 prose); Block D (§4.2 + §4.3 paper anchor sections); Block E (§4.4 + §4.5 Era 4 / hepatotoxicity bridge); Block F (§4.6 + §4.7 validation / era transitions); Block G (§4.8 synthesis + create introduction_section1_draft.md); Block H (this commit).
+
+### Section breakdown
+
+| Section | Words | Source synthesis | Argument |
+|---|---|---|---|
+| §4.0 Lead-in | 140 | (existing, Day 16 P2) | Multi-method triangulation principle + SJW anchor |
+| §4.1 PK-PD bifurcation | 291 | §4.x.5 (Day 13) + §4.x.9 (Day 14) | Paper core: bifurcation as 22-year foundational invariant |
+| §4.2 SJW four-method anchor | 351 | §4.x.1 + §4.x.8 + §4.x.14 | All 4 methods independently recover SJW; FULL_CHAIN monotone OR 14.20 -> 14.71 -> 18.73 |
+| §4.3 Mechanism-specific resolution layers | 381 | §4.x.13 + §4.x.15 + §4.x.16 | **Paper novelty**: CYP_ind compound, UGT_inh species, transporter family -- biology of mechanism, not coverage artifact |
+| §4.4 Era 4 erosion | 294 | §4.x.2 + §4.x.4 + §4.x.10 | P3 emerging expands PD depth rather than bridging PK/PD |
+| §4.5 Hepatotoxicity bridge | 229 | §4.x.6 (Day 13) | Topic #17 bridges PK+PD by biological necessity (DILI traverses both axes) |
+| §4.6 Internal validation + triangulation | 297 | §4.x.3 + §4.x.7 + §4.x.17 | 3-fold: tautological alignments, bibliometrix-CiteSpace agreement, Schema v3 in_map curation |
+| §4.7 Era transitions | 272 | §4.x.11 + §4.x.12 | Classical decline + keyword-mechanism lag at complementary timescales |
+| §4.8 Synthesis + future directions | 259 | (new) | Clinical implications for risk stratification by axis x resolution; portability beyond TCM; future EHR linkage |
+| **§4 Total** | **2,514** | | 0.6% over 2,500 target |
+| **§1 Introduction** | **487** | (new, 5 paragraphs) | TCM widespread use; current literature; gap (no integrated bibliometric + mechanism extraction); 4-method approach; paper structure |
+
+### Source-to-paragraph mapping (17 -> 8 synthesis, all sources covered)
+
+- §4.x.1 (CiteSpace burst) -> §4.2
+- §4.x.2 (Era 4 methodological revolution) -> §4.4
+- §4.x.3 (cross-tool triangulation) -> §4.6
+- §4.x.4 (eternal vs emerging dual) -> §4.4
+- §4.x.5 (PK/PD bifurcation) -> §4.1
+- §4.x.6 (bridge clusters) -> §4.5
+- §4.x.7 (internal validation) -> §4.6
+- §4.x.8 (cross-method triangulation) -> §4.2 + §4.6
+- §4.x.9 (historical persistence) -> §4.1
+- §4.x.10 (Era 4 emerging) -> §4.4
+- §4.x.11 (warfarin DECLINING) -> §4.7
+- §4.x.12 (keyword-mechanism lag) -> §4.7
+- §4.x.13 (methodological novelty) -> §4.3
+- §4.x.14 (SJW FULL_CHAIN) -> §4.2
+- §4.x.15 (mechanism-specific resolution) -> §4.3
+- §4.x.16 (compound sparsity) -> §4.3
+- §4.x.17 (Schema v3 curation) -> §4.6
+
+### Engineering notes
+
+- 8-theme structure proposed in Block B with 3 user-approved decision points: (1) §4.3 paper novelty kept in middle position; (2) §4.5 hepatotoxicity bridge as independent paragraph; (3) §4.8 synthesis retained in §4 rather than deferred to §6 Conclusions.
+- Same bounds-based replacement template from Day 18 used throughout (zero exact-string-match failures). For Block D, E, F (multi-section replacements per block), a reusable PowerShell helper function `Replace-Section` was defined to wrap the start-marker + dash-separator find logic, reducing boilerplate by ~60%.
+- §4.8 used EOF replacement (same template as Day 17 Block G §3.6 and Day 18 Block G §2.6) since it is the last section in the discussion file.
+- The pre-existing discussion_section4_lead_draft.md (created Day 16 P2) is now functionally superseded by discussion_section4_draft.md but retained for the moment; Day 20 typography/cleanup pass will delete or merge it.
+- The pre-existing methods_section_drafts.md (Day 9-10 era) was identified during Block A reconnaissance as similarly superseded by methods_section2_draft.md; Day 20 will clean both.
+- §1 Introduction came in at 487 words against 600 target (19% under). Acceptable within Frontiers in Pharmacology / Pharmacological Research convention range (400-800 word introductions). Day 21 polish pass can expand on reviewer feedback if needed.
+
+### Citation placeholders flagged for Day 21
+
+The §1 Introduction includes generic-claim sentences that require citation insertion during the Day 21 references pass:
+- TCM widespread global use (paragraph 1): WHO traditional medicine report or similar prevalence reference
+- SJW-cyclosporine / warfarin / chemotherapy interactions (paragraph 1): Henderson 2002, Markowitz 2003, Hu 2005, or similar canonical SJW HDI references
+- Grapefruit juice intestinal CYP3A4 inhibition (paragraph 1): Bailey 1991 / 1998 or Dahan & Altman 2007
+- Bibliometric methods applied to adjacent fields (paragraph 3): one or two representative biomedical bibliometric review citations
+
+The Discussion §4 also contains occasional generic claims about field maturity and biological interpretations that may warrant supporting citations during Day 21; all substance-of-finding numerical claims are fully data-anchored from this study and do not need external citation.
+
+### Verifications
+
+- Discussion §4: 9 H2 headers preserved (§4.0-§4.8): PASS
+- Discussion §4 total 2,514 words within 2% of 2,500 target: PASS
+- All 17 §4.x.N source drafts mapped to at least one paper paragraph: PASS
+- Introduction §1 file created with single H2 (## §1 Introduction), 5 paragraphs structure: PASS
+- Number-level cross-checks against §3 Results: SJW OR values (14.20 / 14.71 / 18.73), all q-values, era counts (517/687/534), discovery rates (25.0%/15.6%/4.3%), bifurcation depletion q approx 10^-47, all consistent with Day 17 commit content: PASS
+
+### Project progress
+
+- **19/21 days (90%)**
+- Manuscript main-body prose complete: Introduction §1 (487 w) + Methods §2 (3,039 w) + Results §3 (3,937 w) + Discussion §4 (2,514 w) = ~9,980 words main body.
+- Next: Day 20 -- Limitations section 5 + Conclusions section 6 + Abstract + typography/citation/cross-reference consistency pass across all manuscript files.
