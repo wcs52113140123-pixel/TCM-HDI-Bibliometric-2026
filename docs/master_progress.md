@@ -1719,3 +1719,63 @@ The Methods section 2 lead-in was decomposed per top-journal convention:
 ### Progress
 
 15/21 -> 16/21 days complete (76%). Day 17+ scoped to subsection drafting + Results + Discussion final-paragraph compression (17 section-4.x drafts -> ~8 final paragraphs per Day 15 audit).
+---
+
+## Day 17: Results section 3 full prose draft (sections 3.0-3.6, ~3,940 words)
+
+### Strategy
+
+Day 17 converted the Block A skeleton placeholders into paper-grade Results prose, drafted in 8 sequential blocks (A skeleton + B-G prose + H commit). Order followed natural reading flow: corpus description -> temporal-thematic structure -> multi-method convergence audit -> Topic x Mechanism static enrichment (paper core) -> temporal stratification -> three-tier herbal-taxonomy stratification. SJW (St. John's wort, *Hypericum perforatum*) used as cross-section anchor in 6 of 7 subsections.
+
+### Section breakdown
+
+| Section | Words | Source notes | Key finding |
+|---|---|---|---|
+| 3.0 Lead-in | ~160 | (orientation) | Reader orientation, six-subsection roadmap |
+| 3.1 Corpus description | ~806 | notes_bibliometrix_findings.md | 9,413+304=9,717 records; Lotka alpha 2.38/2.63; Bradford 13/81/657 |
+| 3.2 Temporal-thematic | ~573 | notes_citespace_findings.md | Q=0.3802 S=0.6935; 4 burst eras; 11 clusters -> 4 regions |
+| 3.3 Multi-method audit | ~489 | (Table 1 NEW) | 5-row table: SJW [4 methods], systems-biology [3], CYP/P-gp/PXR foundation [3], warfarin [1], hepatotox [1] |
+| 3.4 Topic x Mech static | ~775 | notes_day13_findings.md | PK/PD bifurcation (paper core); #24 x UGT_inh OR=505.1 q=2.83e-82; #11 x CYP_inh 5 vs 99.7 q=1.9e-47 |
+| 3.5 Temporal stratification | ~617 | notes_day14_findings.md | PK/PD historical not recent; 29/40 (72.5%) anchored pre-2020; 3 EMERGING all P3 |
+| 3.6 Three-tier herb taxonomy | ~513 | notes_day15_findings.md | SJW FULL_CHAIN monotone OR 14.20->14.71->18.73; mechanism-specific resolution layers (paper novelty) |
+| **Total** | **~3,937** | | 2% under 4,000 target |
+
+### Cross-figure / cross-table mapping
+
+- Figure 1: PRISMA (Day 16). Figures 2-4: annual production / Lotka-Bradford / thematic map (section 3.1).
+- Figures 5-7: CiteSpace era timeline / top bursts / cluster map (section 3.2).
+- Figure 8: Topic x Mechanism static heatmap (was internal fig9; section 3.4).
+- Figure 9: temporal slopegraph (was internal fig10; section 3.5).
+- Figure 10: 3-panel diverging heatmap (was internal fig11; section 3.6).
+- Figure 11: SJW Sankey (was internal fig12; section 3.6).
+- Table 1: Multi-method convergence audit (NEW in section 3.3, 5 rows x 6 cols).
+- Table 2: Top 20 Topic x Mech enrichments (section 3.4).
+- Table 3: Trajectory typology counts (section 3.5).
+- Table 4: Three-tier chain typology (section 3.6).
+
+### Paper core narrative
+
+PK/PD structural bifurcation (section 3.4) confirmed as a 22-year invariant by temporal stratification (section 3.5: 18 STABLE + 7 FADING + 4 DECLINING = 29/40 (72.5%) cells anchored in pre-2020 publications). First visible erosion in P3 (2020-2026): 3 EMERGING cells all concentrated in P3, with topic #20 (cancer / network pharmacology) x signaling_pathway_modulation (P1/P2/P3 = 0/1/5) the first cell where a clinical-application-named topic co-enriches a signalling-mechanism category.
+
+SJW cross-section anchor: Q2 niche (3.1) -> Era 1 burst strength 27.01 (3.2) -> Table 1 row 1 (3.3) -> topic #5 strong enrichment OR=26.7 q=9.5e-15 (3.4) -> STABLE backbone (3.5) -> FULL_CHAIN with monotone OR escalation 14.20 (Hypericaceae) -> 14.71 (*H. perforatum*) -> 18.73 (hyperforin) (3.6).
+
+Paper novelty (section 3.6): mechanism-specific natural resolution layers -- CYP_induction concentrates at compound resolution (hyperforin), UGT_inhibition at species resolution (*Glycyrrhiza uralensis*), P-glycoprotein and transporter modulation at family resolution (Lamiaceae). Interpreted as a substantive claim about biological scale of action rather than a methodological artifact of differential field coverage.
+
+### Engineering notes
+
+- Block E (section 3.4) first attempt failed: old_str had extraneous "threshold" word vs file's "Strong enrichment (...)". `return` inside `if` block in PowerShell interactive shell does NOT abort subsequent commands; script continued executing `.Replace()` (no-op) and `WriteAllText` (unchanged), producing a misleading "[+] success" message. Fixed by correcting old_str and switching to if/else flow.
+- Block F (section 3.5) exact old_str match failed despite visually identical content (likely line-ending CRLF/LF or hidden Unicode mismatch). Switched to bounds-based replacement using stable markers (H2 header start, `---` separator before next section) for the remainder of Day 17.
+- Bounds-based replacement template established for Day 18+: locate region by H2 markers and section separators, replace by index ranges rather than exact string match. Robust against CRLF/LF, BOM, invisible whitespace.
+- Paper-prose style conventions: past tense for procedures and findings; full English; "Section X.Y" full word (no section mark); italics for species and journal names; q-values in `q = 9.5 x 10^-15` Unicode-superscript format; em-dash for explanatory clauses.
+
+### Verifications
+
+- 7 H2 headers preserved across all 6 prose blocks: PASS
+- Word count target ~4,000 met within 2%: 3,937 actual: PASS
+- Cross-section anchors: SJW present at sections 3.1, 3.2, 3.3, 3.4, 3.5, 3.6 (6 of 7): PASS
+- Number-level audit: every reported OR / q-value / count cross-checked against source CSV or notes_dayXX_findings.md: PASS
+
+### Project progress
+
+- **17/21 days (81%)**
+- Next: Day 18 -- Methods section 2.1-2.6 fill (~3,000 words; section 2 skeleton from Day 16 part 2 ready). Order B (Methods after Results) lets Methods reference final figure / table / equation numbers without rework.
