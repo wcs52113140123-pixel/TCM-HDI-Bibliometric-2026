@@ -1,0 +1,21 @@
+cluster_id,topic_label,mechanism,observed,expected,topic_total,mech_total,odds_ratio,log2_or_haldane,p_value,direction,q_value,significant
+24,inhibition ugt / inhibited ugt / ugt isoforms,UGT_inhibition,65,4.09,100,71,505.14285714285717,8.856,9.561217516172626e-85,enriched,2.8301203847870973e-82,True
+32,drug transporters / transporter-mediated / anion transporter,transporter_modulation,41,2.54,48,92,188.23249299719888,7.461,1.1090871923311735e-49,enriched,1.8659668374478522e-47,True
+17,hepatoprotective / hepatotoxicity / liver injury,organ_toxicity_modulation,56,6.23,123,88,41.34701492537314,5.35,8.036742901106287e-48,enriched,9.515503594909843e-46,True
+34,metabolites / oral administration / pharmacokinetic,absorption_alteration,10,0.82,17,84,31.795366795366796,4.952,6.021280839877435e-10,enriched,1.6202719350942915e-08,True
+27,metabolites / pharmacokinetic / pharmacokinetics,absorption_alteration,10,0.87,18,84,27.804054054054053,4.771,1.3019770584945725e-09,enriched,3.211543410953279e-08,True
+9,pxr cyp / pxr-mediated / receptor pxr,CYP_induction,35,5.56,46,210,27.581818181818182,4.738,2.2011136176049303e-24,enriched,1.1845993287473807e-22,True
+10,hormone / testosterone / estrogenic,receptor_antagonism,5,0.32,18,31,25.059171597633135,4.703,9.406943392153152e-06,enriched,0.00015469195800429627,True
+5,antidepressants / antidepressant / wort sjw,CYP_induction,23,3.62,30,210,26.724980901451488,4.668,2.4168768593908335e-16,enriched,9.538607338395822e-15,True
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,absorption_alteration,20,1.93,40,84,25.53125,4.663,3.074878788213225e-17,enriched,1.3002344590158779e-15,True
+23,antimicrobial / antibiotics / antibacterial,synergistic_efficacy,43,6.7,64,182,22.6121959575197,4.477,3.898781981750494e-29,enriched,3.2972556188518464e-27,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,CYP_inhibition,338,136.06,453,522,17.58686200378072,4.129,1.594867854083784e-122,enriched,9.441617696176e-120,True
+28,medicinal plants / anxiolytic / antiepileptic drugs,receptor_synergism,34,6.28,52,210,16.20580808080808,3.996,3.218047917625474e-20,enriched,1.5875703060285671e-18,True
+10,hormone / testosterone / estrogenic,signaling_pathway_modulation,7,0.81,18,78,14.7797695262484,3.911,5.990817907141096e-06,enriched,0.00010133040574364369,True
+20,cancer / network pharmacology / pathways,signaling_pathway_modulation,6,0.72,16,78,13.75,3.817,3.77248580863934e-05,enriched,0.0005447101460279241,True
+12,ckd / chronic kidney / kidney injury,organ_toxicity_modulation,8,1.01,20,88,13.65,3.791,2.408503993455092e-06,enriched,4.193630482721807e-05,True
+4,neuroprotective / pharmacology / neuroprotective effects,receptor_synergism,15,3.02,25,210,11.676923076923076,3.519,1.1578691114422647e-08,enriched,2.7418340558952826e-07,True
+8,atorvastatin / simvastatin / losartan,transporter_modulation,10,1.48,28,92,11.029810298102982,3.486,6.330050155062998e-07,enriched,1.2491298972657648e-05,True
+12,ckd / chronic kidney / kidney injury,signaling_pathway_modulation,6,0.9,20,78,9.797619047619047,3.348,0.00015800970666223575,enriched,0.0020787054743120793,True
+6,warfarin / patients warfarin / anticoagulants,additive_toxicity,5,0.77,35,38,8.434343434343434,3.169,0.0007674297528911007,enriched,0.009086368274230632,True
+28,medicinal plants / anxiolytic / antiepileptic drugs,receptor_antagonism,5,0.93,52,31,6.7921440261865795,2.859,0.0018577791303375053,enriched,0.020602985655394628,True

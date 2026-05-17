@@ -1,0 +1,593 @@
+cluster_id,topic_label,mechanism,observed,expected,topic_total,mech_total,odds_ratio,log2_or_haldane,p_value,direction,q_value,significant
+30,cyp inhibition / cyp enzymes / cyp isoforms,CYP_inhibition,338,136.06,453,522,17.58686200378072,4.129,1.594867854083784e-122,enriched,9.441617696176e-120,True
+24,inhibition ugt / inhibited ugt / ugt isoforms,UGT_inhibition,65,4.09,100,71,505.14285714285717,8.856,9.561217516172626e-85,enriched,2.8301203847870973e-82,True
+32,drug transporters / transporter-mediated / anion transporter,transporter_modulation,41,2.54,48,92,188.23249299719888,7.461,1.1090871923311735e-49,enriched,1.8659668374478522e-47,True
+11,anticancer / chemotherapy / cancer,CYP_inhibition,5,99.71,332,522,0.026292596075926156,-5.114,1.2607884036809813e-49,depleted,1.8659668374478522e-47,True
+17,hepatoprotective / hepatotoxicity / liver injury,organ_toxicity_modulation,56,6.23,123,88,41.34701492537314,5.35,8.036742901106287e-48,enriched,9.515503594909843e-46,True
+11,anticancer / chemotherapy / cancer,receptor_synergism,108,40.12,332,210,6.163865546218488,2.621,3.240875789855926e-30,enriched,3.197664112657847e-28,True
+23,antimicrobial / antibiotics / antibacterial,synergistic_efficacy,43,6.7,64,182,22.6121959575197,4.477,3.898781981750494e-29,enriched,3.2972556188518464e-27,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,receptor_synergism,1,54.74,453,210,0.011390100351441758,-5.875,2.4632212302830755e-28,depleted,1.8227837104094758e-26,True
+11,anticancer / chemotherapy / cancer,synergistic_efficacy,96,34.77,332,182,6.243594797004336,2.639,1.1457706920126228e-27,enriched,7.536624996349697e-26,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,synergistic_efficacy,0,47.44,453,182,0.0,-7.229,7.653774119655503e-26,depleted,4.531034278836057e-24,True
+9,pxr cyp / pxr-mediated / receptor pxr,CYP_induction,35,5.56,46,210,27.581818181818182,4.738,2.2011136176049303e-24,enriched,1.1845993287473807e-22,True
+28,medicinal plants / anxiolytic / antiepileptic drugs,receptor_synergism,34,6.28,52,210,16.20580808080808,3.996,3.218047917625474e-20,enriched,1.5875703060285671e-18,True
+11,anticancer / chemotherapy / cancer,CYP_induction,1,40.12,332,210,0.01730293875308981,-5.273,1.4004818220779442e-19,depleted,6.377578759001099e-18,True
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,absorption_alteration,20,1.93,40,84,25.53125,4.663,3.074878788213225e-17,enriched,1.3002344590158779e-15,True
+5,antidepressants / antidepressant / wort sjw,CYP_induction,23,3.62,30,210,26.724980901451488,4.668,2.4168768593908335e-16,enriched,9.538607338395822e-15,True
+11,anticancer / chemotherapy / cancer,P-gp_inhibition,54,20.44,332,107,4.958734898873354,2.308,3.3338994047774834e-14,enriched,1.2335427797676687e-12,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,CYP_induction,99,54.74,453,210,2.9578561612459917,1.564,2.169869734036356e-12,enriched,7.55625225029131e-11,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,absorption_alteration,0,21.89,453,84,0.0,-5.995,5.928709884411362e-12,depleted,1.9498868064286257e-10,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,organ_toxicity_modulation,1,22.94,453,88,0.03046485606754145,-4.461,6.153694979372881e-11,depleted,1.91736180409934e-09,True
+23,antimicrobial / antibiotics / antibacterial,CYP_inhibition,0,19.22,64,522,0.0,-5.87,1.5411780879390118e-10,depleted,4.5618871402994745e-09,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,transporter_modulation,2,23.98,453,92,0.05888149790588815,-3.773,4.077967721418515e-10,depleted,1.149598519561791e-08,True
+34,metabolites / oral administration / pharmacokinetic,absorption_alteration,10,0.82,17,84,31.795366795366796,4.952,6.021280839877435e-10,enriched,1.6202719350942915e-08,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,signaling_pathway_modulation,1,20.33,453,78,0.03470865417768073,-4.274,1.2700174236401497e-09,depleted,3.211543410953279e-08,True
+27,metabolites / pharmacokinetic / pharmacokinetics,absorption_alteration,10,0.87,18,84,27.804054054054053,4.771,1.3019770584945725e-09,enriched,3.211543410953279e-08,True
+4,neuroprotective / pharmacology / neuroprotective effects,receptor_synergism,15,3.02,25,210,11.676923076923076,3.519,1.1578691114422647e-08,enriched,2.7418340558952826e-07,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,P-gp_inhibition,7,27.89,453,107,0.1859865470852018,-2.335,1.6652589039233112e-07,depleted,3.791666427394616e-06,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,UGT_inhibition,2,18.51,453,71,0.07815161155564125,-3.367,2.3041624749694485e-07,depleted,5.0520895747478276e-06,True
+28,medicinal plants / anxiolytic / antiepileptic drugs,CYP_inhibition,1,15.62,52,522,0.04384479319558918,-3.941,2.4459238378734355e-07,depleted,5.171381828646692e-06,True
+11,anticancer / chemotherapy / cancer,UGT_inhibition,0,13.56,332,71,0.0,-5.154,2.7850077601260493e-07,depleted,5.6852572206711074e-06,True
+8,atorvastatin / simvastatin / losartan,transporter_modulation,10,1.48,28,92,11.029810298102982,3.486,6.330050155062998e-07,enriched,1.2491298972657648e-05,True
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,CYP_inhibition,0,12.01,40,522,0.0,-5.169,6.680530074935727e-07,depleted,1.2757657433425647e-05,True
+32,drug transporters / transporter-mediated / anion transporter,CYP_inhibition,1,14.42,48,522,0.047739616939600604,-3.82,1.1565468880603182e-06,depleted,2.1396117429115886e-05,True
+17,hepatoprotective / hepatotoxicity / liver injury,receptor_synergism,1,14.86,123,210,0.05514157973174367,-3.605,2.2193829551792635e-06,depleted,3.981438513533709e-05,True
+12,ckd / chronic kidney / kidney injury,organ_toxicity_modulation,8,1.01,20,88,13.65,3.791,2.408503993455092e-06,enriched,4.193630482721807e-05,True
+10,hormone / testosterone / estrogenic,signaling_pathway_modulation,7,0.81,18,78,14.7797695262484,3.911,5.990817907141096e-06,enriched,0.00010133040574364369,True
+10,hormone / testosterone / estrogenic,receptor_antagonism,5,0.32,18,31,25.059171597633135,4.703,9.406943392153152e-06,enriched,0.00015469195800429627,True
+2,antidiabetic / herb-drug / hypoglycemic,synergistic_efficacy,18,6.18,59,182,4.055621653777513,2.038,1.3761442590967672e-05,enriched,0.00022018308145548276,True
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,P-gp_inhibition,11,2.46,40,107,6.329741379310345,2.695,1.4777520083931255e-05,enriched,0.00022914153308439884,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,additive_toxicity,0,9.9,453,38,0.0,-4.807,1.5095472618735733e-05,depleted,0.00022914153308439884,True
+24,inhibition ugt / inhibited ugt / ugt isoforms,synergistic_efficacy,0,10.47,100,182,0.0,-4.655,2.5551185529012055e-05,depleted,0.0003781575458293784,True
+20,cancer / network pharmacology / pathways,signaling_pathway_modulation,6,0.72,16,78,13.75,3.817,3.77248580863934e-05,enriched,0.0005447101460279241,True
+11,anticancer / chemotherapy / cancer,absorption_alteration,3,16.05,332,84,0.14916131937408533,-2.533,4.364327802532104e-05,depleted,0.0006151623950235728,True
+24,inhibition ugt / inhibited ugt / ugt isoforms,receptor_synergism,1,12.08,100,210,0.06906384418346141,-3.281,4.802817523447226e-05,depleted,0.0006612251102048275,True
+9,pxr cyp / pxr-mediated / receptor pxr,CYP_inhibition,3,13.82,46,522,0.15768248420486625,-2.46,0.00012845412554422453,depleted,0.0017282918709586573,True
+12,ckd / chronic kidney / kidney injury,signaling_pathway_modulation,6,0.9,20,78,9.797619047619047,3.348,0.00015800970666223575,enriched,0.0020787054743120793,True
+23,antimicrobial / antibiotics / antibacterial,CYP_induction,0,7.73,64,210,0.0,-4.213,0.0003214179911583136,depleted,0.004136509799254819,True
+1,tacrolimus / cyclosporine / immunosuppressant,CYP_inhibition,17,8.11,27,522,4.05980198019802,1.992,0.00042404198588595263,enriched,0.00534112458818051,True
+38,pharmacies / use herbal / medications,additive_toxicity,2,0.04,2,38,inf,7.864,0.00046573162595986753,enriched,0.005744023386838366,True
+33,herb-drug interactions / herb-drug / pharmacokinetic interac,absorption_alteration,8,1.98,41,84,5.170653907496013,2.427,0.0005511497090643407,enriched,0.006658788321756932,True
+6,warfarin / patients warfarin / anticoagulants,additive_toxicity,5,0.77,35,38,8.434343434343434,3.169,0.0007674297528911007,enriched,0.009086368274230632,True
+1,tacrolimus / cyclosporine / immunosuppressant,P-gp_induction,3,0.2,27,13,21.2625,4.533,0.0008629835882810273,enriched,0.010017378122791533,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,receptor_antagonism,1,8.08,453,31,0.09255162241887906,-2.874,0.001505749251043842,depleted,0.017142376088806817,True
+28,medicinal plants / anxiolytic / antiepileptic drugs,receptor_antagonism,5,0.93,52,31,6.7921440261865795,2.859,0.0018577791303375053,enriched,0.020602985655394628,True
+28,medicinal plants / anxiolytic / antiepileptic drugs,CYP_induction,0,6.28,52,210,0.0,-3.904,0.0018793263942420775,depleted,0.020602985655394628,True
+23,antimicrobial / antibiotics / antibacterial,additive_toxicity,6,1.4,64,38,5.308189655172414,2.489,0.002152771036210958,enriched,0.023171644607943406,True
+22,network pharmacology / pharmacology molecular / pharmacology,signaling_pathway_modulation,3,0.31,7,78,16.56,4.093,0.002672823385851982,enriched,0.028255561507578093,True
+32,drug transporters / transporter-mediated / anion transporter,CYP_induction,0,5.8,48,210,0.0,-3.786,0.002912374677723753,depleted,0.029691498609223214,True
+32,drug transporters / transporter-mediated / anion transporter,receptor_synergism,0,5.8,48,210,0.0,-3.786,0.002912374677723753,depleted,0.029691498609223214,True
+33,herb-drug interactions / herb-drug / pharmacokinetic interac,P-gp_induction,3,0.31,41,13,13.31842105263158,3.869,0.002959118949230016,enriched,0.029691498609223214,True
+17,hepatoprotective / hepatotoxicity / liver injury,absorption_alteration,0,5.94,123,84,0.0,-3.769,0.003478090929004811,depleted,0.03431716383284747,True
+9,pxr cyp / pxr-mediated / receptor pxr,receptor_synergism,0,5.56,46,210,0.0,-3.723,0.004595714495770996,depleted,0.04460103248354803,True
+33,herb-drug interactions / herb-drug / pharmacokinetic interac,transporter_modulation,7,2.17,41,92,3.9044982698961936,2.036,0.004745884269575715,enriched,0.045315540122400376,True
+11,anticancer / chemotherapy / cancer,organ_toxicity_modulation,7,16.81,332,88,0.352326685660019,-1.416,0.004949739660213497,depleted,0.0465118393467681,True
+17,hepatoprotective / hepatotoxicity / liver injury,P-gp_inhibition,1,7.57,123,107,0.11668728734921126,-2.527,0.0054845043342262685,depleted,0.05073166509159298,False
+13,drug delivery / bioavailability / nanocarriers,receptor_synergism,5,1.33,11,210,6.186991869918699,2.648,0.006147307121382134,enriched,0.0559877817824342,False
+2,antidiabetic / herb-drug / hypoglycemic,absorption_alteration,8,2.85,59,84,3.308565531475748,1.791,0.006261939576074642,enriched,0.05616770043994224,False
+31,drug interactions / herb-drug interactions / drug interactio,protein_binding_displacement,1,0.01,12,1,inf,8.815,0.006904487917146145,enriched,0.06100681861120176,False
+33,herb-drug interactions / herb-drug / pharmacokinetic interac,receptor_synergism,0,4.95,41,210,0.0,-3.554,0.007046268086166539,depleted,0.06134398098544987,False
+32,drug transporters / transporter-mediated / anion transporter,synergistic_efficacy,0,5.03,48,182,0.0,-3.553,0.007416257319614782,depleted,0.06362933816249204,False
+24,inhibition ugt / inhibited ugt / ugt isoforms,organ_toxicity_modulation,0,5.06,100,88,0.0,-3.52,0.008262530897271277,depleted,0.06987740415977994,False
+24,inhibition ugt / inhibited ugt / ugt isoforms,transporter_modulation,0,5.29,100,92,0.0,-3.588,0.008819458954575194,depleted,0.07353689719871148,False
+37,herbal supplements / herbal products / herbal drugs,additive_toxicity,2,0.15,7,38,18.833333333333332,4.4,0.009124440956722091,enriched,0.07502318119971498,False
+24,inhibition ugt / inhibited ugt / ugt isoforms,UGT_induction,2,0.17,100,3,33.40816326530612,4.792,0.009467753571829043,enriched,0.07677959060990128,False
+14,cardiovascular diseases / treatment cardiovascular / herb-dr,absorption_alteration,6,1.88,39,84,3.7785547785547786,2.003,0.00961847865762723,enriched,0.07694782926101784,False
+17,hepatoprotective / hepatotoxicity / liver injury,signaling_pathway_modulation,12,5.52,123,78,2.5372645372645373,1.385,0.009990732004733376,enriched,0.07886017795736211,False
+11,anticancer / chemotherapy / cancer,signaling_pathway_modulation,24,14.9,332,78,1.950937950937951,0.979,0.011488733860666617,enriched,0.08934051475377745,False
+25,phytochemistry pharmacology / pharmacological activities / p,organ_toxicity_modulation,3,0.51,10,88,8.284033613445379,3.165,0.011620303439258217,enriched,0.08934051475377745,False
+9,pxr cyp / pxr-mediated / receptor pxr,synergistic_efficacy,0,4.82,46,182,0.0,-3.49,0.011867181380143872,depleted,0.09006886380827145,False
+12,ckd / chronic kidney / kidney injury,CYP_inhibition,1,6.01,20,522,0.12092130518234165,-2.501,0.01228272940643438,depleted,0.09204273175454625,False
+24,inhibition ugt / inhibited ugt / ugt isoforms,absorption_alteration,0,4.83,100,84,0.0,-3.45,0.013219203120286158,depleted,0.09782210309011756,False
+17,hepatoprotective / hepatotoxicity / liver injury,synergistic_efficacy,5,12.88,123,182,0.34424973666570907,-1.411,0.01366593031387792,depleted,0.09987939192365097,False
+4,neuroprotective / pharmacology / neuroprotective effects,CYP_inhibition,2,7.51,25,522,0.19949832775919732,-2.035,0.014254608120703664,depleted,0.1029113171641045,False
+9,pxr cyp / pxr-mediated / receptor pxr,signaling_pathway_modulation,6,2.06,46,78,3.375,1.843,0.015007305428950605,enriched,0.10704005799926214,False
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,synergistic_efficacy,0,4.19,40,182,0.0,-3.285,0.017709553238582188,depleted,0.12390172347701581,False
+33,herb-drug interactions / herb-drug / pharmacokinetic interac,synergistic_efficacy,0,4.29,41,182,0.0,-3.321,0.01779374486895076,depleted,0.12390172347701581,False
+24,inhibition ugt / inhibited ugt / ugt isoforms,P-gp_inhibition,1,6.16,100,107,0.14598818372403277,-2.205,0.018108361322190687,depleted,0.12390172347701581,False
+16,disease nafld / treatment nafld / nafld,signaling_pathway_modulation,2,0.22,5,78,14.535087719298245,3.952,0.01820853030827766,enriched,0.12390172347701581,False
+10,hormone / testosterone / estrogenic,CYP_inhibition,1,5.41,18,522,0.13537315117985774,-2.343,0.019621005247119176,depleted,0.1297879473116295,False
+27,metabolites / pharmacokinetic / pharmacokinetics,CYP_inhibition,1,5.41,18,522,0.13537315117985774,-2.343,0.019621005247119176,depleted,0.1297879473116295,False
+11,anticancer / chemotherapy / cancer,transporter_modulation,9,17.57,332,92,0.44414189264799137,-1.103,0.019731275773727457,depleted,0.1297879473116295,False
+14,cardiovascular diseases / treatment cardiovascular / herb-dr,CYP_inhibition,5,11.71,39,522,0.33621572420070545,-1.457,0.020203566541248788,depleted,0.1314341911254866,False
+24,inhibition ugt / inhibited ugt / ugt isoforms,signaling_pathway_modulation,0,4.49,100,78,0.0,-3.338,0.020707843378157363,depleted,0.13325047043336044,False
+24,inhibition ugt / inhibited ugt / ugt isoforms,CYP_induction,5,12.08,100,210,0.3679075738125802,-1.316,0.025534899699141255,depleted,0.1625447378698024,False
+14,cardiovascular diseases / treatment cardiovascular / herb-dr,P-gp_inhibition,6,2.4,39,107,2.8766876687668765,1.612,0.02920485736247475,enriched,0.18392846338920268,False
+14,cardiovascular diseases / treatment cardiovascular / herb-dr,receptor_antagonism,3,0.7,39,31,4.973214285714286,2.492,0.03043191244071213,enriched,0.18963886489370085,False
+34,metabolites / oral administration / pharmacokinetic,CYP_inhibition,1,5.11,17,522,0.14395393474088292,-2.257,0.03114216937048036,depleted,0.19204337778462888,False
+8,atorvastatin / simvastatin / losartan,CYP_inhibition,14,8.41,28,522,2.3661417322834644,1.242,0.03501026226470036,enriched,0.2136708789763156,False
+15,gut microbiome / gut microbiota / microbiome,signaling_pathway_modulation,2,0.31,7,78,8.710526315789474,3.298,0.03606403129279113,enriched,0.21785618903400356,False
+33,herb-drug interactions / herb-drug / pharmacokinetic interac,P-gp_inhibition,6,2.52,41,107,2.708910891089109,1.526,0.03643277149281746,enriched,0.21786061337119128,False
+8,atorvastatin / simvastatin / losartan,CYP_induction,0,3.38,28,210,0.0,-2.999,0.0407228934921466,depleted,0.2368510360918559,False
+8,atorvastatin / simvastatin / losartan,receptor_synergism,0,3.38,28,210,0.0,-2.999,0.0407228934921466,depleted,0.2368510360918559,False
+13,drug delivery / bioavailability / nanocarriers,CYP_inhibition,0,3.3,11,522,0.0,-3.317,0.040808793380691384,depleted,0.2368510360918559,False
+17,hepatoprotective / hepatotoxicity / liver injury,CYP_inhibition,27,36.94,123,522,0.6363636363636364,-0.634,0.04178517993394561,depleted,0.2398592861116695,False
+5,antidepressants / antidepressant / wort sjw,receptor_synergism,0,3.62,30,210,0.0,-3.099,0.042137442154752756,depleted,0.2398592861116695,False
+23,antimicrobial / antibiotics / antibacterial,transporter_modulation,0,3.39,64,92,0.0,-2.915,0.04612722881845002,depleted,0.2600697091478325,False
+11,anticancer / chemotherapy / cancer,antagonistic_efficacy,4,1.53,332,8,4.274390243902439,2.094,0.04801308597865142,enriched,0.2674037189593797,False
+36,phytopharmaceutical / herb-drug / ayurveda,absorption_alteration,1,0.05,1,84,inf,5.893,0.04833141542002302,enriched,0.2674037189593797,False
+23,antimicrobial / antibiotics / antibacterial,receptor_synergism,13,7.73,64,210,1.9111177465910223,0.972,0.0492357921092471,enriched,0.26988508267291,False
+20,cancer / network pharmacology / pathways,CYP_inhibition,1,4.81,16,522,0.15367882277671147,-2.165,0.05075910431132731,depleted,0.27568247479179603,False
+31,drug interactions / herb-drug interactions / drug interactio,CYP_inhibition,7,3.6,12,522,3.292038834951456,1.68,0.051842282968857914,enriched,0.2790057410687626,False
+21,arthritis / pharmacology / network pharmacology,receptor_antagonism,1,0.05,3,31,28.416666666666668,5.068,0.052590751654501895,enriched,0.2804840088240101,False
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,transporter_modulation,5,2.12,40,92,2.645320197044335,1.513,0.05651863370863386,enriched,0.2987413496027789,False
+17,hepatoprotective / hepatotoxicity / liver injury,UGT_inhibition,1,5.02,123,71,0.18091334894613584,-1.897,0.057221929562301585,depleted,0.2997821442555977,False
+5,antidepressants / antidepressant / wort sjw,synergistic_efficacy,0,3.14,30,182,0.0,-2.866,0.06617170111764292,depleted,0.34131253216175533,False
+1,tacrolimus / cyclosporine / immunosuppressant,receptor_synergism,0,3.26,27,210,0.0,-2.947,0.06630226553817882,depleted,0.34131253216175533,False
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,UGT_induction,1,0.07,40,3,21.743589743589745,4.688,0.06750595992900664,enriched,0.34451317481010285,False
+2,antidiabetic / herb-drug / hypoglycemic,organ_toxicity_modulation,0,2.99,59,88,0.0,-2.726,0.07084559835505438,depleted,0.35440296531150994,False
+23,antimicrobial / antibiotics / antibacterial,absorption_alteration,0,3.09,64,84,0.0,-2.777,0.07121374813316855,depleted,0.35440296531150994,False
+20,cancer / network pharmacology / pathways,antagonistic_efficacy,1,0.07,16,8,16.333333333333332,4.468,0.07145746755489135,enriched,0.35440296531150994,False
+28,medicinal plants / anxiolytic / antiepileptic drugs,P-gp_inhibition,0,3.2,52,107,0.0,-2.837,0.07183843891449526,depleted,0.35440296531150994,False
+23,antimicrobial / antibiotics / antibacterial,organ_toxicity_modulation,0,3.24,64,88,0.0,-2.847,0.07330421328062167,depleted,0.3586454071250251,False
+14,cardiovascular diseases / treatment cardiovascular / herb-dr,CYP_induction,1,4.71,39,210,0.18761017375975825,-1.851,0.07831037669492422,depleted,0.37999789347045193,False
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,CYP_induction,1,4.83,40,210,0.18267697215065637,-1.889,0.0801756620538586,depleted,0.3823220454292368,False
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,receptor_synergism,1,4.83,40,210,0.18267697215065637,-1.889,0.0801756620538586,depleted,0.3823220454292368,False
+25,phytochemistry pharmacology / pharmacological activities / p,absorption_alteration,2,0.48,10,84,5.0182926829268295,2.553,0.08072678324097061,enriched,0.3823220454292368,False
+34,metabolites / oral administration / pharmacokinetic,P-gp_inhibition,3,1.05,17,107,3.331730769230769,1.902,0.08214711457370155,enriched,0.3859610462510422,False
+6,warfarin / patients warfarin / anticoagulants,absorption_alteration,4,1.69,35,84,2.617741935483871,1.527,0.08503677423730621,enriched,0.3963918925077581,False
+19,pharmacology / network pharmacology / docking,receptor_antagonism,1,0.09,5,31,14.191666666666666,4.219,0.08615343023085298,enriched,0.398459614817695,False
+27,metabolites / pharmacokinetic / pharmacokinetics,P-gp_inhibition,3,1.11,18,107,3.1076923076923078,1.804,0.09432719480148187,enriched,0.43068673511440475,False
+25,phytochemistry pharmacology / pharmacological activities / p,transporter_modulation,2,0.53,10,92,4.55,2.413,0.09457647899471726,enriched,0.43068673511440475,False
+28,medicinal plants / anxiolytic / antiepileptic drugs,additive_toxicity,3,1.14,52,38,2.8880466472303206,1.718,0.10232359904962017,enriched,0.4591477515595521,False
+13,drug delivery / bioavailability / nanocarriers,organ_toxicity_modulation,2,0.56,11,88,4.24031007751938,2.32,0.10359638227106624,enriched,0.4591477515595521,False
+3,drug interactions / antiretroviral drugs / antiretroviral,receptor_synergism,0,2.9,24,210,0.0,-2.777,0.1045439760947255,depleted,0.4591477515595521,False
+1,tacrolimus / cyclosporine / immunosuppressant,synergistic_efficacy,0,2.83,27,182,0.0,-2.714,0.10462967164320161,depleted,0.4591477515595521,False
+16,disease nafld / treatment nafld / nafld,additive_toxicity,1,0.11,5,38,11.45945945945946,3.915,0.10475935238706123,enriched,0.4591477515595521,False
+3,drug interactions / antiretroviral drugs / antiretroviral,antagonistic_efficacy,1,0.11,24,8,10.602484472049689,3.861,0.10547988887178901,enriched,0.4591477515595521,False
+28,medicinal plants / anxiolytic / antiepileptic drugs,organ_toxicity_modulation,0,2.63,52,88,0.0,-2.539,0.10858665357030965,depleted,0.46318632694747985,False
+23,antimicrobial / antibiotics / antibacterial,UGT_inhibition,0,2.61,64,71,0.0,-2.524,0.10906763711064885,depleted,0.46318632694747985,False
+28,medicinal plants / anxiolytic / antiepileptic drugs,transporter_modulation,0,2.75,52,92,0.0,-2.607,0.10974428342833284,depleted,0.46318632694747985,False
+26,herb-drug interactions / drug interactions / anticancer drug,CYP_induction,3,1.21,10,210,3.1490683229813663,1.775,0.10988066798292356,enriched,0.46318632694747985,False
+15,gut microbiome / gut microbiota / microbiome,CYP_inhibition,0,2.1,7,522,0.0,-2.696,0.11031971638445044,depleted,0.46318632694747985,False
+23,antimicrobial / antibiotics / antibacterial,signaling_pathway_modulation,0,2.87,64,78,0.0,-2.665,0.11350135661647998,depleted,0.47013872068737955,False
+19,pharmacology / network pharmacology / docking,receptor_synergism,2,0.6,5,210,4.887820512820513,2.386,0.1135639139498231,enriched,0.47013872068737955,False
+3,drug interactions / antiretroviral drugs / antiretroviral,CYP_inhibition,11,7.21,24,522,1.9920216769531838,1.003,0.11442992396506887,enriched,0.4704341318563942,False
+14,cardiovascular diseases / treatment cardiovascular / herb-dr,synergistic_efficacy,1,4.08,39,182,0.22070369293399245,-1.617,0.11650280781948225,depleted,0.4756528429595413,False
+15,gut microbiome / gut microbiota / microbiome,receptor_antagonism,1,0.12,7,31,9.45,3.686,0.11856416077801077,enriched,0.477482878779472,False
+22,network pharmacology / pharmacology molecular / pharmacology,receptor_antagonism,1,0.12,7,31,9.45,3.686,0.11856416077801077,enriched,0.477482878779472,False
+30,cyp inhibition / cyp enzymes / cyp isoforms,antagonistic_efficacy,0,2.09,453,8,0.0,-2.593,0.12099067030940766,depleted,0.48396268123763064,False
+6,warfarin / patients warfarin / anticoagulants,receptor_antagonism,2,0.62,35,31,3.498432601880878,2.083,0.12744496257842491,enriched,0.5063585090364264,False
+21,arthritis / pharmacology / network pharmacology,signaling_pathway_modulation,1,0.13,3,78,10.766233766233766,3.683,0.12875622344116414,enriched,0.5081578951811278,False
+10,hormone / testosterone / estrogenic,CYP_induction,0,2.17,18,210,0.0,-2.366,0.1535541837190066,depleted,0.5941442925598164,False
+27,metabolites / pharmacokinetic / pharmacokinetics,CYP_induction,0,2.17,18,210,0.0,-2.366,0.1535541837190066,depleted,0.5941442925598164,False
+27,metabolites / pharmacokinetic / pharmacokinetics,receptor_synergism,0,2.17,18,210,0.0,-2.366,0.1535541837190066,depleted,0.5941442925598164,False
+5,antidepressants / antidepressant / wort sjw,CYP_inhibition,5,9.01,30,522,0.46073500967117986,-1.01,0.15755300505109146,depleted,0.6052896664405614,False
+12,ckd / chronic kidney / kidney injury,CYP_induction,0,2.42,20,210,0.0,-2.516,0.15847955793629565,depleted,0.6052896664405614,False
+17,hepatoprotective / hepatotoxicity / liver injury,receptor_antagonism,0,2.19,123,31,0.0,-2.296,0.16358748632826098,depleted,0.620793537861093,False
+24,inhibition ugt / inhibited ugt / ugt isoforms,additive_toxicity,0,2.19,100,38,0.0,-2.274,0.16573645223572983,depleted,0.6212080522099288,False
+11,anticancer / chemotherapy / cancer,receptor_antagonism,9,5.92,332,31,1.752884886011821,0.854,0.16628968830906493,enriched,0.6212080522099288,False
+9,pxr cyp / pxr-mediated / receptor pxr,absorption_alteration,0,2.22,46,84,0.0,-2.289,0.16684473023881535,depleted,0.6212080522099288,False
+9,pxr cyp / pxr-mediated / receptor pxr,organ_toxicity_modulation,0,2.33,46,88,0.0,-2.359,0.16796694514958418,depleted,0.6214776970534615,False
+6,warfarin / patients warfarin / anticoagulants,synergistic_efficacy,1,3.67,35,182,0.24731881702957426,-1.455,0.1693086900694315,depleted,0.6221127874615594,False
+2,antidiabetic / herb-drug / hypoglycemic,UGT_inhibition,0,2.41,59,71,0.0,-2.403,0.17119191763481156,depleted,0.6221127874615594,False
+32,drug transporters / transporter-mediated / anion transporter,organ_toxicity_modulation,0,2.43,48,88,0.0,-2.421,0.1712911897909361,depleted,0.6221127874615594,False
+28,medicinal plants / anxiolytic / antiepileptic drugs,absorption_alteration,0,2.51,52,84,0.0,-2.469,0.1755862714098375,depleted,0.6338236138696574,False
+26,herb-drug interactions / drug interactions / anticancer drug,CYP_inhibition,5,3.0,10,522,2.3423597678916828,1.227,0.17801400537970863,enriched,0.6382623263694798,False
+23,antimicrobial / antibiotics / antibacterial,P-gp_inhibition,1,3.94,64,107,0.2348008385744235,-1.523,0.17897220638063116,depleted,0.6382623263694798,False
+20,cancer / network pharmacology / pathways,organ_toxicity_modulation,2,0.81,16,88,2.7176079734219267,1.706,0.19253840296615674,enriched,0.6825313446464958,False
+25,phytochemistry pharmacology / pharmacological activities / p,additive_toxicity,1,0.22,10,38,5.078078078078078,2.832,0.1988031908599609,enriched,0.6979251845476492,False
+3,drug interactions / antiretroviral drugs / antiretroviral,CYP_induction,5,2.9,24,210,1.9370988446726574,1.051,0.19923877734552822,enriched,0.6979251845476492,False
+5,antidepressants / antidepressant / wort sjw,P-gp_induction,1,0.22,30,13,4.873563218390805,2.787,0.20319653070362612,enriched,0.700688725002619,False
+37,herbal supplements / herbal products / herbal drugs,CYP_induction,2,0.85,7,210,2.9288461538461537,1.732,0.2032191381629743,enriched,0.700688725002619,False
+30,cyp inhibition / cyp enzymes / cyp isoforms,P-gp_induction,1,3.39,453,13,0.2346976401179941,-1.566,0.20374829100205027,depleted,0.700688725002619,False
+19,pharmacology / network pharmacology / docking,signaling_pathway_modulation,1,0.22,5,78,5.376623376623376,2.833,0.20535353186241825,enriched,0.700688725002619,False
+17,hepatoprotective / hepatotoxicity / liver injury,transporter_modulation,3,6.51,123,92,0.42865168539325843,-1.013,0.20594567255144547,depleted,0.700688725002619,False
+14,cardiovascular diseases / treatment cardiovascular / herb-dr,additive_toxicity,2,0.85,39,38,2.496996996996997,1.603,0.20892701821553997,enriched,0.7067702559062837,False
+7,pregnant women / adverse events / premenstrual,receptor_synergism,1,0.24,2,210,7.30622009569378,2.866,0.2271186979654219,enriched,0.7617407709422579,False
+16,disease nafld / treatment nafld / nafld,organ_toxicity_modulation,1,0.25,5,88,4.7298850574712645,2.649,0.22903022280120747,enriched,0.7617407709422579,False
+1,tacrolimus / cyclosporine / immunosuppressant,P-gp_inhibition,3,1.66,27,107,1.9314903846153846,1.136,0.22903692099277348,enriched,0.7617407709422579,False
+2,antidiabetic / herb-drug / hypoglycemic,antagonistic_efficacy,1,0.27,59,8,4.1182266009852215,2.515,0.24184010636392297,enriched,0.7853591807603302,False
+20,cancer / network pharmacology / pathways,CYP_induction,0,1.93,16,210,0.0,-2.199,0.2437213900295096,depleted,0.7853591807603302,False
+34,metabolites / oral administration / pharmacokinetic,synergistic_efficacy,0,1.78,17,182,0.0,-2.053,0.24459541016639275,depleted,0.7853591807603302,False
+10,hormone / testosterone / estrogenic,synergistic_efficacy,0,1.88,18,182,0.0,-2.134,0.2459328742490222,depleted,0.7853591807603302,False
+27,metabolites / pharmacokinetic / pharmacokinetics,transporter_modulation,2,0.95,18,92,2.263888888888889,1.449,0.24611762877715074,enriched,0.7853591807603302,False
+28,medicinal plants / anxiolytic / antiepileptic drugs,synergistic_efficacy,8,5.45,52,182,1.5799373040752351,0.727,0.246909509103291,enriched,0.7853591807603302,False
+34,metabolites / oral administration / pharmacokinetic,receptor_synergism,0,2.05,17,210,0.0,-2.285,0.25067853958195746,depleted,0.7853591807603302,False
+5,antidepressants / antidepressant / wort sjw,P-gp_inhibition,0,1.85,30,107,0.0,-2.034,0.2546165056859293,depleted,0.7853591807603302,False
+24,inhibition ugt / inhibited ugt / ugt isoforms,receptor_antagonism,0,1.78,100,31,0.0,-1.978,0.2551394983857234,depleted,0.7853591807603302,False
+6,warfarin / patients warfarin / anticoagulants,organ_toxicity_modulation,0,1.77,35,88,0.0,-1.96,0.2564132033547275,depleted,0.7853591807603302,False
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,signaling_pathway_modulation,0,1.8,40,78,0.0,-1.972,0.2570857250251572,depleted,0.7853591807603302,False
+33,herb-drug interactions / herb-drug / pharmacokinetic interac,signaling_pathway_modulation,0,1.84,41,78,0.0,-2.008,0.25720163843093025,depleted,0.7853591807603302,False
+12,ckd / chronic kidney / kidney injury,synergistic_efficacy,0,2.09,20,182,0.0,-2.284,0.2573052660331959,depleted,0.7853591807603302,False
+9,pxr cyp / pxr-mediated / receptor pxr,UGT_inhibition,0,1.88,46,71,0.0,-2.036,0.25817762154749657,depleted,0.7853591807603302,False
+23,antimicrobial / antibiotics / antibacterial,antagonistic_efficacy,1,0.29,64,8,3.7800453514739227,2.393,0.2597521245170693,enriched,0.7853591807603302,False
+32,drug transporters / transporter-mediated / anion transporter,UGT_inhibition,0,1.96,48,71,0.0,-2.098,0.2606026493310195,depleted,0.7853591807603302,False
+10,hormone / testosterone / estrogenic,receptor_synergism,4,2.17,18,210,2.099861303744799,1.187,0.2610450889352824,enriched,0.7853591807603302,False
+2,antidiabetic / herb-drug / hypoglycemic,P-gp_inhibition,1,3.63,59,107,0.25585556278464544,-1.4,0.2611764696448008,depleted,0.7853591807603302,False
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,P-gp_induction,1,0.3,40,13,3.6025641025641026,2.357,0.26195729313938365,enriched,0.7853591807603302,False
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,organ_toxicity_modulation,0,2.03,40,88,0.0,-2.154,0.26267080707862395,depleted,0.7853591807603302,False
+34,metabolites / oral administration / pharmacokinetic,receptor_antagonism,1,0.3,17,31,3.5229166666666667,2.334,0.26463560639588946,enriched,0.7868733548461398,False
+33,herb-drug interactions / herb-drug / pharmacokinetic interac,organ_toxicity_modulation,0,2.08,41,88,0.0,-2.19,0.2658355928534256,depleted,0.7868733548461398,False
+28,medicinal plants / anxiolytic / antiepileptic drugs,UGT_inhibition,0,2.12,52,71,0.0,-2.216,0.27028846771734544,depleted,0.7960734969585498,False
+32,drug transporters / transporter-mediated / anion transporter,signaling_pathway_modulation,0,2.15,48,78,0.0,-2.239,0.27241089384608486,depleted,0.7983527185984268,False
+12,ckd / chronic kidney / kidney injury,transporter_modulation,2,1.06,20,92,2.0098765432098764,1.282,0.2863369413938777,enriched,0.8350318684984019,False
+15,gut microbiome / gut microbiota / microbiome,absorption_alteration,1,0.34,7,84,3.3092369477911645,2.188,0.293466191512367,enriched,0.8474730993918111,False
+37,herbal supplements / herbal products / herbal drugs,absorption_alteration,1,0.34,7,84,3.3092369477911645,2.188,0.293466191512367,enriched,0.8474730993918111,False
+25,phytochemistry pharmacology / pharmacological activities / p,CYP_inhibition,1,3.0,10,522,0.2574109618255492,-1.452,0.29822735917635484,depleted,0.8508898300439374,False
+20,cancer / network pharmacology / pathways,additive_toxicity,1,0.35,16,38,3.036036036036036,2.121,0.29900961656604025,enriched,0.8508898300439374,False
+18,network pharmacology / inflammatory / pharmacology,CYP_inhibition,1,0.3,1,522,inf,2.807,0.3003452243958573,enriched,0.8508898300439374,False
+6,warfarin / patients warfarin / anticoagulants,CYP_induction,6,4.23,35,210,1.5202839756592292,0.692,0.3036259617017455,enriched,0.8508898300439374,False
+15,gut microbiome / gut microbiota / microbiome,organ_toxicity_modulation,1,0.35,7,88,3.1494252873563218,2.117,0.30536187028965295,enriched,0.8508898300439374,False
+22,network pharmacology / pharmacology molecular / pharmacology,organ_toxicity_modulation,1,0.35,7,88,3.1494252873563218,2.117,0.30536187028965295,enriched,0.8508898300439374,False
+37,herbal supplements / herbal products / herbal drugs,organ_toxicity_modulation,1,0.35,7,88,3.1494252873563218,2.117,0.30536187028965295,enriched,0.8508898300439374,False
+2,antidiabetic / herb-drug / hypoglycemic,CYP_induction,4,7.13,59,210,0.520035304501324,-0.789,0.3061478611475653,depleted,0.8508898300439374,False
+4,neuroprotective / pharmacology / neuroprotective effects,signaling_pathway_modulation,2,1.12,25,78,1.8729977116704806,1.187,0.31019203765903647,enriched,0.8581013378231288,False
+14,cardiovascular diseases / treatment cardiovascular / herb-dr,receptor_synergism,7,4.71,39,210,1.6120689655172413,0.763,0.3142254702569762,enriched,0.8619043828879782,False
+34,metabolites / oral administration / pharmacokinetic,additive_toxicity,1,0.37,17,38,2.8445945945945947,2.03,0.3144786261888569,enriched,0.8619043828879782,False
+15,gut microbiome / gut microbiota / microbiome,transporter_modulation,1,0.37,7,92,3.0036630036630036,2.049,0.3170854628303843,enriched,0.8650442119612327,False
+13,drug delivery / bioavailability / nanocarriers,synergistic_efficacy,2,1.15,11,182,1.9098765432098765,1.174,0.32279878036733295,enriched,0.876591183382849,False
+4,neuroprotective / pharmacology / neuroprotective effects,CYP_induction,1,3.02,25,210,0.29984051036682613,-1.185,0.35088317396145124,depleted,0.9485061140875759,False
+8,atorvastatin / simvastatin / losartan,synergistic_efficacy,1,2.93,28,182,0.3128708819316554,-1.121,0.3525142801305476,depleted,0.9485838810785645,False
+9,pxr cyp / pxr-mediated / receptor pxr,P-gp_inhibition,1,2.83,46,107,0.33249475890985325,-1.026,0.3607772637761737,depleted,0.9664259735542753,False
+4,neuroprotective / pharmacology / neuroprotective effects,receptor_antagonism,1,0.45,25,31,2.3375,1.757,0.3643482000327485,enriched,0.9710558959103791,False
+3,drug interactions / antiretroviral drugs / antiretroviral,transporter_modulation,2,1.27,24,92,1.6404040404040403,0.996,0.36580304993881335,enriched,0.9710558959103791,False
+2,antidiabetic / herb-drug / hypoglycemic,transporter_modulation,1,3.12,59,92,0.3008715422508526,-1.168,0.36742655520933265,depleted,0.9710558959103791,False
+13,drug delivery / bioavailability / nanocarriers,CYP_induction,0,1.33,11,210,0.0,-1.674,0.3796841793618765,depleted,0.9989912630321373,False
+26,herb-drug interactions / drug interactions / anticancer drug,absorption_alteration,1,0.48,10,84,2.2021419009370815,1.638,0.3914670255257128,enriched,1.0,False
+8,atorvastatin / simvastatin / losartan,absorption_alteration,2,1.35,28,84,1.527204502814259,0.897,0.39586028988416977,enriched,1.0,False
+1,tacrolimus / cyclosporine / immunosuppressant,transporter_modulation,0,1.43,27,92,0.0,-1.651,0.3961361567171814,depleted,1.0,False
+8,atorvastatin / simvastatin / losartan,organ_toxicity_modulation,0,1.42,28,88,0.0,-1.636,0.39643306087704244,depleted,1.0,False
+1,tacrolimus / cyclosporine / immunosuppressant,organ_toxicity_modulation,0,1.37,27,88,0.0,-1.584,0.39649381965107705,depleted,1.0,False
+5,antidepressants / antidepressant / wort sjw,absorption_alteration,0,1.45,30,84,0.0,-1.666,0.39726964720051894,depleted,1.0,False
+4,neuroprotective / pharmacology / neuroprotective effects,P-gp_inhibition,0,1.54,25,107,0.0,-1.771,0.398060493590383,depleted,1.0,False
+6,warfarin / patients warfarin / anticoagulants,UGT_inhibition,0,1.43,35,71,0.0,-1.637,0.3980818717095852,depleted,1.0,False
+5,antidepressants / antidepressant / wort sjw,organ_toxicity_modulation,0,1.52,30,88,0.0,-1.736,0.3990343041799582,depleted,1.0,False
+6,warfarin / patients warfarin / anticoagulants,signaling_pathway_modulation,0,1.57,35,78,0.0,-1.778,0.4024566465086694,depleted,1.0,False
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,UGT_inhibition,0,1.63,40,71,0.0,-1.831,0.40708066447561553,depleted,1.0,False
+33,herb-drug interactions / herb-drug / pharmacokinetic interac,UGT_inhibition,0,1.67,41,71,0.0,-1.867,0.4103328260023005,depleted,1.0,False
+13,drug delivery / bioavailability / nanocarriers,absorption_alteration,1,0.53,11,84,1.9807228915662651,1.492,0.4210484895626573,enriched,1.0,False
+20,cancer / network pharmacology / pathways,receptor_synergism,3,1.93,16,210,1.6889632107023411,0.921,0.42961709679204607,enriched,1.0,False
+24,inhibition ugt / inhibited ugt / ugt isoforms,CYP_inhibition,26,30.03,100,522,0.8089581517000872,-0.289,0.43159941649958666,depleted,1.0,False
+14,cardiovascular diseases / treatment cardiovascular / herb-dr,organ_toxicity_modulation,3,1.97,39,88,1.5823529411764705,0.857,0.44477487402520527,enriched,1.0,False
+31,drug interactions / herb-drug interactions / drug interactio,absorption_alteration,1,0.58,12,84,1.7995618838992333,1.36,0.44920826192903646,enriched,1.0,False
+3,drug interactions / antiretroviral drugs / antiretroviral,synergistic_efficacy,1,2.51,24,182,0.368244054768196,-0.891,0.5037731331905902,depleted,1.0,False
+13,drug delivery / bioavailability / nanocarriers,P-gp_inhibition,1,0.68,11,107,1.5292452830188679,1.121,0.5039326053798567,enriched,1.0,False
+7,pregnant women / adverse events / premenstrual,CYP_inhibition,1,0.6,2,522,2.3320537428023034,1.221,0.5106041725048743,enriched,1.0,False
+9,pxr cyp / pxr-mediated / receptor pxr,transporter_modulation,1,2.43,46,92,0.39096459096459096,-0.793,0.5120520062214104,depleted,1.0,False
+11,anticancer / chemotherapy / cancer,additive_toxicity,9,7.26,332,38,1.323049001814882,0.455,0.5297881412446374,enriched,1.0,False
+32,drug transporters / transporter-mediated / anion transporter,P-gp_inhibition,4,2.96,48,107,1.4007060900264783,0.633,0.5343368310625327,enriched,1.0,False
+30,cyp inhibition / cyp enzymes / cyp isoforms,UGT_induction,0,0.78,453,3,0.0,-1.308,0.5721531915087706,depleted,1.0,False
+6,warfarin / patients warfarin / anticoagulants,CYP_inhibition,12,10.51,35,522,1.220460358056266,0.314,0.5792623185426008,enriched,1.0,False
+15,gut microbiome / gut microbiota / microbiome,receptor_synergism,1,0.85,7,210,1.2137161084529506,0.746,0.5946856712179301,enriched,1.0,False
+22,network pharmacology / pharmacology molecular / pharmacology,receptor_synergism,1,0.85,7,210,1.2137161084529506,0.746,0.5946856712179301,enriched,1.0,False
+10,hormone / testosterone / estrogenic,organ_toxicity_modulation,1,0.91,18,88,1.1041244083840434,0.678,0.6093733217745239,enriched,1.0,False
+27,metabolites / pharmacokinetic / pharmacokinetics,organ_toxicity_modulation,1,0.91,18,88,1.1041244083840434,0.678,0.6093733217745239,enriched,1.0,False
+25,phytochemistry pharmacology / pharmacological activities / p,synergistic_efficacy,0,1.05,10,182,0.0,-1.309,0.6119756921794387,depleted,1.0,False
+17,hepatoprotective / hepatotoxicity / liver injury,P-gp_induction,1,0.92,123,13,1.094945355191257,0.651,0.6162009086582623,enriched,1.0,False
+20,cancer / network pharmacology / pathways,P-gp_inhibition,0,0.99,16,107,0.0,-1.135,0.6184512137836138,depleted,1.0,False
+25,phytochemistry pharmacology / pharmacological activities / p,receptor_synergism,0,1.21,10,210,0.0,-1.542,0.6199454906883145,depleted,1.0,False
+26,herb-drug interactions / drug interactions / anticancer drug,receptor_synergism,0,1.21,10,210,0.0,-1.542,0.6199454906883145,depleted,1.0,False
+10,hormone / testosterone / estrogenic,transporter_modulation,0,0.95,18,92,0.0,-1.072,0.6199606676575226,depleted,1.0,False
+10,hormone / testosterone / estrogenic,P-gp_inhibition,0,1.11,18,107,0.0,-1.302,0.6219907176747625,depleted,1.0,False
+4,neuroprotective / pharmacology / neuroprotective effects,UGT_inhibition,0,1.02,25,71,0.0,-1.151,0.6220079573680148,depleted,1.0,False
+3,drug interactions / antiretroviral drugs / antiretroviral,signaling_pathway_modulation,0,1.08,24,78,0.0,-1.233,0.6229613251235775,depleted,1.0,False
+9,pxr cyp / pxr-mediated / receptor pxr,additive_toxicity,0,1.01,46,38,0.0,-1.114,0.623106095001597,depleted,1.0,False
+2,antidiabetic / herb-drug / hypoglycemic,receptor_antagonism,0,1.05,59,31,0.0,-1.185,0.6233921768910045,depleted,1.0,False
+1,tacrolimus / cyclosporine / immunosuppressant,UGT_inhibition,0,1.1,27,71,0.0,-1.261,0.624460169685769,depleted,1.0,False
+8,atorvastatin / simvastatin / losartan,UGT_inhibition,0,1.14,28,71,0.0,-1.314,0.6264843144949175,depleted,1.0,False
+23,antimicrobial / antibiotics / antibacterial,receptor_antagonism,0,1.14,64,31,0.0,-1.306,0.6267326925753222,depleted,1.0,False
+31,drug interactions / herb-drug interactions / drug interactio,synergistic_efficacy,0,1.26,12,182,0.0,-1.563,0.6268324197023021,depleted,1.0,False
+3,drug interactions / antiretroviral drugs / antiretroviral,organ_toxicity_modulation,0,1.22,24,88,0.0,-1.415,0.6301600404178621,depleted,1.0,False
+12,ckd / chronic kidney / kidney injury,P-gp_inhibition,0,1.23,20,107,0.0,-1.452,0.6301773304898882,depleted,1.0,False
+1,tacrolimus / cyclosporine / immunosuppressant,signaling_pathway_modulation,0,1.21,27,78,0.0,-1.402,0.630498489844753,depleted,1.0,False
+5,antidepressants / antidepressant / wort sjw,UGT_inhibition,0,1.23,30,71,0.0,-1.413,0.6319077308505898,depleted,1.0,False
+8,atorvastatin / simvastatin / losartan,signaling_pathway_modulation,0,1.26,28,78,0.0,-1.455,0.6340577723093958,depleted,1.0,False
+4,neuroprotective / pharmacology / neuroprotective effects,organ_toxicity_modulation,0,1.27,25,88,0.0,-1.473,0.6343047365810126,depleted,1.0,False
+5,antidepressants / antidepressant / wort sjw,signaling_pathway_modulation,0,1.35,30,78,0.0,-1.554,0.6424441261285854,depleted,1.0,False
+31,drug interactions / herb-drug interactions / drug interactio,CYP_induction,2,1.45,12,210,1.4596153846153845,0.794,0.6476124099834832,enriched,1.0,False
+3,drug interactions / antiretroviral drugs / antiretroviral,P-gp_inhibition,2,1.48,24,107,1.3930735930735931,0.761,0.6560918953379722,enriched,1.0,False
+17,hepatoprotective / hepatotoxicity / liver injury,CYP_induction,13,14.86,123,210,0.8506691278264882,-0.189,0.6686849977578067,depleted,1.0,False
+14,cardiovascular diseases / treatment cardiovascular / herb-dr,UGT_inhibition,2,1.59,39,71,1.2769291030160594,0.645,0.6719486632332894,enriched,1.0,False
+20,cancer / network pharmacology / pathways,synergistic_efficacy,2,1.68,16,182,1.223809523809524,0.559,0.6806872258413488,enriched,1.0,False
+22,network pharmacology / pharmacology molecular / pharmacology,CYP_inhibition,1,2.1,7,522,0.38707613563659626,-0.901,0.681781702946846,depleted,1.0,False
+37,herbal supplements / herbal products / herbal drugs,CYP_inhibition,1,2.1,7,522,0.38707613563659626,-0.901,0.681781702946846,depleted,1.0,False
+14,cardiovascular diseases / treatment cardiovascular / herb-dr,signaling_pathway_modulation,2,1.75,39,78,1.1543385490753912,0.501,0.6934166982454661,enriched,1.0,False
+34,metabolites / oral administration / pharmacokinetic,CYP_induction,1,2.05,17,210,0.45215311004784686,-0.608,0.7108905635182119,depleted,1.0,False
+14,cardiovascular diseases / treatment cardiovascular / herb-dr,transporter_modulation,1,2.06,39,92,0.4650086755349913,-0.546,0.7193800814104533,depleted,1.0,False
+6,warfarin / patients warfarin / anticoagulants,P-gp_inhibition,1,2.15,35,107,0.44311875693673697,-0.617,0.720371029616846,depleted,1.0,False
+11,anticancer / chemotherapy / cancer,P-gp_induction,3,2.48,332,13,1.2729483282674772,0.499,0.7228220787387729,enriched,1.0,False
+32,drug transporters / transporter-mediated / anion transporter,absorption_alteration,1,2.32,48,84,0.4119456549602666,-0.718,0.7270446051962811,depleted,1.0,False
+28,medicinal plants / anxiolytic / antiepileptic drugs,signaling_pathway_modulation,1,2.33,52,78,0.4097275273745862,-0.725,0.727800015451846,depleted,1.0,False
+17,hepatoprotective / hepatotoxicity / liver injury,additive_toxicity,3,2.69,123,38,1.1285714285714286,0.371,0.7477601763900223,enriched,1.0,False
+6,warfarin / patients warfarin / anticoagulants,receptor_synergism,3,4.23,35,210,0.677536231884058,-0.365,0.791981628408561,depleted,1.0,False
+33,herb-drug interactions / herb-drug / pharmacokinetic interac,CYP_induction,4,4.95,41,210,0.7824717921805301,-0.206,0.8105789268388262,depleted,1.0,False
+2,antidiabetic / herb-drug / hypoglycemic,receptor_synergism,6,7.13,59,210,0.818534961154273,-0.19,0.8388197137040607,depleted,1.0,False
+33,herb-drug interactions / herb-drug / pharmacokinetic interac,CYP_inhibition,13,12.31,41,522,1.0836373842267752,0.144,0.863328527274627,enriched,1.0,False
+2,antidiabetic / herb-drug / hypoglycemic,CYP_inhibition,17,17.72,59,522,0.940971239981141,-0.064,0.8861900815951426,depleted,1.0,False
+30,cyp inhibition / cyp enzymes / cyp isoforms,protein_binding_displacement,0,0.26,453,1,0.0,-0.083,1.0,depleted,1.0,False
+11,anticancer / chemotherapy / cancer,UGT_induction,0,0.57,332,3,0.0,-0.73,1.0,depleted,1.0,False
+11,anticancer / chemotherapy / cancer,protein_binding_displacement,0,0.19,332,1,0.0,0.495,1.0,depleted,1.0,False
+17,hepatoprotective / hepatotoxicity / liver injury,antagonistic_efficacy,0,0.57,123,8,0.0,-0.385,1.0,depleted,1.0,False
+17,hepatoprotective / hepatotoxicity / liver injury,UGT_induction,0,0.21,123,3,0.0,0.899,1.0,depleted,1.0,False
+17,hepatoprotective / hepatotoxicity / liver injury,protein_binding_displacement,0,0.07,123,1,0.0,2.124,1.0,depleted,1.0,False
+24,inhibition ugt / inhibited ugt / ugt isoforms,P-gp_induction,0,0.75,100,13,0.0,-0.739,1.0,depleted,1.0,False
+24,inhibition ugt / inhibited ugt / ugt isoforms,antagonistic_efficacy,0,0.46,100,8,0.0,-0.067,1.0,depleted,1.0,False
+24,inhibition ugt / inhibited ugt / ugt isoforms,protein_binding_displacement,0,0.06,100,1,0.0,2.441,1.0,depleted,1.0,False
+23,antimicrobial / antibiotics / antibacterial,P-gp_induction,0,0.48,64,13,0.0,-0.068,1.0,depleted,1.0,False
+23,antimicrobial / antibiotics / antibacterial,UGT_induction,0,0.11,64,3,0.0,1.888,1.0,depleted,1.0,False
+23,antimicrobial / antibiotics / antibacterial,protein_binding_displacement,0,0.04,64,1,0.0,3.112,1.0,depleted,1.0,False
+2,antidiabetic / herb-drug / hypoglycemic,signaling_pathway_modulation,2,2.65,59,78,0.7400738688827332,-0.134,1.0,depleted,1.0,False
+2,antidiabetic / herb-drug / hypoglycemic,additive_toxicity,1,1.29,59,38,0.7651444547996272,0.167,1.0,depleted,1.0,False
+2,antidiabetic / herb-drug / hypoglycemic,P-gp_induction,0,0.44,59,13,0.0,0.053,1.0,depleted,1.0,False
+2,antidiabetic / herb-drug / hypoglycemic,UGT_induction,0,0.1,59,3,0.0,2.009,1.0,depleted,1.0,False
+2,antidiabetic / herb-drug / hypoglycemic,protein_binding_displacement,0,0.03,59,1,0.0,3.233,1.0,depleted,1.0,False
+28,medicinal plants / anxiolytic / antiepileptic drugs,P-gp_induction,0,0.39,52,13,0.0,0.24,1.0,depleted,1.0,False
+28,medicinal plants / anxiolytic / antiepileptic drugs,antagonistic_efficacy,0,0.24,52,8,0.0,0.911,1.0,depleted,1.0,False
+28,medicinal plants / anxiolytic / antiepileptic drugs,UGT_induction,0,0.09,52,3,0.0,2.196,1.0,depleted,1.0,False
+28,medicinal plants / anxiolytic / antiepileptic drugs,protein_binding_displacement,0,0.03,52,1,0.0,3.42,1.0,depleted,1.0,False
+32,drug transporters / transporter-mediated / anion transporter,additive_toxicity,1,1.05,48,38,0.9505462909718229,0.478,1.0,depleted,1.0,False
+32,drug transporters / transporter-mediated / anion transporter,receptor_antagonism,0,0.86,48,31,0.0,-0.881,1.0,depleted,1.0,False
+32,drug transporters / transporter-mediated / anion transporter,P-gp_induction,0,0.36,48,13,0.0,0.357,1.0,depleted,1.0,False
+32,drug transporters / transporter-mediated / anion transporter,antagonistic_efficacy,0,0.22,48,8,0.0,1.029,1.0,depleted,1.0,False
+32,drug transporters / transporter-mediated / anion transporter,UGT_induction,0,0.08,48,3,0.0,2.313,1.0,depleted,1.0,False
+32,drug transporters / transporter-mediated / anion transporter,protein_binding_displacement,0,0.03,48,1,0.0,3.538,1.0,depleted,1.0,False
+9,pxr cyp / pxr-mediated / receptor pxr,receptor_antagonism,0,0.82,46,31,0.0,-0.818,1.0,depleted,1.0,False
+9,pxr cyp / pxr-mediated / receptor pxr,P-gp_induction,0,0.34,46,13,0.0,0.42,1.0,depleted,1.0,False
+9,pxr cyp / pxr-mediated / receptor pxr,antagonistic_efficacy,0,0.21,46,8,0.0,1.091,1.0,depleted,1.0,False
+9,pxr cyp / pxr-mediated / receptor pxr,UGT_induction,0,0.08,46,3,0.0,2.376,1.0,depleted,1.0,False
+9,pxr cyp / pxr-mediated / receptor pxr,protein_binding_displacement,0,0.03,46,1,0.0,3.6,1.0,depleted,1.0,False
+33,herb-drug interactions / herb-drug / pharmacokinetic interac,additive_toxicity,0,0.9,41,38,0.0,-0.945,1.0,depleted,1.0,False
+33,herb-drug interactions / herb-drug / pharmacokinetic interac,receptor_antagonism,0,0.73,41,31,0.0,-0.65,1.0,depleted,1.0,False
+33,herb-drug interactions / herb-drug / pharmacokinetic interac,antagonistic_efficacy,0,0.19,41,8,0.0,1.26,1.0,depleted,1.0,False
+33,herb-drug interactions / herb-drug / pharmacokinetic interac,UGT_induction,0,0.07,41,3,0.0,2.544,1.0,depleted,1.0,False
+33,herb-drug interactions / herb-drug / pharmacokinetic interac,protein_binding_displacement,0,0.02,41,1,0.0,3.768,1.0,depleted,1.0,False
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,additive_toxicity,0,0.87,40,38,0.0,-0.909,1.0,depleted,1.0,False
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,receptor_antagonism,0,0.71,40,31,0.0,-0.614,1.0,depleted,1.0,False
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,antagonistic_efficacy,0,0.18,40,8,0.0,1.296,1.0,depleted,1.0,False
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,protein_binding_displacement,0,0.02,40,1,0.0,3.804,1.0,depleted,1.0,False
+14,cardiovascular diseases / treatment cardiovascular / herb-dr,P-gp_induction,0,0.29,39,13,0.0,0.661,1.0,depleted,1.0,False
+14,cardiovascular diseases / treatment cardiovascular / herb-dr,antagonistic_efficacy,0,0.18,39,8,0.0,1.333,1.0,depleted,1.0,False
+14,cardiovascular diseases / treatment cardiovascular / herb-dr,UGT_induction,0,0.07,39,3,0.0,2.617,1.0,depleted,1.0,False
+14,cardiovascular diseases / treatment cardiovascular / herb-dr,protein_binding_displacement,0,0.02,39,1,0.0,3.841,1.0,depleted,1.0,False
+6,warfarin / patients warfarin / anticoagulants,transporter_modulation,1,1.85,35,92,0.5210084033613446,-0.384,1.0,depleted,1.0,False
+6,warfarin / patients warfarin / anticoagulants,P-gp_induction,0,0.26,35,13,0.0,0.819,1.0,depleted,1.0,False
+6,warfarin / patients warfarin / anticoagulants,antagonistic_efficacy,0,0.16,35,8,0.0,1.49,1.0,depleted,1.0,False
+6,warfarin / patients warfarin / anticoagulants,UGT_induction,0,0.06,35,3,0.0,2.775,1.0,depleted,1.0,False
+6,warfarin / patients warfarin / anticoagulants,protein_binding_displacement,0,0.02,35,1,0.0,3.999,1.0,depleted,1.0,False
+5,antidepressants / antidepressant / wort sjw,transporter_modulation,1,1.59,30,92,0.6127320954907162,-0.154,1.0,depleted,1.0,False
+5,antidepressants / antidepressant / wort sjw,additive_toxicity,0,0.66,30,38,0.0,-0.491,1.0,depleted,1.0,False
+5,antidepressants / antidepressant / wort sjw,receptor_antagonism,0,0.54,30,31,0.0,-0.196,1.0,depleted,1.0,False
+5,antidepressants / antidepressant / wort sjw,antagonistic_efficacy,0,0.14,30,8,0.0,1.714,1.0,depleted,1.0,False
+5,antidepressants / antidepressant / wort sjw,UGT_induction,0,0.05,30,3,0.0,2.998,1.0,depleted,1.0,False
+5,antidepressants / antidepressant / wort sjw,protein_binding_displacement,0,0.02,30,1,0.0,4.222,1.0,depleted,1.0,False
+8,atorvastatin / simvastatin / losartan,P-gp_inhibition,1,1.72,28,107,0.5604472396925227,-0.283,1.0,depleted,1.0,False
+8,atorvastatin / simvastatin / losartan,additive_toxicity,0,0.61,28,38,0.0,-0.392,1.0,depleted,1.0,False
+8,atorvastatin / simvastatin / losartan,receptor_antagonism,0,0.5,28,31,0.0,-0.096,1.0,depleted,1.0,False
+8,atorvastatin / simvastatin / losartan,P-gp_induction,0,0.21,28,13,0.0,1.141,1.0,depleted,1.0,False
+8,atorvastatin / simvastatin / losartan,antagonistic_efficacy,0,0.13,28,8,0.0,1.813,1.0,depleted,1.0,False
+8,atorvastatin / simvastatin / losartan,UGT_induction,0,0.05,28,3,0.0,3.097,1.0,depleted,1.0,False
+8,atorvastatin / simvastatin / losartan,protein_binding_displacement,0,0.02,28,1,0.0,4.322,1.0,depleted,1.0,False
+1,tacrolimus / cyclosporine / immunosuppressant,CYP_induction,3,3.26,27,210,0.9082125603864735,0.051,1.0,depleted,1.0,False
+1,tacrolimus / cyclosporine / immunosuppressant,absorption_alteration,1,1.3,27,84,0.7544022242817423,0.143,1.0,depleted,1.0,False
+1,tacrolimus / cyclosporine / immunosuppressant,additive_toxicity,0,0.59,27,38,0.0,-0.339,1.0,depleted,1.0,False
+1,tacrolimus / cyclosporine / immunosuppressant,receptor_antagonism,0,0.48,27,31,0.0,-0.044,1.0,depleted,1.0,False
+1,tacrolimus / cyclosporine / immunosuppressant,antagonistic_efficacy,0,0.12,27,8,0.0,1.865,1.0,depleted,1.0,False
+1,tacrolimus / cyclosporine / immunosuppressant,UGT_induction,0,0.05,27,3,0.0,3.15,1.0,depleted,1.0,False
+1,tacrolimus / cyclosporine / immunosuppressant,protein_binding_displacement,0,0.02,27,1,0.0,4.374,1.0,depleted,1.0,False
+4,neuroprotective / pharmacology / neuroprotective effects,synergistic_efficacy,2,2.62,25,182,0.7405797101449275,-0.146,1.0,depleted,1.0,False
+4,neuroprotective / pharmacology / neuroprotective effects,transporter_modulation,1,1.32,25,92,0.7426739926739927,0.119,1.0,depleted,1.0,False
+4,neuroprotective / pharmacology / neuroprotective effects,absorption_alteration,1,1.21,25,84,0.8182730923694779,0.258,1.0,depleted,1.0,False
+4,neuroprotective / pharmacology / neuroprotective effects,additive_toxicity,0,0.55,25,38,0.0,-0.229,1.0,depleted,1.0,False
+4,neuroprotective / pharmacology / neuroprotective effects,P-gp_induction,0,0.19,25,13,0.0,1.304,1.0,depleted,1.0,False
+4,neuroprotective / pharmacology / neuroprotective effects,antagonistic_efficacy,0,0.12,25,8,0.0,1.976,1.0,depleted,1.0,False
+4,neuroprotective / pharmacology / neuroprotective effects,UGT_induction,0,0.04,25,3,0.0,3.26,1.0,depleted,1.0,False
+4,neuroprotective / pharmacology / neuroprotective effects,protein_binding_displacement,0,0.01,25,1,0.0,4.485,1.0,depleted,1.0,False
+3,drug interactions / antiretroviral drugs / antiretroviral,absorption_alteration,1,1.16,24,84,0.8543740178103719,0.319,1.0,depleted,1.0,False
+3,drug interactions / antiretroviral drugs / antiretroviral,UGT_inhibition,1,0.98,24,71,1.0211180124223602,0.574,1.0,enriched,1.0,False
+3,drug interactions / antiretroviral drugs / antiretroviral,additive_toxicity,0,0.52,24,38,0.0,-0.17,1.0,depleted,1.0,False
+3,drug interactions / antiretroviral drugs / antiretroviral,receptor_antagonism,0,0.43,24,31,0.0,0.125,1.0,depleted,1.0,False
+3,drug interactions / antiretroviral drugs / antiretroviral,P-gp_induction,0,0.18,24,13,0.0,1.363,1.0,depleted,1.0,False
+3,drug interactions / antiretroviral drugs / antiretroviral,UGT_induction,0,0.04,24,3,0.0,3.319,1.0,depleted,1.0,False
+3,drug interactions / antiretroviral drugs / antiretroviral,protein_binding_displacement,0,0.01,24,1,0.0,4.543,1.0,depleted,1.0,False
+12,ckd / chronic kidney / kidney injury,receptor_synergism,2,2.42,20,210,0.8066239316239316,-0.031,1.0,depleted,1.0,False
+12,ckd / chronic kidney / kidney injury,absorption_alteration,1,0.97,20,84,1.0367786937222574,0.591,1.0,enriched,1.0,False
+12,ckd / chronic kidney / kidney injury,UGT_inhibition,0,0.82,20,71,0.0,-0.831,1.0,depleted,1.0,False
+12,ckd / chronic kidney / kidney injury,additive_toxicity,0,0.44,20,38,0.0,0.09,1.0,depleted,1.0,False
+12,ckd / chronic kidney / kidney injury,receptor_antagonism,0,0.36,20,31,0.0,0.386,1.0,depleted,1.0,False
+12,ckd / chronic kidney / kidney injury,P-gp_induction,0,0.15,20,13,0.0,1.624,1.0,depleted,1.0,False
+12,ckd / chronic kidney / kidney injury,antagonistic_efficacy,0,0.09,20,8,0.0,2.295,1.0,depleted,1.0,False
+12,ckd / chronic kidney / kidney injury,UGT_induction,0,0.03,20,3,0.0,3.58,1.0,depleted,1.0,False
+12,ckd / chronic kidney / kidney injury,protein_binding_displacement,0,0.01,20,1,0.0,4.804,1.0,depleted,1.0,False
+10,hormone / testosterone / estrogenic,absorption_alteration,0,0.87,18,84,0.0,-0.934,1.0,depleted,1.0,False
+10,hormone / testosterone / estrogenic,UGT_inhibition,0,0.74,18,71,0.0,-0.682,1.0,depleted,1.0,False
+10,hormone / testosterone / estrogenic,additive_toxicity,0,0.39,18,38,0.0,0.24,1.0,depleted,1.0,False
+10,hormone / testosterone / estrogenic,P-gp_induction,0,0.13,18,13,0.0,1.773,1.0,depleted,1.0,False
+10,hormone / testosterone / estrogenic,antagonistic_efficacy,0,0.08,18,8,0.0,2.445,1.0,depleted,1.0,False
+10,hormone / testosterone / estrogenic,UGT_induction,0,0.03,18,3,0.0,3.729,1.0,depleted,1.0,False
+10,hormone / testosterone / estrogenic,protein_binding_displacement,0,0.01,18,1,0.0,4.953,1.0,depleted,1.0,False
+27,metabolites / pharmacokinetic / pharmacokinetics,synergistic_efficacy,1,1.88,18,182,0.5001624959376015,-0.46,1.0,depleted,1.0,False
+27,metabolites / pharmacokinetic / pharmacokinetics,signaling_pathway_modulation,0,0.81,18,78,0.0,-0.822,1.0,depleted,1.0,False
+27,metabolites / pharmacokinetic / pharmacokinetics,UGT_inhibition,0,0.74,18,71,0.0,-0.682,1.0,depleted,1.0,False
+27,metabolites / pharmacokinetic / pharmacokinetics,additive_toxicity,0,0.39,18,38,0.0,0.24,1.0,depleted,1.0,False
+27,metabolites / pharmacokinetic / pharmacokinetics,receptor_antagonism,0,0.32,18,31,0.0,0.536,1.0,depleted,1.0,False
+27,metabolites / pharmacokinetic / pharmacokinetics,P-gp_induction,0,0.13,18,13,0.0,1.773,1.0,depleted,1.0,False
+27,metabolites / pharmacokinetic / pharmacokinetics,antagonistic_efficacy,0,0.08,18,8,0.0,2.445,1.0,depleted,1.0,False
+27,metabolites / pharmacokinetic / pharmacokinetics,UGT_induction,0,0.03,18,3,0.0,3.729,1.0,depleted,1.0,False
+27,metabolites / pharmacokinetic / pharmacokinetics,protein_binding_displacement,0,0.01,18,1,0.0,4.953,1.0,depleted,1.0,False
+34,metabolites / oral administration / pharmacokinetic,transporter_modulation,0,0.9,17,92,0.0,-0.99,1.0,depleted,1.0,False
+34,metabolites / oral administration / pharmacokinetic,organ_toxicity_modulation,0,0.86,17,88,0.0,-0.923,1.0,depleted,1.0,False
+34,metabolites / oral administration / pharmacokinetic,signaling_pathway_modulation,0,0.76,17,78,0.0,-0.741,1.0,depleted,1.0,False
+34,metabolites / oral administration / pharmacokinetic,UGT_inhibition,0,0.69,17,71,0.0,-0.6,1.0,depleted,1.0,False
+34,metabolites / oral administration / pharmacokinetic,P-gp_induction,0,0.13,17,13,0.0,1.854,1.0,depleted,1.0,False
+34,metabolites / oral administration / pharmacokinetic,antagonistic_efficacy,0,0.08,17,8,0.0,2.526,1.0,depleted,1.0,False
+34,metabolites / oral administration / pharmacokinetic,UGT_induction,0,0.03,17,3,0.0,3.81,1.0,depleted,1.0,False
+34,metabolites / oral administration / pharmacokinetic,protein_binding_displacement,0,0.01,17,1,0.0,5.034,1.0,depleted,1.0,False
+20,cancer / network pharmacology / pathways,transporter_modulation,0,0.85,16,92,0.0,-0.905,1.0,depleted,1.0,False
+20,cancer / network pharmacology / pathways,absorption_alteration,0,0.77,16,84,0.0,-0.767,1.0,depleted,1.0,False
+20,cancer / network pharmacology / pathways,UGT_inhibition,0,0.65,16,71,0.0,-0.515,1.0,depleted,1.0,False
+20,cancer / network pharmacology / pathways,receptor_antagonism,0,0.29,16,31,0.0,0.702,1.0,depleted,1.0,False
+20,cancer / network pharmacology / pathways,P-gp_induction,0,0.12,16,13,0.0,1.94,1.0,depleted,1.0,False
+20,cancer / network pharmacology / pathways,UGT_induction,0,0.03,16,3,0.0,3.896,1.0,depleted,1.0,False
+20,cancer / network pharmacology / pathways,protein_binding_displacement,0,0.01,16,1,0.0,5.12,1.0,depleted,1.0,False
+31,drug interactions / herb-drug interactions / drug interactio,receptor_synergism,1,1.45,12,210,0.6598521096128752,-0.082,1.0,depleted,1.0,False
+31,drug interactions / herb-drug interactions / drug interactio,P-gp_inhibition,0,0.74,12,107,0.0,-0.731,1.0,depleted,1.0,False
+31,drug interactions / herb-drug interactions / drug interactio,transporter_modulation,0,0.64,12,92,0.0,-0.501,1.0,depleted,1.0,False
+31,drug interactions / herb-drug interactions / drug interactio,organ_toxicity_modulation,0,0.61,12,88,0.0,-0.433,1.0,depleted,1.0,False
+31,drug interactions / herb-drug interactions / drug interactio,signaling_pathway_modulation,0,0.54,12,78,0.0,-0.252,1.0,depleted,1.0,False
+31,drug interactions / herb-drug interactions / drug interactio,UGT_inhibition,0,0.49,12,71,0.0,-0.111,1.0,depleted,1.0,False
+31,drug interactions / herb-drug interactions / drug interactio,additive_toxicity,0,0.26,12,38,0.0,0.811,1.0,depleted,1.0,False
+31,drug interactions / herb-drug interactions / drug interactio,receptor_antagonism,0,0.21,12,31,0.0,1.106,1.0,depleted,1.0,False
+31,drug interactions / herb-drug interactions / drug interactio,P-gp_induction,0,0.09,12,13,0.0,2.344,1.0,depleted,1.0,False
+31,drug interactions / herb-drug interactions / drug interactio,antagonistic_efficacy,0,0.06,12,8,0.0,3.016,1.0,depleted,1.0,False
+31,drug interactions / herb-drug interactions / drug interactio,UGT_induction,0,0.02,12,3,0.0,4.3,1.0,depleted,1.0,False
+13,drug delivery / bioavailability / nanocarriers,transporter_modulation,0,0.58,11,92,0.0,-0.379,1.0,depleted,1.0,False
+13,drug delivery / bioavailability / nanocarriers,signaling_pathway_modulation,0,0.49,11,78,0.0,-0.13,1.0,depleted,1.0,False
+13,drug delivery / bioavailability / nanocarriers,UGT_inhibition,0,0.45,11,71,0.0,0.01,1.0,depleted,1.0,False
+13,drug delivery / bioavailability / nanocarriers,additive_toxicity,0,0.24,11,38,0.0,0.932,1.0,depleted,1.0,False
+13,drug delivery / bioavailability / nanocarriers,receptor_antagonism,0,0.2,11,31,0.0,1.228,1.0,depleted,1.0,False
+13,drug delivery / bioavailability / nanocarriers,P-gp_induction,0,0.08,11,13,0.0,2.465,1.0,depleted,1.0,False
+13,drug delivery / bioavailability / nanocarriers,antagonistic_efficacy,0,0.05,11,8,0.0,3.137,1.0,depleted,1.0,False
+13,drug delivery / bioavailability / nanocarriers,UGT_induction,0,0.02,11,3,0.0,4.421,1.0,depleted,1.0,False
+13,drug delivery / bioavailability / nanocarriers,protein_binding_displacement,0,0.01,11,1,0.0,5.645,1.0,depleted,1.0,False
+25,phytochemistry pharmacology / pharmacological activities / p,CYP_induction,1,1.21,10,210,0.8075491759702286,0.196,1.0,depleted,1.0,False
+25,phytochemistry pharmacology / pharmacological activities / p,P-gp_inhibition,0,0.62,10,107,0.0,-0.477,1.0,depleted,1.0,False
+25,phytochemistry pharmacology / pharmacological activities / p,signaling_pathway_modulation,0,0.45,10,78,0.0,0.002,1.0,depleted,1.0,False
+25,phytochemistry pharmacology / pharmacological activities / p,UGT_inhibition,0,0.41,10,71,0.0,0.143,1.0,depleted,1.0,False
+25,phytochemistry pharmacology / pharmacological activities / p,receptor_antagonism,0,0.18,10,31,0.0,1.36,1.0,depleted,1.0,False
+25,phytochemistry pharmacology / pharmacological activities / p,P-gp_induction,0,0.07,10,13,0.0,2.597,1.0,depleted,1.0,False
+25,phytochemistry pharmacology / pharmacological activities / p,antagonistic_efficacy,0,0.05,10,8,0.0,3.269,1.0,depleted,1.0,False
+25,phytochemistry pharmacology / pharmacological activities / p,UGT_induction,0,0.02,10,3,0.0,4.553,1.0,depleted,1.0,False
+25,phytochemistry pharmacology / pharmacological activities / p,protein_binding_displacement,0,0.01,10,1,0.0,5.777,1.0,depleted,1.0,False
+26,herb-drug interactions / drug interactions / anticancer drug,synergistic_efficacy,1,1.05,10,182,0.9496623695518723,0.429,1.0,depleted,1.0,False
+26,herb-drug interactions / drug interactions / anticancer drug,P-gp_inhibition,0,0.62,10,107,0.0,-0.477,1.0,depleted,1.0,False
+26,herb-drug interactions / drug interactions / anticancer drug,transporter_modulation,0,0.53,10,92,0.0,-0.247,1.0,depleted,1.0,False
+26,herb-drug interactions / drug interactions / anticancer drug,organ_toxicity_modulation,0,0.51,10,88,0.0,-0.18,1.0,depleted,1.0,False
+26,herb-drug interactions / drug interactions / anticancer drug,signaling_pathway_modulation,0,0.45,10,78,0.0,0.002,1.0,depleted,1.0,False
+26,herb-drug interactions / drug interactions / anticancer drug,UGT_inhibition,0,0.41,10,71,0.0,0.143,1.0,depleted,1.0,False
+26,herb-drug interactions / drug interactions / anticancer drug,additive_toxicity,0,0.22,10,38,0.0,1.064,1.0,depleted,1.0,False
+26,herb-drug interactions / drug interactions / anticancer drug,receptor_antagonism,0,0.18,10,31,0.0,1.36,1.0,depleted,1.0,False
+26,herb-drug interactions / drug interactions / anticancer drug,P-gp_induction,0,0.07,10,13,0.0,2.597,1.0,depleted,1.0,False
+26,herb-drug interactions / drug interactions / anticancer drug,antagonistic_efficacy,0,0.05,10,8,0.0,3.269,1.0,depleted,1.0,False
+26,herb-drug interactions / drug interactions / anticancer drug,UGT_induction,0,0.02,10,3,0.0,4.553,1.0,depleted,1.0,False
+26,herb-drug interactions / drug interactions / anticancer drug,protein_binding_displacement,0,0.01,10,1,0.0,5.777,1.0,depleted,1.0,False
+15,gut microbiome / gut microbiota / microbiome,CYP_induction,0,0.85,7,210,0.0,-1.053,1.0,depleted,1.0,False
+15,gut microbiome / gut microbiota / microbiome,synergistic_efficacy,0,0.73,7,182,0.0,-0.821,1.0,depleted,1.0,False
+15,gut microbiome / gut microbiota / microbiome,P-gp_inhibition,0,0.43,7,107,0.0,0.011,1.0,depleted,1.0,False
+15,gut microbiome / gut microbiota / microbiome,UGT_inhibition,0,0.29,7,71,0.0,0.631,1.0,depleted,1.0,False
+15,gut microbiome / gut microbiota / microbiome,additive_toxicity,0,0.15,7,38,0.0,1.552,1.0,depleted,1.0,False
+15,gut microbiome / gut microbiota / microbiome,P-gp_induction,0,0.05,7,13,0.0,3.085,1.0,depleted,1.0,False
+15,gut microbiome / gut microbiota / microbiome,antagonistic_efficacy,0,0.03,7,8,0.0,3.757,1.0,depleted,1.0,False
+15,gut microbiome / gut microbiota / microbiome,UGT_induction,0,0.01,7,3,0.0,5.041,1.0,depleted,1.0,False
+15,gut microbiome / gut microbiota / microbiome,protein_binding_displacement,0,0.0,7,1,0.0,6.265,1.0,depleted,1.0,False
+22,network pharmacology / pharmacology molecular / pharmacology,CYP_induction,0,0.85,7,210,0.0,-1.053,1.0,depleted,1.0,False
+22,network pharmacology / pharmacology molecular / pharmacology,synergistic_efficacy,0,0.73,7,182,0.0,-0.821,1.0,depleted,1.0,False
+22,network pharmacology / pharmacology molecular / pharmacology,P-gp_inhibition,0,0.43,7,107,0.0,0.011,1.0,depleted,1.0,False
+22,network pharmacology / pharmacology molecular / pharmacology,transporter_modulation,0,0.37,7,92,0.0,0.241,1.0,depleted,1.0,False
+22,network pharmacology / pharmacology molecular / pharmacology,absorption_alteration,0,0.34,7,84,0.0,0.378,1.0,depleted,1.0,False
+22,network pharmacology / pharmacology molecular / pharmacology,UGT_inhibition,0,0.29,7,71,0.0,0.631,1.0,depleted,1.0,False
+22,network pharmacology / pharmacology molecular / pharmacology,additive_toxicity,0,0.15,7,38,0.0,1.552,1.0,depleted,1.0,False
+22,network pharmacology / pharmacology molecular / pharmacology,P-gp_induction,0,0.05,7,13,0.0,3.085,1.0,depleted,1.0,False
+22,network pharmacology / pharmacology molecular / pharmacology,antagonistic_efficacy,0,0.03,7,8,0.0,3.757,1.0,depleted,1.0,False
+22,network pharmacology / pharmacology molecular / pharmacology,UGT_induction,0,0.01,7,3,0.0,5.041,1.0,depleted,1.0,False
+22,network pharmacology / pharmacology molecular / pharmacology,protein_binding_displacement,0,0.0,7,1,0.0,6.265,1.0,depleted,1.0,False
+37,herbal supplements / herbal products / herbal drugs,receptor_synergism,0,0.85,7,210,0.0,-1.053,1.0,depleted,1.0,False
+37,herbal supplements / herbal products / herbal drugs,synergistic_efficacy,0,0.73,7,182,0.0,-0.821,1.0,depleted,1.0,False
+37,herbal supplements / herbal products / herbal drugs,P-gp_inhibition,0,0.43,7,107,0.0,0.011,1.0,depleted,1.0,False
+37,herbal supplements / herbal products / herbal drugs,transporter_modulation,0,0.37,7,92,0.0,0.241,1.0,depleted,1.0,False
+37,herbal supplements / herbal products / herbal drugs,signaling_pathway_modulation,0,0.31,7,78,0.0,0.49,1.0,depleted,1.0,False
+37,herbal supplements / herbal products / herbal drugs,UGT_inhibition,0,0.29,7,71,0.0,0.631,1.0,depleted,1.0,False
+37,herbal supplements / herbal products / herbal drugs,receptor_antagonism,0,0.12,7,31,0.0,1.848,1.0,depleted,1.0,False
+37,herbal supplements / herbal products / herbal drugs,P-gp_induction,0,0.05,7,13,0.0,3.085,1.0,depleted,1.0,False
+37,herbal supplements / herbal products / herbal drugs,antagonistic_efficacy,0,0.03,7,8,0.0,3.757,1.0,depleted,1.0,False
+37,herbal supplements / herbal products / herbal drugs,UGT_induction,0,0.01,7,3,0.0,5.041,1.0,depleted,1.0,False
+37,herbal supplements / herbal products / herbal drugs,protein_binding_displacement,0,0.0,7,1,0.0,6.265,1.0,depleted,1.0,False
+19,pharmacology / network pharmacology / docking,CYP_inhibition,1,1.5,5,522,0.581573896353167,-0.368,1.0,depleted,1.0,False
+19,pharmacology / network pharmacology / docking,CYP_induction,0,0.6,5,210,0.0,-0.604,1.0,depleted,1.0,False
+19,pharmacology / network pharmacology / docking,synergistic_efficacy,0,0.52,5,182,0.0,-0.372,1.0,depleted,1.0,False
+19,pharmacology / network pharmacology / docking,P-gp_inhibition,0,0.31,5,107,0.0,0.46,1.0,depleted,1.0,False
+19,pharmacology / network pharmacology / docking,transporter_modulation,0,0.26,5,92,0.0,0.69,1.0,depleted,1.0,False
+19,pharmacology / network pharmacology / docking,organ_toxicity_modulation,0,0.25,5,88,0.0,0.757,1.0,depleted,1.0,False
+19,pharmacology / network pharmacology / docking,absorption_alteration,0,0.24,5,84,0.0,0.828,1.0,depleted,1.0,False
+19,pharmacology / network pharmacology / docking,UGT_inhibition,0,0.2,5,71,0.0,1.08,1.0,depleted,1.0,False
+19,pharmacology / network pharmacology / docking,additive_toxicity,0,0.11,5,38,0.0,2.001,1.0,depleted,1.0,False
+19,pharmacology / network pharmacology / docking,P-gp_induction,0,0.04,5,13,0.0,3.534,1.0,depleted,1.0,False
+19,pharmacology / network pharmacology / docking,antagonistic_efficacy,0,0.02,5,8,0.0,4.206,1.0,depleted,1.0,False
+19,pharmacology / network pharmacology / docking,UGT_induction,0,0.01,5,3,0.0,5.49,1.0,depleted,1.0,False
+19,pharmacology / network pharmacology / docking,protein_binding_displacement,0,0.0,5,1,0.0,6.714,1.0,depleted,1.0,False
+16,disease nafld / treatment nafld / nafld,CYP_inhibition,1,1.5,5,522,0.581573896353167,-0.368,1.0,depleted,1.0,False
+16,disease nafld / treatment nafld / nafld,CYP_induction,0,0.6,5,210,0.0,-0.604,1.0,depleted,1.0,False
+16,disease nafld / treatment nafld / nafld,receptor_synergism,0,0.6,5,210,0.0,-0.604,1.0,depleted,1.0,False
+16,disease nafld / treatment nafld / nafld,synergistic_efficacy,0,0.52,5,182,0.0,-0.372,1.0,depleted,1.0,False
+16,disease nafld / treatment nafld / nafld,P-gp_inhibition,0,0.31,5,107,0.0,0.46,1.0,depleted,1.0,False
+16,disease nafld / treatment nafld / nafld,transporter_modulation,0,0.26,5,92,0.0,0.69,1.0,depleted,1.0,False
+16,disease nafld / treatment nafld / nafld,absorption_alteration,0,0.24,5,84,0.0,0.828,1.0,depleted,1.0,False
+16,disease nafld / treatment nafld / nafld,UGT_inhibition,0,0.2,5,71,0.0,1.08,1.0,depleted,1.0,False
+16,disease nafld / treatment nafld / nafld,receptor_antagonism,0,0.09,5,31,0.0,2.297,1.0,depleted,1.0,False
+16,disease nafld / treatment nafld / nafld,P-gp_induction,0,0.04,5,13,0.0,3.534,1.0,depleted,1.0,False
+16,disease nafld / treatment nafld / nafld,antagonistic_efficacy,0,0.02,5,8,0.0,4.206,1.0,depleted,1.0,False
+16,disease nafld / treatment nafld / nafld,UGT_induction,0,0.01,5,3,0.0,5.49,1.0,depleted,1.0,False
+16,disease nafld / treatment nafld / nafld,protein_binding_displacement,0,0.0,5,1,0.0,6.714,1.0,depleted,1.0,False
+21,arthritis / pharmacology / network pharmacology,CYP_inhibition,1,0.9,3,522,1.165067178502879,0.483,1.0,enriched,1.0,False
+21,arthritis / pharmacology / network pharmacology,CYP_induction,0,0.36,3,210,0.0,0.05,1.0,depleted,1.0,False
+21,arthritis / pharmacology / network pharmacology,receptor_synergism,0,0.36,3,210,0.0,0.05,1.0,depleted,1.0,False
+21,arthritis / pharmacology / network pharmacology,synergistic_efficacy,0,0.31,3,182,0.0,0.282,1.0,depleted,1.0,False
+21,arthritis / pharmacology / network pharmacology,P-gp_inhibition,0,0.18,3,107,0.0,1.114,1.0,depleted,1.0,False
+21,arthritis / pharmacology / network pharmacology,transporter_modulation,0,0.16,3,92,0.0,1.344,1.0,depleted,1.0,False
+21,arthritis / pharmacology / network pharmacology,organ_toxicity_modulation,0,0.15,3,88,0.0,1.411,1.0,depleted,1.0,False
+21,arthritis / pharmacology / network pharmacology,absorption_alteration,0,0.14,3,84,0.0,1.481,1.0,depleted,1.0,False
+21,arthritis / pharmacology / network pharmacology,UGT_inhibition,0,0.12,3,71,0.0,1.734,1.0,depleted,1.0,False
+21,arthritis / pharmacology / network pharmacology,additive_toxicity,0,0.07,3,38,0.0,2.655,1.0,depleted,1.0,False
+21,arthritis / pharmacology / network pharmacology,P-gp_induction,0,0.02,3,13,0.0,4.188,1.0,depleted,1.0,False
+21,arthritis / pharmacology / network pharmacology,antagonistic_efficacy,0,0.01,3,8,0.0,4.86,1.0,depleted,1.0,False
+21,arthritis / pharmacology / network pharmacology,UGT_induction,0,0.01,3,3,0.0,6.144,1.0,depleted,1.0,False
+21,arthritis / pharmacology / network pharmacology,protein_binding_displacement,0,0.0,3,1,0.0,7.368,1.0,depleted,1.0,False
+7,pregnant women / adverse events / premenstrual,CYP_induction,0,0.24,2,210,0.0,0.536,1.0,depleted,1.0,False
+7,pregnant women / adverse events / premenstrual,synergistic_efficacy,0,0.21,2,182,0.0,0.769,1.0,depleted,1.0,False
+7,pregnant women / adverse events / premenstrual,P-gp_inhibition,0,0.12,2,107,0.0,1.6,1.0,depleted,1.0,False
+7,pregnant women / adverse events / premenstrual,transporter_modulation,0,0.11,2,92,0.0,1.83,1.0,depleted,1.0,False
+7,pregnant women / adverse events / premenstrual,organ_toxicity_modulation,0,0.1,2,88,0.0,1.897,1.0,depleted,1.0,False
+7,pregnant women / adverse events / premenstrual,absorption_alteration,0,0.1,2,84,0.0,1.968,1.0,depleted,1.0,False
+7,pregnant women / adverse events / premenstrual,signaling_pathway_modulation,0,0.09,2,78,0.0,2.079,1.0,depleted,1.0,False
+7,pregnant women / adverse events / premenstrual,UGT_inhibition,0,0.08,2,71,0.0,2.22,1.0,depleted,1.0,False
+7,pregnant women / adverse events / premenstrual,additive_toxicity,0,0.04,2,38,0.0,3.141,1.0,depleted,1.0,False
+7,pregnant women / adverse events / premenstrual,receptor_antagonism,0,0.04,2,31,0.0,3.437,1.0,depleted,1.0,False
+7,pregnant women / adverse events / premenstrual,P-gp_induction,0,0.01,2,13,0.0,4.674,1.0,depleted,1.0,False
+7,pregnant women / adverse events / premenstrual,antagonistic_efficacy,0,0.01,2,8,0.0,5.346,1.0,depleted,1.0,False
+7,pregnant women / adverse events / premenstrual,UGT_induction,0,0.0,2,3,0.0,6.63,1.0,depleted,1.0,False
+7,pregnant women / adverse events / premenstrual,protein_binding_displacement,0,0.0,2,1,0.0,7.854,1.0,depleted,1.0,False
+38,pharmacies / use herbal / medications,CYP_inhibition,0,0.6,2,522,0.0,-1.105,1.0,depleted,1.0,False
+38,pharmacies / use herbal / medications,CYP_induction,0,0.24,2,210,0.0,0.536,1.0,depleted,1.0,False
+38,pharmacies / use herbal / medications,receptor_synergism,0,0.24,2,210,0.0,0.536,1.0,depleted,1.0,False
+38,pharmacies / use herbal / medications,synergistic_efficacy,0,0.21,2,182,0.0,0.769,1.0,depleted,1.0,False
+38,pharmacies / use herbal / medications,P-gp_inhibition,0,0.12,2,107,0.0,1.6,1.0,depleted,1.0,False
+38,pharmacies / use herbal / medications,transporter_modulation,0,0.11,2,92,0.0,1.83,1.0,depleted,1.0,False
+38,pharmacies / use herbal / medications,organ_toxicity_modulation,0,0.1,2,88,0.0,1.897,1.0,depleted,1.0,False
+38,pharmacies / use herbal / medications,absorption_alteration,0,0.1,2,84,0.0,1.968,1.0,depleted,1.0,False
+38,pharmacies / use herbal / medications,signaling_pathway_modulation,0,0.09,2,78,0.0,2.079,1.0,depleted,1.0,False
+38,pharmacies / use herbal / medications,UGT_inhibition,0,0.08,2,71,0.0,2.22,1.0,depleted,1.0,False
+38,pharmacies / use herbal / medications,receptor_antagonism,0,0.04,2,31,0.0,3.437,1.0,depleted,1.0,False
+38,pharmacies / use herbal / medications,P-gp_induction,0,0.01,2,13,0.0,4.674,1.0,depleted,1.0,False
+38,pharmacies / use herbal / medications,antagonistic_efficacy,0,0.01,2,8,0.0,5.346,1.0,depleted,1.0,False
+38,pharmacies / use herbal / medications,UGT_induction,0,0.0,2,3,0.0,6.63,1.0,depleted,1.0,False
+38,pharmacies / use herbal / medications,protein_binding_displacement,0,0.0,2,1,0.0,7.854,1.0,depleted,1.0,False
+18,network pharmacology / inflammatory / pharmacology,CYP_induction,0,0.12,1,210,0.0,1.274,1.0,depleted,1.0,False
+18,network pharmacology / inflammatory / pharmacology,receptor_synergism,0,0.12,1,210,0.0,1.274,1.0,depleted,1.0,False
+18,network pharmacology / inflammatory / pharmacology,synergistic_efficacy,0,0.1,1,182,0.0,1.506,1.0,depleted,1.0,False
+18,network pharmacology / inflammatory / pharmacology,P-gp_inhibition,0,0.06,1,107,0.0,2.338,1.0,depleted,1.0,False
+18,network pharmacology / inflammatory / pharmacology,transporter_modulation,0,0.05,1,92,0.0,2.568,1.0,depleted,1.0,False
+18,network pharmacology / inflammatory / pharmacology,organ_toxicity_modulation,0,0.05,1,88,0.0,2.635,1.0,depleted,1.0,False
+18,network pharmacology / inflammatory / pharmacology,absorption_alteration,0,0.05,1,84,0.0,2.705,1.0,depleted,1.0,False
+18,network pharmacology / inflammatory / pharmacology,signaling_pathway_modulation,0,0.04,1,78,0.0,2.817,1.0,depleted,1.0,False
+18,network pharmacology / inflammatory / pharmacology,UGT_inhibition,0,0.04,1,71,0.0,2.958,1.0,depleted,1.0,False
+18,network pharmacology / inflammatory / pharmacology,additive_toxicity,0,0.02,1,38,0.0,3.879,1.0,depleted,1.0,False
+18,network pharmacology / inflammatory / pharmacology,receptor_antagonism,0,0.02,1,31,0.0,4.175,1.0,depleted,1.0,False
+18,network pharmacology / inflammatory / pharmacology,P-gp_induction,0,0.01,1,13,0.0,5.412,1.0,depleted,1.0,False
+18,network pharmacology / inflammatory / pharmacology,antagonistic_efficacy,0,0.0,1,8,0.0,6.084,1.0,depleted,1.0,False
+18,network pharmacology / inflammatory / pharmacology,UGT_induction,0,0.0,1,3,0.0,7.368,1.0,depleted,1.0,False
+18,network pharmacology / inflammatory / pharmacology,protein_binding_displacement,0,0.0,1,1,0.0,8.592,1.0,depleted,1.0,False
+36,phytopharmaceutical / herb-drug / ayurveda,CYP_inhibition,0,0.3,1,522,0.0,-0.367,1.0,depleted,1.0,False
+36,phytopharmaceutical / herb-drug / ayurveda,CYP_induction,0,0.12,1,210,0.0,1.274,1.0,depleted,1.0,False
+36,phytopharmaceutical / herb-drug / ayurveda,receptor_synergism,0,0.12,1,210,0.0,1.274,1.0,depleted,1.0,False
+36,phytopharmaceutical / herb-drug / ayurveda,synergistic_efficacy,0,0.1,1,182,0.0,1.506,1.0,depleted,1.0,False
+36,phytopharmaceutical / herb-drug / ayurveda,P-gp_inhibition,0,0.06,1,107,0.0,2.338,1.0,depleted,1.0,False
+36,phytopharmaceutical / herb-drug / ayurveda,transporter_modulation,0,0.05,1,92,0.0,2.568,1.0,depleted,1.0,False
+36,phytopharmaceutical / herb-drug / ayurveda,organ_toxicity_modulation,0,0.05,1,88,0.0,2.635,1.0,depleted,1.0,False
+36,phytopharmaceutical / herb-drug / ayurveda,signaling_pathway_modulation,0,0.04,1,78,0.0,2.817,1.0,depleted,1.0,False
+36,phytopharmaceutical / herb-drug / ayurveda,UGT_inhibition,0,0.04,1,71,0.0,2.958,1.0,depleted,1.0,False
+36,phytopharmaceutical / herb-drug / ayurveda,additive_toxicity,0,0.02,1,38,0.0,3.879,1.0,depleted,1.0,False
+36,phytopharmaceutical / herb-drug / ayurveda,receptor_antagonism,0,0.02,1,31,0.0,4.175,1.0,depleted,1.0,False
+36,phytopharmaceutical / herb-drug / ayurveda,P-gp_induction,0,0.01,1,13,0.0,5.412,1.0,depleted,1.0,False
+36,phytopharmaceutical / herb-drug / ayurveda,antagonistic_efficacy,0,0.0,1,8,0.0,6.084,1.0,depleted,1.0,False
+36,phytopharmaceutical / herb-drug / ayurveda,UGT_induction,0,0.0,1,3,0.0,7.368,1.0,depleted,1.0,False
+36,phytopharmaceutical / herb-drug / ayurveda,protein_binding_displacement,0,0.0,1,1,0.0,8.592,1.0,depleted,1.0,False

@@ -1,0 +1,21 @@
+cluster_id,topic_label,mechanism,observed,expected,topic_total,mech_total,odds_ratio,log2_or_haldane,p_value,direction,q_value,significant
+30,cyp inhibition / cyp enzymes / cyp isoforms,synergistic_efficacy,0,47.44,453,182,0.0,-7.229,7.653774119655503e-26,depleted,4.531034278836057e-24,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,absorption_alteration,0,21.89,453,84,0.0,-5.995,5.928709884411362e-12,depleted,1.9498868064286257e-10,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,receptor_synergism,1,54.74,453,210,0.011390100351441758,-5.875,2.4632212302830755e-28,depleted,1.8227837104094758e-26,True
+23,antimicrobial / antibiotics / antibacterial,CYP_inhibition,0,19.22,64,522,0.0,-5.87,1.5411780879390118e-10,depleted,4.5618871402994745e-09,True
+11,anticancer / chemotherapy / cancer,CYP_induction,1,40.12,332,210,0.01730293875308981,-5.273,1.4004818220779442e-19,depleted,6.377578759001099e-18,True
+35,pharmacokinetic parameters / pharmacokinetic / oral administ,CYP_inhibition,0,12.01,40,522,0.0,-5.169,6.680530074935727e-07,depleted,1.2757657433425647e-05,True
+11,anticancer / chemotherapy / cancer,UGT_inhibition,0,13.56,332,71,0.0,-5.154,2.7850077601260493e-07,depleted,5.6852572206711074e-06,True
+11,anticancer / chemotherapy / cancer,CYP_inhibition,5,99.71,332,522,0.026292596075926156,-5.114,1.2607884036809813e-49,depleted,1.8659668374478522e-47,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,additive_toxicity,0,9.9,453,38,0.0,-4.807,1.5095472618735733e-05,depleted,0.00022914153308439884,True
+24,inhibition ugt / inhibited ugt / ugt isoforms,synergistic_efficacy,0,10.47,100,182,0.0,-4.655,2.5551185529012055e-05,depleted,0.0003781575458293784,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,organ_toxicity_modulation,1,22.94,453,88,0.03046485606754145,-4.461,6.153694979372881e-11,depleted,1.91736180409934e-09,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,signaling_pathway_modulation,1,20.33,453,78,0.03470865417768073,-4.274,1.2700174236401497e-09,depleted,3.211543410953279e-08,True
+23,antimicrobial / antibiotics / antibacterial,CYP_induction,0,7.73,64,210,0.0,-4.213,0.0003214179911583136,depleted,0.004136509799254819,True
+28,medicinal plants / anxiolytic / antiepileptic drugs,CYP_inhibition,1,15.62,52,522,0.04384479319558918,-3.941,2.4459238378734355e-07,depleted,5.171381828646692e-06,True
+28,medicinal plants / anxiolytic / antiepileptic drugs,CYP_induction,0,6.28,52,210,0.0,-3.904,0.0018793263942420775,depleted,0.020602985655394628,True
+32,drug transporters / transporter-mediated / anion transporter,CYP_inhibition,1,14.42,48,522,0.047739616939600604,-3.82,1.1565468880603182e-06,depleted,2.1396117429115886e-05,True
+32,drug transporters / transporter-mediated / anion transporter,receptor_synergism,0,5.8,48,210,0.0,-3.786,0.002912374677723753,depleted,0.029691498609223214,True
+32,drug transporters / transporter-mediated / anion transporter,CYP_induction,0,5.8,48,210,0.0,-3.786,0.002912374677723753,depleted,0.029691498609223214,True
+30,cyp inhibition / cyp enzymes / cyp isoforms,transporter_modulation,2,23.98,453,92,0.05888149790588815,-3.773,4.077967721418515e-10,depleted,1.149598519561791e-08,True
+17,hepatoprotective / hepatotoxicity / liver injury,absorption_alteration,0,5.94,123,84,0.0,-3.769,0.003478090929004811,depleted,0.03431716383284747,True

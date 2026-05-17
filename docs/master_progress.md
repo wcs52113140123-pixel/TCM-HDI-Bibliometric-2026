@@ -1417,3 +1417,66 @@ Day 12 B commit.
 ### Project progress
 - **12/21 天 (~57%)**
 - 下一节点：Day 13-15 Topic × Mechanism cross-analysis
+
+
+---
+
+## Day 13 — Topic × Mechanism cross-analysis (static, 2026-05-18)
+
+### Status: ✅ COMPLETED
+
+### Data dimensions
+- Topic source: HDBSCAN over UMAP(SPECTER2), 39 real topics (+ -1 noise)
+- Mechanism source: LLM Schema v3, 16 mechanism categories (after dropping unspecified/other)
+- Matrix: 37 topics × 16 mechanisms = 592 cells
+- N = 1,738 (record_id × mechanism) pairs from 1,662 unique records
+- Sparsity: 63.3% non-zero cells
+
+### Method
+- Filter: confidence ≥ 0.7; drop HDBSCAN noise cluster (-1); drop mechanism in {unspecified, other}
+- Test: Fisher exact two-sided per cell (592 tests)
+- Correction: BH-FDR
+- Significance: q < 0.05
+- Strong enrichment: q < 0.05 AND OR > 2 AND observed ≥ 5
+- Strong depletion: q < 0.05 AND OR < 0.5 AND expected ≥ 5
+
+### Statistics
+- 63 significant cells (10.6%) — balanced 34 enriched + 29 depleted
+- 30 strong enrichments + 29 strong depletions
+
+### Deliverables (results/)
+| File | Type | Notes |
+|---|---|---|
+| figures/fig9_topic_x_mechanism_heatmap.{png,pdf,svg} | Fig | log-scale, PK/PD column groups, Okabe-Ito |
+| tables/table_topic_x_mechanism_matrix*.csv (4 files) | Tables | Block 1 outputs |
+| tables/table_topic_x_mechanism_enrichment_full.csv | Table | 592 rows |
+| tables/table_topic_x_mechanism_enrichment_significant.csv | Table | 63 rows |
+| tables/table_topic_x_mechanism_top_enriched.csv | Table | 20 rows (paper Table 4 source) |
+| tables/table_topic_x_mechanism_top_depleted.csv | Table | 20 rows (Supp S9) |
+
+### 8 paper-grade findings (详见 docs/manuscript_drafts/notes_day13_findings.md)
+1. F9 — Strongest enrichment: #24 UGT × UGT_inhibition (OR=505, q=2.8e-82)
+2. F10 — PK-pure topics: #30/#24/#32/#9 — mechanism-named, statistically reject all PD mechanisms
+3. F11 — PD-pure topics: #11/#23/#28 — clinical-named, statistically reject all PK mechanisms (#11 × CYP_inh: q=1.9e-47!)
+4. F12 — **Structural bifurcation** (paper §4 core narrative): PK space vs PD space, near-zero cross-talk
+5. F13 — Bridge clusters: #17 hepatotoxicity is the strongest translational interface
+6. F14 — Internal validation: tautological mechanism-name × mechanism enrichments (#30, #24, #32, #9) confirm topic model + LLM extraction agree
+7. F15 — Three null-enrichment topics (#25 phytochem, #38 pharmacies, #37 herbal supp): TCM context literature, not mechanism research
+8. F16 — Three-tool triangulation: SJW–warfarin paradigm consistent across bibliometrix Q2, CiteSpace Era 1, Day 13 #5 × CYP_induction (q=9.5e-15)
+
+### Discussion drafts in notes doc
+- §4.x.1 PK/PD structural bifurcation
+- §4.x.2 Bridge clusters & translational interfaces
+- §4.x.3 Mechanism-name alignment as internal validation
+- §4.x.4 Three-method triangulation
+
+### Engineering notes
+- N = 1,738 (cell sum, pair-units) used for Fisher test — consistent with matrix construction
+- Haldane-Anscombe (+0.5) for log2_OR display only; raw Fisher p uses exact hypergeometric
+- Depletion threshold uses expected ≥ 5 (not observed ≥ 5)
+- 2 topics (#0, #29) absent from matrix — small clusters with no confidence ≥ 0.7 mechanism extraction
+- New script dir 08_topic_mechanism/ (3 scripts: Block 1 / 2 / 3)
+
+### Project progress
+- **13/21 days (~62%)**
+- Next: Day 14 — Topic × Mechanism × Burst Era (temporal stratification)

@@ -1,0 +1,17 @@
+mechanism,n_records
+CYP_inhibition,522
+CYP_induction,210
+receptor_synergism,210
+synergistic_efficacy,182
+P-gp_inhibition,107
+transporter_modulation,92
+organ_toxicity_modulation,88
+absorption_alteration,84
+signaling_pathway_modulation,78
+UGT_inhibition,71
+additive_toxicity,38
+receptor_antagonism,31
+P-gp_induction,13
+antagonistic_efficacy,8
+UGT_induction,3
+protein_binding_displacement,1
