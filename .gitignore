@@ -127,3 +127,6 @@ data/processed/*.bak_pre_cross_dedup
 # LLM extraction atomic-write temp files (artifacts, not data)
 **/*.json.tmp
 
+
+# Day 12 B — bibliometrix intermediate caches (large, reproducible from scripts)
+results/figures_bibliometrix/*.rds

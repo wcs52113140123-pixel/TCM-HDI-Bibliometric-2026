@@ -1,0 +1,49 @@
+"groups","words","name_full","n","centrality","density","rcentrality","rdensity","name","color","freq","quadrant"
+1,"in-vitro 5.9
+metabolism 5
+inhibition 4.5
+pharmacokinetics 4
+extract 2.5
+induction 2
+cytochrome-p450 1.8
+identification 1.8
+enzymes 1.6
+rats 1.5","in-vitro
+metabolism
+inhibition",91,1.68988719402077,5.53510498603873,4,2,"in-vitro","#E41A1C80",5489,"Q4 Basic"
+2,"expression 6.9
+traditional chinese medicine 3.2
+cells 2.8
+oxidative stress 2.6
+apoptosis 2.4
+multidrug-resistance 2.2
+mechanisms 2
+activation 2
+cancer 1.9
+inflammation 1.5","expression
+traditional chinese medicine
+cells",57,1.03655993786442,5.49456483360241,3,1,"expression","#377EB880",2506,"Q4 Basic"
+3,"p-glycoprotein 9.8
+st-johns-wort 9
+grapefruit juice 2.9
+ginkgo-biloba extract 2.7
+ginkgo-biloba 2.6
+hypericum-perforatum 2
+milk thistle 1.9
+panax-ginseng 1.8
+pregnane-x-receptor 1.5
+thistle silybum-marianum 1.5","p-glycoprotein
+st-johns-wort
+grapefruit juice",34,0.723059443466908,6.28878740880444,1,4,"p-glycoprotein","#4DAF4A80",1553,"Q2 Niche"
+4,"herb-drug interactions 5.4
+drug-interactions 4.8
+alternative medicine 3.8
+complementary 3.3
+double-blind 2
+medicines 1.8
+drug interactions 1.7
+therapy 1.7
+dietary-supplements 1.6
+united-states 1.6","herb-drug interactions
+drug-interactions
+alternative medicine",51,0.929420268950412,5.73611089032499,2,3,"herb-drug interactions","#984EA380",2156,"Q2 Niche"

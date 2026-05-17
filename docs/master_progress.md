@@ -1265,3 +1265,80 @@ fig6 Sankey uses a browser print-to-PDF fallback for vector export
   ~4.9 MB) + PDF (vector, browser-exported via Chrome print-to-PDF)
 - 1 captions document: `results/figures/captions.md`
 - 1 methods draft: `docs/manuscript_drafts/methods_section_drafts.md`
+---
+
+## Day 12 B (May 17, 2026): R bibliometrix convention check ✅
+
+**Status**: Complete (Day 12 A — CiteSpace — pending)
+**Latest commit**: <fill after commit>
+**Deliverables**: 4 R analysis scripts + 6 paper-quality figures
+(13 files across formats) + 7 supporting tables + 1 findings
+document spanning 5 paper-worthy findings. Methodological
+convention check on WoS subset (n = 3,091) cross-validated
+against the Python main analysis (integrated n = 9,438).
+
+### Day 12 B Headline Findings
+
+1. **Citation density cross-validation** — avg cit/doc 26.41 (WoS)
+   vs 25.72 (integrated); 2.7% difference confirms 4-DB integration
+   did not introduce systematic citation bias.
+2. **Super-Lotka under both disambiguation schemes** — alpha = 2.38
+   (D1 FINI, WoS bibliometrix) vs 2.63 (D2 FINI+Inst, Python);
+   both > 2.0; R^2 = 0.960 vs 0.957 (nearly identical fit quality).
+3. **Bradford geometric mean 7.11 (WoS) vs 8.89 (integrated)** —
+   both far exceed classical Bradford multiplier of ~5, indicating
+   strong publication concentration; 3 Zone-1 anomalies flagged
+   (ECAM post-publication concerns, Molecules MDPI mega-journal,
+   Latin American Journal of Pharmacy regional concentration).
+4. **Thematic map: Q1 Motor and Q3 Emerging both empty** — only
+   Q2 Niche (classic safety cases + CAM literature) and Q4 Basic
+   (in-vitro metabolism + cellular biology) are populated, revealing
+   a fragmented-but-foundationally-consolidated field morphology
+   with no unified motor paradigm.
+5. **Classic safety cases form a structural niche** — SJW + grapefruit
+   + P-gp + ginkgo + milk thistle + ginseng cluster shows high
+   internal density + low centrality, indicating a closed citation
+   community no longer engaged by mainstream new-mechanism research.
+
+### Files Produced (Day 12 B)
+
+- **Scripts** (`07_bibliometrix_r/`): 23 / 24 / 25 / 26 — load,
+  biblioAnalysis summary, Lotka+Bradford, three-field + thematic map
+- **Figures** (`results/figures_bibliometrix/`):
+  - `fig2_alt_annual_production.{pdf, png}` (with 2026 partial-year annotation)
+  - `fig2_alt_avg_citations_per_article.{pdf, png}`
+  - `figS_alt_lotka.{pdf, png}`
+  - `figS_alt_bradford.{pdf, png}`
+  - `fig_thematicMap_keywords.{pdf, png}` (custom ggrepel layout)
+  - `fig_threeFields_country_author_keyword.{html, pdf}` (browser-exported PDF)
+- **Tables**: 7 CSV (top sources / authors / countries / cited papers
+  / Lotka fit / Bradford zones / thematic clusters)
+- **Findings document**: `docs/manuscript_drafts/notes_bibliometrix_findings.md`
+
+### Engineering Notes
+
+1. **bibliometrix 4.x API changes** — `lotka()` now takes `M`
+   (bibliometrixDB class) not the `results` object. `L$AuthorProd`
+   column names renamed to "Documents written" / "N. of Authors" /
+   "Proportion of Authors". Block 3 .R file patched for re-runnability
+   independent of an open R session.
+2. **Default thematicMap plot inadequate for 2-quadrant-populated
+   case** — bibliometrix's corner quadrant labels overlap with cluster
+   labels and watermark when only 2 of 4 quadrants are populated.
+   Replaced with custom ggrepel-based layout matching Okabe-Ito
+   palette from Day 11 figures.
+3. **plotly htmlwidget for threeFieldsPlot** — kaleido-free HTML
+   output; browser print-to-PDF for the static PDF version,
+   same fallback workflow as Day 11 fig6 Sankey.
+4. **Three intermediate .rds files excluded from git** — `M.rds`
+   (10 MB), `biblio_results.rds` (430 KB), `themat.rds` (13 MB)
+   are large reproducible caches; `.gitignore` updated to exclude
+   `results/figures_bibliometrix/*.rds`.
+
+### Outstanding (Day 12 A — same Day, parallel workstream)
+
+**CiteSpace keyword burst + timezone view** — separate Java GUI tool,
+uses same WoS `.txt` export as bibliometrix Block 1. Produces Fig 7
+(keyword burst detection 2005-2026 + thematic timezone view).
+Estimated 4-5h including ~30min learning curve. To start after
+Day 12 B commit.
