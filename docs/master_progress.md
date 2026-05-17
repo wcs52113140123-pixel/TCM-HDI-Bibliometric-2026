@@ -1600,3 +1600,80 @@ Day 12 B commit.
 ### Project progress
 - **14/21 days (~67%)**
 - Next: Day 15 -- Herb tier × Mechanism orthogonal + fig11 synthesis
+
+
+---
+
+## Day 15 -- Three-tier Herb x Mechanism orthogonal + Cross-tier consistency (2026-05-19)
+
+### Status: COMPLETED (fig12 PDF pending Day 16 polish)
+
+### Tier definitions
+- Tier 1 - Family (Linnaean):     `herb_family`, in_map=True, exclude flavonoid_compound -- 24/54 entities (>=10 records)
+- Tier 2 - Species:               `herb_canonical_latin`, in_map=True -- 32/97 entities (>=10 records)
+- Tier 3 - Compound:              `herb_active_compound`, in_map=True -- 23/251 entities (>=5 records, heterogeneous threshold)
+- Supp - Formula:                 descriptive only (top-15, no Fisher; median 1 record/formula)
+
+### Filtering & method
+- Universal: confidence >=0.7, mechanism not in {unspecified, other} (Day 13 alignment)
+- in_map=True restriction applied to all 3 tiers (same record pool for cross-tier consistency, n=1,676)
+- per-cell Fisher exact two-sided + within-tier BH-FDR (3 separate universes, ~350-510 tests each)
+- Strong enrichment: q<0.05 AND OR>2 AND obs>=5
+- 8-class cross-tier chain typology (FULL_CHAIN / FAMILY_PERVASIVE / SPECIES_SPECIFIC / etc.)
+
+### Three-tier Fisher results
+
+| Tier | Cells | Strong Enr | Strong Dep |
+|---|---|---|---|
+| Family | 384 | 6 | 1 |
+| Species | 512 | 5 | 0 |
+| Compound | 345 | 1 | 0 |
+| Total | 1,241 | 12 | 1 |
+
+### Cross-tier chain class distribution (n=15 sig chains)
+- FAMILY_PERVASIVE 8 (Lamiaceae P-gp / transporter)
+- SPECIES_SPECIFIC 3 (Glycyrrhiza UGT)
+- FAMILY_SPECIES_NO_COMPOUND_DATA 2 (Piperaceae, Animal_derived)
+- **FULL_CHAIN 1 (SJW: Hypericaceae > Hypericum perforatum > hyperforin x CYP_ind)**
+- F_S_COMPOUND_NOT_SIG 1 (Acanthaceae > Andrographis > andrographolide)
+
+### Six paper-grade findings (F24-F29, see notes_day15_findings.md)
+1. F24 -- SJW unique FULL_CHAIN exemplar (OR sequence 14.20 -> 14.71 -> 18.73)
+2. F25 -- Lamiaceae FAMILY_PERVASIVE (P-gp + transporter, family-only)
+3. F26 -- Glycyrrhiza uralensis SPECIES_SPECIFIC for UGT_inh (3 glycyrrhizin isoforms)
+4. F27 -- Piperaceae/Acanthaceae/Bufo PARTIAL chains (corpus coverage limit)
+5. F28 -- Compound tier sparsity (1/23 enr) reflects single-compound study design
+6. F29 -- **Mechanism-specific natural resolution layers** (PK transport = family, CYP_ind = compound, UGT_inh = species)
+
+### Discussion drafts (5 new paragraphs)
+- §4.x.9  Three-tier herb stratification as methodological novelty
+- §4.x.10 SJW as FULL_CHAIN exemplar (paper Fig 12 anchor)
+- §4.x.11 Mechanism-specific natural resolution layers (paper §4 novelty)
+- §4.x.12 Single-compound study design as compound-tier inference limit
+- §4.x.13 Schema v3 herb_in_map curation enables cross-tier consistency
+
+### Deliverables (results/)
+| File | Type | Notes |
+|---|---|---|
+| figures/fig11_three_tier_heatmaps.{png,pdf,svg} | Fig | Paper Fig 11 -- 3-panel (24/32/23 rows x 16 mech), compact mechanism names, shared colorbar, PK/PD bracket |
+| figures/fig12_cross_tier_chain_sankey.html | Fig | Paper Fig 12 (HTML; static PDF pending Day 16 kaleido upgrade or mpl rewrite) |
+| tables/table_herb_{family,species,compound}_x_mechanism_matrix.csv | Tables | 3 raw matrices |
+| tables/table_herb_{family,species,compound}_{row,mech}_marginals.csv | Tables | 6 marginals |
+| tables/table_herb_{family,species,compound}_x_mechanism_enrichment_{full,significant,top_enriched,top_depleted}.csv | Tables | 12 Fisher CSVs |
+| tables/table_herb_cross_tier_chains.csv | Table | Paper Table 6 |
+| tables/table_herb_cross_tier_consistency_summary.csv | Table | Per-mechanism chain breakdown |
+| tables/table_herb_formula_supp_descriptive.csv | Table | Supp (top-15 formula, no Fisher) |
+| data/processed/herb_tier_clean.parquet | Data | Long-form clean for Day 16+ |
+
+### Engineering notes
+- Compound tier heterogeneous threshold (>=5 vs >=10 for fam/species): single-compound study design generates median 1.8 records/compound
+- in_map=True across all 3 tiers: same record pool for cross-tier consistency (sacrifices 45.9% records for analytic coherence)
+- SciencePlots LaTeX dependency removed from fig11 (system lacks LaTeX)
+- fig11 enlarged to 22x11 in + wspace=0.95 + compact mechanism names (CYP_inh / transporter / rec_synerg) to avoid 3-panel label collision
+- fig12 kaleido<1.0 hang: HTML primary, static PDF deferred to Day 16
+- fig12 dummy scatter trace axes hidden (update_xaxes/yaxes visible=False) to prevent tick numbers leakage
+- 6 new scripts in 09_herb_tier_mechanism/: 34_block0 recon / 35_block1 clean+matrices / 36_block2 Fisher / 37_block3 chains / 38_block4a fig11 / 39_block4b fig12
+
+### Project progress
+- **15/21 days (~71%)**
+- Next: Day 16 -- fig12 paper-grade PDF + Inkscape figure polish + PRISMA + Cytoscape integration + initial Methods/Results drafting

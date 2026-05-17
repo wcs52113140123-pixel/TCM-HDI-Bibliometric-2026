@@ -1,0 +1,7 @@
+mechanism,n_chains,n_FULL_CHAIN,n_FAMILY_SPECIES_NO_COMPOUND_DATA,n_F_S_COMPOUND_NOT_SIG,n_FAMILY_PERVASIVE,n_SPECIES_SPECIFIC,n_SPECIES_COMPOUND_NO_FAMILY,n_COMPOUND_ORPHAN,families_involved
+P-gp_inhibition,4,0,0,0,4,0,0,0,Lamiaceae
+transporter_modulation,4,0,0,0,4,0,0,0,Lamiaceae
+UGT_inhibition,3,0,0,0,0,3,0,0,Fabaceae
+CYP_inhibition,2,0,1,1,0,0,0,0,"Acanthaceae, Piperaceae"
+CYP_induction,1,1,0,0,0,0,0,0,Hypericaceae
+receptor_synergism,1,0,1,0,0,0,0,0,Animal_derived

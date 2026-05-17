@@ -1,0 +1,2 @@
+tier,herb_family,mechanism,obs,expected,row_total,col_total,N_tier,OR_raw,OR_ha,log2_OR_ha,p,q,classification
+family,Lamiaceae,CYP_inhibition,12,28.20567375886525,97,246,846,0.31070889894419307,0.32138804723250913,-1.6376118202584413,7.08240930801143e-05,0.00989037412893883,strong_depletion

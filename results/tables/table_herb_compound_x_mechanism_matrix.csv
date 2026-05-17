@@ -1,0 +1,24 @@
+herb_active_compound,CYP_inhibition,receptor_synergism,CYP_induction,P-gp_inhibition,UGT_inhibition,synergistic_efficacy,absorption_alteration,transporter_modulation,signaling_pathway_modulation,organ_toxicity_modulation,additive_toxicity,P-gp_induction,UGT_induction,antagonistic_efficacy,receptor_antagonism
+berberine,6,5,1,0,0,0,4,4,2,1,0,1,0,0,0
+hyperforin,5,0,12,0,0,0,0,1,0,0,0,1,0,0,0
+puerarin,2,1,1,2,0,1,0,0,1,0,1,0,0,0,1
+andrographolide,6,1,1,0,2,0,0,0,0,0,0,0,0,0,0
+honokiol,1,2,0,2,0,2,2,0,0,0,0,0,0,0,0
+paeoniflorin,0,1,0,2,0,0,2,3,0,0,0,0,0,0,1
+curcumin,2,0,0,1,0,3,0,0,0,0,1,0,0,2,0
+glycyrrhizin,1,0,2,0,0,0,1,1,0,1,0,0,2,0,0
+wogonin,0,0,0,1,4,1,0,0,1,0,0,0,0,0,0
+glycyrrhetinic acid,3,0,1,0,3,0,0,0,0,0,0,0,0,0,0
+glycyrrhizic acid,1,1,0,1,0,0,1,0,0,2,0,0,0,0,0
+emodin,2,0,2,0,0,0,0,0,1,0,1,0,0,0,0
+icariin,0,4,0,0,2,0,0,0,0,0,0,0,0,0,0
+astragaloside IV,1,0,0,0,2,2,0,0,0,0,1,0,0,0,0
+quercetin,1,1,0,0,0,0,0,0,3,1,0,0,0,0,0
+salvianolic acid B,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0
+tanshinone IIA,1,2,1,1,0,1,0,0,0,0,0,0,0,0,0
+triptolide,0,5,0,0,0,1,0,0,0,0,0,0,0,0,0
+Astragaloside IV,1,2,0,1,0,1,0,0,1,0,0,0,0,0,0
+evodiamine,1,1,0,0,0,0,0,2,0,1,0,0,0,0,0
+magnolol,2,0,1,0,1,0,1,0,0,0,0,0,0,0,0
+cryptotanshinone,0,1,2,2,0,0,0,0,0,0,0,0,0,0,0
+schisantherin A,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0

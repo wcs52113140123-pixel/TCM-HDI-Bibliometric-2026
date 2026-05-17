@@ -1,0 +1,2 @@
+tier,herb_active_compound,mechanism,obs,expected,row_total,col_total,N_tier,OR_raw,OR_ha,log2_OR_ha,p,q,classification
+compound,hyperforin,CYP_induction,12,2.6559139784946235,19,26,186,18.73469387755102,17.64367816091954,4.141079444408813,1.1286332910711197e-07,3.893784854195363e-05,strong_enrichment
