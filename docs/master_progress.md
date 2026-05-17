@@ -1779,3 +1779,45 @@ Paper novelty (section 3.6): mechanism-specific natural resolution layers -- CYP
 
 - **17/21 days (81%)**
 - Next: Day 18 -- Methods section 2.1-2.6 fill (~3,000 words; section 2 skeleton from Day 16 part 2 ready). Order B (Methods after Results) lets Methods reference final figure / table / equation numbers without rework.
+---
+
+## Day 18: Methods section 2 full prose draft (sections 2.0-2.6, ~3,040 words)
+
+### Strategy
+
+Day 18 converted the Block A skeleton from Day 16 P2 into paper-grade Methods prose for all 6 subsections (2.1-2.6). Section 2.0 lead-in (~140 words) was already drafted in Day 16 P2 and was left unchanged. The same 8-block workflow as Day 17 was used (skeleton check + B-G subsection prose + H commit). Following Order B from the Day 16 master plan, Methods was drafted after Results (Day 17) so that final figure / table / section-number cross-references could be inserted without later rework.
+
+### Section breakdown
+
+| Subsection | Words | Source notes | Key methodological content |
+|---|---|---|---|
+| 2.0 Lead-in | ~140 | (existing, Day 16 P2) | Procedural enumeration of 4 computational families |
+| 2.1 Data sources | ~388 | (skeleton + 4-DB integration history) | 4-DB rationale; two-axis Boolean (TCM x HDI predicates + CYP/transporter); 2005-01-01 to 2026-05-14 window; 16,652 pre-dedup |
+| 2.2 Corpus integration | ~445 | Day 16 P2 PRISMA + Day 17 section 3.1 | 5-stage pipeline 16,652 -> 9,802 -> 9,536 -> 9,438 -> 9,413; DOI dedup; fuzzy title (Levenshtein >=0.95, bibliometrix tol=0.95); OpenAlex 3-block filter (B0=98 dropped); cross-file dedup (25+13) |
+| 2.3 Topic modeling | ~495 | (skeleton + Day 5/Day 13 notes) | SPECTER2 768D + UMAP 15D (n_neighbors=30, min_dist=0.0, cosine) + HDBSCAN (mcs=80, ms=10, eom) + KeyBERT + gpt-4o-mini 3-pass decontamination; 39 thematic clusters + noise -1 (3,437 records, ~36%) |
+| 2.4 LLM mechanism extraction | ~496 | (skeleton + Day 6-8 notes) | Schema v3 16-category JSON; gpt-4o-mini via OpenRouter (failover + diagnostics); stratified n=200 pilot benchmark; ~3,100 records returned interactions (33%); confidence >=0.7 + drop unspecified/other -> 1,662 records, 1,738 pairs |
+| 2.5 Bibliometric + burst | ~380 | Day 12 A/B notes | bibliometrix (Aria & Cuccurullo 2017); CiteSpace 6.4.R1 (Chen 2006); WoS-3091 subset rationale (C1/TC/ID/DE field requirement); Kleinberg gamma=0.5 (corrected from skeleton's 1.0; pilot rationale documented); cross-tool consistency check |
+| 2.6 Statistical enrichment | ~708 | Day 13/14/15 notes | Fisher per-cell + BH-FDR; static 37x16=592 cells; Haldane-Anscombe display-only; Scheme B disjoint eras P1/P2/P3 = 517/687/534; 8-class trajectory typology; three-tier herbal taxonomy (Family 24 + Species 32 + Compound 23 = 1,241 tests); 8-class chain typology; 4-method triangulation framework introduced |
+| **Total** | **~3,039** | | 1.3% over 3,000 target |
+
+### Engineering notes
+
+- **CiteSpace gamma corrected**: skeleton wrote gamma = 1.0 (CiteSpace default) but Day 12 A actually used gamma = 0.5. Section 2.5 prose uses the actually-implemented value and explicitly justifies the choice (pilot showed gamma = 1.0 too conservative for this corpus, missing several visible rise-and-fall keywords). Reviewer-defensible.
+- **Encoding diagnostic ran clean**: confirmed all 7 H2 markers in methods_section2_draft.md use section symbol U+00A7 (§), consistent with results_section3_draft.md. Earlier display showing "搂" was a Windows console codepage artefact, not a file-content issue. No encoding correction required.
+- **Bounds-based replacement pattern**: the template established in Day 17 (Block F/G) was used throughout Day 18 without a single exact-string-match failure, validating the pattern as the default approach for Day 19+.
+- **Section 2.4 schema enumeration**: listed 15 of 16 categories (PK 6 + PD 5 + Tox 2 + catch-all 2) with "for example" qualifier rather than claiming exhaustivity, pending Schema v3 source-file verification.
+- **Section 2.1 search-term placeholders**: representative botanical genera (Hypericum, Ginkgo, Panax, Astragalus, Glycyrrhiza, Salvia, Curcuma) and interaction predicates given as examples; complete Boolean strings deferred to Supplementary Methods S1.
+- **Section 2.6 Haldane-Anscombe clarification**: paragraph 2 explicitly notes that the +0.5 correction was applied to log2(OR) display only, with Fisher p-values remaining on the exact hypergeometric distribution. Closes a potential reviewer confusion point.
+
+### Verifications
+
+- 7 H2 headers preserved across all 6 prose blocks: PASS
+- Word count target ~3,000 met within 2% tolerance: 3,039 actual: PASS
+- Numerical claims cross-checked against Day 16 PRISMA refresh, Day 17 Results section 3, and notes_day13/14/15 findings: PASS
+- Forward cross-references to Figures (Figure 1 PRISMA, Figure 8 topic-mechanism heatmap) and Sections 3.2 / 3.3 verified against Day 17 commit content: PASS
+- Encoding diagnostic clean (U+00A7 section symbol across all 7 H2 + matching encoding in results_section3_draft.md): PASS
+
+### Project progress
+
+- **18/21 days (86%)**
+- Next: Day 19 -- Discussion section 4 compression (17 section-4.x drafts -> ~8 final paragraphs per Day 15 cross-doc audit) + Introduction section 1 first draft.
