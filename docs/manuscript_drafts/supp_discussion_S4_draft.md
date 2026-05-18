@@ -1,0 +1,42 @@
+# Supplementary Discussion S4 — Domain-specific observations
+
+> Moved from main manuscript Discussion (Day 31 compression for BiB Problem solving protocols, 5,000-word limit).
+> Original sections from Day 19 v1 draft + Day 24 reframe — content unchanged, only relocated.
+> Cross-references from main text §4.1-§4.3 and §4.8 point here as Supp Discussion S4.1-S4.4.
+
+---
+
+## §4.4 Era 4 erosion: network pharmacology dissolves the bifurcation
+
+The PK–PD bifurcation that has held for two decades is, in the most recent era of our corpus (P3, 2020–2026), beginning to dissolve. Three cells were classified EMERGING in the trajectory analysis, and all three appeared in P3: topic #27 (metabolites / pharmacokinetic) × absorption_alteration (P1/P2/P3 = 0/0/10), topic #10 (hormone / testosterone / estrogenic) × signaling_pathway_modulation (0/0/7), and topic #20 (cancer / network pharmacology) × signaling_pathway_modulation (0/1/5). The third cell is the analytically most informative of the three: it is the only instance in the entire dataset where a clinical-application-named topic enriches a signalling-mechanism category. The CiteSpace burst record corroborates the timing of this shift, with "network pharmacology" (burst strength 27.59), "molecular docking" (16.1), "oxidative stress" (10.75), and "gut microbiota" (8.74) all entering active burst status during Era 4 and remaining ongoing through the search cut-off.
+
+We interpret this pattern as a methodological revolution in the field rather than a topical shift. The Era 4 emerging signal does not represent a new bridge between the historically separated PK and PD spaces; instead, it represents an expansion of pharmacodynamic depth in topics that previously did not report mechanistically. Network-pharmacology-driven studies, which assemble compound–target–pathway graphs computationally, generate signalling-mechanism vocabulary as a natural product of their analytical apparatus, and this vocabulary now propagates into clinical-application topics that did not previously contain it. The bifurcation persists, but its boundary is starting to shift on the pharmacodynamic side. The four pharmacokinetic infrastructure entities of the field—CYP450 isoforms, P-glycoprotein, the PXR nuclear receptor, and UGT enzymes—remain present throughout the corpus at high baseline frequency but never appear in any CiteSpace burst, marking them as the structural foundation against which the methodological emergence of Era 4 is now observable.
+
+---
+
+## §4.5 Bridge clusters and the hepatotoxicity translational interface
+
+Although the PK–PD bifurcation is the dominant structural pattern, three topic clusters mediate cross-talk between the two spaces, and one of them does so with a particularly clear mechanistic basis. Topic #17 (hepatoprotective / hepatotoxicity / liver injury) is strongly enriched for organ_toxicity_modulation (OR = 41.3, q = 9.5 × 10⁻⁴⁶) while simultaneously showing significant signal for CYP_inhibition (27 records), CYP_induction (13), and signaling_pathway_modulation (12) (Section 3.4). This is the only cluster in the corpus where a single topic enriches both a pharmacokinetic and a pharmacodynamic mechanism family at the same time. Topics #33 (general herb–drug interactions) and #2 (antidiabetic) show similarly distributed mechanism profiles but with smaller per-mechanism enrichment magnitudes and lower individual q-values.
+
+We read the hepatotoxicity bridge as biologically obligatory rather than accidental. Drug-induced liver injury is the most common organ-level adverse outcome in the herbal–drug interaction literature, and its molecular pathology necessarily traverses both axes of the bifurcation: pharmacokinetic perturbation in the form of CYP inhibition or induction causing substrate accumulation or depletion, and pharmacodynamic consequence in the form of oxidative stress, mitochondrial dysfunction, and apoptotic signalling. A research field that studies drug-induced liver injury must therefore generate publications that traverse both spaces, and topic #17 captures exactly that traversal. The bridge is therefore not evidence against the bifurcation but a structural prediction of it.
+
+---
+
+## §4.6 Methodological consistency: internal validation and four-method triangulation
+
+The validity of the four-method framework rests on three independent forms of internal consistency that emerged from the analyses themselves rather than being designed in advance. The first form is tautological self-alignment within the topic × mechanism Fisher analysis. The most extreme single-cell enrichment in the entire dataset was Topic #24 × UGT_inhibition (OR = 505.1, q = 2.83 × 10⁻⁸²), with comparable alignments for #30 × CYP_inhibition (OR = 17.6, q = 9.4 × 10⁻¹²⁰) and #32 × transporter_modulation (OR = 188.2). These self-alignments demonstrate that the SPECTER2 embedding-based topic model and the LLM-based mechanism extractor independently agree on which abstracts describe which mechanism, despite operating on different signal sources (full title-and-abstract semantic representation versus controlled-vocabulary entity extraction).
+
+The second form of internal consistency is cross-tool agreement between bibliometric methods that share neither algorithmic family nor citation network. The bibliometrix three-fields plot (Section 3.1) and the CiteSpace burst analysis (Section 3.2) independently identified the same set of historically anchored keywords for Era 1 (2005–2012): St. John's wort, ginkgo biloba, milk thistle, and grapefruit juice. Co-occurrence community detection and Kleinberg burst detection converge on the same case-report safety paradigm despite operating on different mathematical objects (co-occurrence graphs versus temporal frequency series).
+
+The third form derives from the Schema v3 herb_in_map curation. By restricting the three-tier herbal-taxonomy analysis (Section 3.6) to the 1,676 records with at least one mapped taxonomic identifier (the in_map = True restriction), we ensured that family-tier, species-tier, and compound-tier comparisons drew from the same record pool, eliminating coverage-driven artefacts from per-tier asymmetries. Any resolution-scale variation observed thus reflects the biological resolution of the mechanism class rather than differential field coverage. Together, these three internal-consistency checks support the multi-method-anchored reporting convention adopted throughout Section 3.
+
+---
+
+## §4.7 Era transitions: classical decline and the keyword-mechanism lag
+
+Two complementary temporal patterns surfaced in the era-stratified analysis and the CiteSpace burst record. The first is the visible decline of one of the field's foundational paradigms. Topic #6 (warfarin / coumadin) × additive_toxicity exhibited a DECLINING trajectory (P1/P2/P3 = 4/1/0), with the canonical SJW–warfarin and herb–anticoagulant additive-bleeding paradigm steadily disappearing from the indexed literature even though the warfarin topic cluster itself remains one of the larger clusters overall. We read this not as the paradigm becoming wrong but as its reporting convention shifting: case-report-driven event recording is being replaced by mechanism-resolved investigation, and additive-toxicity vocabulary is being supplanted by more specific PK and PD mechanism vocabulary in the same therapeutic context.
+
+The second pattern is a keyword–mechanism lag that appears as the inverse of the first. Topic #15 (gut microbiome / microbiota) and topic #22 (network pharmacology / systems biology), both of which entered active citation bursts during Era 4 (Section 3.2), showed no significant mechanism enrichment in any era of the Fisher analysis. The LLM mechanism extractor classified the bulk of their explicit mechanism content as "unspecified" or "other"—not because these topics lack mechanistic claims, but because structured mechanism reporting has not yet caught up with rapid keyword adoption. This lag is itself a methodological observation: the citation-burst analysis and the topic × mechanism analysis operate at complementary timescales, with keyword-level community attention preceding mechanism-level vocabulary stabilisation by several years. The four-method framework adopted here therefore detects both stages of paradigm emergence: the keyword-attention burst that precedes structured mechanism reporting, and the structured-mechanism enrichment that anchors mature research lines.
+
+---
+
