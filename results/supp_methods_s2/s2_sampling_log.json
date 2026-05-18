@@ -1,0 +1,44 @@
+{
+  "day": 25,
+  "date": "2026-05-25",
+  "seed": 20260525,
+  "total_sampled": 50,
+  "target_per_category": 3,
+  "categories_in_sample": {
+    "CYP_inhibition": 5,
+    "UGT_inhibition": 4,
+    "transporter_modulation": 4,
+    "organ_toxicity_modulation": 3,
+    "CYP_induction": 3,
+    "UGT_induction": 3,
+    "absorption_alteration": 3,
+    "additive_toxicity": 3,
+    "signaling_pathway_modulation": 3,
+    "P-gp_induction": 3,
+    "receptor_antagonism": 3,
+    "P-gp_inhibition": 3,
+    "synergistic_efficacy": 3,
+    "receptor_synergism": 3,
+    "antagonistic_efficacy": 3,
+    "protein_binding_displacement": 1
+  },
+  "filters_applied": {
+    "confidence_min": 0.7,
+    "excluded_categories": [
+      "unspecified",
+      "other",
+      "unknown",
+      "not_specified",
+      "none"
+    ]
+  },
+  "columns_detected": {
+    "llm_mechanism_col": "mechanism",
+    "llm_confidence_col": "confidence",
+    "paper_id_col": "record_id"
+  },
+  "files_produced": [
+    "s2_annotator_form.xlsx",
+    "s2_master_keyed.xlsx"
+  ]
+}
