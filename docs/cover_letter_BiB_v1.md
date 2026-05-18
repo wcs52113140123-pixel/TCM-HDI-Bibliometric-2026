@@ -22,6 +22,10 @@ The framework is designed to be portable beyond the traditional Chinese medicine
 
 We confirm that this manuscript represents original work, has not been previously published, and is not under consideration for publication elsewhere. The authors have no conflicts of interest to declare. We thank the editors and reviewers in advance for their time.
 
+
+## Use of Large Language Models
+
+In accordance with the journal's policy on LLM use disclosure, this study used OpenAI's `gpt-4o-mini` (via OpenRouter) as the structured-extraction layer for the categorical mechanism labels described in Methods §2.4. Extraction performance is reported in the manuscript as Cohen's κ = 0.612 overall and κ = 0.867 in the high-confidence stratum, validated against an independent human annotator (Supplementary Methods S2). LLM assistance was also used for editorial support during manuscript preparation — section structure refinement, prose tightening for the journal's 5,000-word ceiling on Problem solving protocols, and cross-reference consistency checking — with all substantive scientific content (study design, analytical pipeline, statistical methodology, finding interpretation, citation of prior literature) authored and validated by the manuscript author. A full disclosure is provided in the manuscript's "Use of Large Language Models" section. No LLM is listed as an author.
 ## Suggested reviewers
 
 We respectfully suggest the following reviewers, none of whom have collaborated with our group within the past five years:
