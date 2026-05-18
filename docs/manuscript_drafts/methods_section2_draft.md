@@ -1,4 +1,4 @@
-# Methods (Section 2) -- Draft
+# Methods (Section 2) — Draft
 
 > Living draft. Day 16 Block 2c.C (revised). Section 2 lead-in + 6 subsection skeleton.
 > Lead-in compressed to ~140 words; triangulation framing moved to discussion_section4_lead_draft.md;

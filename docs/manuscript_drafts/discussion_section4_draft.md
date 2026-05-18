@@ -1,8 +1,8 @@
 # Discussion (Section 4) — Draft
 
-> Living draft. Day 19. 8 thematic paragraphs synthesized from 17 §4.x.N source drafts.
-> §4.0 lead-in copied from discussion_section4_lead_draft.md (Day 16 Block 2c.C).
-> §4.1–§4.8 filled across Day 19 Blocks C–G.
+> Living draft. Day 19. 8 thematic paragraphs synthesized from 17 Section 4.x.N source drafts.
+> Section 4.0 lead-in copied from discussion_section4_lead_draft.md (Day 16 Block 2c.C).
+> Section 4.1–Section 4.8 filled across Day 19 Blocks C–G.
 
 ---
 

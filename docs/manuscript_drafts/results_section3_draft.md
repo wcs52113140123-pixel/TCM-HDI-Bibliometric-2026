@@ -1,4 +1,4 @@
-# Results (Section 3) -- Draft
+# Results (Section 3) — Draft
 
 > Living draft. Day 17 Block A: section 3 skeleton + lead-in.
 > Subsections filled progressively across Blocks B-G.
@@ -18,7 +18,7 @@
 >   Figure 11  = SJW FULL_CHAIN Sankey (was fig12)
 >
 > Tentative table numbering:
->   Table 1    = Multi-method convergence summary (NEW for §3.3)
+>   Table 1    = Multi-method convergence summary (NEW for Section 3.3)
 >   Table 2    = Topic x Mechanism strong enrichments (top 20, Day 13)
 >   Table 3    = Trajectory typology counts (Day 14)
 >   Table 4    = Three-tier chain typology (Day 15)

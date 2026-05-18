@@ -1899,3 +1899,83 @@ The Discussion §4 also contains occasional generic claims about field maturity 
 - **19/21 days (90%)**
 - Manuscript main-body prose complete: Introduction §1 (487 w) + Methods §2 (3,039 w) + Results §3 (3,937 w) + Discussion §4 (2,514 w) = ~9,980 words main body.
 - Next: Day 20 -- Limitations section 5 + Conclusions section 6 + Abstract + typography/citation/cross-reference consistency pass across all manuscript files.
+
+## Day 20 (2026-05-18) — Manuscript completion + typography pass + strategic pivot to Plan A
+
+### Blocks executed
+
+**Block A — Typography character recon**
+- Files: 12 .md in manuscript_drafts (pre-cleanup)
+- em-dash —: 69 total; en-dash –: 113 total (PK–PD ranges, year-spans)
+- Double-hyphen `--`: 2 total (both in draft H1 title lines of §2/§3 files, front-matter only)
+- Smart quotes: 0; ASCII straight ": 80 (consistent)
+- Cross-ref style: "Section N.M" 91 vs "§N" body 29 (mostly H2 headers — pattern confirmed)
+- Cleanup candidates confirmed: discussion_section4_lead_draft.md (2.4 KB) + methods_section_drafts.md (4.6 KB)
+
+**Block B — §5 Limitations (596 words, 5 prose paragraphs)**
+- File: limitations_section5_draft.md (4.5 KB, 17 lines, single H2 `## §5 Limitations`)
+- P1 WoS-subset coverage cost (n=3,091/32.7%, cit/doc 26.41 vs 25.72 = 2.7% diff)
+- P2 LLM extraction limits (gpt-4o-mini single model, 16-cat Schema v3, conf≥0.7, ~23% catch-all dropped, n=200 pilot)
+- P3 Compound-tier sparsity alternative explanation (biology-of-scale vs field-not-yet-published)
+- P4 English-language indexing bias (CNKI/Wanfang Chinese journals not searched)
+- P5 2026 partial year (n=304) + Scheme B era boundaries multi-criterion choice
+
+**Block C — §6 Conclusions (208 words) + Abstract (278 words)**
+- conclusions_section6_draft.md (1.8 KB, single paragraph): 4-method framework + 3 findings (PK–PD bifurcation, mechanism-specific resolution layers, SJW four-method anchor) + portability + future EHR linkage
+- abstract_draft.md (2.4 KB, 4-section structured Background/Methods/Results/Conclusions; ~278 words = within Frontiers Pharm + Pharm Res dual compatibility)
+
+**Block D — Typography pass**
+- 2 `--` instances located + auto-fixed to ` — ` (em-dash with spaces)
+- Both `--` were in draft file H1 title lines (front-matter cosmetic only)
+- Italic species/genus check across 11 taxa: no plain occurrences in section files — all binomials/genera properly italicized
+- Post-fix `--` count = 0 across all 7 section files
+
+**Block E — Cross-ref normalization + cleanup**
+- Body `§N(.M)` → `Section N(.M)` normalization in §3 (+1) and §4 (+4) prose
+- H2 headers `## §N` preserved unchanged (line-by-line skip)
+- All 7 section files post-normalization body `§N` count = 0
+- Cleanup: discussion_section4_lead_draft.md and methods_section_drafts.md confirmed removed
+- Final manuscript_drafts inventory: 13 markdown files (7 section drafts + 1 abstract + 1 data_availability + 5 notes; 2 superseded removed)
+
+### Manuscript word count snapshot (post-Day-20)
+
+| Section | Words |
+|---|---|
+| §1 Introduction | 486 |
+| §2 Methods | 3,038 |
+| §3 Results | 3,936 |
+| §4 Discussion | 2,513 |
+| §5 Limitations | 595 |
+| §6 Conclusions | 207 |
+| **Main body total** | **10,775** |
+| Abstract | 277 |
+| **Grand total** | **11,052** |
+
+### Strategic pivot recorded at Day 20 close
+
+Day 17–20 baseline manuscript framing: TCM-HDI bibliometric review with computational methodology.
+
+Revised strategy: **dual-emphasis manuscript** (methodology + TCM-HDI findings) targeting a 冲/稳/保 submission ladder, single manuscript with 2–3 hour format-swap between submissions:
+
+- **冲**: Briefings in Bioinformatics (中科院 1区, IF~9) — methodology-first dual-emphasis framing
+- **稳**: Computers in Biology and Medicine (中科院 1区, IF~7) — backup 1区
+- **保**: Frontiers in Pharmacology, Drug Metabolism and Transport section (中科院 2区, IF~5.6) — final fallback
+
+Single manuscript serves all three; methodology-emphasis framing accepted by both BiB and Frontiers Drug-Metabolism section. Independent annotator for Supp Methods S2 LLM validation confirmed (师妹, 50-record stratified random sample, blind annotation).
+
+### Day 21–30 reframe + submission roadmap
+
+| Day | Task |
+|---|---|
+| 21 | Read 3–5 BiB methodology-framework precedent papers; draft 3–5 dual-emphasis title candidates; git branch `reframe-bib-submission` |
+| 22 | Abstract dual-emphasis rewrite (~280 words, methodology opening + findings body) |
+| 23 | §1 Introduction reframe (biomedical literature mining + LLM extraction landscape lead); 4 citation placeholders filled |
+| 24 | §6 Conclusions framework portability extension; Title finalization; §1 polish |
+| 25 | §2.4 LLM method-comparison subsection (~200 words) + §4.8 methodological contribution paragraph (~80 words) |
+| 26 | Supp Methods S2 sampling (50 records stratified by mechanism category); prepare annotator package (Excel form + bilingual instruction PDF) |
+| 27 | Independent annotator (师妹) blind-labels 50 records (~3–4 hours external) |
+| 28 | Compute Cohen's kappa (overall + by confidence tier + by mechanism category); write Supp S2 ~1.5–2 pages |
+| 29 | Cover letter for BiB + suggested reviewers list (5 from §4 cited authors) + COI statement |
+| 30 | BiB format conversion (Oxford Word template + Vancouver references); pre-submission checklist; submit |
+
+Manuscript main body 已完成 (10,775 words + 277 abstract = 11,052 total). Day 21+ enters reframe + supplementary + submission phase per Plan A.

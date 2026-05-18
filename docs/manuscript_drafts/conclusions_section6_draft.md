@@ -1,0 +1,9 @@
+# Conclusions (Section 6) — Draft
+
+> Living draft. Day 20 Block C. Single Conclusions paragraph, ~250 words.
+
+---
+
+## §6 Conclusions
+
+Applying a four-method triangulation framework—bibliometrix-based citation-graph community detection, CiteSpace Kleinberg-burst temporal analysis, topic × mechanism Fisher enrichment, and three-tier herbal-taxonomy stratification—to an integrated 9,717-record corpus of traditional Chinese medicine herbal–drug interaction publications spanning 2005–2026, we identified three principal structural properties of the field. First, the TCM-HDI literature is statistically bifurcated into non-overlapping pharmacokinetic and pharmacodynamic research spaces, with mutual exclusion reaching q = 10⁻⁴⁷ at the extreme and the bifurcation holding across all three publication eras tested. Second, the appropriate inferential resolution differs by mechanism class: CYP induction concentrates at the chemical-compound tier, UGT inhibition at the species tier, and transporter modulation at the botanical-family tier—a mechanism-specific resolution-layer pattern not previously documented at the corpus level. Third, the St. John's wort–CYP3A4 axis serves as a clean four-method-anchored paradigm case, recovered independently by bibliometric, citation-burst, topic-enrichment, and taxonomic-chain analyses with monotonically increasing odds ratios across resolution tiers (family OR = 14.20, species OR = 14.71, compound OR = 18.73). The four-method framework is portable beyond the TCM-HDI context to any biomedical literature equipped with both citation-graph and controlled-vocabulary annotation layers. Future extensions linking the bibliometric topic structure to electronic-health-record-derived interaction event series would test whether the literature-derived structural patterns identified here predict clinically observed adverse events.
